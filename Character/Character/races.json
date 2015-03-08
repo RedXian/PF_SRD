@@ -1,0 +1,67 @@
+{
+	"races": {
+		"core": [{
+				"name": "dwarf"
+			}, {
+				"name": "elf"
+			}, {
+				"name": "gnome"
+			}, {
+				"name": "halfling"
+			}, {
+				"name": "half-elf"
+			}, {
+				"name": "half-orc"
+			}, {
+				"name": "human"
+			}], 
+		"advanced": [{
+				"name": "aasimar"
+			}, {
+				"name": "Catfolk"
+			}, {
+				"name": "Dhampir"
+			}, {
+				"name": "Drow"
+			}, {
+				"name": "Fetchling"
+			}, {
+				"name": "Goblin"
+			}, {
+				"name": "Hobgoblin"
+			}, {
+				"name": "Ifriti"
+			}, {
+				"name": "Kobold"
+			}, {
+				"name": "Orc"
+			}, {
+				"name": "Oread"
+			}, {
+				"name": "Ratfolk"
+			}, {
+				"name": "Sylph"
+			}, {
+				"name": "Tengu"
+			}, {
+				"name": "Tiefling"
+			}, {
+				"name": "Undine"
+			}], 
+		"uncommon": [{
+				"name": "Gillman"
+			}, {
+				"name": "Changeling"
+			}, {
+				"name": "Duergar"
+			}, {
+				"name": "Kitsune"
+			}, {
+				"name": "Nagaji"
+			}, {
+				"name": "Grippli"
+			}, {
+				"name": "Merfolk"
+			}]
+	}
+}

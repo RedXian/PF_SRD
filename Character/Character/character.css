@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+div {
+	margin:10px;
+	float:left;
+}
+
+select {
+	width: 200px;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}

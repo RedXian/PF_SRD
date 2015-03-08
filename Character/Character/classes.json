@@ -1,0 +1,1837 @@
+{
+    "Classes":{
+        "Core":[
+            {
+                "name":"Barbarian",
+                "desc":"The barbarian is a brutal berserker from beyond the edge of civilized lands.",
+                "archetypes":[
+                    {
+                        "name":"Breaker",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Brutal Pugilist",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Drunken Brute",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Elemental Kin",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Hurler",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Invulnerable Rager",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Mounted Fury",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Savage Barbarian",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Superstitious",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Totem Warrior",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Armored Hulk",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Scarred Rager",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Sea Reaver",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Titan Mauler",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"True Primitive",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Urban Barbarian",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Wild Rager",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Feral Gnasher",
+                        "requirements":[
+                            {
+                                "race":"Goblin"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Hateful Rager",
+                        "requirements":[
+                            {
+                                "race":"Half-Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Bard",
+                "desc":"The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.",
+                "archetypes":[
+                    {
+                        "name":"Arcane Duelist",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Archivist",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Court Bard",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Detective",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Magician",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Sandman",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Savage Skald",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Sea Singer",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Street Performer",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Animal Speaker",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Celebrity",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Demagogue",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Dirge Bard",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Geisha",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Songhealer",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Sound Striker",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Archaeologist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Daredevil",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Dervish Dancer",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Prankster",
+                        "requirements":[
+                            {
+                                "race":"Gnome"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Shadow Puppeteer",
+                        "requirements":[
+                            {
+                                "race":"Wayangs"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Watersinger",
+                        "requirements":[
+                            {
+                                "race":"Undine"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Cleric",
+                "desc":"A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.",
+                "archetypes":[
+                    {
+                        "name":"Cloistered Cleric",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Separatist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Theologian",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Undead Lord Cleric",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Crusader",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Divine Strategist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Evangelist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Merciful Healer",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Demonic Apostle",
+                        "requirements":[
+                            {
+                                "race":"Drow"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Fiendish Vessel",
+                        "requirements":[
+                            {
+                                "race":"Tiefling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Forgemaster",
+                        "requirements":[
+                            {
+                                "race":"Dwarf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Druid",
+                "desc":"The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.",
+                "archetypes":[
+                    {
+                        "name":"Aquatic Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Arctic Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Blight Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Cave Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Desert Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Jungle Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Mountain Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Plains Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Swamp Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Urban Druid",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Dragon Shaman",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Menhir Savant",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Mooncaller",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Pack Lord",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Reincarnated Druid",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Saurian Shaman",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Shark Shaman",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Storm Druid",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Ape Shaman",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Bat Shaman",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Boar Shaman",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"World Walker",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Feral Child",
+                        "requirements":[
+                            {
+                                "race":"Human"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Naga Aspirant",
+                        "requirements":[
+                            {
+                                "race":"Nagaji"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Sky Druid",
+                        "requirements":[
+                            {
+                                "race":"Sylph"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Treesinger",
+                        "requirements":[
+                            {
+                                "race":"Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Undine Adept",
+                        "requirements":[
+                            {
+                                "race":"Undine"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Fighter",
+                "desc":"Brave and stalwart, the fighter is a master of all manner of arms and armor.",
+                "archetypes":[
+                    {
+                        "name":"Archer",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Crossbowman",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Free Hand Fighter",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Mobile Fighter",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Phalanx Soldier",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Polearm Master",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Roughrider",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Savage Warrior",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Shielded Fighter",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Two-Handed Fighter",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Two-Weapon Warrior",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Weapon Master",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Armor Master",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Brawler",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Cad",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Dragoon",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Gladiator",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Tactician",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Thunderstriker",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Tower Shield Specialist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Unarmed Fighter",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Unbreakable",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Airborne Ambusher",
+                        "requirements":[
+                            {
+                                "race":"Strix"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Cavern Sniper",
+                        "requirements":[
+                            {
+                                "race":"Drow"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Dirty Fighter",
+                        "requirements":[
+                            {
+                                "race":"Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Monk",
+                "desc":"A student of martial arts, the monk trains his body to be his greatest weapon and defense.",
+                "archetypes":[
+                    {
+                        "name":"Drunken Master",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Hungry Ghost Monk",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Ki Mystic",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Monk of the Empty Hand",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Monk of the Four Winds",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Monk of the Healing Hand",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Monk of the Lotus",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Monk of the Sacred Mountain",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Weapon Adept",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Zen Archer",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Qinggong monk",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Flowing monk",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Maneuver master",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Martial artist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Master of many styles",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Sensei",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Sohei",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Tetori",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Gray Disciple",
+                        "requirements":[
+                            {
+                                "race":"Duergar"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Ironskin Monk",
+                        "requirements":[
+                            {
+                                "race":"Hobgoblin"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Nimble Guardian",
+                        "requirements":[
+                            {
+                                "race":"Catfolk"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Student Of Stone",
+                        "requirements":[
+                            {
+                                "race":"Oread"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Treetop Monk",
+                        "requirements":[
+                            {
+                                "race":"Vanara"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Underfoot Adept",
+                        "requirements":[
+                            {
+                                "race":"Halfling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Wanderer",
+                        "requirements":[
+                            {
+                                "race":"Human"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Paladin",
+                "desc":"The paladin is the knight in shining armor, a devoted follower of law and good.",
+                "archetypes":[
+                    {
+                        "name":"Divine Defender",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Hospitaler",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Sacred Servant",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Shining Knight",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Undead Scourge",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Warrior of the Holy Light",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Oathbound Paladin",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Divine Hunter",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Empyreal Knight",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Holy Gun",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Holy tactician",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Knight of the Sepulcher",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Sacred Shield",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Redeemer",
+                        "requirements":[
+                            {
+                                "race":"Half-Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Stonelord",
+                        "requirements":[
+                            {
+                                "race":"Dwarf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Tranquil Guardian",
+                        "requirements":[
+                            {
+                                "race":"Aasimar"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Ranger",
+                "desc":"A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.",
+                "archetypes":[
+                    {
+                        "name":"Beast Master",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Guide",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Horse Lord",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Infiltrator",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Shapeshifter",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Skirmisher",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Spirit Ranger",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Urban Ranger",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Trapper",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Battle Scout",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Deep Walker",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Falconer",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Trophy Hunter",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Warden",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Wild Stalker",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Dusk Stalker",
+                        "race":"Fetchling",
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Wave Warden",
+                        "race":"Merfolk",
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Wild Shadow",
+                        "requirements":[
+                            {
+                                "race":"Half-Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Rogue",
+                "desc":"The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.",
+                "archetypes":[
+                    {
+                        "name":"Acrobat",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Burglar",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Cutpurse",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Investigator",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Poisoner",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Rake",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Scout",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Sniper",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Spy",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Swashbuckler",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Thug",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Trapsmith",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Bandit",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Chameleon",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Charlatan",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Driver",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Knife Master",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Pirate",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Roof Runner",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Sanctified Rogue",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Survivalist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Filcher",
+                        "requirements":[
+                            {
+                                "race":"Halfling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Skulking Slayer",
+                        "requirements":[
+                            {
+                                "race":"Half-Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Cat Burglar",
+                        "requirements":[
+                            {
+                                "race":"Catfolk"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Deadly Courtesan",
+                        "requirements":[
+                            {
+                                "race":"Vishkanya"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Eldritch Raider",
+                        "requirements":[
+                            {
+                                "race":"Gillman"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Kitsune Trickster",
+                        "requirements":[
+                            {
+                                "race":"Kitsune"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Swordmaster",
+                        "requirements":[
+                            {
+                                "race":"Tengu"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Sorcerer",
+                "desc":"The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.",
+                "bloodlines":[
+                    {
+                        "name":"Aquatic Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Boreal Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Deepearth Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Dreamspun Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Protean Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Serpentine Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Shadow Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Starsoul Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Stormborn Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Verdant Bloodline",
+                        "source":"Advanced Player's Guide"
+                    },
+                    {
+                        "name":"Kobold Sorcerer",
+                        "requirements":[
+                            {
+                                "race":"Kobold"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Imperious Bloodline",
+                        "requirements":[
+                            {
+                                "race":"Human"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "archetypes":[
+                    {
+                        "name":"Crossblooded",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Wildblooded",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Wishcrafter",
+                        "requirements":[
+                            {
+                                "race":"Ifrits"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Wizard",
+                "desc":"The wizard masters magic through constant study that gives him incredible magical power.",
+                "archetypes":[
+                    {
+                        "name":"Scrollmaster Wizard",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Arcane Bomber",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Siege Mage",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Spellslinger",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Cruoromancer",
+                        "requirements":[
+                            {
+                                "race":"Dhampir"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Spellbinder",
+                        "requirements":[
+                            {
+                                "race":"Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Wind Listener",
+                        "requirements":[
+                            {
+                                "race":"Sylph"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Core Rulebook"
+            }
+        ],
+        "Advanced Players Guide":[
+            {
+                "name":"Alchemist",
+                "desc":"The alchemist is the master of alchemy, using extracts to grant him great power, mutagens to enhance his form, and bombs to destroy his enemies.",
+                "archetypes":[
+                    {
+                        "name":"Chirurgeon",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Clone Master",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Internal Alchemist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Mindchemist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Preservationist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Psychonaut",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Reanimator",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Vivisectionist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Beastmorph",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Ragechemist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Bogborn Alchemist",
+                        "requirements":[
+                            {
+                                "race":"Grippli"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Bramble Brewer",
+                        "requirements":[
+                            {
+                                "race":"Half-Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Deep Bomber",
+                        "requirements":[
+                            {
+                                "race":"Svirfneblin"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Fire Bomber",
+                        "requirements":[
+                            {
+                                "race":"Goblin"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Plague Bringer",
+                        "requirements":[
+                            {
+                                "race":"Ratfolk"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Saboteur",
+                        "requirements":[
+                            {
+                                "race":"Gnome"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            },
+            {
+                "name":"Cavalier",
+                "desc":"Mounted upon his mighty steed, the cavalier is a brave warrior, using his wit, charm, and strength at arms to rally his companions and achieve his goals.",
+                "archetypes":[
+                    {
+                        "name":"Beast Rider",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Emissary",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Gendarme",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Honor guard",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Luring cavalier",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Musketeer",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Standard bearer",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Strategist",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Fell Rider",
+                        "requirements":[
+                            {
+                                "race":"Hobgoblin"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Order of the Paw",
+                        "requirements":[
+                            {
+                                "race":"Halfling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            },
+            {
+                "name":"Inquisitor",
+                "desc":"Scourge of the unfaithful and hunter of horrors, the inquisitor roots out the enemies of her faith with grim conviction and an array of divine blessings.",
+                "archetypes":[
+                    {
+                        "name":"Exorcist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Heretic",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Infiltrator",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Preacher",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Sin Eater",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Iconoclast",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Spellbreaker",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Witch Hunter",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Exarch",
+                        "requirements":[
+                            {
+                                "race":"Dwarf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Immolator",
+                        "requirements":[
+                            {
+                                "race":"Ifrit"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Kinslayer",
+                        "requirements":[
+                            {
+                                "race":"Dhampir"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            },
+            {
+                "name":"Oracle",
+                "desc":"Drawing upon divine mysteries, the oracle channels divine power through her body and soul, but at a terrible price.",
+                "archetypes":[
+                    {
+                        "name":"Dual-cursed Oracle",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Enlightened Philosopher",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Planar Oracle",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Possessed Oracle",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Seer",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Stargazer",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Community Guardian",
+                        "requirements":[
+                            {
+                                "race":"Halfling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Ancient Lorekeeper",
+                        "requirements":[
+                            {
+                                "race":"Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Purifier",
+                        "requirements":[
+                            {
+                                "race":"Aasimar"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Reincarnated Oracle",
+                        "requirements":[
+                            {
+                                "race":"Samsaran"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Shigenjo",
+                        "requirements":[
+                            {
+                                "race":"Tengus"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            },
+            {
+                "name":"Summoner",
+                "desc":"Bonded to a mysterious creature called an eidolon, the summoner focuses his power on strengthing that connection and enhancing his strange, otherworldy companion.",
+                "archetypes":[
+                    {
+                        "name":"Broodmaster",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Evolutionist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Master Summoner",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Synthesist",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Blood God Disciple",
+                        "requirements":[
+                            {
+                                "race":"Half-Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Shadow Caller",
+                        "requirements":[
+                            {
+                                "race":"Fetchling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Shaitan Binder",
+                        "requirements":[
+                            {
+                                "race":"Oread"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Wild Caller",
+                        "requirements":[
+                            {
+                                "race":"Half-Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            },
+            {
+                "name":"Witch",
+                "desc":"Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar.",
+                "archetypes":[
+                    {
+                        "name":"Beast-bonded",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Gravewalker",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Hedge Witch",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Sea Witch",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Bonded Witch",
+                        "requirements":[
+                            {
+                                "race":"Half-Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Dreamweaver",
+                        "requirements":[
+                            {
+                                "race":"Changeling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Scarred Witch Doctor",
+                        "requirements":[
+                            {
+                                "race":"Orc"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Advanced Player's Guide"
+            }
+        ],
+        "Ultimate Combat":[
+            {
+                "name":"Gunslinger",
+                "archetypes":[
+                    {
+                        "name":"Gun Tank",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Musket Master",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Mysterious Stranger",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Pistolero",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Buccaneer",
+                        "requirements":[
+                            {
+                                "race":"Human"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Bushwhacker",
+                        "requirements":[
+                            {
+                                "race":"Kobold"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Experimental Gunsmith",
+                        "requirements":[
+                            {
+                                "race":"Gnome"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Gulch Gunner",
+                        "requirements":[
+                            {
+                                "race":"Ratfolk"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Ultimate Combat"
+            },
+            {
+                "name":"Ninja",
+                "archetypes":[
+                    
+                ],
+                "source":"Ultimate Combat"
+            },
+            {
+                "name":"Samurai",
+                "archetypes":[
+                    
+                ],
+                "source":"Ultimate Combat"
+            }
+        ],
+        "Ultimate Magic":[
+            {
+                "name":"Magus",
+                "archetypes":[
+                    {
+                        "name":"Bladebound",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Hexcrafter",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Spellblade",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Staff Magus",
+                        "source":"Ultimate Magic"
+                    },
+                    {
+                        "name":"Kensai",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Myrmidarch",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Skirnir",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Soul Forger",
+                        "source":"Ultimate Combat"
+                    },
+                    {
+                        "name":"Elemental Knight",
+                        "requirements":[
+                            {
+                                "race":"Suli"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Fiend Flayer",
+                        "requirements":[
+                            {
+                                "race":"Tiefling"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    },
+                    {
+                        "name":"Spell Dancer",
+                        "requirements":[
+                            {
+                                "race":"Elf"
+                            }
+                        ],
+                        "source":"Advanced Race Guide"
+                    }
+                ],
+                "source":"Ultimate Magic"
+            }
+        ],
+        "Advanced Class Guide":[
+            {
+                "name":"Arcanist",
+                "desc":"Blending the power of the sorcerer with the versatility of the wizard, the arcanist draws upon a reservoir of power to bend magic to her will.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Bloodrager",
+                "desc":"Fusing the frenzy of the barbarian with the bloodline might of the sorcerer, the bloodrager calls upon innate power to give himself extraordinary abilities.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Brawler",
+                "desc":"Focusing on hand-to-hand combat, the brawler mixes the martial artistry of the monk with the specialist training of the fighter.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Hunter",
+                "desc":"Though both the druid and ranger can have animal companions, the hunter takes this bond to the next level, forming a deadly duo with her savage ally.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Investigator",
+                "desc":"With the rogue's cunning complemented by the alchemist's magical talent, the investigator is a peerless problem solver.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Shaman",
+                "desc":"Calling on the divine power of the oracle and the hexes of a witch, the shaman communes with her spirit animal to unleash doom upon her foes.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Skald",
+                "desc":"Sharing fury through song and deed, the skald takes the rage that lives in the heart of the barbarian and inspires it in others using the performances of the bard.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Slayer",
+                "desc":"Mixing the precise strikes of the rogue with the special training of the ranger, the slayer hunts down his foes with ruthless efficiency.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Swashbuckler",
+                "desc":"Combining the prowess of the fighter with the determination of the gunslinger, the swashbuckler is an acrobatic melee combatant.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            },
+            {
+                "name":"Warpriest",
+                "desc":"Blending the cleric's divine might and the fighter's martial skills, the warpriest brings the fight to the enemies of his faith.",
+                "archetypes":[
+                    
+                ],
+                "source":"Advanced Class Guide"
+            }
+        ],
+        "Prestige":[
+            {
+                "name":"Battle Herald",
+                "desc":"A veteran whose masterful tactics and air of command inspire allies to greater feats of heroism.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Holy Vindicator",
+                "desc":"A pious warrior who spreads religion at the edge of a sword.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Horizon Walker",
+                "desc":"A scout and wanderer comfortable in even the strangest terrain.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Master Chymist",
+                "desc":"An alchemist whose mutagens create an alternate, brutish personality.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Master Spy",
+                "desc":"An espionage expert specializing in disguises and striking swiftly from the shadows.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Nature Warden",
+                "desc":"A master of the wilderness bonded spiritually to a fearsome animal companion.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Rage Prophet",
+                "desc":"A bold and barbaric champion who embraces otherworldly powers in order to perfect the art of combat.",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Stalwart Defender",
+                "desc":"A master of defending territory and holding the line at all costs.",
+                "source":"Core Rulebook"
+            }
+        ],
+        "Non-Player":[
+            {
+                "name":"Adept",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Aristocrat",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Commoner",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Expert",
+                "source":"Core Rulebook"
+            },
+            {
+                "name":"Warrior",
+                "source":"Core Rulebook"
+            }
+        ]
+    }
+}

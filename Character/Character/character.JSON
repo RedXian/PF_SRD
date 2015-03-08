@@ -1,0 +1,600 @@
+{
+    "Races":{
+        "Core":[
+            {
+                "name":"Dwarf"
+            },
+            {
+                "name":"Elf"
+            },
+            {
+                "name":"Gnome"
+            },
+            {
+                "name":"Halfling"
+            },
+            {
+                "name":"Half-elf"
+            },
+            {
+                "name":"Half-orc"
+            },
+            {
+                "name":"Human"
+            }
+            
+        ],
+        "Advanced":[
+            {
+                "name":"Aasimar"
+            },
+            {
+                "name":"Catfolk"
+            },
+            {
+                "name":"Dhampir"
+            },
+            {
+                "name":"Drow"
+            },
+            {
+                "name":"Fetchling"
+            },
+            {
+                "name":"Goblin"
+            },
+            {
+                "name":"Hobgoblin"
+            },
+            {
+                "name":"Ifriti"
+            },
+            {
+                "name":"Kobold"
+            },
+            {
+                "name":"Orc"
+            },
+            {
+                "name":"Oread"
+            },
+            {
+                "name":"Ratfolk"
+            },
+            {
+                "name":"Sylph"
+            },
+            {
+                "name":"Tengu"
+            },
+            {
+                "name":"Tiefling"
+            },
+            {
+                "name":"Undine"
+            }
+            
+        ],
+        "Uncommon":[
+            {
+                "name":"Gillman"
+            },
+            {
+                "name":"Changeling"
+            },
+            {
+                "name":"Duergar"
+            },
+            {
+                "name":"Kitsune"
+            },
+            {
+                "name":"Nagaji"
+            },
+            {
+                "name":"Grippli"
+            },
+            {
+                "name":"Merfolk"
+            }
+            
+        ]
+        
+    },
+    "Classes":{
+        "Core":[
+            {
+                "name":"Barbarian",
+                "desc":" The barbarian is a brutal berserker from beyond the edge of civilized lands.",
+                "archetypes":[
+                    {
+                        "name":"Breaker"
+                    },
+                    {
+                        "name":"Brutal Pugilist"
+                    },
+                    {
+                        "name":"Drunken Brute"
+                    },
+                    {
+                        "name":"Elemental Kin"
+                    },
+                    {
+                        "name":"Hurler"
+                    },
+                    {
+                        "name":"Invulnerable Rager"
+                    },
+                    {
+                        "name":"Mounted Fury"
+                    },
+                    {
+                        "name":"Savage Barbarian"
+                    },
+                    {
+                        "name":"Superstitious"
+                    },
+                    {
+                        "name":"Totem Warrior"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Bard",
+                "desc":" The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.",
+                "archetypes":[
+                    {
+                        "name":"Arcane Duelist"
+                    },
+                    {
+                        "name":"Archivist"
+                    },
+                    {
+                        "name":"Court Bard"
+                    },
+                    {
+                        "name":"Detective"
+                    },
+                    {
+                        "name":"Magician"
+                    },
+                    {
+                        "name":"Sandman"
+                    },
+                    {
+                        "name":"Savage Skald"
+                    },
+                    {
+                        "name":"Sea Singer"
+                    },
+                    {
+                        "name":"Street Performer"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Cleric",
+                "desc":" A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.",
+                "archetypes":[
+                    
+                ]
+                
+            },
+            {
+                "name":"Druid",
+                "desc":" The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.",
+                "archetypes":[
+                    {
+                        "name":"Aquatic Druid"
+                    },
+                    {
+                        "name":"Arctic Druid"
+                    },
+                    {
+                        "name":"Blight Druid"
+                    },
+                    {
+                        "name":"Cave Druid"
+                    },
+                    {
+                        "name":"Desert Druid"
+                    },
+                    {
+                        "name":"Jungle Druid"
+                    },
+                    {
+                        "name":"Mountain Druid"
+                    },
+                    {
+                        "name":"Plains Druid"
+                    },
+                    {
+                        "name":"Swamp Druid"
+                    },
+                    {
+                        "name":"Urban Druid"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Fighter",
+                "desc":" Brave and stalwart, the fighter is a master of all manner of arms and armor.",
+                "archetypes":[
+                    {
+                        "name":"Archer"
+                    },
+                    {
+                        "name":"Crossbowman"
+                    },
+                    {
+                        "name":"Free Hand Fighter"
+                    },
+                    {
+                        "name":"Mobile Fighter"
+                    },
+                    {
+                        "name":"Phalanx Soldier"
+                    },
+                    {
+                        "name":"Polearm Master"
+                    },
+                    {
+                        "name":"Roughrider"
+                    },
+                    {
+                        "name":"Savage Warrior"
+                    },
+                    {
+                        "name":"Shielded Fighter"
+                    },
+                    {
+                        "name":"Two-Handed Fighter"
+                    },
+                    {
+                        "name":"Two-Weapon Warrior"
+                    },
+                    {
+                        "name":"Weapon Master"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Monk",
+                "desc":" A student of martial arts, the monk trains his body to be his greatest weapon and defense.",
+                "archetypes":[
+                    {
+                        "name":"Drunken Master"
+                    },
+                    {
+                        "name":"Hungry Ghost Monk"
+                    },
+                    {
+                        "name":"Ki Mystic"
+                    },
+                    {
+                        "name":"Monk of the Empty Hand"
+                    },
+                    {
+                        "name":"Monk of the Four Winds"
+                    },
+                    {
+                        "name":"Monk of the Healing Hand"
+                    },
+                    {
+                        "name":"Monk of the Lotus"
+                    },
+                    {
+                        "name":"Monk of the Sacred Mountain"
+                    },
+                    {
+                        "name":"Weapon Adept"
+                    },
+                    {
+                        "name":"Zen Archer"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Paladin",
+                "desc":" The paladin is the knight in shining armor, a devoted follower of law and good.",
+                "archetypes":[
+                    {
+                        "name":"Divine Defender"
+                    },
+                    {
+                        "name":"Hospitaler"
+                    },
+                    {
+                        "name":"Sacred Servant"
+                    },
+                    {
+                        "name":"Shining Knight"
+                    },
+                    {
+                        "name":"Undead Scourge"
+                    },
+                    {
+                        "name":"Warrior of the Holy Light"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Ranger",
+                "desc":" A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.",
+                "archetypes":[
+                    {
+                        "name":"Beast Master"
+                    },
+                    {
+                        "name":"Guide"
+                    },
+                    {
+                        "name":"Horse Lord"
+                    },
+                    {
+                        "name":"Infiltrator"
+                    },
+                    {
+                        "name":"Shapeshifter"
+                    },
+                    {
+                        "name":"Skirmisher"
+                    },
+                    {
+                        "name":"Spirit Ranger"
+                    },
+                    {
+                        "name":"Urban Ranger"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Rogue",
+                "desc":" The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.",
+                "archetypes":[
+                    {
+                        "name":"Acrobat"
+                    },
+                    {
+                        "name":"Burglar"
+                    },
+                    {
+                        "name":"Cutpurse"
+                    },
+                    {
+                        "name":"Investigator"
+                    },
+                    {
+                        "name":"Poisoner"
+                    },
+                    {
+                        "name":"Rake"
+                    },
+                    {
+                        "name":"Scout"
+                    },
+                    {
+                        "name":"Sniper"
+                    },
+                    {
+                        "name":"Spy"
+                    },
+                    {
+                        "name":"Swashbuckler"
+                    },
+                    {
+                        "name":"Thug"
+                    },
+                    {
+                        "name":"Trapsmith"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Sorcerer",
+                "desc":" The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.",
+                "archetypes":[
+                    {
+                        "name":"Aquatic Bloodline"
+                    },
+                    {
+                        "name":"Boreal Bloodline"
+                    },
+                    {
+                        "name":"Deepearth Bloodline"
+                    },
+                    {
+                        "name":"Dreamspun Bloodline"
+                    },
+                    {
+                        "name":"Protean Bloodline"
+                    },
+                    {
+                        "name":"Serpentine Bloodline"
+                    },
+                    {
+                        "name":"Shadow Bloodline"
+                    },
+                    {
+                        "name":"Starsoul Bloodline"
+                    },
+                    {
+                        "name":"Stormborn Bloodline"
+                    },
+                    {
+                        "name":"Verdant Bloodline"
+                    }
+                    
+                ]
+                
+            },
+            {
+                "name":"Wizard",
+                "desc":" The wizard masters magic through constant study that gives him incredible magical power.",
+                "archetypes":[
+                    
+                ]
+                
+            }
+            
+        ],
+        "Advanced Players Guide":[
+            {
+                "name":"Alchemist",
+                "desc":" The alchemist is the master of alchemy, using extracts to grant him great power, mutagens to enhance his form, and bombs to destroy his enemies."
+            },
+            {
+                "name":"Cavalier",
+                "desc":" Mounted upon his mighty steed, the cavalier is a brave warrior, using his wit, charm, and strength at arms to rally his companions and achieve his goals."
+            },
+            {
+                "name":"Inquisitor",
+                "desc":" Scourge of the unfaithful and hunter of horrors, the inquisitor roots out the enemies of her faith with grim conviction and an array of divine blessings."
+            },
+            {
+                "name":"Oracle",
+                "desc":" Drawing upon divine mysteries, the oracle channels divine power through her body and soul, but at a terrible price."
+            },
+            {
+                "name":"Summoner",
+                "desc":" Bonded to a mysterious creature called an eidolon, the summoner focuses his power on strengthing that connection and enhancing his strange, otherworldy companion."
+            },
+            {
+                "name":"Witch",
+                "desc":" Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar."
+            }
+            
+        ],
+        "Ultimate Combat":[
+            {
+                "name":"Gunslinger"
+            },
+            {
+                "name":"Ninja"
+            },
+            {
+                "name":"Samurai"
+            }
+            
+        ],
+        "Ultimate Magic":[
+            {
+                "name":"Magus"
+            }
+            
+        ],
+        "Advanced Class Guide":[
+            {
+                "name":"Arcanist",
+                "desc":" Blending the power of the sorcerer with the versatility of the wizard, the arcanist draws upon a reservoir of power to bend magic to her will."
+            },
+            {
+                "name":"Bloodrager",
+                "desc":" Fusing the frenzy of the barbarian with the bloodline might of the sorcerer, the bloodrager calls upon innate power to give himself extraordinary abilities."
+            },
+            {
+                "name":"Brawler",
+                "desc":" Focusing on hand-to-hand combat, the brawler mixes the martial artistry of the monk with the specialist training of the fighter."
+            },
+            {
+                "name":"Hunter",
+                "desc":" Though both the druid and ranger can have animal companions, the hunter takes this bond to the next level, forming a deadly duo with her savage ally."
+            },
+            {
+                "name":"Investigator",
+                "desc":" With the rogue's cunning complemented by the alchemist's magical talent, the investigator is a peerless problem solver."
+            },
+            {
+                "name":"Shaman",
+                "desc":" Calling on the divine power of the oracle and the hexes of a witch, the shaman communes with her spirit animal to unleash doom upon her foes."
+            },
+            {
+                "name":"Skald",
+                "desc":" Sharing fury through song and deed, the skald takes the rage that lives in the heart of the barbarian and inspires it in others using the performances of the bard."
+            },
+            {
+                "name":"Slayer",
+                "desc":" Mixing the precise strikes of the rogue with the special training of the ranger, the slayer hunts down his foes with ruthless efficiency."
+            },
+            {
+                "name":"Swashbuckler",
+                "desc":" Combining the prowess of the fighter with the determination of the gunslinger, the swashbuckler is an acrobatic melee combatant."
+            },
+            {
+                "name":"Warpriest",
+                "desc":" Blending the cleric's divine might and the fighter's martial skills, the warpriest brings the fight to the enemies of his faith."
+            }
+            
+        ],
+        "Prestige":[
+            {
+                "name":"Battle Herald",
+                "desc":" A veteran whose masterful tactics and air of command inspire allies to greater feats of heroism."
+            },
+            {
+                "name":"Holy Vindicator",
+                "desc":" A pious warrior who spreads religion at the edge of a sword."
+            },
+            {
+                "name":"Horizon Walker",
+                "desc":" A scout and wanderer comfortable in even the strangest terrain."
+            },
+            {
+                "name":"Master Chymist",
+                "desc":" An alchemist whose mutagens create an alternate, brutish personality."
+            },
+            {
+                "name":"Master Spy",
+                "desc":" An espionage expert specializing in disguises and striking swiftly from the shadows."
+            },
+            {
+                "name":"Nature Warden",
+                "desc":" A master of the wilderness bonded spiritually to a fearsome animal companion."
+            },
+            {
+                "name":"Rage Prophet",
+                "desc":" A bold and barbaric champion who embraces otherworldly powers in order to perfect the art of combat."
+            },
+            {
+                "name":"Stalwart Defender",
+                "desc":" A master of defending territory and holding the line at all costs."
+            }
+            
+        ],
+        "Non-Player":[
+            {
+                "name":"Adept"
+            },
+            {
+                "name":"Aristocrat"
+            },
+            {
+                "name":"Commoner"
+            },
+            {
+                "name":"Expert"
+            },
+            {
+                "name":"Warrior"
+            }
+            
+        ]
+        
+    }
+}
