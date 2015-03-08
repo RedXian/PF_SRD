@@ -48,7 +48,7 @@ $(function() {
 	
 	$.getJSON("races.json", function(data) {
 		var sources = [];
-		var racesList = []
+		var racesList = [];
 		for(var i in data) {
 			if($.inArray(data[i].source.name, sources) == -1) sources.push(data[i].source.name);
 			data[i].name = i;
@@ -63,7 +63,7 @@ $(function() {
 		});
 		$.each(sources, function(i, v){
 			if(typeof v === 'string') $("<optgroup />", {"label": v, "id": "r" + v.replace(/[\s']*/g, '')}).text(v).appendTo($("#race"));
-		})
+		});
 		for(var i = 0; i <racesList.length; i++) {
 			$("<option />", {"value": racesList[i].name}).text(racesList[i].name).appendTo($("#r" + racesList[i].source.name.replace(/[\s']*/g, '')));
 		}
@@ -78,8 +78,9 @@ $(function() {
 		var cName = createCatName(type, source.name);
 		for(var i=0; i < categories.length; i++) {
 			if(categories[i].name == cName) return;
-		}		
-		if (type != "Class") var cID = type; else  var cID = source.name;
+		}	
+		var cID;
+		if (type != "Class") cID = type; else cID = source.name;
 		categories.push({"name": cName, "type": type, "id": cID});
 	}
 	
