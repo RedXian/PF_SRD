@@ -1,5 +1,6 @@
 /**
- * TODO: Re-factor Class JSON File
+ * TODO: Re-factor JSON Files to have Name as Unique Identifier.
+ * TODO: Move JSON reading code to it's own file. 
  */
 $(function() {
 	var character = {"name": "unnamed"};
