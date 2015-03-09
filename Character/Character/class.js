@@ -146,7 +146,7 @@ $(function() {
 			
 			$.each(sources, function(i, v){
 				if(typeof v === 'string') $("<optgroup />", {"label": v, "id": "a" + v.replace(/[\s']*/g, '')}).text(v).appendTo($("#archetype"));
-			})
+			});
 						
 			for(var i = 0; i < selectedClassArchetypes.length; i++){
 				var aType = selectedClassArchetypes[i];
