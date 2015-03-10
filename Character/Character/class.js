@@ -4,8 +4,11 @@
  */
 $(function() {
 	var character = {"name": "unnamed"};
-		
+	
+	
+				
 	$(".archetype").hide();
+	$("#archetype").change(function(){ character.archetype = $(this).val();});
 	
 	var ClassOrder = ["Class", "Prestige Class", "NPC Class"];
 	var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
@@ -14,6 +17,27 @@ $(function() {
 	var charClass = [];
 	$.getJSON("classes.json", function(data){
 		// Read in Class data and create a list of Categories based on Type of Class and Name of Source Book
+		$.each(data, function(k, v){
+			charClass.push({
+				"name": k,
+				"type": v.type,
+				"source": v.source
+			});
+		});
+	});
+	
+	charClass.sort(function(a,b){
+		var classA = $.inArray(a.type, ClassOrder);
+		var classB = $.inArray(b.type, ClassOrder);
+		if(classA == classB) {
+			var bookA = $.inArray(a.name, BookOrder);
+			var bookB = $.inArray(b.name, BookOrder);
+			return bookA - bookB;
+		} else {
+			return classA - classB;
+		}
+	});
+		
 		for(var i = 0; i < data.Classes.length; i++) {
 			addType(data.Classes[i].type, data.Classes[i].source);
 			charClass.push(data.Classes[i]);
@@ -110,10 +134,18 @@ $(function() {
 	
 	//$("#race").change(function(){if (typeof $("#class").val() === 'String') $("#class").trigger("change")});
 	
+	$("#race").change(function(){ 
+		var newRace = $("#race").val();
+		if (character.race != newRace) character.race == newRace;
+	});
+
+	
 	$("#class").change(function(){
-		character.name = $("#class").val();
-		
-		
+		var newClass = $("#class").val()
+		if (character.cClass != newclass) {
+			character.cClass = $("#class").val();
+			delete character.archetype;
+			
 		var sources = [];
 		var selectedClassArchetypes = [];
 		$.each(charClass, function(key,cClass) {
@@ -173,5 +205,6 @@ $(function() {
 		} else {
 			$(".archetype").hide();
 		} 	
+		}
 	});
 });
