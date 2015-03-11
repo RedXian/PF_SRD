@@ -3,54 +3,53 @@
  */
 $(function() {
 	var character = {
-		name : "unnamed",
-		updateRace : function(newRace) {
-			if (this.cRace || this.cRace != newRace) {
-				this.cRace = newRace;
-				// TODO: Check eligibility on current archetype, feats & traits.
-				// TODO: Remove current and apply new  Racial Traits
-			}
-		},
-		updateClass : function(newClass) {
-			if (this.cClass || this.cClass != newClass) {
-				this.cClass = newClass;
-				this.removeArchetype(); // delete archetype as it is no longer
-										// available to the new class.
-				// TODO: Check eligibility on current traits & feats.
-				// TODO: Remove Old Class Features & Apply the new ones
+	    name : "unnamed",
+	    updateRace : function(newRace) {
+		    if (this.cRace || this.cRace != newRace) {
+			    this.cRace = newRace;
+			    // TODO: Check eligibility on current archetype, feats & traits
+			    // TODO: Remove current Racial Traits and apply new ones
+		    }
+	    },
+	    updateClass : function(newClass) {
+		    if (this.cClass || this.cClass != newClass) {
+			    this.cClass = newClass;
+			    this.removeArchetype(); // delete archetype as it is no longer available to the new class.
+			    // TODO: Check eligibility on current traits & feats.
+			    // TODO: Remove Old Class Features & Apply the new ones
 
-			}
-		},
-		updateArchetype : function(newArchetype) {
-			if (newArchetype) {
-				if (this.cArchetype || this.cArchetype != newArchetype) {
-					this.cArchetype = newArchetype;
-				}
-			} else {
-				delete this.cArchetype;
-			}
-		},
-		removeArchetype: function() {delete this.archetype;}
+		    }
+	    },
+	    updateArchetype : function(newArchetype) {
+		    if (newArchetype) {
+			    if (this.cArchetype || this.cArchetype != newArchetype) {
+				    this.cArchetype = newArchetype;
+			    }
+		    } else {
+			    delete this.cArchetype;
+		    }
+	    },
+	    removeArchetype : function() {
+		    delete this.archetype;
+	    }
 	};
 
-	$(".archetype").hide(); // Initially Hide the Archetype drop-down until a
-							// Class with Archetypes is selected.
+	$(".archetype").hide(); // Initially Hide the Archetype drop-down until a Class with Archetypes is selected.
 
-	// TODO: Populate Race Drop-down
+	// TODO: Populate Race drop-down
+	populateRaces();
 	// TODO: Populate Class drop-down
 
 	// Set Race upon selection
 	$("#race").change(function() {
 		character.race = $("#race").val();
-		// TODO: If Class is selected re-populate Archetype drop-down (to
-		// add/remove race specific Archetypes).
+		// TODO: If Class is selected re-populate Archetype drop-down (to add/remove race specific Archetypes).
 	});
 
 	// Set Class upon selection and update Archetype drop-down
 	$("#class").change(function() {
 		character.cClass = $("#class").val();
-		// TODO: Hide & Clear Archetype drop-down and re-populate it. Show it,
-		// if there are more than one.
+		// TODO: Hide & Clear Archetype drop-down and re-populate it. Show it, if there are more than one.
 	});
 
 	$("#archetype").change(function() {
@@ -58,7 +57,7 @@ $(function() {
 	});
 });
 
-// var TypeOrder = ["Class", "Prestige Class", "NPC Class", "Archetypes"];
+// var TypeOrder = ["Class", "Prestige Class", "NPC Class"];
 // var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate
 // Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
 //
@@ -123,33 +122,68 @@ $(function() {
 // }
 // });
 //	
-// $.getJSON("races.json", function(data) {
+
+function populateRaces() {
+	var target = $("#races");
+	$.getJSON("races.json", function(data) {
+
+		var raceList = []
+		var optGroups = {
+		    prefix : "r",
+		    list : []
+		};
+		$.each(data, function(key, value) {
+			if ($.inArray(value.source, optGroups.list) == -1) {
+				optGroups.list.push(value.source);
+			}
+			raceList.push({
+			    name : key,
+			    source : value.source
+			});
+		});
+
+		optGroup.list.sort(function(a, b) {
+			var bookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
+			a = $.inArray(a, BookOrder);
+			b = $.inArray(b, BookOrder);
+			return a - b;
+		});
+
+		$.each(optGroup.list, function(key, group) {
+			if (typeof group === 'string') {
+				$("<optgroup />", {
+				    label : group,
+				    id : optGroup.prefix + group.replace(/[\s']*/g, '')
+				}).text(group).appendTo(target);
+			}
+		});
+	});
 // var sources = [];
 // var racesList = [];
-// for(var i in data) {
-// if($.inArray(data[i].source.name, sources) == -1)
-// sources.push(data[i].source.name);
+// for ( var i in data) {
+// if ($.inArray(data[i].source.name, sources) == -1) sources.push(data[i].source.name);
 // data[i].name = i;
 // racesList.push(data[i]);
 // }
 // racesList = racesList.objSort("name");
-//		
-// sources.sort(function(a, b){
+//
+// sources.sort(function(a, b) {
 // a = $.inArray(a, BookOrder);
 // b = $.inArray(b, BookOrder);
-// return a-b; // (a < b) ? -1 : (a > b) ? 1 : 0;
+// return a - b; // (a < b) ? -1 : (a > b) ? 1 : 0;
 // });
-// $.each(sources, function(i, v){
-// if(typeof v === 'string') $("<optgroup />", {"label": v, "id": "r" +
-// v.replace(/[\s']*/g, '')}).text(v).appendTo($("#race"));
+// $.each(sources, function(i, v) {
+// if (typeof v === 'string') $("<optgroup />", {
+// "label" : v,
+// "id" : "r" + v.replace(/[\s']*/g, '')
+// }).text(v).appendTo($("#race"));
 // });
-// for(var i = 0; i <racesList.length; i++) {
-// $("<option />", {"value":
-// racesList[i].name}).text(racesList[i].name).appendTo($("#r" +
-// racesList[i].source.name.replace(/[\s']*/g, '')));
+// for (var i = 0; i < racesList.length; i++) {
+// $("<option />", {
+// "value" : racesList[i].name
+// }).text(racesList[i].name).appendTo($("#r" + racesList[i].source.name.replace(/[\s']*/g, '')));
 // }
-// });
-//	
+}
 //	
 // function createCatName(type, name){
 // return "c" + type.replace(/[\s']*/g, '') + "-" + name.replace(/[\s']*/g, '');
