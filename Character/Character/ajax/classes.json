@@ -1,6 +1,6 @@
 {
 	"Barbarian": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The barbarian is a brutal berserker from beyond the edge of civilized lands.", 
 		"Breaker": {
 			"type": "archetype", 
@@ -16,9 +16,7 @@
 		}, 
 		"Elemental Kin": {
 			"type": "archetype", 
-			"source": {
-				"name": "Advanced Player's Guide"
-			}
+			"source": "Advanced Player's Guide"
 		}, 
 		"Hurler": {
 			"type": "archetype", 
@@ -89,7 +87,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Bard": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.", 
 		"Arcane Duelist": {
 			"type": "archetype", 
@@ -191,7 +189,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Cleric": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.", 
 		"Cloistered Cleric": {
 			"type": "archetype", 
@@ -249,7 +247,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Druid": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.", 
 		"Aquatic Druid": {
 			"type": "archetype", 
@@ -377,7 +375,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Fighter": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Brave and stalwart, the fighter is a master of all manner of arms and armor.", 
 		"Archer": {
 			"type": "archetype", 
@@ -491,7 +489,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Monk": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "A student of martial arts, the monk trains his body to be his greatest weapon and defense.", 
 		"Drunken Master": {
 			"type": "archetype", 
@@ -617,7 +615,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Paladin": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The paladin is the knight in shining armor, a devoted follower of law and good.", 
 		"Divine Defender": {
 			"type": "archetype", 
@@ -695,7 +693,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Ranger": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.", 
 		"Beast Master": {
 			"type": "archetype", 
@@ -781,7 +779,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Rogue": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.", 
 		"Acrobat": {
 			"type": "archetype", 
@@ -919,7 +917,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Sorcerer": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.", 
 		"Aberrant": {
 			"type": "bloodlines", 
@@ -1133,7 +1131,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Wizard": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The wizard masters magic through constant study that gives him incredible magical power.", 
 		"Scrollmaster Wizard": {
 			"type": "archetype", 
@@ -1175,7 +1173,7 @@
 		"source": "Core Rulebook"
 	}, 
 	"Alchemist": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "The alchemist is the master of alchemy, using extracts to grant him great power, mutagens to enhance his form, and bombs to destroy his enemies.", 
 		"Chirurgeon": {
 			"type": "archetype", 
@@ -1262,7 +1260,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Cavalier": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Mounted upon his mighty steed, the cavalier is a brave warrior, using his wit, charm, and strength at arms to rally his companions and achieve his goals.", 
 		"Beast Rider": {
 			"type": "archetype", 
@@ -1313,7 +1311,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Inquisitor": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Scourge of the unfaithful and hunter of horrors, the inquisitor roots out the enemies of her faith with grim conviction and an array of divine blessings.", 
 		"Exorcist": {
 			"type": "archetype", 
@@ -1371,7 +1369,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Oracle": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Drawing upon divine mysteries, the oracle channels divine power through her body and soul, but at a terrible price.", 
 		"Dual-cursed Oracle": {
 			"type": "archetype", 
@@ -1435,7 +1433,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Summoner": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Bonded to a mysterious creature called an eidolon, the summoner focuses his power on strengthing that connection and enhancing his strange, otherworldy companion.", 
 		"Broodmaster": {
 			"type": "archetype", 
@@ -1484,7 +1482,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Witch": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar.", 
 		"Beast-bonded": {
 			"type": "archetype", 
@@ -1526,7 +1524,7 @@
 		"source": "Advanced Player's Guide"
 	}, 
 	"Gunslinger": {
-		"type": "Class", 
+		"type": "class", 
 		"Gun Tank": {
 			"type": "archetype", 
 			"source": "Ultimate Combat"
@@ -1574,15 +1572,15 @@
 		"source": "Ultimate Combat"
 	}, 
 	"Ninja": {
-		"type": "Class", 
+		"type": "class", 
 		"source": "Ultimate Combat"
 	}, 
 	"Samurai": {
-		"type": "Class", 
+		"type": "class", 
 		"source": "Ultimate Combat"
 	}, 
 	"Magus": {
-		"type": "Class", 
+		"type": "class", 
 		"Bladebound": {
 			"type": "archetype", 
 			"source": "Ultimate Magic"
@@ -1639,52 +1637,52 @@
 		"source": "Ultimate Magic"
 	}, 
 	"Arcanist": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Blending the power of the sorcerer with the versatility of the wizard, the arcanist draws upon a reservoir of power to bend magic to her will.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Bloodrager": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Fusing the frenzy of the barbarian with the bloodline might of the sorcerer, the bloodrager calls upon innate power to give himself extraordinary abilities.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Brawler": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Focusing on hand-to-hand combat, the brawler mixes the martial artistry of the monk with the specialist training of the fighter.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Hunter": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Though both the druid and ranger can have animal companions, the hunter takes this bond to the next level, forming a deadly duo with her savage ally.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Investigator": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "With the rogue's cunning complemented by the alchemist's magical talent, the investigator is a peerless problem solver.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Shaman": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Calling on the divine power of the oracle and the hexes of a witch, the shaman communes with her spirit animal to unleash doom upon her foes.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Skald": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Sharing fury through song and deed, the skald takes the rage that lives in the heart of the barbarian and inspires it in others using the performances of the bard.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Slayer": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Mixing the precise strikes of the rogue with the special training of the ranger, the slayer hunts down his foes with ruthless efficiency.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Swashbuckler": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Combining the prowess of the fighter with the determination of the gunslinger, the swashbuckler is an acrobatic melee combatant.", 
 		"source": "Advanced Class Guide"
 	}, 
 	"Warpriest": {
-		"type": "Class", 
+		"type": "class", 
 		"description": "Blending the cleric's divine might and the fighter's martial skills, the warpriest brings the fight to the enemies of his faith.", 
 		"source": "Advanced Class Guide"
 	}, 
