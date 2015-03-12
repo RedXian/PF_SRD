@@ -19,5 +19,4 @@ function addLevel(className) {
 }
 
 Character.prototype = {
-		
-}
+};

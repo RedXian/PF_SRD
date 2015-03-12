@@ -179,7 +179,7 @@ var prestige_will_save_bonus = 0;
 var prestige_skill_points_per_level = 0;
 var prestige_spellcasting_as = 0;
 var prestige_any_spell_levels = 0;
-var prestige_bard_spell_levels = 0
+var prestige_bard_spell_levels = 0;
 var prestige_cleric_spell_levels = 0;
 var prestige_druid_spell_levels = 0;
 var prestige_paladin_spell_levels = 0;
@@ -328,17 +328,17 @@ var base_attack_bonus = 0;
 var base_fortitude_bonus = 0;
 var base_will_bonus = 0;
 var base_reflex_bonus = 0;
-var missile_attack_string_1 = ""
-var finesse_attack_string_1 = ""
-var CMB_string_1 = ""
-var CMD_string_1 = ""
-var ac_CMB_string_1 = ""
-var ac_CMD_string_1 = ""
-var handheld_attack_string_1 = ""
-var flurry_of_blows_string_1 = ""
-var fortitude_string_1 = ""
-var will_string_1 = ""
-var reflex_string_1 = ""
+var missile_attack_string_1 = "";
+var finesse_attack_string_1 = "";
+var CMB_string_1 = "";
+var CMD_string_1 = "";
+var ac_CMB_string_1 = "";
+var ac_CMD_string_1 = "";
+var handheld_attack_string_1 = "";
+var flurry_of_blows_string_1 = "";
+var fortitude_string_1 = "";
+var will_string_1 = "";
+var reflex_string_1 = "";
 var fear_save = 0;
 var horror_save = 0;
 var madness_save = 0;
@@ -348,18 +348,17 @@ var madness_string_1 = "";
 var fear_string_2 = "";
 var horror_string_2 = "";
 var madness_string_2 = "";
-var initiative_string_1 = ""
-var missile_attack_string_2 = ""
-var finesse_attack_string_2 = ""
-var CMB_string_2 = ""
-var CMD_string_2 = ""
-var ac_CMB_string_2 = ""
-var ac_CMD_string_2 = ""
-var handheld_attack_string_2 = ""
-var fortitude_string_2 = ""
-var will_string_2 = ""
-var reflex_string_2 = ""
-var initiative_string_2 = ""
+var initiative_string_1 = "";
+var missile_attack_string_2 = "";
+var finesse_attack_string_2 = "";
+var CMB_string_2 = "";
+var CMD_string_2 = "";
+var ac_CMB_string_2 = "";
+var handheld_attack_string_2 = "";
+var fortitude_string_2 = "";
+var will_string_2 = "";
+var reflex_string_2 = "";
+var initiative_string_2 = "";
 var missile_attack = 0;
 var finesse_attack = 0;
 var CMB_attack = 0;
@@ -382,127 +381,127 @@ var speed_string = "";
 var shield_string = "";
 var armor_class_string = "";
 var stringy = "";
-var class_string = ""
+var class_string = "";
 var genderandrace_string = "";
 
-var has_acrobatic = false
-var has_agilemaneuvers = false
-var has_alertness = false
-var has_animalaffinity = false
-var has_arcanestrike = false
-var has_armorproficiencylight = false
-var has_armorproficiencymedium = false
-var has_armorproficiencyheavy = false
-var has_athletic = false
-var has_augmentsummoning = false
-var has_blindfight = false
-var has_combatcasting = false
-var has_combatexpertise = false
-var has_improveddisarm = false
-var has_improvedfeint = false
-var has_improvedtrip = false
-var has_whirlwindattack = false
-var has_combatreflexes = false
-var has_deceitful = false
-var has_defthands = false
-var has_dodge = false
-var has_mobility = false
-var has_springattack = false
-var has_endurance = false
-var has_diehard = false
-var has_eschewmaterials = false
-var has_exoticweaponproficiency = false
-var has_extrachannel = 0
-var has_extraki = 0
-var has_extralayonhands = 0
-var has_extramercy = 0
-var has_extraperformance = 0
-var has_extrarage = 0
-var has_greatfortitude = false
-var has_improvedcounterspell = false
-var has_improvedcritical = 0
-var has_improvedinitiative = false
-var has_improvedunarmedstrike = false
-var has_improvedgrapple = false
-var has_deflectarrows = false
-var has_snatcharrows = false
-var has_stunningfist = false
-var has_ironwill = false
-var has_leadership = false
-var has_lightningreflexes = false
-var has_magicalaptitude = false
-var has_martialweaponproficiency = false
-var has_mountedcombat = false
-var has_mountedarchery = false
-var has_ridebyattack = false
-var has_spiritedcharge = false
-var has_trample = false
-var has_naturalspell = false
-var has_persuasive = false
-var has_pointblankshot = false
-var has_farshot = false
-var has_preciseshot = false
-var has_rapidshot = false
-var has_manyshot = false
-var has_shotontherun = false
-var has_improvedpreciseshot = false
-var has_powerattack = false
-var has_cleave = false
-var has_greatcleave = false
-var has_improvedbullrush = false
-var has_improvedoverrun = false
-var has_improvedsunder = false
-var has_quickdraw = false
-var has_rapidreload = false
-var has_run = false
-var has_selfsufficient = false
-var has_shieldproficiency = false
-var has_improvedshieldbash = false
-var has_towershieldproficiency = false
-var has_simpleweaponproficiency = false
-var has_skillfocusappraise = false
-var has_skillfocusbluff = false
-var has_skillfocusclimb = false
-var has_skillfocusacrobatics = false
-var has_skillfocuscraft_1 = false
-var has_skillfocuscraft_2 = false
-var has_skillfocuscraft_3 = false
-var has_skillfocusdiplomacy = false
-var has_skillfocusdisabledevice = false
-var has_skillfocusdisguise = false
-var has_skillfocusescapeartist = false
-var has_skillfocusfly = false
-var has_skillfocushandleanimal = false
-var has_skillfocusheal = false
-var has_skillfocusstealth = false
-var has_skillfocusintimidate = false
-var has_skillfocusknowledgearcana = false
-var has_skillfocusknowledgeengineering = false
-var has_skillfocusknowledgedungeoneering = false
-var has_skillfocusknowledgegeography = false
-var has_skillfocusknowledgehistory = false
-var has_skillfocusknowledgelocal = false
-var has_skillfocusknowledgenature = false
-var has_skillfocusknowledgenobility = false
-var has_skillfocusknowledgereligion = false
-var has_skillfocusknowledgeplanes = false
-var has_skillfocuslinguistics = false
-var has_skillfocusperception = false
-var has_skillfocusperform_1 = false
-var has_skillfocusperform_2 = false
-var has_skillfocusperform_3 = false
-var has_skillfocusperform_4 = false
-var has_skillfocusperform_5 = false
-var has_skillfocusprofession = false
-var has_skillfocusride = false
-var has_skillfocussensemotive = false
-var has_skillfocussleightofhand = false
-var has_skillfocusspellcraft = false
-var has_skillfocussurvival = false
-var has_skillfocusswim = false
-var has_skillfocususemagicdevice = false
-var has_spellfocus = false
-var has_greaterspellfocus = false
+var has_acrobatic = false;
+var has_agilemaneuvers = false;
+var has_alertness = false;
+var has_animalaffinity = false;
+var has_arcanestrike = false;
+var has_armorproficiencylight = false;
+var has_armorproficiencymedium = false;
+var has_armorproficiencyheavy = false;
+var has_athletic = false;
+var has_augmentsummoning = false;
+var has_blindfight = false;
+var has_combatcasting = false;
+var has_combatexpertise = false;
+var has_improveddisarm = false;
+var has_improvedfeint = false;
+var has_improvedtrip = false;
+var has_whirlwindattack = false;
+var has_combatreflexes = false;
+var has_deceitful = false;
+var has_defthands = false;
+var has_dodge = false;
+var has_mobility = false;
+var has_springattack = false;
+var has_endurance = false;
+var has_diehard = false;
+var has_eschewmaterials = false;
+var has_exoticweaponproficiency = false;
+var has_extrachannel = 0;
+var has_extraki = 0;
+var has_extralayonhands = 0;
+var has_extramercy = 0;
+var has_extraperformance = 0;
+var has_extrarage = 0;
+var has_greatfortitude = false;
+var has_improvedcounterspell = false;
+var has_improvedcritical = 0;
+var has_improvedinitiative = false;
+var has_improvedunarmedstrike = false;
+var has_improvedgrapple = false;
+var has_deflectarrows = false;
+var has_snatcharrows = false;
+var has_stunningfist = false;
+var has_ironwill = false;
+var has_leadership = false;
+var has_lightningreflexes = false;
+var has_magicalaptitude = false;
+var has_martialweaponproficiency = false;
+var has_mountedcombat = false;
+var has_mountedarchery = false;
+var has_ridebyattack = false;
+var has_spiritedcharge = false;
+var has_trample = false;
+var has_naturalspell = false;
+var has_persuasive = false;
+var has_pointblankshot = false;
+var has_farshot = false;
+var has_preciseshot = false;
+var has_rapidshot = false;
+var has_manyshot = false;
+var has_shotontherun = false;
+var has_improvedpreciseshot = false;
+var has_powerattack = false;
+var has_cleave = false;
+var has_greatcleave = false;
+var has_improvedbullrush = false;
+var has_improvedoverrun = false;
+var has_improvedsunder = false;
+var has_quickdraw = false;
+var has_rapidreload = false;
+var has_run = false;
+var has_selfsufficient = false;
+var has_shieldproficiency = false;
+var has_improvedshieldbash = false;
+var has_towershieldproficiency = false;
+var has_simpleweaponproficiency = false;
+var has_skillfocusappraise = false;
+var has_skillfocusbluff = false;
+var has_skillfocusclimb = false;
+var has_skillfocusacrobatics = false;
+var has_skillfocuscraft_1 = false;
+var has_skillfocuscraft_2 = false;
+var has_skillfocuscraft_3 = false;
+var has_skillfocusdiplomacy = false;
+var has_skillfocusdisabledevice = false;
+var has_skillfocusdisguise = false;
+var has_skillfocusescapeartist = false;
+var has_skillfocusfly = false;
+var has_skillfocushandleanimal = false;
+var has_skillfocusheal = false;
+var has_skillfocusstealth = false;
+var has_skillfocusintimidate = false;
+var has_skillfocusknowledgearcana = false;
+var has_skillfocusknowledgeengineering = false;
+var has_skillfocusknowledgedungeoneering = false;
+var has_skillfocusknowledgegeography = false;
+var has_skillfocusknowledgehistory = false;
+var has_skillfocusknowledgelocal = false;
+var has_skillfocusknowledgenature = false;
+var has_skillfocusknowledgenobility = false;
+var has_skillfocusknowledgereligion = false;
+var has_skillfocusknowledgeplanes = false;
+var has_skillfocuslinguistics = false;
+var has_skillfocusperception = false;
+var has_skillfocusperform_1 = false;
+var has_skillfocusperform_2 = false;
+var has_skillfocusperform_3 = false;
+var has_skillfocusperform_4 = false;
+var has_skillfocusperform_5 = false;
+var has_skillfocusprofession = false;
+var has_skillfocusride = false;
+var has_skillfocussensemotive = false;
+var has_skillfocussleightofhand = false;
+var has_skillfocusspellcraft = false;
+var has_skillfocussurvival = false;
+var has_skillfocusswim = false;
+var has_skillfocususemagicdevice = false;
+var has_spellfocus = false;
+var has_greaterspellfocus = false;
 var has_spellfocusabjuration = false;
 var has_spellfocusconjuration = false;
 var has_spellfocusdivination = false;
@@ -519,50 +518,50 @@ var has_greaterspellfocusenchantment = false;
 var has_greaterspellfocusillusion = false;
 var has_greaterspellfocusnecromancy = false;
 var has_greaterspellfocustransmutation = false;
-var has_spellmastery = 0
-var has_spellpenetration = false
-var has_greaterspellpenetration = false
-var has_stealthy = false
-var has_stepup = false
-var has_strikeback = false
-var has_throwanything = false
-var has_toughness = false
-var has_twoweaponfighting = false
-var has_twoweapondefense = false
-var has_improvedtwoweaponfighting = false
-var has_greatertwoweaponfighting = false
-var has_weaponfinesse = false
-var has_otherfeat1 = false
-var has_otherfeat2 = false
-var has_otherfeat3 = false
-var has_otherfeat4 = false
-var has_otherfeat5 = false
-var has_otherfeat6 = false
-var has_otherfeat7 = false
-var has_otherfeat8 = false
-var has_otherfeat9 = false
-var has_otherfeat10 = false
-var has_weaponfocus = 0
-var has_weaponspecialization = 0
-var has_greaterweaponfocus = 0
-var has_greaterweaponspecialization = 0
-var has_brewpotion = false
-var has_craftmaa = false
-var has_craftrod = false
-var has_craftstaff = false
-var has_craftwand = false
-var has_craftwondrousitem = false
-var has_forgering = false
-var has_scribescroll = false
-var has_empowerspell = false
-var has_enlargespell = false
-var has_extendspell = false
-var has_heightenspell = false
-var has_maximizespell = false
-var has_quickenspell = false
-var has_silentspell = false
-var has_stillspell = false
-var has_widenspell = false
+var has_spellmastery = 0;
+var has_spellpenetration = false;
+var has_greaterspellpenetration = false;
+var has_stealthy = false;
+var has_stepup = false;
+var has_strikeback = false;
+var has_throwanything = false;
+var has_toughness = false;
+var has_twoweaponfighting = false;
+var has_twoweapondefense = false;
+var has_improvedtwoweaponfighting = false;
+var has_greatertwoweaponfighting = false;
+var has_weaponfinesse = false;
+var has_otherfeat1 = false;
+var has_otherfeat2 = false;
+var has_otherfeat3 = false;
+var has_otherfeat4 = false;
+var has_otherfeat5 = false;
+var has_otherfeat6 = false;
+var has_otherfeat7 = false;
+var has_otherfeat8 = false;
+var has_otherfeat9 = false;
+var has_otherfeat10 = false;
+var has_weaponfocus = 0;
+var has_weaponspecialization = 0;
+var has_greaterweaponfocus = 0;
+var has_greaterweaponspecialization = 0;
+var has_brewpotion = false;
+var has_craftmaa = false;
+var has_craftrod = false;
+var has_craftstaff = false;
+var has_craftwand = false;
+var has_craftwondrousitem = false;
+var has_forgering = false;
+var has_scribescroll = false;
+var has_empowerspell = false;
+var has_enlargespell = false;
+var has_extendspell = false;
+var has_heightenspell = false;
+var has_maximizespell = false;
+var has_quickenspell = false;
+var has_silentspell = false;
+var has_stillspell = false;
+var has_widenspell = false;
 var has_alignmentchannel = false;
 var has_arcanearmortraining = false;
 var has_arcanearmormastery = false;
@@ -629,29 +628,28 @@ var has_shatterdefenses = false;
 var has_deadlystroke = false;
 var has_penetratingstrike = false;
 var has_greaterpenetratingstrike = false;
-
-var has_air_domain = false
-var has_animal_domain = false
-var has_chaos_domain = false
-var has_death_domain = false
-var has_destruction_domain = false
-var has_earth_domain = false
-var has_evil_domain = false
-var has_fire_domain = false
-var has_good_domain = false
-var has_healing_domain = false
-var has_knowledge_domain = false
-var has_law_domain = false
-var has_luck_domain = false
-var has_magic_domain = false
-var has_plant_domain = false
-var has_protection_domain = false
-var has_strength_domain = false
-var has_sun_domain = false
-var has_travel_domain = false
-var has_trickery_domain = false
-var has_war_domain = false
-var has_water_domain = false
+var has_air_domain = false;
+var has_animal_domain = false;
+var has_chaos_domain = false;
+var has_death_domain = false;
+var has_destruction_domain = false;
+var has_earth_domain = false;
+var has_evil_domain = false;
+var has_fire_domain = false;
+var has_good_domain = false;
+var has_healing_domain = false;
+var has_knowledge_domain = false;
+var has_law_domain = false;
+var has_luck_domain = false;
+var has_magic_domain = false;
+var has_plant_domain = false;
+var has_protection_domain = false;
+var has_strength_domain = false;
+var has_sun_domain = false;
+var has_travel_domain = false;
+var has_trickery_domain = false;
+var has_war_domain = false;
+var has_water_domain = false;
 var has_artifice_domain = false;
 var has_charm_domain = false;
 var has_community_domain = false;
@@ -758,12 +756,12 @@ var alignment = 0;
 var rayce = 0;
 var gender = 0;
 var total_levels = 0;
-var stat1 = 0
-var stat2 = 0
-var stat3 = 0
-var stat4 = 0
-var stat5 = 0
-var stat6 = 0
+var stat1 = 0;
+var stat2 = 0;
+var stat3 = 0;
+var stat4 = 0;
+var stat5 = 0;
+var stat6 = 0;
 var class01 = 0;
 var class02 = 0;
 var class03 = 0;
@@ -830,7 +828,7 @@ var intelligence08 = 0;
 var intelligence12 = 0;
 var intelligence16 = 0;
 var intelligence20 = 0;
-var SWD = "<html><head><style type=text/css media-screen><!--  body {font-family: Arial; font-size: 12 pt;}  --></style><title>My Other Window</title></head><body>"
+var SWD = "<html><head><style type=text/css media-screen><!--  body {font-family: Arial; font-size: 12 pt;}  --></style><title>My Other Window</title></head><body>";
 var x = 0;
 var y = 0;
 var q = 0;
@@ -2167,25 +2165,25 @@ function pigmentation() {
 
 function DruidDomainAddition() {
 	if (air_druid_domain) {
-		return " + 1 from the air domain "
+		return " + 1 from the air domain ";
 	}
 	if (animal_druid_domain) {
-		return " + 1 from the animal domain "
+		return " + 1 from the animal domain ";
 	}
 	if (earth_druid_domain) {
-		return " + 1 from the fire domain "
+		return " + 1 from the fire domain ";
 	}
 	if (fire_druid_domain) {
-		return " + 1 from the earth domain "
+		return " + 1 from the earth domain ";
 	}
 	if (plant_druid_domain) {
-		return " + 1 from the plant domain "
+		return " + 1 from the plant domain ";
 	}
 	if (water_druid_domain) {
-		return " + 1 from the water domain "
+		return " + 1 from the water domain ";
 	}
 	if (weather_druid_domain) {
-		return " + 1 from the weather domain "
+		return " + 1 from the weather domain ";
 	}
 	return "";
 }
@@ -2272,7 +2270,7 @@ function AnimalCompanion() {
 		return;
 	}
 	if (document.form1.ac_species[0].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose an ape. "
+		document.form1.AnimalCompanionBox.value = "You chose an ape. ";
 		ac_species_name = "Ape";
 		ac_strength = 13;
 		ac_dexterity = 17;
@@ -2287,15 +2285,15 @@ function AnimalCompanion() {
 		ac_attacks = "bite (1d4) 2 claws (1d4)";
 		ac_special = "low-light vision, scent";
 		if (animal_companion_level >= 4) {
-			ac_large = true
+			ac_large = true;
 			ac_strength += 8;
 			ac_dexterity -= 2;
 			ac_constitution += 4;
 			ac_natural_armor += 2;
-			ac_attacks = "bite (1d6) 2 claws(1d6)"
+			ac_attacks = "bite (1d6) 2 claws(1d6)";
 		}
 	} else if (document.form1.ac_species[1].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a badger / wolverine. "
+		document.form1.AnimalCompanionBox.value = "You chose a badger / wolverine. ";
 		ac_species_name = "Badger / Wolverine";
 		ac_strength = 10;
 		ac_dexterity = 17;
@@ -2314,10 +2312,10 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "bite (1d6) 2 claws(1d4)"
+			ac_attacks = "bite (1d6) 2 claws(1d4)";
 		}
 	} else if (document.form1.ac_species[2].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a bear. "
+		document.form1.AnimalCompanionBox.value = "You chose a bear. ";
 		ac_species_name = "Bear";
 		ac_strength = 15;
 		ac_dexterity = 15;
@@ -2336,10 +2334,10 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "bite (1d6) 2 claws(1d4)"
+			ac_attacks = "bite (1d6) 2 claws(1d4)";
 		}
 	} else if (document.form1.ac_species[3].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a bird (eagle / hawk / owl). "
+		document.form1.AnimalCompanionBox.value = "You chose a bird (eagle / hawk / owl). ";
 		ac_species_name = "Bird (eagle / hawk / owl)";
 		ac_strength = 10;
 		ac_dexterity = 15;
@@ -2358,7 +2356,7 @@ function AnimalCompanion() {
 			ac_constitution += 2;
 		}
 	} else if (document.form1.ac_species[4].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a boar. "
+		document.form1.AnimalCompanionBox.value = "You chose a boar. ";
 		ac_species_name = "Boar";
 		ac_strength = 13;
 		ac_dexterity = 12;
@@ -2377,10 +2375,10 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "gore (1d8)"
+			ac_attacks = "gore (1d8)";
 		}
 	} else if (document.form1.ac_species[5].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a camel. "
+		document.form1.AnimalCompanionBox.value = "You chose a camel. ";
 		ac_species_name = "Camel";
 		ac_strength = 18;
 		ac_dexterity = 16;
@@ -2397,10 +2395,10 @@ function AnimalCompanion() {
 		if (animal_companion_level >= 4) {
 			ac_strength += 4;
 			ac_constitution += 2;
-			ac_attacks = "gore (1d8)"
+			ac_attacks = "gore (1d8)";
 		}
 	} else if (document.form1.ac_species[6].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a Big Cat (lion / tiger). "
+		document.form1.AnimalCompanionBox.value = "You chose a Big Cat (lion / tiger). ";
 		ac_species_name = "Big Cat (lion / tiger)";
 		ac_strength = 13;
 		ac_dexterity = 17;
@@ -2420,10 +2418,10 @@ function AnimalCompanion() {
 			ac_strength += 8;
 			ac_dexterity -= 2;
 			ac_constitution += 4;
-			ac_attacks = "bite (1d8), 2 claws (1d6); grab, pounce, rake (1d6)"
+			ac_attacks = "bite (1d8), 2 claws (1d6); grab, pounce, rake (1d6)";
 		}
 	} else if (document.form1.ac_species[7].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a Small Cat (cheetah / leopard). "
+		document.form1.AnimalCompanionBox.value = "You chose a Small Cat (cheetah / leopard). ";
 		ac_species_name = "Small Cat (cheetah / leopard)";
 		ac_strength = 12;
 		ac_dexterity = 21;
@@ -2442,11 +2440,11 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "bite (1d6) + trip, 2 claws (1d3)"
+			ac_attacks = "bite (1d6) + trip, 2 claws (1d3)";
 			ac_special = "low-light vision, scent; sprint";
 		}
 	} else if (document.form1.ac_species[8].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a crocodile / alligator. "
+		document.form1.AnimalCompanionBox.value = "You chose a crocodile / alligator. ";
 		ac_species_name = "Crocodile / Alligator";
 		ac_strength = 15;
 		ac_dexterity = 14;
@@ -2465,11 +2463,11 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "bite (1d8) or tail slap (1d12)"
+			ac_attacks = "bite (1d8) or tail slap (1d12)";
 			ac_special = "low-light vision, grab, death roll, sprint";
 		}
 	} else if (document.form1.ac_species[9].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a deinonychus / velociraptor. "
+		document.form1.AnimalCompanionBox.value = "You chose a deinonychus / velociraptor. ";
 		ac_species_name = "Deinonychus / Velociraptor";
 		ac_strength = 11;
 		ac_dexterity = 17;
@@ -2489,11 +2487,11 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "2 talons (1d8), bite (1d6), 2 claws (1d4)"
+			ac_attacks = "2 talons (1d8), bite (1d6), 2 claws (1d4)";
 			ac_special = "low-light vision, scent, pounce";
 		}
 	} else if (document.form1.ac_species[10].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a dog. "
+		document.form1.AnimalCompanionBox.value = "You chose a dog. ";
 		ac_species_name = "Dog";
 		ac_strength = 13;
 		ac_dexterity = 17;
@@ -2513,10 +2511,10 @@ function AnimalCompanion() {
 			ac_strength += 4;
 			ac_dexterity -= 2;
 			ac_constitution += 2;
-			ac_attacks = "bite (1d6)"
+			ac_attacks = "bite (1d6)";
 		}
 	} else if (document.form1.ac_species[11].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a horse. "
+		document.form1.AnimalCompanionBox.value = "You chose a horse. ";
 		ac_species_name = "Horse";
 		ac_strength = 16;
 		ac_dexterity = 13;
@@ -2538,7 +2536,7 @@ function AnimalCompanion() {
 			ac_special = "low-light vision, scent, combat trained";
 		}
 	} else if (document.form1.ac_species[12].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a pony. "
+		document.form1.AnimalCompanionBox.value = "You chose a pony. ";
 		ac_species_name = "Pony";
 		ac_strength = 13;
 		ac_dexterity = 13;
@@ -2558,7 +2556,7 @@ function AnimalCompanion() {
 			ac_special = "low-light vision, scent, combat trained";
 		}
 	} else if (document.form1.ac_species[13].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a shark. "
+		document.form1.AnimalCompanionBox.value = "You chose a shark. ";
 		ac_species_name = "Shark";
 		ac_strength = 13;
 		ac_dexterity = 15;
@@ -2581,7 +2579,7 @@ function AnimalCompanion() {
 			ac_special = "low-light vision, scent, blindsense";
 		}
 	} else if (document.form1.ac_species[14].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a constrictor snake. "
+		document.form1.AnimalCompanionBox.value = "You chose a constrictor snake. ";
 		ac_species_name = "Constrictor Snake";
 		ac_strength = 15;
 		ac_dexterity = 17;
@@ -2604,7 +2602,7 @@ function AnimalCompanion() {
 			ac_special = "grab attack, constrict 1d4. low-light vision, scent";
 		}
 	} else if (document.form1.ac_species[15].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a viper. "
+		document.form1.AnimalCompanionBox.value = "You chose a viper. ";
 		ac_species_name = "Viper";
 		ac_strength = 8;
 		ac_dexterity = 17;
@@ -2628,7 +2626,7 @@ function AnimalCompanion() {
 			ac_special = "constrict 1d4. low-light vision, scent";
 		}
 	} else if (document.form1.ac_species[16].checked) {
-		document.form1.AnimalCompanionBox.value = "You chose a wolf. "
+		document.form1.AnimalCompanionBox.value = "You chose a wolf. ";
 		ac_species_name = "Wolf";
 		ac_strength = 13;
 		ac_dexterity = 15;
@@ -2651,7 +2649,7 @@ function AnimalCompanion() {
 			ac_attacks = "bite (1d4) plus poison 1 round (6)";
 		}
 	} else {
-		document.form1.AnimalCompanionBox.value = "Please choose your species. "
+		document.form1.AnimalCompanionBox.value = "Please choose your species. ";
 	}
 
 	if (animal_companion_level == 1) {
@@ -3143,7 +3141,7 @@ function AnimalCompanion() {
 	x += document.form1.ac_survival_list.selectedIndex;
 	x += document.form1.ac_swim_list.selectedIndex;
 
-	document.form1.AnimalCompanionBox.value += "  You may spend "
+	document.form1.AnimalCompanionBox.value += "  You may spend ";
 			+ ac_skill_points + " points on skills.  You have spent " + x
 			+ ".  ";
 
@@ -3160,12 +3158,12 @@ function AnimalCompanion() {
 	if (document.form1.ac_armorproficiencylight_box.checked) {
 		animal_feat_count++;
 	} else {
-		document.form1.ac_armorproficiencymedium_box.checked = false
+		document.form1.ac_armorproficiencymedium_box.checked = false;
 	}
 	if (document.form1.ac_armorproficiencymedium_box.checked) {
 		animal_feat_count++;
 	} else {
-		document.form1.ac_armorproficiencyheavy_box.checked = false
+		document.form1.ac_armorproficiencyheavy_box.checked = false;
 	}
 	if (document.form1.ac_armorproficiencyheavy_box.checked) {
 		animal_feat_count++;
@@ -3267,7 +3265,7 @@ function AnimalCompanion() {
 		animal_feat_count++;
 	}
 
-	document.form1.AnimalCompanionBox.value += "  You are allowed "
+	document.form1.AnimalCompanionBox.value += "  You are allowed ";
 			+ ac_feat_entitlement + " feats. You have " + animal_feat_count
 			+ ".  ";
 
@@ -3290,26 +3288,26 @@ function AnimalCompanion() {
 	if (!document.form1.ac_agilemaneuvers_box.checked) {
 		if (modifier_number(ac_strength) > 0) {
 			ac_CMB_string_2 += " + " + modifier_number(ac_strength)
-					+ " [strength] "
+					+ " [strength] ";
 		}
 		if (modifier_number(ac_strength) < 0) {
-			ac_CMB_string_2 += modifier_number(ac_strength) + " [strength] "
+			ac_CMB_string_2 += modifier_number(ac_strength) + " [strength] ";
 		}
 	}
 	if (document.form1.ac_agilemaneuvers_box.checked) {
 		if (modifier_number(ac_dexterity) > 0) {
 			ac_CMB_string_2 += " + " + modifier_number(ac_dexterity)
-					+ " [dexterity] "
+					+ " [dexterity] ";
 		}
 		if (modifier_number(ac_dexterity) < 0) {
-			ac_CMB_string_2 += modifier_number(ac_dexterity) + " [dexterity] "
+			ac_CMB_string_2 += modifier_number(ac_dexterity) + " [dexterity] ";
 		}
 	}
 	if (ac_small == true) {
-		ac_CMB_string_2 += "-1 [small] "
+		ac_CMB_string_2 += "-1 [small] ";
 	}
 	if (ac_large == true) {
-		ac_CMB_string_2 += "+1 [large] "
+		ac_CMB_string_2 += "+1 [large] ";
 	}
 
 	x = 20 + ac_bab + modifier_number(ac_strength)
@@ -3327,57 +3325,57 @@ function AnimalCompanion() {
 	ac_CMD_string_2 = " = 20 +" + ac_bab + " [base] ";
 	if (modifier_number(ac_strength) > 0) {
 		ac_CMD_string_2 += " + " + modifier_number(ac_strength)
-				+ " [strength] "
+				+ " [strength] ";
 	}
 	if (modifier_number(ac_strength) < 0) {
-		ac_CMD_string_2 += modifier_number(ac_strength) + " [strength] "
+		ac_CMD_string_2 += modifier_number(ac_strength) + " [strength] ";
 	}
 	if (modifier_number(ac_dexterity) > 0) {
 		ac_CMD_string_2 += " + " + modifier_number(ac_dexterity)
-				+ " [dexterity] "
+				+ " [dexterity] ";
 	}
 	if (modifier_number(ac_dexterity) < 0) {
-		ac_CMD_string_2 += modifier_number(ac_dexterity) + " [dexterity] "
+		ac_CMD_string_2 += modifier_number(ac_dexterity) + " [dexterity] ";
 	}
 	if (ac_small == true) {
-		ac_CMD_string_2 += "-1 [small] "
+		ac_CMD_string_2 += "-1 [small] ";
 	}
 	if (ac_large == true) {
-		ac_CMD_string_2 += "+1 [large] "
+		ac_CMD_string_2 += "+1 [large] ";
 	}
 
 }
 
 function SorcererFeatRecommendations() {
 	if (has_aberrant_bloodline) {
-		document.form1.feat.value += "\rWith your aberrant bloodline, try to choose combat casting, improved disarm, improved grapple, improved initiative, improved unarmed strike, iron will, silent spell, skill focus knowledge dungeoneering, as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your aberrant bloodline, try to choose combat casting, improved disarm, improved grapple, improved initiative, improved unarmed strike, iron will, silent spell, skill focus knowledge dungeoneering, as you qualify.\r\r";
 	}
 	if (has_abyssal_bloodline) {
-		document.form1.feat.value += "\rWith your abyssal bloodline, try to choose augment summoning, cleave, empower spell, great fortitude, improved bull rush, improved sunder, power attack, skill focus knowledge planes as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your abyssal bloodline, try to choose augment summoning, cleave, empower spell, great fortitude, improved bull rush, improved sunder, power attack, skill focus knowledge planes as you qualify.\r\r";
 	}
 	if (has_arcane_bloodline) {
-		document.form1.feat.value += "\rWith your arcane bloodline, try to choose combat casting, improved counterspell, improved initiative, iron will, scribe scroll, skill focus knowledge arcana, spell focus, still spell as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your arcane bloodline, try to choose combat casting, improved counterspell, improved initiative, iron will, scribe scroll, skill focus knowledge arcana, spell focus, still spell as you qualify.\r\r";
 	}
 	if (has_celestial_bloodline) {
-		document.form1.feat.value += "\rWith your celestial bloodline, try to choose dodge, extend spell, iron will, mobility, mounted combat, ride-by attack, skill focus knowledge religion, weapon finesse as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your celestial bloodline, try to choose dodge, extend spell, iron will, mobility, mounted combat, ride-by attack, skill focus knowledge religion, weapon finesse as you qualify.\r\r";
 	}
 	if (has_destined_bloodline) {
-		document.form1.feat.value += "\rWith your destined bloodline, try to choose arcane strike, diehard, endurance, leadership, lighting reflexes, maximize spel, skill focus knowledge history, weapon focus as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your destined bloodline, try to choose arcane strike, diehard, endurance, leadership, lighting reflexes, maximize spel, skill focus knowledge history, weapon focus as you qualify.\r\r";
 	}
 	if (has_draconic_bloodline) {
-		document.form1.feat.value += "\rWith your draconic bloodline, try to choose blindfight, great fortitude, improved initiative, power attack, quicken spell, skill focus fly, skill focus knowledge arcana, toughness as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your draconic bloodline, try to choose blindfight, great fortitude, improved initiative, power attack, quicken spell, skill focus fly, skill focus knowledge arcana, toughness as you qualify.\r\r";
 	}
 	if (has_elemental_bloodline) {
-		document.form1.feat.value += "\rWith your elemental bloodline, try to choose dodge, empower speoo, great fortitude, improved initiative, lightning reflexes, power attack, skill focus knowledge planes, weapon finesse as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your elemental bloodline, try to choose dodge, empower speoo, great fortitude, improved initiative, lightning reflexes, power attack, skill focus knowledge planes, weapon finesse as you qualify.\r\r";
 	}
 	if (has_fey_bloodline) {
-		document.form1.feat.value += "\rWith your fey bloodling, try to choose dodge, improved initiative, lightning reflexes, mobility, point blank shot, precise shot, quicken spell, skil focus knowledge nature as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your fey bloodling, try to choose dodge, improved initiative, lightning reflexes, mobility, point blank shot, precise shot, quicken spell, skil focus knowledge nature as you qualify.\r\r";
 	}
 	if (has_infernal_bloodline) {
-		document.form1.feat.value += "\rWith your infernal bloodline, try to choose blindfight, combat expertise, deceitful, extend spell, improved disarm, iron will, skill focus knowledge planes, spell penetration as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your infernal bloodline, try to choose blindfight, combat expertise, deceitful, extend spell, improved disarm, iron will, skill focus knowledge planes, spell penetration as you qualify.\r\r";
 	}
 	if (has_undead_bloodline) {
-		document.form1.feat.value += "\rWith your undead bloodline, try to choose combat casting, diehard, endurance, iron will, skill focus knowledge religion, spell focus, still spell, toughness as you qualify.\r\r"
+		document.form1.feat.value += "\rWith your undead bloodline, try to choose combat casting, diehard, endurance, iron will, skill focus knowledge religion, spell focus, still spell, toughness as you qualify.\r\r";
 	}
 }
 
@@ -5252,12 +5250,12 @@ function LightVariableFeatStars() {
 
 function DoFavoredClassPoints() {
 	document.form1.favored_for_hit_points.length = 0;
-	for (x = 0; x <= favored_class_point_total; x++) {
+	for (var x = 0; x <= favored_class_point_total; x++) {
 		document.form1.favored_for_hit_points.options[x] = new Option(x);
 	}
 	document.form1.favored_for_hit_points.options[favored_class_point_total].selected = true;
 	document.form1.favored_for_skill_points.length = 0;
-	for (x = 0; x <= favored_class_point_total; x++) {
+	for (var x = 0; x <= favored_class_point_total; x++) {
 		document.form1.favored_for_skill_points.options[x] = new Option(x);
 	}
 	document.form1.favored_for_skill_points.options[0].selected = true;
@@ -6294,10 +6292,10 @@ function AdjustRangerFoes() {
 	document.form1.rf_plant_list.length = 0;
 	document.form1.rf_undead_list.length = 0;
 	document.form1.rf_vermin_list.length = 0;
-	for (x = 0; x <= ranger_foe_length; x++) {
+	for (var x = 0; x <= ranger_foe_length; x++) {
 		stringy = " + " + (2 * x);
 		if (x == 0) {
-			stringy = "--"
+			stringy = "--";
 		}
 		document.form1.rf_aberration_list.options[x] = new Option(stringy);
 		document.form1.rf_animal_list.options[x] = new Option(stringy);
@@ -6398,10 +6396,10 @@ function AdjustRangerTerrains() {
 	document.form1.rt_urban_list.length = 0;
 	document.form1.rt_water_list.length = 0;
 
-	for (x = 0; x <= ranger_terrain_length; x++) {
+	for (var x = 0; x <= ranger_terrain_length; x++) {
 		stringy = " + " + (2 * x);
 		if (x == 0) {
-			stringy = "--"
+			stringy = "--";
 		}
 		document.form1.rt_cold_list.options[x] = new Option(stringy);
 		document.form1.rt_desert_list.options[x] = new Option(stringy);
@@ -6880,7 +6878,7 @@ function ArrowShow() {
 	}
 
 	if (ClassesHaveBeenEstablished == true) {
-		document.form1.favored_arrow.src = "dragongrayleft.gif"
+		document.form1.favored_arrow.src = "dragongrayleft.gif";
 	}
 
 	else {
@@ -7079,7 +7077,7 @@ function ThisTakesAMoment() {
 	if (total_levels == 0) {
 		return;
 	}
-	document.form1.second_comment_box.value = "Ready to accept.  This takes just a moment."
+	document.form1.second_comment_box.value = "Ready to accept.  This takes just a moment.";
 }
 
 function InitializeIntelligences() {
@@ -7117,7 +7115,7 @@ function EmptyPrestigeClassOptions() {
 }
 
 function RememberPrestigeClassOptions() {
-	EmptyPrestigeClassOptions()
+	EmptyPrestigeClassOptions();
 	document.form1.prestige_name.value = prestige_class_name;
 	if (prestige_hit_point_dice == 4) {
 		document.form1.prestige_hit_dice[0].checked = true;
@@ -7426,7 +7424,7 @@ function PrestigeClass() {
 function SumOfModifiers() {
 	return (modifier_number(stat1) + modifier_number(stat2)
 			+ modifier_number(stat3) + modifier_number(stat4)
-			+ modifier_number(stat5) + modifier_number(stat6))
+			+ modifier_number(stat5) + modifier_number(stat6));
 }
 
 function AdjustIfTooLow4() {
@@ -7442,7 +7440,7 @@ function AdjustIfTooLow4() {
 }
 
 function RaiseARandomStatistic() {
-	x = Math.floor(6 * Math.random())
+	x = Math.floor(6 * Math.random());
 	switch (x) {
 	case 0: {
 		if (stat1 < 18) {
@@ -7757,7 +7755,7 @@ function x_and_heft() {
 	}
 	heft = x;
 	if (small == true) {
-		heft = Math.round(x * 3 / 4)
+		heft = Math.round(x * 3 / 4);
 	}
 }
 
@@ -7888,28 +7886,28 @@ function AdjustHeight() {
 	if ((rayce == 1) | (rayce == 7) | (rayce == 22) | (rayce == 28)
 			| (rayce == 29) | (rayce == 30) | (rayce == 31) | (rayce == 32)
 			| (rayce == 33) | (rayce == 9))
-	// Your selected index 2'8" = 1
-	// 3' = 5
-	// 4' = 17
-	// 5' = 29
-	// 6' = 41
-	// 7' = 53
-	// male humans 5' to 6'8"
+	// Your selected index 2'8" = 1;
+	// 3' = 5;
+	// 4' = 17;
+	// 5' = 29;
+	// 6' = 41;
+	// 7' = 53;
+	// male humans 5' to 6'8";
 	{
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 29) {
-				document.form1.how_tall.selectedIndex = 29
+				document.form1.how_tall.selectedIndex = 29;
 			}
 			if (document.form1.how_tall.selectedIndex > 49) {
-				document.form1.how_tall.selectedIndex = 49
+				document.form1.how_tall.selectedIndex = 49;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 24) {
-				document.form1.how_tall.selectedIndex = 24
+				document.form1.how_tall.selectedIndex = 24;
 			}
 			if (document.form1.how_tall.selectedIndex > 44) {
-				document.form1.how_tall.selectedIndex = 44
+				document.form1.how_tall.selectedIndex = 44;
 			}
 		}
 	}
@@ -7918,18 +7916,18 @@ function AdjustHeight() {
 	{
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 33) {
-				document.form1.how_tall.selectedIndex = 33
+				document.form1.how_tall.selectedIndex = 33;
 			}
 			if (document.form1.how_tall.selectedIndex > 47) {
-				document.form1.how_tall.selectedIndex = 47
+				document.form1.how_tall.selectedIndex = 47;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 31) {
-				document.form1.how_tall.selectedIndex = 31
+				document.form1.how_tall.selectedIndex = 31;
 			}
 			if (document.form1.how_tall.selectedIndex > 45) {
-				document.form1.how_tall.selectedIndex = 45
+				document.form1.how_tall.selectedIndex = 45;
 			}
 		}
 	}
@@ -7938,18 +7936,18 @@ function AdjustHeight() {
 	{
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 35) {
-				document.form1.how_tall.selectedIndex = 35
+				document.form1.how_tall.selectedIndex = 35;
 			}
 			if (document.form1.how_tall.selectedIndex > 49) {
-				document.form1.how_tall.selectedIndex = 49
+				document.form1.how_tall.selectedIndex = 49;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 35) {
-				document.form1.how_tall.selectedIndex = 35
+				document.form1.how_tall.selectedIndex = 35;
 			}
 			if (document.form1.how_tall.selectedIndex > 45) {
-				document.form1.how_tall.selectedIndex = 45
+				document.form1.how_tall.selectedIndex = 45;
 			}
 		}
 	}
@@ -7958,59 +7956,59 @@ function AdjustHeight() {
 	{
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 16) {
-				document.form1.how_tall.selectedIndex = 16
+				document.form1.how_tall.selectedIndex = 16;
 			}
 			if (document.form1.how_tall.selectedIndex > 22) {
-				document.form1.how_tall.selectedIndex = 22
+				document.form1.how_tall.selectedIndex = 22;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 14) {
-				document.form1.how_tall.selectedIndex = 14
+				document.form1.how_tall.selectedIndex = 14;
 			}
 			if (document.form1.how_tall.selectedIndex > 20) {
-				document.form1.how_tall.selectedIndex = 20
+				document.form1.how_tall.selectedIndex = 20;
 			}
 		}
 	}
 	if (rayce == 5) {
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 7) {
-				document.form1.how_tall.selectedIndex = 7
+				document.form1.how_tall.selectedIndex = 7;
 			}
 			if (document.form1.how_tall.selectedIndex > 13) {
-				document.form1.how_tall.selectedIndex = 13
+				document.form1.how_tall.selectedIndex = 13;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 5) {
-				document.form1.how_tall.selectedIndex = 5
+				document.form1.how_tall.selectedIndex = 5;
 			}
 			if (document.form1.how_tall.selectedIndex > 11) {
-				document.form1.how_tall.selectedIndex = 11
+				document.form1.how_tall.selectedIndex = 11;
 			}
 		}
 	}
 	if (rayce == 6) {
 		if (gender == 1) {
 			if (document.form1.how_tall.selectedIndex < 3) {
-				document.form1.how_tall.selectedIndex = 3
+				document.form1.how_tall.selectedIndex = 3;
 			}
 			if (document.form1.how_tall.selectedIndex > 9) {
-				document.form1.how_tall.selectedIndex = 9
+				document.form1.how_tall.selectedIndex = 9;
 			}
 		}
 		if (gender == 2) {
 			if (document.form1.how_tall.selectedIndex < 1) {
-				document.form1.how_tall.selectedIndex = 1
+				document.form1.how_tall.selectedIndex = 1;
 			}
 			if (document.form1.how_tall.selectedIndex > 7) {
-				document.form1.how_tall.selectedIndex = 7
+				document.form1.how_tall.selectedIndex = 7;
 			}
 		}
 	}
 
-	GetIdealWeight()
+	GetIdealWeight();
 }
 
 function GetIdealWeight() {
@@ -8091,84 +8089,84 @@ function RandomHeight() {
 	if ((rayce == 1) | (rayce == 22) | (rayce == 28) | (rayce == 29)
 			| (rayce == 30) | (rayce == 31) | (rayce == 32) | (rayce == 33)) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 29
+			document.form1.how_tall.selectedIndex = 29;
 					+ Math.floor(10 * Math.random())
 					+ Math.floor(10 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 24
+			document.form1.how_tall.selectedIndex = 24;
 					+ Math.floor(10 * Math.random())
 					+ Math.floor(10 * Math.random());
 		}
 	}
 	if (rayce == 2) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 26
+			document.form1.how_tall.selectedIndex = 26;
 					+ Math.floor(8 * Math.random())
 					+ Math.floor(8 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 24
+			document.form1.how_tall.selectedIndex = 24;
 					+ Math.floor(8 * Math.random())
 					+ Math.floor(8 * Math.random());
 		}
 	}
 	if ((rayce == 3) | (rayce == 12)) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 24
+			document.form1.how_tall.selectedIndex = 24;
 					+ Math.floor(6 * Math.random())
 					+ Math.floor(6 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 24
+			document.form1.how_tall.selectedIndex = 24;
 					+ Math.floor(6 * Math.random())
 					+ Math.floor(6 * Math.random());
 		}
 	}
 	if (rayce == 4) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 16
+			document.form1.how_tall.selectedIndex = 16;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 14
+			document.form1.how_tall.selectedIndex = 14;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 	}
 	if (rayce == 5) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 7
+			document.form1.how_tall.selectedIndex = 7;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 5
+			document.form1.how_tall.selectedIndex = 5;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 	}
 	if (rayce == 6) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 3
+			document.form1.how_tall.selectedIndex = 3;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 1
+			document.form1.how_tall.selectedIndex = 1;
 					+ Math.floor(4 * Math.random())
 					+ Math.floor(4 * Math.random());
 		}
 	}
 	if (rayce == 7) {
 		if (gender == 1) {
-			document.form1.how_tall.selectedIndex = 29
+			document.form1.how_tall.selectedIndex = 29;
 					+ Math.floor(12 * Math.random())
 					+ Math.floor(12 * Math.random());
 		}
 		if (gender == 2) {
-			document.form1.how_tall.selectedIndex = 22
+			document.form1.how_tall.selectedIndex = 22;
 					+ Math.floor(12 * Math.random())
 					+ Math.floor(12 * Math.random());
 		}
@@ -8180,16 +8178,16 @@ function RandomHeight() {
 function ClassNeeds() {
 
 	if ((wizard_levels > 0) & (document.form1.spellbook.selectedIndex == 0)) {
-		document.form1.spellbook.selectedIndex = 1
+		document.form1.spellbook.selectedIndex = 1;
 	}
 	if (druid_levels > 0) {
 		document.form1.hollyandmistletoe.checked = true;
 	}
 	if ((rogue_levels > 0) | (disabledevice > 0)) {
-		document.form1.thievestools.checked = true
+		document.form1.thievestools.checked = true;
 	}
 	if (bard_levels > 0) {
-		document.form1.musicalinstrument.checked = true
+		document.form1.musicalinstrument.checked = true;
 	}
 
 	if (((bard_levels > 0) | (cleric_levels > 0) | (druid_levels > 0)
@@ -8205,11 +8203,11 @@ function RollSomeDice() {
 	if ((stat1 != 0) | (stat2 != 0) | (stat3 != 0) | (stat4 != 0)
 			| (stat5 != 0) | (stat6 != 0)) {
 		if (rayce != 0) {
-			startup()
+			startup();
 		}
 	}
 	AbilitiesHaveBeenEstablished = false;
-	ClearAllAbilityAssignments()
+	ClearAllAbilityAssignments();
 	strength = 0;
 	intelligence = 0;
 	wisdom = 0;
@@ -8247,7 +8245,7 @@ function RollSomeDice() {
 		document.form1.stat6_list.selectedIndex = 0;
 		DiceHaveBeenRolled = true;
 	}
-	DisplayTrueStatistics()
+	DisplayTrueStatistics();
 	DiceHaveBeenRolled = true;
 	// if
 	// (document.form1.methods_list.selectedIndex!=4){document.form1.first_comment_box.value="Now
@@ -8279,33 +8277,33 @@ function NegateElevenClassLevels() {
 }
 
 function uncheck_feat_boxes() {
-	document.form1.acrobatic.checked = false
-	document.form1.agilemaneuvers.checked = false
-	document.form1.alertness.checked = false
-	document.form1.animalaffinity.checked = false
-	document.form1.arcanestrike.checked = false
-	document.form1.armorproficiencylight.checked = false
-	document.form1.armorproficiencymedium.checked = false
-	document.form1.armorproficiencyheavy.checked = false
-	document.form1.athletic.checked = false
-	document.form1.augmentsummoning.checked = false
-	document.form1.blindfight.checked = false
-	document.form1.combatcasting.checked = false
-	document.form1.combatexpertise.checked = false
-	document.form1.improveddisarm.checked = false
-	document.form1.improvedfeint.checked = false
-	document.form1.improvedtrip.checked = false
-	document.form1.whirlwindattack.checked = false
-	document.form1.combatreflexes.checked = false
-	document.form1.deceitful.checked = false
-	document.form1.defthands.checked = false
-	document.form1.dodge.checked = false
-	document.form1.mobility.checked = false
-	document.form1.springattack.checked = false
-	document.form1.endurance.checked = false
-	document.form1.diehard.checked = false
-	document.form1.eschewmaterials.checked = false
-	document.form1.exoticweaponproficiency.checked = false
+	document.form1.acrobatic.checked = false;
+	document.form1.agilemaneuvers.checked = false;
+	document.form1.alertness.checked = false;
+	document.form1.animalaffinity.checked = false;
+	document.form1.arcanestrike.checked = false;
+	document.form1.armorproficiencylight.checked = false;
+	document.form1.armorproficiencymedium.checked = false;
+	document.form1.armorproficiencyheavy.checked = false;
+	document.form1.athletic.checked = false;
+	document.form1.augmentsummoning.checked = false;
+	document.form1.blindfight.checked = false;
+	document.form1.combatcasting.checked = false;
+	document.form1.combatexpertise.checked = false;
+	document.form1.improveddisarm.checked = false;
+	document.form1.improvedfeint.checked = false;
+	document.form1.improvedtrip.checked = false;
+	document.form1.whirlwindattack.checked = false;
+	document.form1.combatreflexes.checked = false;
+	document.form1.deceitful.checked = false;
+	document.form1.defthands.checked = false;
+	document.form1.dodge.checked = false;
+	document.form1.mobility.checked = false;
+	document.form1.springattack.checked = false;
+	document.form1.endurance.checked = false;
+	document.form1.diehard.checked = false;
+	document.form1.eschewmaterials.checked = false;
+	document.form1.exoticweaponproficiency.checked = false;
 	document.form1.toughness.checked = false;
 	has_extrachannel = 0;
 	document.form1.extrachannel_list.selectedIndex = 0;
@@ -8321,148 +8319,148 @@ function uncheck_feat_boxes() {
 	document.form1.extrarage_list.selectedIndex = 0;
 	has_spellmastery = 0;
 	document.form1.spellmastery_list.selectedIndex = 0;
-	document.form1.greatfortitude.checked = false
-	document.form1.improvedcounterspell.checked = false
+	document.form1.greatfortitude.checked = false;
+	document.form1.improvedcounterspell.checked = false;
 	has_improvedcritical = 0;
 	document.form1.improvedcritical_list.selectedIndex = 0;
-	document.form1.improvedinitiative.checked = false
-	document.form1.improvedunarmedstrike.checked = false
-	document.form1.improvedgrapple.checked = false
-	document.form1.deflectarrows.checked = false
-	document.form1.snatcharrows.checked = false
-	document.form1.stunningfist.checked = false
-	document.form1.ironwill.checked = false
-	document.form1.leadership.checked = false
-	document.form1.lightningreflexes.checked = false
-	document.form1.magicalaptitude.checked = false
-	document.form1.martialweaponproficiency.checked = false
-	document.form1.mountedcombat.checked = false
-	document.form1.mountedarchery.checked = false
-	document.form1.ridebyattack.checked = false
-	document.form1.spiritedcharge.checked = false
-	document.form1.trample.checked = false
-	document.form1.naturalspell.checked = false
-	document.form1.persuasive.checked = false
-	document.form1.pointblankshot.checked = false
-	document.form1.farshot.checked = false
-	document.form1.preciseshot.checked = false
-	document.form1.rapidshot.checked = false
-	document.form1.manyshot.checked = false
-	document.form1.shotontherun.checked = false
-	document.form1.improvedpreciseshot.checked = false
-	document.form1.powerattack.checked = false
-	document.form1.cleave.checked = false
-	document.form1.greatcleave.checked = false
-	document.form1.improvedbullrush.checked = false
-	document.form1.improvedoverrun.checked = false
-	document.form1.improvedsunder.checked = false
-	document.form1.quickdraw.checked = false
-	document.form1.rapidreload.checked = false
-	document.form1.run.checked = false
-	document.form1.selfsufficient.checked = false
-	document.form1.shieldproficiency.checked = false
-	document.form1.improvedshieldbash.checked = false
-	document.form1.towershieldproficiency.checked = false
-	document.form1.simpleweaponproficiency.checked = false
-	document.form1.skillfocusappraise.checked = false
-	document.form1.skillfocusbluff.checked = false
-	document.form1.skillfocusclimb.checked = false
-	document.form1.skillfocusacrobatics.checked = false
-	document.form1.skillfocuscraft_1.checked = false
-	document.form1.skillfocuscraft_2.checked = false
-	document.form1.skillfocuscraft_3.checked = false
-	document.form1.skillfocusdiplomacy.checked = false
-	document.form1.skillfocusdisabledevice.checked = false
-	document.form1.skillfocusdisguise.checked = false
-	document.form1.skillfocusescapeartist.checked = false
-	document.form1.skillfocusfly.checked = false
-	document.form1.skillfocushandleanimal.checked = false
-	document.form1.skillfocusheal.checked = false
-	document.form1.skillfocusstealth.checked = false
-	document.form1.skillfocusintimidate.checked = false
-	document.form1.skillfocusknowledgearcana.checked = false
-	document.form1.skillfocusknowledgeengineering.checked = false
-	document.form1.skillfocusknowledgedungeoneering.checked = false
-	document.form1.skillfocusknowledgegeography.checked = false
-	document.form1.skillfocusknowledgehistory.checked = false
-	document.form1.skillfocusknowledgelocal.checked = false
-	document.form1.skillfocusknowledgenature.checked = false
-	document.form1.skillfocusknowledgenobility.checked = false
-	document.form1.skillfocusknowledgereligion.checked = false
-	document.form1.skillfocusknowledgeplanes.checked = false
-	document.form1.skillfocuslinguistics.checked = false
-	document.form1.skillfocusperception.checked = false
-	document.form1.skillfocusperform_1.checked = false
-	document.form1.skillfocusperform_2.checked = false
-	document.form1.skillfocusperform_3.checked = false
-	document.form1.skillfocusperform_4.checked = false
-	document.form1.skillfocusperform_5.checked = false
-	document.form1.skillfocusprofession.checked = false
-	document.form1.skillfocusride.checked = false
-	document.form1.skillfocussensemotive.checked = false
-	document.form1.skillfocussleightofhand.checked = false
-	document.form1.skillfocusspellcraft.checked = false
-	document.form1.skillfocussurvival.checked = false
-	document.form1.skillfocusswim.checked = false
-	document.form1.skillfocususemagicdevice.checked = false
-	document.form1.spellfocusabjuration.checked = false
-	document.form1.spellfocusconjuration.checked = false
-	document.form1.spellfocusdivination.checked = false
-	document.form1.spellfocusenchantment.checked = false
-	document.form1.spellfocusevocation.checked = false
-	document.form1.spellfocusillusion.checked = false
-	document.form1.spellfocusnecromancy.checked = false
-	document.form1.spellfocustransmutation.checked = false
-	document.form1.greaterspellfocusabjuration.checked = false
-	document.form1.greaterspellfocusconjuration.checked = false
-	document.form1.greaterspellfocusdivination.checked = false
-	document.form1.greaterspellfocusenchantment.checked = false
-	document.form1.greaterspellfocusevocation.checked = false
-	document.form1.greaterspellfocusillusion.checked = false
-	document.form1.greaterspellfocusnecromancy.checked = false
-	document.form1.greaterspellfocustransmutation.checked = false
-	document.form1.spellpenetration.checked = false
-	document.form1.greaterspellpenetration.checked = false
-	document.form1.stealthy.checked = false
-	document.form1.stepup.checked = false
-	document.form1.strikeback.checked = false
-	document.form1.throwanything.checked = false
-	document.form1.twoweaponfighting.checked = false
-	document.form1.twoweapondefense.checked = false
-	document.form1.improvedtwoweaponfighting.checked = false
-	document.form1.greatertwoweaponfighting.checked = false
+	document.form1.improvedinitiative.checked = false;
+	document.form1.improvedunarmedstrike.checked = false;
+	document.form1.improvedgrapple.checked = false;
+	document.form1.deflectarrows.checked = false;
+	document.form1.snatcharrows.checked = false;
+	document.form1.stunningfist.checked = false;
+	document.form1.ironwill.checked = false;
+	document.form1.leadership.checked = false;
+	document.form1.lightningreflexes.checked = false;
+	document.form1.magicalaptitude.checked = false;
+	document.form1.martialweaponproficiency.checked = false;
+	document.form1.mountedcombat.checked = false;
+	document.form1.mountedarchery.checked = false;
+	document.form1.ridebyattack.checked = false;
+	document.form1.spiritedcharge.checked = false;
+	document.form1.trample.checked = false;
+	document.form1.naturalspell.checked = false;
+	document.form1.persuasive.checked = false;
+	document.form1.pointblankshot.checked = false;
+	document.form1.farshot.checked = false;
+	document.form1.preciseshot.checked = false;
+	document.form1.rapidshot.checked = false;
+	document.form1.manyshot.checked = false;
+	document.form1.shotontherun.checked = false;
+	document.form1.improvedpreciseshot.checked = false;
+	document.form1.powerattack.checked = false;
+	document.form1.cleave.checked = false;
+	document.form1.greatcleave.checked = false;
+	document.form1.improvedbullrush.checked = false;
+	document.form1.improvedoverrun.checked = false;
+	document.form1.improvedsunder.checked = false;
+	document.form1.quickdraw.checked = false;
+	document.form1.rapidreload.checked = false;
+	document.form1.run.checked = false;
+	document.form1.selfsufficient.checked = false;
+	document.form1.shieldproficiency.checked = false;
+	document.form1.improvedshieldbash.checked = false;
+	document.form1.towershieldproficiency.checked = false;
+	document.form1.simpleweaponproficiency.checked = false;
+	document.form1.skillfocusappraise.checked = false;
+	document.form1.skillfocusbluff.checked = false;
+	document.form1.skillfocusclimb.checked = false;
+	document.form1.skillfocusacrobatics.checked = false;
+	document.form1.skillfocuscraft_1.checked = false;
+	document.form1.skillfocuscraft_2.checked = false;
+	document.form1.skillfocuscraft_3.checked = false;
+	document.form1.skillfocusdiplomacy.checked = false;
+	document.form1.skillfocusdisabledevice.checked = false;
+	document.form1.skillfocusdisguise.checked = false;
+	document.form1.skillfocusescapeartist.checked = false;
+	document.form1.skillfocusfly.checked = false;
+	document.form1.skillfocushandleanimal.checked = false;
+	document.form1.skillfocusheal.checked = false;
+	document.form1.skillfocusstealth.checked = false;
+	document.form1.skillfocusintimidate.checked = false;
+	document.form1.skillfocusknowledgearcana.checked = false;
+	document.form1.skillfocusknowledgeengineering.checked = false;
+	document.form1.skillfocusknowledgedungeoneering.checked = false;
+	document.form1.skillfocusknowledgegeography.checked = false;
+	document.form1.skillfocusknowledgehistory.checked = false;
+	document.form1.skillfocusknowledgelocal.checked = false;
+	document.form1.skillfocusknowledgenature.checked = false;
+	document.form1.skillfocusknowledgenobility.checked = false;
+	document.form1.skillfocusknowledgereligion.checked = false;
+	document.form1.skillfocusknowledgeplanes.checked = false;
+	document.form1.skillfocuslinguistics.checked = false;
+	document.form1.skillfocusperception.checked = false;
+	document.form1.skillfocusperform_1.checked = false;
+	document.form1.skillfocusperform_2.checked = false;
+	document.form1.skillfocusperform_3.checked = false;
+	document.form1.skillfocusperform_4.checked = false;
+	document.form1.skillfocusperform_5.checked = false;
+	document.form1.skillfocusprofession.checked = false;
+	document.form1.skillfocusride.checked = false;
+	document.form1.skillfocussensemotive.checked = false;
+	document.form1.skillfocussleightofhand.checked = false;
+	document.form1.skillfocusspellcraft.checked = false;
+	document.form1.skillfocussurvival.checked = false;
+	document.form1.skillfocusswim.checked = false;
+	document.form1.skillfocususemagicdevice.checked = false;
+	document.form1.spellfocusabjuration.checked = false;
+	document.form1.spellfocusconjuration.checked = false;
+	document.form1.spellfocusdivination.checked = false;
+	document.form1.spellfocusenchantment.checked = false;
+	document.form1.spellfocusevocation.checked = false;
+	document.form1.spellfocusillusion.checked = false;
+	document.form1.spellfocusnecromancy.checked = false;
+	document.form1.spellfocustransmutation.checked = false;
+	document.form1.greaterspellfocusabjuration.checked = false;
+	document.form1.greaterspellfocusconjuration.checked = false;
+	document.form1.greaterspellfocusdivination.checked = false;
+	document.form1.greaterspellfocusenchantment.checked = false;
+	document.form1.greaterspellfocusevocation.checked = false;
+	document.form1.greaterspellfocusillusion.checked = false;
+	document.form1.greaterspellfocusnecromancy.checked = false;
+	document.form1.greaterspellfocustransmutation.checked = false;
+	document.form1.spellpenetration.checked = false;
+	document.form1.greaterspellpenetration.checked = false;
+	document.form1.stealthy.checked = false;
+	document.form1.stepup.checked = false;
+	document.form1.strikeback.checked = false;
+	document.form1.throwanything.checked = false;
+	document.form1.twoweaponfighting.checked = false;
+	document.form1.twoweapondefense.checked = false;
+	document.form1.improvedtwoweaponfighting.checked = false;
+	document.form1.greatertwoweaponfighting.checked = false;
 	document.form1.weaponfinesse.checked = false;
-	document.form1.otherfeat1.checked = false
-	document.form1.otherfeat2.checked = false
-	document.form1.otherfeat3.checked = false
-	document.form1.otherfeat4.checked = false
-	document.form1.otherfeat5.checked = false
-	document.form1.otherfeat6.checked = false
-	document.form1.otherfeat7.checked = false
-	document.form1.otherfeat8.checked = false
-	document.form1.otherfeat9.checked = false
-	document.form1.otherfeat10.checked = false
-	document.form1.weaponfocus_list.selectedIndex = 0
-	document.form1.weaponspecialization_list.selectedIndex = 0
-	document.form1.greaterweaponfocus_list.selectedIndex = 0
-	document.form1.greaterweaponspecialization_list.selectedIndex = 0
-	document.form1.brewpotion.checked = false
-	document.form1.craftmaa.checked = false
-	document.form1.craftrod.checked = false
-	document.form1.craftstaff.checked = false
-	document.form1.craftwand.checked = false
-	document.form1.craftwondrousitem.checked = false
-	document.form1.forgering.checked = false
-	document.form1.scribescroll.checked = false
-	document.form1.empowerspell.checked = false
-	document.form1.enlargespell.checked = false
-	document.form1.extendspell.checked = false
-	document.form1.heightenspell.checked = false
-	document.form1.maximizespell.checked = false
-	document.form1.quickenspell.checked = false
-	document.form1.silentspell.checked = false
-	document.form1.stillspell.checked = false
-	document.form1.widenspell.checked = false
+	document.form1.otherfeat1.checked = false;
+	document.form1.otherfeat2.checked = false;
+	document.form1.otherfeat3.checked = false;
+	document.form1.otherfeat4.checked = false;
+	document.form1.otherfeat5.checked = false;
+	document.form1.otherfeat6.checked = false;
+	document.form1.otherfeat7.checked = false;
+	document.form1.otherfeat8.checked = false;
+	document.form1.otherfeat9.checked = false;
+	document.form1.otherfeat10.checked = false;
+	document.form1.weaponfocus_list.selectedIndex = 0;
+	document.form1.weaponspecialization_list.selectedIndex = 0;
+	document.form1.greaterweaponfocus_list.selectedIndex = 0;
+	document.form1.greaterweaponspecialization_list.selectedIndex = 0;
+	document.form1.brewpotion.checked = false;
+	document.form1.craftmaa.checked = false;
+	document.form1.craftrod.checked = false;
+	document.form1.craftstaff.checked = false;
+	document.form1.craftwand.checked = false;
+	document.form1.craftwondrousitem.checked = false;
+	document.form1.forgering.checked = false;
+	document.form1.scribescroll.checked = false;
+	document.form1.empowerspell.checked = false;
+	document.form1.enlargespell.checked = false;
+	document.form1.extendspell.checked = false;
+	document.form1.heightenspell.checked = false;
+	document.form1.maximizespell.checked = false;
+	document.form1.quickenspell.checked = false;
+	document.form1.silentspell.checked = false;
+	document.form1.stillspell.checked = false;
+	document.form1.widenspell.checked = false;
 	document.form1.alignmentchannel.checked = false;
 	document.form1.arcanearmortraining.checked = false;
 	document.form1.arcanearmormastery.checked = false;
@@ -8537,7 +8535,7 @@ function AdjustFeatMenus() {
 	if ((base_attack_bonus < 8) & (monk_levels < 10)) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.improvedcritical_list.options[x] = new Option(x);
 	}
 	document.form1.improvedcritical_list.options[0].selected = true;
@@ -8547,14 +8545,14 @@ function AdjustFeatMenus() {
 	if (wizard_levels == 0) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.spellmastery_list.options[x] = new Option(x);
 	}
 	document.form1.spellmastery_list.options[0].selected = true;
 
 	document.form1.weaponfocus_list.length = 0; // generic
 	z = genericfeatentitlement + fighterfeatentitlement;
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.weaponfocus_list.options[x] = new Option(x);
 	}
 	document.form1.weaponfocus_list.options[0].selected = true;
@@ -8564,7 +8562,7 @@ function AdjustFeatMenus() {
 	if (fighter_levels < 4) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.weaponspecialization_list.options[x] = new Option(x);
 	}
 	document.form1.weaponspecialization_list.options[0].selected = true;
@@ -8574,7 +8572,7 @@ function AdjustFeatMenus() {
 	if (fighter_levels < 8) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.greaterweaponfocus_list.options[x] = new Option(x);
 	}
 	document.form1.greaterweaponfocus_list.options[0].selected = true;
@@ -8584,7 +8582,7 @@ function AdjustFeatMenus() {
 	if (fighter_levels < 12) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.greaterweaponspecialization_list.options[x] = new Option(
 				x);
 	}
@@ -8596,7 +8594,7 @@ function AdjustFeatMenus() {
 			& (wizard_specialty_name != "Necromancer")) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extrachannel_list.options[x] = new Option(x);
 	}
 	document.form1.extrachannel_list.options[0].selected = true;
@@ -8606,7 +8604,7 @@ function AdjustFeatMenus() {
 	if (monk_levels < 4) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extraki_list.options[x] = new Option(x);
 	}
 	document.form1.extraki_list.options[0].selected = true;
@@ -8616,7 +8614,7 @@ function AdjustFeatMenus() {
 	if (paladin_levels < 2) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extralayonhands_list.options[x] = new Option(x);
 	}
 	document.form1.extralayonhands_list.options[0].selected = true;
@@ -8626,7 +8624,7 @@ function AdjustFeatMenus() {
 	if (paladin_levels < 3) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extramercy_list.options[x] = new Option(x);
 	}
 	document.form1.extramercy_list.options[0].selected = true;
@@ -8636,7 +8634,7 @@ function AdjustFeatMenus() {
 	if (bard_levels == 0) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extraperformance_list.options[x] = new Option(x);
 	}
 	document.form1.extraperformance_list.options[0].selected = true;
@@ -8646,7 +8644,7 @@ function AdjustFeatMenus() {
 	if (barbarian_levels == 0) {
 		z = 0;
 	}
-	for (x = 0; x <= z; x++) {
+	for ( var x = 0; x <= z; x++) {
 		document.form1.extrarage_list.options[x] = new Option(x);
 	}
 	document.form1.extrarage_list.options[0].selected = true;
@@ -8656,226 +8654,226 @@ function AdjustFeatMenus() {
 function AdjustSkillMenus() {
 	document.form1.appraise_list.length = 0;
 	z = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.appraise_list.options[x] = new Option(x);
 	}
 	document.form1.appraise_list.options[0].selected = true;
 	document.form1.bluff_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.bluff_list.options[x] = new Option(x);
 	}
 	document.form1.bluff_list.options[0].selected = true;
 	document.form1.climb_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.climb_list.options[x] = new Option(x);
 	}
 	document.form1.climb_list.options[0].selected = true;
 	document.form1.acrobatics_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.acrobatics_list.options[x] = new Option(x);
 	}
 	document.form1.acrobatics_list.options[0].selected = true;
 	document.form1.craft_1_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.craft_1_list.options[x] = new Option(x);
 	}
 	document.form1.craft_1_list.options[0].selected = true;
 	document.form1.craft_2_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.craft_2_list.options[x] = new Option(x);
 	}
 	document.form1.craft_2_list.options[0].selected = true;
 	document.form1.craft_3_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.craft_3_list.options[x] = new Option(x);
 	}
 	document.form1.craft_3_list.options[0].selected = true;
 	document.form1.diplomacy_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.diplomacy_list.options[x] = new Option(x);
 	}
 	document.form1.diplomacy_list.options[0].selected = true;
 	document.form1.disabledevice_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.disabledevice_list.options[x] = new Option(x);
 	}
 	document.form1.disabledevice_list.options[0].selected = true;
 	document.form1.disguise_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.disguise_list.options[x] = new Option(x);
 	}
 	document.form1.disguise_list.options[0].selected = true;
 	document.form1.escapeartist_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.escapeartist_list.options[x] = new Option(x);
 	}
 	document.form1.escapeartist_list.options[0].selected = true;
 	document.form1.fly_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.fly_list.options[x] = new Option(x);
 	}
 	document.form1.fly_list.options[0].selected = true;
 	document.form1.handleanimal_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.handleanimal_list.options[x] = new Option(x);
 	}
 	document.form1.handleanimal_list.options[0].selected = true;
 	document.form1.heal_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.heal_list.options[x] = new Option(x);
 	}
 	document.form1.heal_list.options[0].selected = true;
 	document.form1.stealth_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.stealth_list.options[x] = new Option(x);
 	}
 	document.form1.stealth_list.options[0].selected = true;
 	// document.form1.hypnosis_list.length=0;
-	// for (x=0; x<=total_levels + z; x++ ){
+	// for ( var x=0; x<=total_levels + z; x++ ){
 	// document.form1.hypnosis_list.options[x]=new Option(x); }
 	// document.form1.hypnosis_list.options[0].selected=true;
 	document.form1.intimidate_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.intimidate_list.options[x] = new Option(x);
 	}
 	document.form1.intimidate_list.options[0].selected = true;
 	document.form1.knowledgearcana_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgearcana_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgearcana_list.options[0].selected = true;
 	document.form1.knowledgeengineering_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgeengineering_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgeengineering_list.options[0].selected = true;
 	document.form1.knowledgedungeoneering_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgedungeoneering_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgedungeoneering_list.options[0].selected = true;
 	document.form1.knowledgegeography_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgegeography_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgegeography_list.options[0].selected = true;
 	document.form1.knowledgehistory_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgehistory_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgehistory_list.options[0].selected = true;
 	document.form1.knowledgelocal_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgelocal_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgelocal_list.options[0].selected = true;
 	document.form1.knowledgenature_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgenature_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgenature_list.options[0].selected = true;
 	document.form1.knowledgenobility_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgenobility_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgenobility_list.options[0].selected = true;
 	document.form1.knowledgereligion_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgereligion_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgereligion_list.options[0].selected = true;
 	document.form1.knowledgeplanes_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.knowledgeplanes_list.options[x] = new Option(x);
 	}
 	document.form1.knowledgeplanes_list.options[0].selected = true;
 	document.form1.perception_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perception_list.options[x] = new Option(x);
 	}
 	document.form1.perception_list.options[0].selected = true;
 	document.form1.perform_1_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perform_1_list.options[x] = new Option(x);
 	}
 	document.form1.perform_1_list.options[0].selected = true;
 	document.form1.perform_2_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perform_2_list.options[x] = new Option(x);
 	}
 	document.form1.perform_2_list.options[0].selected = true;
 	document.form1.perform_3_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perform_3_list.options[x] = new Option(x);
 	}
 	document.form1.perform_3_list.options[0].selected = true;
 	document.form1.perform_4_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perform_4_list.options[x] = new Option(x);
 	}
 	document.form1.perform_4_list.options[0].selected = true;
 	document.form1.perform_5_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.perform_5_list.options[x] = new Option(x);
 	}
 	document.form1.perform_5_list.options[0].selected = true;
 	document.form1.profession_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.profession_list.options[x] = new Option(x);
 	}
 	document.form1.profession_list.options[0].selected = true;
 	document.form1.ride_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.ride_list.options[x] = new Option(x);
 	}
 	document.form1.ride_list.options[0].selected = true;
 	document.form1.sensemotive_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.sensemotive_list.options[x] = new Option(x);
 	}
 	document.form1.sensemotive_list.options[0].selected = true;
 	document.form1.sleightofhand_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.sleightofhand_list.options[x] = new Option(x);
 	}
 	document.form1.sleightofhand_list.options[0].selected = true;
 	document.form1.linguistics_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.linguistics_list.options[x] = new Option(x);
 	}
 	document.form1.linguistics_list.options[0].selected = true;
 	document.form1.spellcraft_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.spellcraft_list.options[x] = new Option(x);
 	}
 	document.form1.spellcraft_list.options[0].selected = true;
 	document.form1.survival_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.survival_list.options[x] = new Option(x);
 	}
 	document.form1.survival_list.options[0].selected = true;
 	document.form1.swim_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.swim_list.options[x] = new Option(x);
 	}
 	document.form1.swim_list.options[0].selected = true;
 	document.form1.usemagicdevice_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.usemagicdevice_list.options[x] = new Option(x);
 	}
 	document.form1.usemagicdevice_list.options[0].selected = true;
 	document.form1.otherskill1_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.otherskill1_list.options[x] = new Option(x);
 	}
 	document.form1.otherskill1_list.options[0].selected = true;
 	document.form1.otherskill2_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.otherskill2_list.options[x] = new Option(x);
 	}
 	document.form1.otherskill2_list.options[0].selected = true;
 	document.form1.otherskill3_list.length = 0;
-	for (x = 0; x <= total_levels + z; x++) {
+	for ( var x = 0; x <= total_levels + z; x++) {
 		document.form1.otherskill3_list.options[x] = new Option(x);
 	}
 	document.form1.otherskill3_list.options[0].selected = true;
@@ -8893,7 +8891,7 @@ function AdjustSkillMenus() {
 	document.form1.ac_stealth_list.length = 0;
 	document.form1.ac_survival_list.length = 0;
 	document.form1.ac_swim_list.length = 0;
-	for (x = 0; x <= animal_companion_level; x++) {
+	for (var x = 0; x <= animal_companion_level; x++) {
 		document.form1.ac_acrobatics_list.options[x] = new Option(x);
 		document.form1.ac_climb_list.options[x] = new Option(x);
 		document.form1.ac_escapeartist_list.options[x] = new Option(x);
@@ -8947,7 +8945,7 @@ function Languages() {
 
 	if (document.form1.speak_aarakocra.checked == true) {
 		if (aarakocra_nativespeaker == true) {
-			document.form1.speak_aarakocra.checked = false
+			document.form1.speak_aarakocra.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (aarakocra_friendly == false) {
@@ -8966,7 +8964,7 @@ function Languages() {
 
 	if (document.form1.speak_aboleth.checked == true) {
 		if (aboleth_nativespeaker == true) {
-			document.form1.speak_aboleth.checked = false
+			document.form1.speak_aboleth.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (aboleth_friendly == false) {
@@ -9146,7 +9144,7 @@ function Languages() {
 
 	if (document.form1.speak_giant.checked == true) {
 		if (giant_nativespeaker == true) {
-			document.form1.speak_giant.checked = false
+			document.form1.speak_giant.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (giant_friendly == false) {
@@ -9165,7 +9163,7 @@ function Languages() {
 
 	if (document.form1.speak_gith.checked == true) {
 		if (gith_nativespeaker == true) {
-			document.form1.speak_gith.checked = false
+			document.form1.speak_gith.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (gith_friendly == false) {
@@ -9184,7 +9182,7 @@ function Languages() {
 
 	if (document.form1.speak_gnoll.checked == true) {
 		if (gnoll_nativespeaker == true) {
-			document.form1.speak_gnoll.checked = false
+			document.form1.speak_gnoll.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (gnoll_friendly == false) {
@@ -9222,7 +9220,7 @@ function Languages() {
 
 	if (document.form1.speak_goblin.checked == true) {
 		if (goblin_nativespeaker == true) {
-			document.form1.speak_goblin.checked = false
+			document.form1.speak_goblin.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (goblin_friendly == false) {
@@ -9310,7 +9308,7 @@ function Languages() {
 
 	if (document.form1.speak_pterran.checked == true) {
 		if (pterran_nativespeaker == true) {
-			document.form1.speak_pterran.checked = false
+			document.form1.speak_pterran.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (pterran_friendly == false) {
@@ -9379,7 +9377,7 @@ function Languages() {
 
 	if (document.form1.speak_thrikreen.checked == true) {
 		if (thrikreen_nativespeaker == true) {
-			document.form1.speak_thrikreen.checked = false
+			document.form1.speak_thrikreen.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (thrikreen_friendly == false) {
@@ -9413,7 +9411,7 @@ function Languages() {
 
 	if (document.form1.speak_xeph.checked == true) {
 		if (rayce == 104) {
-			document.form1.speak_xeph.checked = false
+			document.form1.speak_xeph.checked = false;
 		} else {
 			total_bonus_languages++;
 			if (xeph_friendly == false) {
@@ -9489,9 +9487,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (aarakocra_friendly))
 	// &((skillbought_bonus_languages>0r)|(aarakocra_friendly))
 	) {
-		document.form1.speak_aarakocra_star.src = "asterisk.gif"
+		document.form1.speak_aarakocra_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_aarakocra_star.src = "no_asterisk.gif"
+		document.form1.speak_aarakocra_star.src = "no_asterisk.gif";
 	}
 
 	if ((!aboleth_nativespeaker)
@@ -9499,9 +9497,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (aboleth_friendly))
 	// &((skillbought_bonus_languages>0r)|(aboleth_friendly))
 	) {
-		document.form1.speak_aboleth_star.src = "asterisk.gif"
+		document.form1.speak_aboleth_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_aboleth_star.src = "no_asterisk.gif"
+		document.form1.speak_aboleth_star.src = "no_asterisk.gif";
 	}
 
 	if ((!abyssal_nativespeaker)
@@ -9509,9 +9507,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (abyssal_friendly))
 	// &((skillbought_bonus_languages>0r)|(abyssal_friendly))
 	) {
-		document.form1.speak_abyssal_star.src = "asterisk.gif"
+		document.form1.speak_abyssal_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_abyssal_star.src = "no_asterisk.gif"
+		document.form1.speak_abyssal_star.src = "no_asterisk.gif";
 	}
 
 	if ((!aquan_nativespeaker)
@@ -9519,9 +9517,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (aquan_friendly))
 	// &((skillbought_bonus_languages>0r)|(aquan_friendly))
 	) {
-		document.form1.speak_aquan_star.src = "asterisk.gif"
+		document.form1.speak_aquan_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_aquan_star.src = "no_asterisk.gif"
+		document.form1.speak_aquan_star.src = "no_asterisk.gif";
 	}
 
 	if ((!aklo_nativespeaker)
@@ -9529,9 +9527,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (aklo_friendly))
 	// &((skillbought_bonus_languages>0r)|(aklo_friendly))
 	) {
-		document.form1.speak_aklo_star.src = "asterisk.gif"
+		document.form1.speak_aklo_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_aklo_star.src = "no_asterisk.gif"
+		document.form1.speak_aklo_star.src = "no_asterisk.gif";
 	}
 
 	if ((!auran_nativespeaker)
@@ -9539,9 +9537,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (auran_friendly))
 	// &((skillbought_bonus_languages>0r)|(auran_friendly))
 	) {
-		document.form1.speak_auran_star.src = "asterisk.gif"
+		document.form1.speak_auran_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_auran_star.src = "no_asterisk.gif"
+		document.form1.speak_auran_star.src = "no_asterisk.gif";
 	}
 
 	if ((!celestial_nativespeaker)
@@ -9549,9 +9547,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (celestial_friendly))
 	// &((skillbought_bonus_languages>0r)|(celestial_friendly))
 	) {
-		document.form1.speak_celestial_star.src = "asterisk.gif"
+		document.form1.speak_celestial_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_celestial_star.src = "no_asterisk.gif"
+		document.form1.speak_celestial_star.src = "no_asterisk.gif";
 	}
 
 	if ((!darkelfsilent_nativespeaker)
@@ -9559,9 +9557,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (darkelfsilent_friendly))
 	// &((skillbought_bonus_languages>0r)|(darkelfsilent_friendly))
 	) {
-		document.form1.speak_darkelfsilent_star.src = "asterisk.gif"
+		document.form1.speak_darkelfsilent_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_darkelfsilent_star.src = "no_asterisk.gif"
+		document.form1.speak_darkelfsilent_star.src = "no_asterisk.gif";
 	}
 
 	if ((!draconic_nativespeaker)
@@ -9569,9 +9567,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (draconic_friendly))
 	// &((skillbought_bonus_languages>0r)|(draconic_friendly))
 	) {
-		document.form1.speak_draconic_star.src = "asterisk.gif"
+		document.form1.speak_draconic_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_draconic_star.src = "no_asterisk.gif"
+		document.form1.speak_draconic_star.src = "no_asterisk.gif";
 	}
 
 	if ((!dwarven_nativespeaker)
@@ -9579,9 +9577,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (dwarven_friendly))
 	// &((skillbought_bonus_languages>0r)|(dwarven_friendly))
 	) {
-		document.form1.speak_dwarven_star.src = "asterisk.gif"
+		document.form1.speak_dwarven_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_dwarven_star.src = "no_asterisk.gif"
+		document.form1.speak_dwarven_star.src = "no_asterisk.gif";
 	}
 
 	if ((!common_nativespeaker)
@@ -9589,9 +9587,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (common_friendly))
 	// &((skillbought_bonus_languages>0r)|(common_friendly))
 	) {
-		document.form1.speak_common_star.src = "asterisk.gif"
+		document.form1.speak_common_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_common_star.src = "no_asterisk.gif"
+		document.form1.speak_common_star.src = "no_asterisk.gif";
 	}
 
 	if ((!elven_nativespeaker)
@@ -9599,9 +9597,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (elven_friendly))
 	// &((skillbought_bonus_languages>0r)|(elven_friendly))
 	) {
-		document.form1.speak_elven_star.src = "asterisk.gif"
+		document.form1.speak_elven_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_elven_star.src = "no_asterisk.gif"
+		document.form1.speak_elven_star.src = "no_asterisk.gif";
 	}
 
 	if ((!giant_nativespeaker)
@@ -9609,9 +9607,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (giant_friendly))
 	// &((skillbought_bonus_languages>0r)|(giant_friendly))
 	) {
-		document.form1.speak_giant_star.src = "asterisk.gif"
+		document.form1.speak_giant_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_giant_star.src = "no_asterisk.gif"
+		document.form1.speak_giant_star.src = "no_asterisk.gif";
 	}
 
 	if ((!gith_nativespeaker)
@@ -9619,9 +9617,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (gith_friendly))
 	// &((skillbought_bonus_languages>0r)|(gith_friendly))
 	) {
-		document.form1.speak_gith_star.src = "asterisk.gif"
+		document.form1.speak_gith_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_gith_star.src = "no_asterisk.gif"
+		document.form1.speak_gith_star.src = "no_asterisk.gif";
 	}
 
 	if ((!gnoll_nativespeaker)
@@ -9629,9 +9627,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (gnoll_friendly))
 	// &((skillbought_bonus_languages>0r)|(gnoll_friendly))
 	) {
-		document.form1.speak_gnoll_star.src = "asterisk.gif"
+		document.form1.speak_gnoll_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_gnoll_star.src = "no_asterisk.gif"
+		document.form1.speak_gnoll_star.src = "no_asterisk.gif";
 	}
 
 	if ((!gnome_nativespeaker)
@@ -9639,9 +9637,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (gnome_friendly))
 	// &((skillbought_bonus_languages>0r)|(gnome_friendly))
 	) {
-		document.form1.speak_gnome_star.src = "asterisk.gif"
+		document.form1.speak_gnome_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_gnome_star.src = "no_asterisk.gif"
+		document.form1.speak_gnome_star.src = "no_asterisk.gif";
 	}
 
 	if ((!goblin_nativespeaker)
@@ -9649,9 +9647,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (goblin_friendly))
 	// &((skillbought_bonus_languages>0r)|(goblin_friendly))
 	) {
-		document.form1.speak_goblin_star.src = "asterisk.gif"
+		document.form1.speak_goblin_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_goblin_star.src = "no_asterisk.gif"
+		document.form1.speak_goblin_star.src = "no_asterisk.gif";
 	}
 
 	if ((!halfling_nativespeaker)
@@ -9659,9 +9657,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (halfling_friendly))
 	// &((skillbought_bonus_languages>0r)|(halfling_friendly))
 	) {
-		document.form1.speak_halfling_star.src = "asterisk.gif"
+		document.form1.speak_halfling_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_halfling_star.src = "no_asterisk.gif"
+		document.form1.speak_halfling_star.src = "no_asterisk.gif";
 	}
 
 	if ((!ignan_nativespeaker)
@@ -9669,9 +9667,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (ignan_friendly))
 	// &((skillbought_bonus_languages>0r)|(ignan_friendly))
 	) {
-		document.form1.speak_ignan_star.src = "asterisk.gif"
+		document.form1.speak_ignan_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_ignan_star.src = "no_asterisk.gif"
+		document.form1.speak_ignan_star.src = "no_asterisk.gif";
 	}
 
 	if ((!infernal_nativespeaker)
@@ -9679,9 +9677,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (infernal_friendly))
 	// &((skillbought_bonus_languages>0r)|(infernal_friendly))
 	) {
-		document.form1.speak_infernal_star.src = "asterisk.gif"
+		document.form1.speak_infernal_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_infernal_star.src = "no_asterisk.gif"
+		document.form1.speak_infernal_star.src = "no_asterisk.gif";
 	}
 
 	if ((!orc_nativespeaker)
@@ -9689,9 +9687,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (orc_friendly))
 	// &((skillbought_bonus_languages>0r)|(orc_friendly))
 	) {
-		document.form1.speak_orc_star.src = "asterisk.gif"
+		document.form1.speak_orc_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_orc_star.src = "no_asterisk.gif"
+		document.form1.speak_orc_star.src = "no_asterisk.gif";
 	}
 
 	if ((!pterran_nativespeaker)
@@ -9699,9 +9697,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (pterran_friendly))
 	// &((skillbought_bonus_languages>0r)|(pterran_friendly))
 	) {
-		document.form1.speak_pterran_star.src = "asterisk.gif"
+		document.form1.speak_pterran_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_pterran_star.src = "no_asterisk.gif"
+		document.form1.speak_pterran_star.src = "no_asterisk.gif";
 	}
 
 	if ((!sahuagin_nativespeaker)
@@ -9709,9 +9707,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (sahuagin_friendly))
 	// &((skillbought_bonus_languages>0r)|(sahuagin_friendly))
 	) {
-		document.form1.speak_sahuagin_star.src = "asterisk.gif"
+		document.form1.speak_sahuagin_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_sahuagin_star.src = "no_asterisk.gif"
+		document.form1.speak_sahuagin_star.src = "no_asterisk.gif";
 	}
 
 	if ((!sylvan_nativespeaker)
@@ -9719,9 +9717,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (sylvan_friendly))
 	// &((skillbought_bonus_languages>0r)|(sylvan_friendly))
 	) {
-		document.form1.speak_sylvan_star.src = "asterisk.gif"
+		document.form1.speak_sylvan_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_sylvan_star.src = "no_asterisk.gif"
+		document.form1.speak_sylvan_star.src = "no_asterisk.gif";
 	}
 
 	if ((!terran_nativespeaker)
@@ -9729,9 +9727,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (terran_friendly))
 	// &((skillbought_bonus_languages>0r)|(terran_friendly))
 	) {
-		document.form1.speak_terran_star.src = "asterisk.gif"
+		document.form1.speak_terran_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_terran_star.src = "no_asterisk.gif"
+		document.form1.speak_terran_star.src = "no_asterisk.gif";
 	}
 
 	if ((!thrikreen_nativespeaker)
@@ -9739,9 +9737,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (thrikreen_friendly))
 	// &((skillbought_bonus_languages>0r)|(thrikreen_friendly))
 	) {
-		document.form1.speak_thrikreen_star.src = "asterisk.gif"
+		document.form1.speak_thrikreen_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_thrikreen_star.src = "no_asterisk.gif"
+		document.form1.speak_thrikreen_star.src = "no_asterisk.gif";
 	}
 
 	if ((!xeph_nativespeaker)
@@ -9749,9 +9747,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (xeph_friendly))
 	// &((skillbought_bonus_languages>0r)|(xeph_friendly))
 	) {
-		document.form1.speak_xeph_star.src = "asterisk.gif"
+		document.form1.speak_xeph_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_xeph_star.src = "no_asterisk.gif"
+		document.form1.speak_xeph_star.src = "no_asterisk.gif";
 	}
 
 	if ((!undercommon_nativespeaker)
@@ -9759,9 +9757,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (undercommon_friendly))
 	// &((skillbought_bonus_languages>0r)|(undercommon_friendly))
 	) {
-		document.form1.speak_undercommon_star.src = "asterisk.gif"
+		document.form1.speak_undercommon_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_undercommon_star.src = "no_asterisk.gif"
+		document.form1.speak_undercommon_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage1_nativespeaker)
@@ -9769,9 +9767,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage1_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage1_friendly))
 	) {
-		document.form1.speak_otherlanguage1_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage1_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage1_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage1_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage2_nativespeaker)
@@ -9779,9 +9777,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage2_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage2_friendly))
 	) {
-		document.form1.speak_otherlanguage2_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage2_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage2_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage2_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage3_nativespeaker)
@@ -9789,9 +9787,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage3_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage3_friendly))
 	) {
-		document.form1.speak_otherlanguage3_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage3_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage3_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage3_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage4_nativespeaker)
@@ -9799,9 +9797,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage4_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage4_friendly))
 	) {
-		document.form1.speak_otherlanguage4_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage4_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage4_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage4_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage5_nativespeaker)
@@ -9809,9 +9807,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage5_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage5_friendly))
 	) {
-		document.form1.speak_otherlanguage5_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage5_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage5_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage5_star.src = "no_asterisk.gif";
 	}
 
 	if ((!otherlanguage6_nativespeaker)
@@ -9819,9 +9817,9 @@ function Languages() {
 			& ((skillbought_bonus_languages < skillbought_bonus_language_entitlement) | (otherlanguage6_friendly))
 	// &((skillbought_bonus_languages>0r)|(otherlanguage6_friendly))
 	) {
-		document.form1.speak_otherlanguage6_star.src = "asterisk.gif"
+		document.form1.speak_otherlanguage6_star.src = "asterisk.gif";
 	} else {
-		document.form1.speak_otherlanguage6_star.src = "no_asterisk.gif"
+		document.form1.speak_otherlanguage6_star.src = "no_asterisk.gif";
 	}
 
 }
@@ -9834,7 +9832,7 @@ function startup() {
 	document.form1.other_ranger_terrain_1.value = "Other Terrain 1";
 	document.form1.other_ranger_terrain_2.value = "Other Terrain 2";
 	recall_age();
-	Languages()
+	Languages();
 	NegateFamiliarChoices();
 	NegateDruidChoices();
 	TurnOffFeatStars();
@@ -9990,27 +9988,27 @@ function startup() {
 	clearall();
 
 	total_levels = 0;
-	ClearAllAbilityAssignments()
+	ClearAllAbilityAssignments();
 	NegateTheBottomStuff();
 }
 
 function clearall() {
 
 	total_levels = 0;
-	ClearAllAbilityAssignments()
+	ClearAllAbilityAssignments();
 	NegateTheBottomStuff();
 	NegateWizardSpecialization();
 	rangercombattrack = 0;
 
-	missile_attack_string_1 = ""
-	finesse_attack_string_1 = ""
-	CMB_string_1 = ""
-	CMD_string_1 = ""
-	handheld_attack_string_1 = ""
-	flurry_of_blows_string = ""
-	fortitude_string_1 = ""
-	will_string_1 = ""
-	reflex_string_1 = ""
+	missile_attack_string_1 = "";
+	finesse_attack_string_1 = "";
+	CMB_string_1 = "";
+	CMD_string_1 = "";
+	handheld_attack_string_1 = "";
+	flurry_of_blows_string = "";
+	fortitude_string_1 = "";
+	will_string_1 = "";
+	reflex_string_1 = "";
 	fear_save = 0;
 	horror_save = 0;
 	madness_save = 0;
@@ -10021,16 +10019,16 @@ function clearall() {
 	horror_string_2 = "";
 	madness_string_2 = "";
 
-	initiative_string_1 = ""
-	missile_attack_string_2 = ""
-	finesse_attack_string_2 = ""
-	CMB_string_2 = ""
-	CMD_string_2 = ""
-	handheld_attack_string_2 = ""
-	fortitude_string_2 = ""
-	will_string_2 = ""
-	reflex_string_2 = ""
-	initiative_string_2 = ""
+	initiative_string_1 = "";
+	missile_attack_string_2 = "";
+	finesse_attack_string_2 = "";
+	CMB_string_2 = "";
+	CMD_string_2 = "";
+	handheld_attack_string_2 = "";
+	fortitude_string_2 = "";
+	will_string_2 = "";
+	reflex_string_2 = "";
+	initiative_string_2 = "";
 
 	no_familiar = true;
 	bat_familiar = false;
@@ -10149,8 +10147,8 @@ function clearall() {
 
 	z = 0;
 	total_skill_points = 0;
-	stringy = ""
-	class_string = ""
+	stringy = "";
+	class_string = "";
 	genderandrace_string = "";
 	small = false;
 	large = false;
@@ -10164,180 +10162,180 @@ function clearall() {
 	shield_string = "";
 	armor_class_string = "";
 	dexterity_bonus_in_this_armor = 0;
-	document.form1.skillpointcount.value = ""
-	document.form1.feat.value = "This will monitor your feat selection."
-	has_acrobatic = false
-	has_agilemaneuvers = false
-	has_alertness = false
-	has_animalaffinity = false
-	has_arcanestrike = false
-	has_armorproficiencylight = false
-	has_armorproficiencymedium = false
-	has_armorproficiencyheavy = false
-	has_athletic = false
-	has_augmentsummoning = false
-	has_blindfight = false
-	has_combatcasting = false
-	has_combatexpertise = false
-	has_improveddisarm = false
-	has_improvedfeint = false
-	has_improvedtrip = false
-	has_whirlwindattack = false
-	has_combatreflexes = false
-	has_deceitful = false
-	has_defthands = false
-	has_dodge = false
-	has_mobility = false
-	has_springattack = false
-	has_endurance = false
-	has_diehard = false
-	has_eschewmaterials = false
-	has_exoticweaponproficiency = false
-	has_extrachannel = 0
-	has_greatfortitude = false
-	has_improvedcounterspell = false
-	has_improvedcritical = 0
-	has_improvedinitiative = false
-	has_improvedunarmedstrike = false
-	has_improvedgrapple = false
-	has_deflectarrows = false
-	has_snatcharrows = false
-	has_stunningfist = false
-	has_ironwill = false
-	has_leadership = false
-	has_lightningreflexes = false
-	has_magicalaptitude = false
-	has_martialweaponproficiency = false
-	has_mountedcombat = false
-	has_mountedarchery = false
-	has_ridebyattack = false
-	has_spiritedcharge = false
-	has_trample = false
-	has_naturalspell = false
-	has_persuasive = false
-	has_pointblankshot = false
-	has_farshot = false
-	has_preciseshot = false
-	has_rapidshot = false
-	has_manyshot = false
-	has_shotontherun = false
-	has_improvedpreciseshot = false
-	has_powerattack = false
-	has_cleave = false
-	has_greatcleave = false
-	has_improvedbullrush = false
-	has_improvedoverrun = false
-	has_improvedsunder = false
-	has_quickdraw = false
-	has_rapidreload = false
-	has_run = false
-	has_selfsufficient = false
-	has_shieldproficiency = false
-	has_improvedshieldbash = false
-	has_towershieldproficiency = false
-	has_simpleweaponproficiency = false
-	has_skillfocusappraise = false
-	has_skillfocusbluff = false
-	has_skillfocusclimb = false
-	has_skillfocusacrobatics = false
-	has_skillfocuscraft_1 = false
-	has_skillfocuscraft_2 = false
-	has_skillfocuscraft_3 = false
-	has_skillfocusdiplomacy = false
-	has_skillfocusdisabledevice = false
-	has_skillfocusdisguise = false
-	has_skillfocusescapeartist = false
-	has_skillfocusfly = false
-	has_skillfocushandleanimal = false
-	has_skillfocusheal = false
-	has_skillfocusstealth = false
-	// has_skillfocushypnosis=false
-	has_skillfocusintimidate = false
-	has_skillfocusknowledgearcana = false
-	has_skillfocusknowledgeengineering = false
-	has_skillfocusknowledgedungeoneering = false
-	has_skillfocusknowledgegeography = false
-	has_skillfocusknowledgehistory = false
-	has_skillfocusknowledgelocal = false
-	has_skillfocusknowledgenature = false
-	has_skillfocusknowledgenobility = false
-	has_skillfocusknowledgereligion = false
-	has_skillfocusknowledgeplanes = false
-	has_skillfocuslinguistics = false
-	has_skillfocusperception = false
-	has_skillfocusperform_1 = false
-	has_skillfocusperform_2 = false
-	has_skillfocusperform_3 = false
-	has_skillfocusperform_4 = false
-	has_skillfocusperform_5 = false
-	has_skillfocusprofession = false
-	has_skillfocusride = false
-	has_skillfocussensemotive = false
-	has_skillfocussleightofhand = false
-	has_skillfocusspellcraft = false
-	has_skillfocussurvival = false
-	has_skillfocusswim = false
-	has_skillfocususemagicdevice = false
-	has_spellfocusabjuration = false
-	has_spellfocusconjuration = false
-	has_spellfocusdivination = false
-	has_spellfocusenchantment = false
-	has_spellfocusevocation = false
-	has_spellfocusillusion = false
-	has_spellfocusnecromancy = false
-	has_spellfocustransmutation = false
-	has_greaterspellfocusabjuration = false
-	has_greaterspellfocusconjuration = false
-	has_greaterspellfocusdivination = false
-	has_greaterspellfocusenchantment = false
-	has_greaterspellfocusevocation = false
-	has_greaterspellfocusillusion = false
-	has_greaterspellfocusnecromancy = false
-	has_greaterspellfocustransmutation = false
-	has_spellmastery = 0
-	has_spellpenetration = false
-	has_greaterspellpenetration = false
-	has_stealthy = false
-	has_stepup = false
-	has_strikeback = false
-	has_throwanything = false
-	has_toughness = false
-	has_twoweaponfighting = false
-	has_twoweapondefense = false
-	has_improvedtwoweaponfighting = false
-	has_greatertwoweaponfighting = false
-	has_weaponfinesse = false
-	has_otherfeat1 = false
-	has_otherfeat2 = false
-	has_otherfeat3 = false
-	has_otherfeat4 = false
-	has_otherfeat5 = false
-	has_otherfeat6 = false
-	has_otherfeat7 = false
-	has_otherfeat8 = false
-	has_otherfeat9 = false
-	has_otherfeat10 = false
-	has_weaponfocus = 0
-	has_weaponspecialization = 0
-	has_greaterweaponfocus = 0
-	has_greaterweaponspecialization = 0
-	has_brewpotion = false
-	has_craftmaa = false
-	has_craftrod = false
-	has_craftstaff = false
-	has_craftwand = false
-	has_craftwondrousitem = false
-	has_forgering = false
-	has_scribescroll = false
-	has_empowerspell = false
-	has_enlargespell = false
-	has_extendspell = false
-	has_heightenspell = false
-	has_maximizespell = false
-	has_quickenspell = false
-	has_silentspell = false
-	has_stillspell = false
-	has_widenspell = false
+	document.form1.skillpointcount.value = "";
+	document.form1.feat.value = "This will monitor your feat selection.";
+	has_acrobatic = false;
+	has_agilemaneuvers = false;
+	has_alertness = false;
+	has_animalaffinity = false;
+	has_arcanestrike = false;
+	has_armorproficiencylight = false;
+	has_armorproficiencymedium = false;
+	has_armorproficiencyheavy = false;
+	has_athletic = false;
+	has_augmentsummoning = false;
+	has_blindfight = false;
+	has_combatcasting = false;
+	has_combatexpertise = false;
+	has_improveddisarm = false;
+	has_improvedfeint = false;
+	has_improvedtrip = false;
+	has_whirlwindattack = false;
+	has_combatreflexes = false;
+	has_deceitful = false;
+	has_defthands = false;
+	has_dodge = false;
+	has_mobility = false;
+	has_springattack = false;
+	has_endurance = false;
+	has_diehard = false;
+	has_eschewmaterials = false;
+	has_exoticweaponproficiency = false;
+	has_extrachannel = 0;
+	has_greatfortitude = false;
+	has_improvedcounterspell = false;
+	has_improvedcritical = 0;
+	has_improvedinitiative = false;
+	has_improvedunarmedstrike = false;
+	has_improvedgrapple = false;
+	has_deflectarrows = false;
+	has_snatcharrows = false;
+	has_stunningfist = false;
+	has_ironwill = false;
+	has_leadership = false;
+	has_lightningreflexes = false;
+	has_magicalaptitude = false;
+	has_martialweaponproficiency = false;
+	has_mountedcombat = false;
+	has_mountedarchery = false;
+	has_ridebyattack = false;
+	has_spiritedcharge = false;
+	has_trample = false;
+	has_naturalspell = false;
+	has_persuasive = false;
+	has_pointblankshot = false;
+	has_farshot = false;
+	has_preciseshot = false;
+	has_rapidshot = false;
+	has_manyshot = false;
+	has_shotontherun = false;
+	has_improvedpreciseshot = false;
+	has_powerattack = false;
+	has_cleave = false;
+	has_greatcleave = false;
+	has_improvedbullrush = false;
+	has_improvedoverrun = false;
+	has_improvedsunder = false;
+	has_quickdraw = false;
+	has_rapidreload = false;
+	has_run = false;
+	has_selfsufficient = false;
+	has_shieldproficiency = false;
+	has_improvedshieldbash = false;
+	has_towershieldproficiency = false;
+	has_simpleweaponproficiency = false;
+	has_skillfocusappraise = false;
+	has_skillfocusbluff = false;
+	has_skillfocusclimb = false;
+	has_skillfocusacrobatics = false;
+	has_skillfocuscraft_1 = false;
+	has_skillfocuscraft_2 = false;
+	has_skillfocuscraft_3 = false;
+	has_skillfocusdiplomacy = false;
+	has_skillfocusdisabledevice = false;
+	has_skillfocusdisguise = false;
+	has_skillfocusescapeartist = false;
+	has_skillfocusfly = false;
+	has_skillfocushandleanimal = false;
+	has_skillfocusheal = false;
+	has_skillfocusstealth = false;
+	// has_skillfocushypnosis=false;
+	has_skillfocusintimidate = false;
+	has_skillfocusknowledgearcana = false;
+	has_skillfocusknowledgeengineering = false;
+	has_skillfocusknowledgedungeoneering = false;
+	has_skillfocusknowledgegeography = false;
+	has_skillfocusknowledgehistory = false;
+	has_skillfocusknowledgelocal = false;
+	has_skillfocusknowledgenature = false;
+	has_skillfocusknowledgenobility = false;
+	has_skillfocusknowledgereligion = false;
+	has_skillfocusknowledgeplanes = false;
+	has_skillfocuslinguistics = false;
+	has_skillfocusperception = false;
+	has_skillfocusperform_1 = false;
+	has_skillfocusperform_2 = false;
+	has_skillfocusperform_3 = false;
+	has_skillfocusperform_4 = false;
+	has_skillfocusperform_5 = false;
+	has_skillfocusprofession = false;
+	has_skillfocusride = false;
+	has_skillfocussensemotive = false;
+	has_skillfocussleightofhand = false;
+	has_skillfocusspellcraft = false;
+	has_skillfocussurvival = false;
+	has_skillfocusswim = false;
+	has_skillfocususemagicdevice = false;
+	has_spellfocusabjuration = false;
+	has_spellfocusconjuration = false;
+	has_spellfocusdivination = false;
+	has_spellfocusenchantment = false;
+	has_spellfocusevocation = false;
+	has_spellfocusillusion = false;
+	has_spellfocusnecromancy = false;
+	has_spellfocustransmutation = false;
+	has_greaterspellfocusabjuration = false;
+	has_greaterspellfocusconjuration = false;
+	has_greaterspellfocusdivination = false;
+	has_greaterspellfocusenchantment = false;
+	has_greaterspellfocusevocation = false;
+	has_greaterspellfocusillusion = false;
+	has_greaterspellfocusnecromancy = false;
+	has_greaterspellfocustransmutation = false;
+	has_spellmastery = 0;
+	has_spellpenetration = false;
+	has_greaterspellpenetration = false;
+	has_stealthy = false;
+	has_stepup = false;
+	has_strikeback = false;
+	has_throwanything = false;
+	has_toughness = false;
+	has_twoweaponfighting = false;
+	has_twoweapondefense = false;
+	has_improvedtwoweaponfighting = false;
+	has_greatertwoweaponfighting = false;
+	has_weaponfinesse = false;
+	has_otherfeat1 = false;
+	has_otherfeat2 = false;
+	has_otherfeat3 = false;
+	has_otherfeat4 = false;
+	has_otherfeat5 = false;
+	has_otherfeat6 = false;
+	has_otherfeat7 = false;
+	has_otherfeat8 = false;
+	has_otherfeat9 = false;
+	has_otherfeat10 = false;
+	has_weaponfocus = 0;
+	has_weaponspecialization = 0;
+	has_greaterweaponfocus = 0;
+	has_greaterweaponspecialization = 0;
+	has_brewpotion = false;
+	has_craftmaa = false;
+	has_craftrod = false;
+	has_craftstaff = false;
+	has_craftwand = false;
+	has_craftwondrousitem = false;
+	has_forgering = false;
+	has_scribescroll = false;
+	has_empowerspell = false;
+	has_enlargespell = false;
+	has_extendspell = false;
+	has_heightenspell = false;
+	has_maximizespell = false;
+	has_quickenspell = false;
+	has_silentspell = false;
+	has_stillspell = false;
+	has_widenspell = false;
 	has_alignmentchannel = false;
 	has_arcanearmortraining = false;
 	has_arcanearmormastery = false;
@@ -10409,28 +10407,28 @@ function clearall() {
 	has_penetratingstrike = false;
 	has_greaterpenetratingstrike = false;
 
-	has_air_domain = false
-	has_animal_domain = false
-	has_chaos_domain = false
-	has_death_domain = false
-	has_destruction_domain = false
-	has_earth_domain = false
-	has_evil_domain = false
-	has_fire_domain = false
-	has_good_domain = false
-	has_healing_domain = false
-	has_knowledge_domain = false
-	has_law_domain = false
-	has_luck_domain = false
-	has_magic_domain = false
-	has_plant_domain = false
-	has_protection_domain = false
-	has_strength_domain = false
-	has_sun_domain = false
-	has_travel_domain = false
-	has_trickery_domain = false
-	has_war_domain = false
-	has_water_domain = false
+	has_air_domain = false;
+	has_animal_domain = false;
+	has_chaos_domain = false;
+	has_death_domain = false;
+	has_destruction_domain = false;
+	has_earth_domain = false;
+	has_evil_domain = false;
+	has_fire_domain = false;
+	has_good_domain = false;
+	has_healing_domain = false;
+	has_knowledge_domain = false;
+	has_law_domain = false;
+	has_luck_domain = false;
+	has_magic_domain = false;
+	has_plant_domain = false;
+	has_protection_domain = false;
+	has_strength_domain = false;
+	has_sun_domain = false;
+	has_travel_domain = false;
+	has_trickery_domain = false;
+	has_war_domain = false;
+	has_water_domain = false;
 	has_artifice_domain = false;
 	has_charm_domain = false;
 	has_community_domain = false;
@@ -10519,13 +10517,13 @@ function clearall() {
 	wizardfeatentitlement = 0;
 	monkfeatentitlement = 0;
 	halfelffeatentitlement = 0;
-	document.form1.firststatistic.value = ""
-	document.form1.secondstatistic.value = ""
-	document.form1.thirdstatistic.value = ""
-	document.form1.fourthstatistic.value = ""
-	document.form1.fifthstatistic.value = ""
-	document.form1.sixthstatistic.value = ""
-	document.form1.first_comment_box.value = "Roll the dice!"
+	document.form1.firststatistic.value = "";
+	document.form1.secondstatistic.value = "";
+	document.form1.thirdstatistic.value = "";
+	document.form1.fourthstatistic.value = "";
+	document.form1.fifthstatistic.value = "";
+	document.form1.sixthstatistic.value = "";
+	document.form1.first_comment_box.value = "Roll the dice!";
 	// / if (document.form1.methods_list.selectedIndex==4)
 
 	// {document.form1.first_comment_box.value="Simple entry. "}
@@ -10545,62 +10543,62 @@ function clearall() {
 		document.form1.first_comment_box.value = "Simple Entry.  ";
 		RollSomeDice();
 	}
-	document.form1.second_comment_box.value = ""
-	document.form1.third_comment_box.value = ""
-	document.form1.fourth_comment_box.value = ""
-	document.form1.fifth_comment_box.value = ""
-	document.form1.sixth_comment_box.value = "Keep working"
-	document.form1.about_appraise.value = ""
-	document.form1.about_bluff.value = ""
-	document.form1.about_climb.value = ""
-	document.form1.about_acrobatics.value = ""
-	document.form1.about_craft_1.value = ""
-	document.form1.about_craft_2.value = ""
-	document.form1.about_craft_3.value = ""
-	document.form1.about_diplomacy.value = ""
+	document.form1.second_comment_box.value = "";
+	document.form1.third_comment_box.value = "";
+	document.form1.fourth_comment_box.value = "";
+	document.form1.fifth_comment_box.value = "";
+	document.form1.sixth_comment_box.value = "Keep working";
+	document.form1.about_appraise.value = "";
+	document.form1.about_bluff.value = "";
+	document.form1.about_climb.value = "";
+	document.form1.about_acrobatics.value = "";
+	document.form1.about_craft_1.value = "";
+	document.form1.about_craft_2.value = "";
+	document.form1.about_craft_3.value = "";
+	document.form1.about_diplomacy.value = "";
 
-	document.form1.about_disabledevice.value = ""
-	document.form1.about_disguise.value = ""
-	document.form1.about_escapeartist.value = ""
-	document.form1.about_fly.value = ""
-	document.form1.about_handleanimal.value = ""
-	document.form1.about_heal.value = ""
-	document.form1.about_stealth.value = ""
-	// document.form1.about_hypnosis.value=""
-	document.form1.about_intimidate.value = ""
-	document.form1.about_knowledgearcana.value = ""
-	document.form1.about_knowledgeengineering.value = ""
-	document.form1.about_knowledgedungeoneering.value = ""
-	document.form1.about_knowledgegeography.value = ""
-	document.form1.about_knowledgehistory.value = ""
-	document.form1.about_knowledgelocal.value = ""
-	document.form1.about_knowledgenature.value = ""
+	document.form1.about_disabledevice.value = "";
+	document.form1.about_disguise.value = "";
+	document.form1.about_escapeartist.value = "";
+	document.form1.about_fly.value = "";
+	document.form1.about_handleanimal.value = "";
+	document.form1.about_heal.value = "";
+	document.form1.about_stealth.value = "";
+	// document.form1.about_hypnosis.value="";
+	document.form1.about_intimidate.value = "";
+	document.form1.about_knowledgearcana.value = "";
+	document.form1.about_knowledgeengineering.value = "";
+	document.form1.about_knowledgedungeoneering.value = "";
+	document.form1.about_knowledgegeography.value = "";
+	document.form1.about_knowledgehistory.value = "";
+	document.form1.about_knowledgelocal.value = "";
+	document.form1.about_knowledgenature.value = "";
 
-	document.form1.about_knowledgenobility.value = ""
-	document.form1.about_knowledgereligion.value = ""
-	document.form1.about_knowledgeplanes.value = ""
-	document.form1.about_perception.value = ""
-	document.form1.about_perform_1.value = ""
-	document.form1.about_perform_2.value = ""
-	document.form1.about_perform_3.value = ""
-	document.form1.about_perform_4.value = ""
-	document.form1.about_perform_5.value = ""
-	document.form1.about_profession.value = ""
-	document.form1.about_ride.value = ""
-	document.form1.about_sensemotive.value = ""
-	document.form1.about_sleightofhand.value = ""
-	document.form1.about_linguistics.value = ""
-	document.form1.about_spellcraft.value = ""
-	document.form1.about_survival.value = ""
-	document.form1.about_swim.value = ""
-	document.form1.about_usemagicdevice.value = ""
-	document.form1.about_otherskill1.value = ""
-	document.form1.about_otherskill2.value = ""
-	document.form1.about_otherskill3.value = ""
+	document.form1.about_knowledgenobility.value = "";
+	document.form1.about_knowledgereligion.value = "";
+	document.form1.about_knowledgeplanes.value = "";
+	document.form1.about_perception.value = "";
+	document.form1.about_perform_1.value = "";
+	document.form1.about_perform_2.value = "";
+	document.form1.about_perform_3.value = "";
+	document.form1.about_perform_4.value = "";
+	document.form1.about_perform_5.value = "";
+	document.form1.about_profession.value = "";
+	document.form1.about_ride.value = "";
+	document.form1.about_sensemotive.value = "";
+	document.form1.about_sleightofhand.value = "";
+	document.form1.about_linguistics.value = "";
+	document.form1.about_spellcraft.value = "";
+	document.form1.about_survival.value = "";
+	document.form1.about_swim.value = "";
+	document.form1.about_usemagicdevice.value = "";
+	document.form1.about_otherskill1.value = "";
+	document.form1.about_otherskill2.value = "";
+	document.form1.about_otherskill3.value = "";
 
-	NegateAllClassChoicesHereAndBelow(1)
+	NegateAllClassChoicesHereAndBelow(1);
 
-	NegateElevenClassLevels()
+	NegateElevenClassLevels();
 	rayce = 0;
 	document.form1.how_tall.selectedIndex = 0;
 	document.form1.how_heavy.selectedIndex = 0;
@@ -10683,17 +10681,17 @@ function clearall() {
 
 	WipeDomains();
 	WipeBloodlines();
-	ClearRace()
-	ClearGender()
-	ClearAlignment()
-	ClearTotalLevels()
-	NegateSkills()
-	NegateAllUp00()
-	NegateAllUp04()
-	NegateAllUp08()
-	NegateAllUp12()
-	NegateAllUp16()
-	NegateAllUp20()
+	ClearRace();
+	ClearGender();
+	ClearAlignment();
+	ClearTotalLevels();
+	NegateSkills();
+	NegateAllUp00();
+	NegateAllUp04();
+	NegateAllUp08();
+	NegateAllUp12();
+	NegateAllUp16();
+	NegateAllUp20();
 	AddUpTheClasses();
 	PointBuyIsSevensOrBetter();
 	RememberFeats();
@@ -11497,14 +11495,14 @@ function Arms() {
 
 function lock_skills() {
 	if (SkillPointsAreLocked == true) {
-		document.form1.fifth_comment_box.value = "Sorry... no going back."
+		document.form1.fifth_comment_box.value = "Sorry... no going back.";
 	} else if (total_skill_points == 0) {
-		document.form1.fifth_comment_box.value = "Not ready yet."
+		document.form1.fifth_comment_box.value = "Not ready yet.";
 	} else if (skill_points_spent != total_skill_points) {
-		document.form1.fifth_comment_box.value = "Please assign your skill points precisely."
+		document.form1.fifth_comment_box.value = "Please assign your skill points precisely.";
 	} else {
 		SkillPointsAreLocked = true;
-		document.form1.fifth_comment_box.value = "Skills are assigned."
+		document.form1.fifth_comment_box.value = "Skills are assigned.";
 		DoYourFeatEntitlements();
 		AdjustFeatMenus();
 		NegateFeats();
@@ -11516,190 +11514,190 @@ function lock_skills() {
 
 function goodsave(levello) {
 	if (levello == 1) {
-		return 2
+		return 2;
 	} else if (levello == 2) {
-		return 3
+		return 3;
 	} else if (levello == 3) {
-		return 3
+		return 3;
 	} else if (levello == 4) {
-		return 4
+		return 4;
 	} else if (levello == 5) {
-		return 4
+		return 4;
 	} else if (levello == 6) {
-		return 5
+		return 5;
 	} else if (levello == 7) {
-		return 5
+		return 5;
 	} else if (levello == 8) {
-		return 6
+		return 6;
 	} else if (levello == 9) {
-		return 6
+		return 6;
 	} else if (levello == 10) {
-		return 7
+		return 7;
 	} else if (levello == 11) {
-		return 7
+		return 7;
 	} else if (levello == 12) {
-		return 8
+		return 8;
 	} else if (levello == 13) {
-		return 8
+		return 8;
 	} else if (levello == 14) {
-		return 9
+		return 9;
 	} else if (levello == 15) {
-		return 9
+		return 9;
 	} else if (levello == 16) {
-		return 10
+		return 10;
 	} else if (levello == 17) {
-		return 10
+		return 10;
 	} else if (levello == 18) {
-		return 11
+		return 11;
 	} else if (levello == 19) {
-		return 11
+		return 11;
 	} else if (levello == 20) {
-		return 12
+		return 12;
 	} else
 		return 0;
 }
 
 function poorsave(levello) {
 	if (levello == 1) {
-		return 0
+		return 0;
 	} else if (levello == 2) {
-		return 0
+		return 0;
 	} else if (levello == 3) {
-		return 1
+		return 1;
 	} else if (levello == 4) {
-		return 1
+		return 1;
 	} else if (levello == 5) {
-		return 1
+		return 1;
 	} else if (levello == 6) {
-		return 2
+		return 2;
 	} else if (levello == 7) {
-		return 2
+		return 2;
 	} else if (levello == 8) {
-		return 2
+		return 2;
 	} else if (levello == 9) {
-		return 3
+		return 3;
 	} else if (levello == 10) {
-		return 3
+		return 3;
 	} else if (levello == 11) {
-		return 3
+		return 3;
 	} else if (levello == 12) {
-		return 4
+		return 4;
 	} else if (levello == 13) {
-		return 4
+		return 4;
 	} else if (levello == 14) {
-		return 4
+		return 4;
 	} else if (levello == 15) {
-		return 5
+		return 5;
 	} else if (levello == 16) {
-		return 5
+		return 5;
 	} else if (levello == 17) {
-		return 5
+		return 5;
 	} else if (levello == 18) {
-		return 6
+		return 6;
 	} else if (levello == 19) {
-		return 6
+		return 6;
 	} else if (levello == 20) {
-		return 6
+		return 6;
 	} else
 		return 0;
 }
 
 function goodattack(levello) {
-	return levello
+	return levello;
 }
 
 function averageattack(levello) {
 	if (levello == 1) {
-		return 0
+		return 0;
 	} else if (levello == 2) {
-		return 1
+		return 1;
 	} else if (levello == 3) {
-		return 2
+		return 2;
 	} else if (levello == 4) {
-		return 3
+		return 3;
 	} else if (levello == 5) {
-		return 3
+		return 3;
 	} else if (levello == 6) {
-		return 4
+		return 4;
 	} else if (levello == 7) {
-		return 5
+		return 5;
 	} else if (levello == 8) {
-		return 6
+		return 6;
 	} else if (levello == 9) {
-		return 6
+		return 6;
 	} else if (levello == 10) {
-		return 7
+		return 7;
 	} else if (levello == 11) {
-		return 8
+		return 8;
 	} else if (levello == 12) {
-		return 9
+		return 9;
 	} else if (levello == 13) {
-		return 9
+		return 9;
 	} else if (levello == 14) {
-		return 10
+		return 10;
 	} else if (levello == 15) {
-		return 11
+		return 11;
 	} else if (levello == 16) {
-		return 12
+		return 12;
 	} else if (levello == 17) {
-		return 12
+		return 12;
 	} else if (levello == 18) {
-		return 13
+		return 13;
 	} else if (levello == 19) {
-		return 14
+		return 14;
 	} else if (levello == 20) {
-		return 15
+		return 15;
 	} else
 		return 0;
 }
 
 function poorattack(levello) {
 	if (levello == 1) {
-		return 0
+		return 0;
 	} else if (levello == 2) {
-		return 1
+		return 1;
 	} else if (levello == 3) {
-		return 1
+		return 1;
 	} else if (levello == 4) {
-		return 2
+		return 2;
 	} else if (levello == 5) {
-		return 2
+		return 2;
 	} else if (levello == 6) {
-		return 3
+		return 3;
 	} else if (levello == 7) {
-		return 3
+		return 3;
 	} else if (levello == 8) {
-		return 4
+		return 4;
 	} else if (levello == 9) {
-		return 4
+		return 4;
 	} else if (levello == 10) {
-		return 5
+		return 5;
 	} else if (levello == 11) {
-		return 5
+		return 5;
 	} else if (levello == 12) {
-		return 6
+		return 6;
 	} else if (levello == 13) {
-		return 6
+		return 6;
 	} else if (levello == 14) {
-		return 7
+		return 7;
 	} else if (levello == 15) {
-		return 7
+		return 7;
 	} else if (levello == 16) {
-		return 8
+		return 8;
 	} else if (levello == 17) {
-		return 8
+		return 8;
 	} else if (levello == 18) {
-		return 9
+		return 9;
 	} else if (levello == 19) {
-		return 9
+		return 9;
 	} else if (levello == 20) {
-		return 10
+		return 10;
 	} else
 		return 0;
 }
 
 function AddUpTheClasses() {
-	NegateElevenClassLevels()
+	NegateElevenClassLevels();
 	if (total_levels > 0) {
 		upsky(class01);
 	}
@@ -11856,7 +11854,7 @@ function RememberFighterFeatsEtc() {
 			document.form1.ranger_combat_track[1].checked = true;
 		}
 	}
-	RememberPrestigeClassOptions()
+	RememberPrestigeClassOptions();
 	document.form1.air_domain.checked = has_air_domain;
 	document.form1.animal_domain.checked = has_animal_domain;
 	document.form1.chaos_domain.checked = has_chaos_domain;
@@ -11920,7 +11918,7 @@ function produceCharacterSheet() {
 			"secondWindow",
 			"toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=500");
 	if (SecondWindow != null) {
-		WriteTextForCharacterSheet()
+		WriteTextForCharacterSheet();
 		// SecondWindow.scrollbars.visible=true;
 	}
 }
@@ -12550,43 +12548,43 @@ function ChooseRangerCombatTrack() {
 function FreezeFighterFeatsEtc() {
 
 	if (FighterFeatsEtcFrozen == true) {
-		document.form1.fourth_comment_box.value = "We are done here."
+		document.form1.fourth_comment_box.value = "We are done here.";
 	} else if (ClassesHaveBeenEstablished == false) {
-		document.form1.fourth_comment_box.value = "Not ready for this yet."
+		document.form1.fourth_comment_box.value = "Not ready for this yet.";
 	}
 
 	else if (AbilitiesWellIncreased() == false) {
-		document.form1.fourth_comment_box.value = "Need to raise abilities."
+		document.form1.fourth_comment_box.value = "Need to raise abilities.";
 	}
 
 	else if (!RangerFoes()) {
-		document.form1.fourth_comment_box.value = "Choose your ranger favored enemies."
+		document.form1.fourth_comment_box.value = "Choose your ranger favored enemies.";
 	} else if (!RangerTerrains()) {
-		document.form1.fourth_comment_box.value = "Choose your ranger favored terrains."
+		document.form1.fourth_comment_box.value = "Choose your ranger favored terrains.";
 	}
 
 	else if ((ranger_levels > 1)
 			& (document.form1.ranger_combat_track[0].checked == false)
 			& (document.form1.ranger_combat_track[1].checked == false)) {
-		document.form1.fourth_comment_box.value = "Ranger combat track"
+		document.form1.fourth_comment_box.value = "Ranger combat track";
 	}
 
 	else if ((cleric_levels > 0) & (Domains() == false)) {
-		document.form1.fourth_comment_box.value = "Wrong number of domains."
+		document.form1.fourth_comment_box.value = "Wrong number of domains.";
 	}
 
 	else if ((sorcerer_levels > 0) & (BloodlineCount() == false)) {
-		document.form1.fourth_comment_box.value = "You need a sorcerer bloodline."
+		document.form1.fourth_comment_box.value = "You need a sorcerer bloodline.";
 	}
 
 	else if ((cleric_levels > 0)
 			& (document.form1.choose_energy[0].checked == false)
 			& (document.form1.choose_energy[1].checked == false)) {
-		document.form1.fourth_comment_box.value = "Which energy type?"
+		document.form1.fourth_comment_box.value = "Which energy type?";
 	}
 
 	else if ((wizard_levels > 0) & (WizardSpecialty() == false)) {
-		document.form1.fourth_comment_box.value = "Check your forbidden schools."
+		document.form1.fourth_comment_box.value = "Check your forbidden schools.";
 	}
 
 	else if (PrestigeClass() == false) {
@@ -12599,7 +12597,7 @@ function FreezeFighterFeatsEtc() {
 		RecordRangerTerrains();
 		RecordForDruid();
 		acceptIncreases();
-		document.form1.fourth_comment_box.value = "Now for the skills."
+		document.form1.fourth_comment_box.value = "Now for the skills.";
 		if (has_arcane_bloodline) {
 			document.form1.fourth_comment_box.value += "  Your arcane bloodline lets you check a knowledge skill as a class skill.  ";
 		}
@@ -12626,7 +12624,7 @@ function FreezeFighterFeatsEtc() {
 		}
 		favored_for_hp = document.form1.favored_for_hit_points.selectedIndex;
 		favored_for_skill = document.form1.favored_for_skill_points.selectedIndex;
-		FigureClassSkillsAndTotalSkillPoints()
+		FigureClassSkillsAndTotalSkillPoints();
 		NegateSkills();
 		FighterFeatsEtcFrozen = true;
 		figure_skills();
@@ -12837,7 +12835,7 @@ function Domains() {
 			document.form1.choose_energy[1].checked = true;
 		}
 		if (x == 2) {
-			return true
+			return true;
 		} else {
 			return false;
 		}
@@ -12976,51 +12974,51 @@ function RememberWhichAbilitiesYouRaised() {
 function lock_identity() {
 	if (CharacterTypeHasBeenEstablished == true) {
 	} else if (DiceHaveBeenRolled == false) {
-		document.form1.second_comment_box.value = "You haven't even rolled your dice."
+		document.form1.second_comment_box.value = "You haven't even rolled your dice.";
 	} else if (AbilitiesAreProperlyAssigned == false) {
-		document.form1.second_comment_box.value = "Please finish assigning your abilities."
+		document.form1.second_comment_box.value = "Please finish assigning your abilities.";
 	} else if (AbilitiesHaveBeenEstablished == false) {
-		document.form1.second_comment_box.value = "Please accept your ability assignments first."
+		document.form1.second_comment_box.value = "Please accept your ability assignments first.";
 	} else if (rayce == 0) {
-		document.form1.second_comment_box.value = "Please choose your race."
+		document.form1.second_comment_box.value = "Please choose your race.";
 	} else if (gender == 0) {
-		document.form1.second_comment_box.value = "Please choose your gender."
+		document.form1.second_comment_box.value = "Please choose your gender.";
 	} else if (alignment == 0) {
-		document.form1.second_comment_box.value = "Please choose your alignment."
+		document.form1.second_comment_box.value = "Please choose your alignment.";
 	} else if (total_levels == 0) {
-		document.form1.second_comment_box.value = "Please choose your total levels."
+		document.form1.second_comment_box.value = "Please choose your total levels.";
 	} else {
 		RandomHeight();
 		document.form1.second_comment_box.value = "You chose a ";
 		if (alignment == 1) {
-			document.form1.second_comment_box.value += "Lawful Good"
+			document.form1.second_comment_box.value += "Lawful Good";
 		}
 		if (alignment == 2) {
-			document.form1.second_comment_box.value += "Neutral Good"
+			document.form1.second_comment_box.value += "Neutral Good";
 		}
 		if (alignment == 3) {
-			document.form1.second_comment_box.value += "Chaotic Good"
+			document.form1.second_comment_box.value += "Chaotic Good";
 		}
 		if (alignment == 4) {
-			document.form1.second_comment_box.value += "Lawful Neutral"
+			document.form1.second_comment_box.value += "Lawful Neutral";
 		}
 		if (alignment == 5) {
-			document.form1.second_comment_box.value += "True Neutral"
+			document.form1.second_comment_box.value += "True Neutral";
 		}
 		if (alignment == 6) {
-			document.form1.second_comment_box.value += "Chaotic Neutral"
+			document.form1.second_comment_box.value += "Chaotic Neutral";
 		}
 		if (alignment == 7) {
-			document.form1.second_comment_box.value += "Lawful Evil"
+			document.form1.second_comment_box.value += "Lawful Evil";
 		}
 		if (alignment == 8) {
-			document.form1.second_comment_box.value += "Neutral Evil"
+			document.form1.second_comment_box.value += "Neutral Evil";
 		}
 		if (alignment == 9) {
-			document.form1.second_comment_box.value += "Chaotic Evil"
+			document.form1.second_comment_box.value += "Chaotic Evil";
 		}
 		document.form1.second_comment_box.value += ", Level " + total_levels
-				+ " "
+				+ " ";
 		if ((rayce == 5) | (rayce == 6)) {
 			small = true;
 		}
@@ -13066,25 +13064,25 @@ function lock_identity() {
 		// / {
 		// / document.form1.second_comment_box.value +="\r Aasimar are probably
 		// more diverse than the Bestiary suggests. You will raise an ability
-		// score of your choice later, like a human."
+		// score of your choice later, like a human.";
 		// / }
 		if (rayce == 29) {
-			document.form1.second_comment_box.value += "\r  Sylphs are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human."
+			document.form1.second_comment_box.value += "\r  Sylphs are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human.";
 		}
 		if (rayce == 30) {
-			document.form1.second_comment_box.value += "\r  Oreads are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human."
+			document.form1.second_comment_box.value += "\r  Oreads are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human.";
 		}
 		if (rayce == 31) {
-			document.form1.second_comment_box.value += "\r  Ifrits are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human."
+			document.form1.second_comment_box.value += "\r  Ifrits are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human.";
 		}
 		if (rayce == 32) {
-			document.form1.second_comment_box.value += "\r  Undines are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human."
+			document.form1.second_comment_box.value += "\r  Undines are probably more diverse than the Bestiary suggests.  You will raise an ability score of your choice later, like a human.";
 		}
 		// if (rayce==33)
 		// {
 		// document.form1.second_comment_box.value +="\r Tieflings are surely
 		// more diverse than the Bestiary suggests. You will raise an ability
-		// score of your choice later, like a human."
+		// score of your choice later, like a human.";
 		// }
 		// zzzzzzzzz
 		if (rayce == 3) {
@@ -13093,7 +13091,7 @@ function lock_identity() {
 			intelligence += 2;
 			constitution--;
 			constitution--;
-			document.form1.second_comment_box.value += "\r  Elves receive  + 2 dexterity, +2 intelligence, -2 constitution."
+			document.form1.second_comment_box.value += "\r  Elves receive  + 2 dexterity, +2 intelligence, -2 constitution.";
 		}
 		if (rayce == 4) {
 			constitution++;
@@ -13101,7 +13099,7 @@ function lock_identity() {
 			wisdom += 2;
 			charisma--;
 			charisma--;
-			document.form1.second_comment_box.value += "\r  Dwarves receive  + 2 constitution, +2 wisdom, -2 charisma."
+			document.form1.second_comment_box.value += "\r  Dwarves receive  + 2 constitution, +2 wisdom, -2 charisma.";
 		}
 		if (rayce == 5) {
 			strength--;
@@ -13109,7 +13107,7 @@ function lock_identity() {
 			constitution++;
 			constitution++;
 			charisma += 2;
-			document.form1.second_comment_box.value += "\r  Gnomes receive  + 2 constitution, +2 charisma, -2 strength."
+			document.form1.second_comment_box.value += "\r  Gnomes receive  + 2 constitution, +2 charisma, -2 strength.";
 		}
 		if (rayce == 6) {
 			dexterity++;
@@ -13117,7 +13115,7 @@ function lock_identity() {
 			strength--;
 			strength--;
 			charisma += 2;
-			document.form1.second_comment_box.value += "\r  Halflings receive  + 2 dexterity, +2 charisma, -2 strength."
+			document.form1.second_comment_box.value += "\r  Halflings receive  + 2 dexterity, +2 charisma, -2 strength.";
 		}
 		if (rayce == 9) {
 			dexterity++;
@@ -13125,7 +13123,7 @@ function lock_identity() {
 			constitution--;
 			constitution--;
 			charisma += 2;
-			document.form1.second_comment_box.value += "\r  Dhampir receive  + 2 dexterity, +2 charisma, -2 constitution."
+			document.form1.second_comment_box.value += "\r  Dhampir receive  + 2 dexterity, +2 charisma, -2 constitution.";
 		}
 		if (rayce == 12) {
 			dexterity++;
@@ -13133,25 +13131,25 @@ function lock_identity() {
 			constitution--;
 			constitution--;
 			charisma += 2;
-			document.form1.second_comment_box.value += "\r  Drow receive  + 2 dexterity, +2 charisma, -2 constitution."
+			document.form1.second_comment_box.value += "\r  Drow receive  + 2 dexterity, +2 charisma, -2 constitution.";
 		}
 		if (rayce == 22) {
 			strength += 4;
 			intelligence -= 2;
 			wisdom -= 2;
 			charisma -= 2;
-			document.form1.second_comment_box.value += "\r  Orcs receive  +4 strength, -2 intelligence, -2 wisdom, -2 charisma."
+			document.form1.second_comment_box.value += "\r  Orcs receive  +4 strength, -2 intelligence, -2 wisdom, -2 charisma.";
 		}
 		if (rayce == 28) {
 			charisma += 2;
 			wisdom += 2;
-			document.form1.second_comment_box.value += "\r  Aasimar now receive +2 wisdom, +2 charisma."
+			document.form1.second_comment_box.value += "\r  Aasimar now receive +2 wisdom, +2 charisma.";
 		}
 		if (rayce == 33) {
 			dexterity += 2;
 			intelligence += 2;
 			charisma -= 2;
-			document.form1.second_comment_box.value += "\r  Tieflings now receive +2 dexterity, +2 intelligence, -2 charisma."
+			document.form1.second_comment_box.value += "\r  Tieflings now receive +2 dexterity, +2 intelligence, -2 charisma.";
 		}
 		if (strength < 3) {
 			strength = 3;
@@ -13172,7 +13170,7 @@ function lock_identity() {
 			charisma = 3;
 		}
 		InitializeIntelligences();
-		document.form1.second_comment_box.value += "\r  Now choose your class(es), starting with first level. We will designate your first-level choice as your favored class.\rRecommended: "
+		document.form1.second_comment_box.value += "\r  Now choose your class(es), starting with first level. We will designate your first-level choice as your favored class.\rRecommended: ";
 		x = 1;
 		if ((dexterity > strength)) {
 			x = 2;
@@ -13299,10 +13297,10 @@ function lock_identity() {
 
 function lock_abilities() {
 	if (DiceHaveBeenRolled == false) {
-		document.form1.first_comment_box.value = "Roll dice / assign all numbers first."
+		document.form1.first_comment_box.value = "Roll dice / assign all numbers first.";
 	} else if (AbilitiesAreProperlyAssigned == false) {
-		document.form1.first_comment_box.value = "Finish assigning your statistics."
-		TellAboutPointBuy()
+		document.form1.first_comment_box.value = "Finish assigning your statistics.";
+		TellAboutPointBuy();
 	} else {
 		AbilitiesHaveBeenEstablished = true;
 		z = 0;
@@ -13484,7 +13482,7 @@ function HaveISixStats() {
 	if (AbilitiesAreProperlyAssigned == false) {
 		if ((document.form1.methods_list.selectedIndex == 4)
 				| (document.form1.methods_list.selectedIndex == 7)) {
-			TellAboutPointBuy()
+			TellAboutPointBuy();
 		} else {
 			document.form1.first_comment_box.value = "Now assign your abilities.";
 			TellAboutPointBuy();
@@ -13536,7 +13534,7 @@ function PointBuyIsSevensOrBetter() {
 
 function assign_stat(numbur) {
 	if (rayce != 0) {
-		clearall()
+		clearall();
 	}
 	AbilitiesHaveBeenEstablished = false;
 	if (numbur == 1) {
@@ -13558,9 +13556,9 @@ function assign_stat(numbur) {
 		stat6 = 3 + document.form1.stat6_list.selectedIndex;
 	}
 
-	PointBuyIsSevensOrBetter()
+	PointBuyIsSevensOrBetter();
 
-	DisplayTrueStatistics()
+	DisplayTrueStatistics();
 	if ((stat1 >= 3) & (stat2 >= 3) & (stat3 >= 3) & (stat4 >= 3)
 			& (stat5 >= 3) & (stat6 >= 3)) {
 		DiceHaveBeenRolled = true;
@@ -13662,7 +13660,7 @@ function DisplayTrueStatistics() {
 
 function Feats() {
 
-	document.form1.feat.value = ""
+	document.form1.feat.value = "";
 	if (FeatsAreLocked == true) {
 		RememberFeats();
 		return true;
@@ -13692,20 +13690,20 @@ function Feats() {
 			x++;
 		}
 		if (handleanimal == 0) {
-			document.form1.animalaffinity.checked = false
+			document.form1.animalaffinity.checked = false;
 		}
 		if (document.form1.animalaffinity.checked == true) {
 			x++;
 		}
 		if (bard_levels + sorcerer_levels + wizard_levels == 0) {
-			document.form1.arcanestrike.checked = false
+			document.form1.arcanestrike.checked = false;
 		}
 		if (document.form1.arcanestrike.checked == true) {
 			x++;
 		}
 		if (document.form1.armorproficiencylight.checked == true) {
 			if (already_knows_light_armor == true) {
-				document.form1.armorproficiencylight.checked = false
+				document.form1.armorproficiencylight.checked = false;
 			} else {
 				x++;
 			}
@@ -13713,7 +13711,7 @@ function Feats() {
 		if (document.form1.armorproficiencymedium.checked == true) {
 			if ((already_knows_medium_armor == true)
 					| ((!already_knows_light_armor) & (document.form1.armorproficiencylight.checked == false))) {
-				document.form1.armorproficiencymedium.checked = false
+				document.form1.armorproficiencymedium.checked = false;
 			} else {
 				x++;
 			}
@@ -13721,7 +13719,7 @@ function Feats() {
 		if (document.form1.armorproficiencyheavy.checked == true) {
 			if ((already_knows_heavy_armor == true)
 					| ((!already_knows_medium_armor) & (document.form1.armorproficiencymedium.checked == false))) {
-				document.form1.armorproficiencyheavy.checked = false
+				document.form1.armorproficiencyheavy.checked = false;
 			} else {
 				x++;
 			}
@@ -13731,14 +13729,14 @@ function Feats() {
 		}
 		if (document.form1.augmentsummoning.checked == true) {
 			if (document.form1.spellfocusconjuration.checked == false) {
-				document.form1.augmentsummoning.checked = false
+				document.form1.augmentsummoning.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.combatcasting.checked == true) {
 			if (!Spellcaster()) {
-				document.form1.combatcasting.checked = false
+				document.form1.combatcasting.checked = false;
 			} else {
 				x++;
 			}
@@ -13749,7 +13747,7 @@ function Feats() {
 		}
 		if (document.form1.defthands.checked == true) {
 			if (sleightofhand + disabledevice == 0) {
-				document.form1.defthands.checked = false
+				document.form1.defthands.checked = false;
 			} else {
 				x++;
 			}
@@ -13773,7 +13771,7 @@ function Feats() {
 		if (document.form1.eschewmaterials.checked == true) {
 			if (bard_levels + cleric_levels + druid_levels + paladin_levels
 					+ ranger_levels + wizard_levels == 0) {
-				document.form1.eschewmaterials.checked = false
+				document.form1.eschewmaterials.checked = false;
 			} else {
 				x++;
 			}
@@ -13781,11 +13779,11 @@ function Feats() {
 
 		if ((cleric_levels == 0) & (paladin_levels < 4)
 				& (wizard_specialty_name != "Necromancer")) {
-			document.form1.extrachannel_list.selectedIndex = 0
+			document.form1.extrachannel_list.selectedIndex = 0;
 		}
 		x = x + document.form1.extrachannel_list.selectedIndex;
 		if (monk_levels < 4) {
-			document.form1.extraki_list.selectedIndex = 0
+			document.form1.extraki_list.selectedIndex = 0;
 		}
 		x = x + document.form1.extraki_list.selectedIndex;
 		if (paladin_levels < 2) {
@@ -13793,15 +13791,15 @@ function Feats() {
 		}
 		x = x + document.form1.extralayonhands_list.selectedIndex;
 		if (paladin_levels < 3) {
-			document.form1.extralayonhands_list.selectedIndex = 0
+			document.form1.extralayonhands_list.selectedIndex = 0;
 		}
 		x = x + document.form1.extramercy_list.selectedIndex;
 		if (bard_levels == 0) {
-			document.form1.extraperformance_list.selectedIndex = 0
+			document.form1.extraperformance_list.selectedIndex = 0;
 		}
 		x = x + document.form1.extraperformance_list.selectedIndex;
 		if (barbarian_levels == 0) {
-			document.form1.extrarage_list.selectedIndex = 0
+			document.form1.extrarage_list.selectedIndex = 0;
 		}
 		x = x + document.form1.extrarage_list.selectedIndex;
 
@@ -13810,7 +13808,7 @@ function Feats() {
 		}
 		if (document.form1.improvedcounterspell.checked == true) {
 			if (!Spellcaster()) {
-				document.form1.improvedcounterspell.checked = false
+				document.form1.improvedcounterspell.checked = false;
 			} else {
 				x++;
 			}
@@ -13821,7 +13819,7 @@ function Feats() {
 		}
 		if (document.form1.leadership.checked == true) {
 			if ((total_levels < 7) | (has_nobility_domain)) {
-				document.form1.leadership.checked = false
+				document.form1.leadership.checked = false;
 			} else {
 				x++;
 			}
@@ -13831,7 +13829,7 @@ function Feats() {
 		}
 		if (document.form1.magicalaptitude.checked == true) {
 			if ((usemagicdevice == 0) | (spellcraft == 0)) {
-				document.form1.magicalaptitude.checked = false
+				document.form1.magicalaptitude.checked = false;
 			} else {
 				x++;
 			}
@@ -13845,7 +13843,7 @@ function Feats() {
 		}
 		if (document.form1.naturalspell.checked == true) {
 			if ((druid_levels < 4) | (wisdom < 13)) {
-				document.form1.naturalspell.checked = false
+				document.form1.naturalspell.checked = false;
 			} else {
 				x++;
 			}
@@ -13861,7 +13859,7 @@ function Feats() {
 		}
 		if (document.form1.shieldproficiency.checked == true) {
 			if (already_knows_shields == true) {
-				document.form1.shieldproficiency.checked = false
+				document.form1.shieldproficiency.checked = false;
 			} else {
 				x++;
 			}
@@ -13876,7 +13874,7 @@ function Feats() {
 		if (document.form1.simpleweaponproficiency.checked == true) {
 			if ((already_knows_simple_weapons == true)
 					| (already_knows_martial_weapons == true)) {
-				document.form1.simpleweaponproficiency.checked = false
+				document.form1.simpleweaponproficiency.checked = false;
 			} else {
 				x++;
 			}
@@ -13917,7 +13915,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusdisabledevice.checked == true) {
 			if (disabledevice == 0) {
-				document.form1.skillfocusdisabledevice.checked = false
+				document.form1.skillfocusdisabledevice.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13939,7 +13937,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocushandleanimal.checked == true) {
 			if (handleanimal == 0) {
-				document.form1.skillfocushandleanimal.checked = false
+				document.form1.skillfocushandleanimal.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13960,7 +13958,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgearcana.checked == true) {
 			if (knowledgearcana == 0) {
-				document.form1.skillfocusknowledgearcana.checked = false
+				document.form1.skillfocusknowledgearcana.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13968,7 +13966,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgeengineering.checked == true) {
 			if (knowledgeengineering == 0) {
-				document.form1.skillfocusknowledgeengineering.checked = false
+				document.form1.skillfocusknowledgeengineering.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13976,7 +13974,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgedungeoneering.checked == true) {
 			if (knowledgedungeoneering == 0) {
-				document.form1.skillfocusknowledgedungeoneering.checked = false
+				document.form1.skillfocusknowledgedungeoneering.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13984,7 +13982,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgegeography.checked == true) {
 			if (knowledgegeography == 0) {
-				document.form1.skillfocusknowledgegeography.checked = false
+				document.form1.skillfocusknowledgegeography.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -13992,7 +13990,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgehistory.checked == true) {
 			if (knowledgehistory == 0) {
-				document.form1.skillfocusknowledgehistory.checked = false
+				document.form1.skillfocusknowledgehistory.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14000,7 +13998,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgelocal.checked == true) {
 			if (knowledgelocal == 0) {
-				document.form1.skillfocusknowledgelocal.checked = false
+				document.form1.skillfocusknowledgelocal.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14008,7 +14006,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgenature.checked == true) {
 			if (knowledgenature == 0) {
-				document.form1.skillfocusknowledgenature.checked = false
+				document.form1.skillfocusknowledgenature.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14016,7 +14014,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgenobility.checked == true) {
 			if (knowledgenobility == 0) {
-				document.form1.skillfocusknowledgenobility.checked = false
+				document.form1.skillfocusknowledgenobility.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14024,7 +14022,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgereligion.checked == true) {
 			if (knowledgereligion == 0) {
-				document.form1.skillfocusknowledgereligion.checked = false
+				document.form1.skillfocusknowledgereligion.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14032,7 +14030,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusknowledgeplanes.checked == true) {
 			if (knowledgeplanes == 0) {
-				document.form1.skillfocusknowledgeplanes.checked = false
+				document.form1.skillfocusknowledgeplanes.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14068,7 +14066,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusprofession.checked == true) {
 			if (profession == 0) {
-				document.form1.skillfocusprofession.checked = false
+				document.form1.skillfocusprofession.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14084,7 +14082,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocussleightofhand.checked == true) {
 			if (sleightofhand == 0) {
-				document.form1.skillfocussleightofhand.checked = false
+				document.form1.skillfocussleightofhand.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14092,7 +14090,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocusspellcraft.checked == true) {
 			if (spellcraft == 0) {
-				document.form1.skillfocusspellcraft.checked = false
+				document.form1.skillfocusspellcraft.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14108,7 +14106,7 @@ function Feats() {
 		}
 		if (document.form1.skillfocususemagicdevice.checked == true) {
 			if (usemagicdevice == 0) {
-				document.form1.skillfocususemagicdevice.checked = false
+				document.form1.skillfocususemagicdevice.checked = false;
 			} else {
 				x++;
 				total_halfelf_feats++;
@@ -14117,55 +14115,55 @@ function Feats() {
 
 		if (document.form1.spellfocusabjuration.checked == true) {
 			if ((gave_up_abjuration == true) | (!Spellcaster())) {
-				document.form1.spellfocusabjuration.checked = false
+				document.form1.spellfocusabjuration.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocusconjuration.checked == true) {
 			if ((gave_up_conjuration == true) | (!Spellcaster())) {
-				document.form1.spellfocusconjuration.checked = false
+				document.form1.spellfocusconjuration.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocusdivination.checked == true)
 			if ((gave_up_divination == true) | (!Spellcaster())) {
-				document.form1.spellfocusdivination.checked = false
+				document.form1.spellfocusdivination.checked = false;
 			} else {
 				x++;
 			}
 		if (document.form1.spellfocusenchantment.checked == true) {
 			if ((gave_up_enchantment == true) | (!Spellcaster())) {
-				document.form1.spellfocusenchantment.checked = false
+				document.form1.spellfocusenchantment.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocusevocation.checked == true) {
 			if ((gave_up_evocation == true) | (!Spellcaster())) {
-				document.form1.spellfocusevocation.checked = false
+				document.form1.spellfocusevocation.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocusillusion.checked == true) {
 			if ((gave_up_illusion == true) | (!Spellcaster())) {
-				document.form1.spellfocusillusion.checked = false
+				document.form1.spellfocusillusion.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocusnecromancy.checked == true) {
 			if ((gave_up_necromancy == true) | (!Spellcaster())) {
-				document.form1.spellfocusnecromancy.checked = false
+				document.form1.spellfocusnecromancy.checked = false;
 			} else {
 				x++;
 			}
 		}
 		if (document.form1.spellfocustransmutation.checked == true) {
 			if ((gave_up_transmutation == true) | (!Spellcaster())) {
-				document.form1.spellfocustransmutation.checked = false
+				document.form1.spellfocustransmutation.checked = false;
 			} else {
 				x++;
 			}
@@ -14228,7 +14226,7 @@ function Feats() {
 		}
 		if (document.form1.spellmastery_list.selectedIndex > 0) {
 			if (wizard_levels == 0) {
-				document.form1.spellmastery_list.selectedIndex = 0
+				document.form1.spellmastery_list.selectedIndex = 0;
 			} else {
 				total_wizard_feats += document.form1.spellmastery_list.selectedIndex;
 				x += document.form1.spellmastery_list.selectedIndex;
@@ -14236,7 +14234,7 @@ function Feats() {
 		}
 		if (document.form1.spellpenetration.checked == true) {
 			if (CasterLevel() == 0) {
-				document.form1.spellpenetration.checked = false
+				document.form1.spellpenetration.checked = false;
 			} else {
 				x++;
 			}
@@ -14244,7 +14242,7 @@ function Feats() {
 
 		if (document.form1.greaterspellpenetration.checked == true) {
 			if (document.form1.spellpenetration.checked == false) {
-				document.form1.greaterspellpenetration.checked = false
+				document.form1.greaterspellpenetration.checked = false;
 			} else {
 				x++;
 			}
@@ -14276,7 +14274,7 @@ function Feats() {
 
 		if (document.form1.brewpotion.checked == true) {
 			if (CasterLevel() < 3) {
-				document.form1.brewpotion.checked = false
+				document.form1.brewpotion.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14285,7 +14283,7 @@ function Feats() {
 
 		if (document.form1.craftmaa.checked == true) {
 			if ((CasterLevel() < 5) & (CrafterLevel() < 5)) {
-				document.form1.craftmaa.checked = false
+				document.form1.craftmaa.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14294,7 +14292,7 @@ function Feats() {
 
 		if (document.form1.craftrod.checked == true) {
 			if (CasterLevel() < 9) {
-				document.form1.craftrod.checked = false
+				document.form1.craftrod.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14303,7 +14301,7 @@ function Feats() {
 
 		if (document.form1.craftstaff.checked == true) {
 			if (CasterLevel() < 11) {
-				document.form1.craftstaff.checked = false
+				document.form1.craftstaff.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14312,7 +14310,7 @@ function Feats() {
 
 		if (document.form1.craftwand.checked == true) {
 			if (CasterLevel() < 5) {
-				document.form1.craftwand.checked = false
+				document.form1.craftwand.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14321,7 +14319,7 @@ function Feats() {
 
 		if (document.form1.craftwondrousitem.checked == true) {
 			if ((CasterLevel() < 3) & (CrafterLevel() < 3)) {
-				document.form1.craftwondrousitem.checked = false
+				document.form1.craftwondrousitem.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14330,7 +14328,7 @@ function Feats() {
 
 		if (document.form1.forgering.checked == true) {
 			if (CasterLevel() < 7) {
-				document.form1.forgering.checked = false
+				document.form1.forgering.checked = false;
 			} else {
 				total_wizard_feats++;
 				x++;
@@ -14339,7 +14337,7 @@ function Feats() {
 
 		if (document.form1.scribescroll.checked == true) {
 			if ((wizard_levels > 0) | (has_rune_domain) | (CasterLevel() < 1)) {
-				document.form1.scribescroll.checked = false
+				document.form1.scribescroll.checked = false;
 			} else {
 				x++;
 			}
@@ -14753,7 +14751,7 @@ function Feats() {
 		}
 		if (document.form1.combatexpertise.checked == true) {
 			if (intelligence < 13) {
-				document.form1.combatexpertise.checked = false
+				document.form1.combatexpertise.checked = false;
 			} else {
 				total_fighter_feats++;
 				x++;
@@ -14831,7 +14829,7 @@ function Feats() {
 		}
 		if (document.form1.dodge.checked == true) {
 			if ((dexterity < 13) & (monk_levels == 0)) {
-				document.form1.dodge.checked = false
+				document.form1.dodge.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -14840,7 +14838,7 @@ function Feats() {
 		}
 		if (document.form1.mobility.checked == true) {
 			if ((document.form1.dodge.checked == false) & (monk_levels < 6)) {
-				document.form1.mobility.checked = false
+				document.form1.mobility.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -14851,7 +14849,7 @@ function Feats() {
 		if (document.form1.springattack.checked == true) {
 			if (((document.form1.mobility.checked == false) | (dexterity < 13) | (base_attack_bonus < 4))
 					& (monk_levels < 10)) {
-				document.form1.springattack.checked = false
+				document.form1.springattack.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -14879,7 +14877,7 @@ function Feats() {
 		}
 		if (document.form1.improvedunarmedstrike.checked == true) {
 			if (monk_levels > 0) {
-				document.form1.improvedunarmedstrike.checked = false
+				document.form1.improvedunarmedstrike.checked = false;
 			} else {
 				total_fighter_feats++;
 				x++;
@@ -14888,7 +14886,7 @@ function Feats() {
 		if (document.form1.improvedgrapple.checked == true) {
 			if ((((document.form1.improvedunarmedstrike.checked == false) & (monk_levels == 0)) | (dexterity < 13))
 					& (monk_levels == 0)) {
-				document.form1.improvedgrapple.checked = false
+				document.form1.improvedgrapple.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -14989,7 +14987,7 @@ function Feats() {
 		if (document.form1.deflectarrows.checked == true) {
 			if ((((document.form1.improvedunarmedstrike.checked == false) & (monk_levels == 0)) | (dexterity < 13))
 					& (monk_levels == 0)) {
-				document.form1.deflectarrows.checked = false
+				document.form1.deflectarrows.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -14999,7 +14997,7 @@ function Feats() {
 		if (document.form1.snatcharrows.checked == true) {
 			if (((dexterity < 15) | (document.form1.deflectarrows.checked == false))
 					& (monk_levels < 10)) {
-				document.form1.snatcharrows.checked = false
+				document.form1.snatcharrows.checked = false;
 			} else {
 				total_fighter_feats++;
 				total_monk_feats++;
@@ -15013,7 +15011,7 @@ function Feats() {
 					| (monk_levels > 0)
 					| (dexterity < 13)
 					| (base_attack_bonus < 8)) {
-				document.form1.stunningfist.checked = false
+				document.form1.stunningfist.checked = false;
 			} else {
 				total_fighter_feats++;
 				x++;
@@ -15067,7 +15065,7 @@ function Feats() {
 		}
 		if ((rangercombattrack != 1)
 				& (document.form1.pointblankshot.checked == false)) {
-			document.form1.farshot.checked = false
+			document.form1.farshot.checked = false;
 		}
 		if (document.form1.farshot.checked) {
 			total_fighter_feats++;
@@ -15077,7 +15075,7 @@ function Feats() {
 
 		if ((rangercombattrack != 1)
 				& (document.form1.pointblankshot.checked == false)) {
-			document.form1.preciseshot.checked = false
+			document.form1.preciseshot.checked = false;
 		}
 		;
 		if (document.form1.preciseshot.checked) {
@@ -15088,7 +15086,7 @@ function Feats() {
 
 		if ((rangercombattrack != 1)
 				& ((document.form1.pointblankshot.checked == false) | (dexterity < 13))) {
-			document.form1.rapidshot.checked = false
+			document.form1.rapidshot.checked = false;
 		}
 
 		if (document.form1.rapidshot.checked == true) {
@@ -15121,7 +15119,7 @@ function Feats() {
 
 		if (((document.form1.preciseshot.checked == false) | (dexterity < 19) | (base_attack_bonus < 11))
 				& ((rangercombattrack != 1) | (ranger_levels < 6))) {
-			document.form1.improvedpreciseshot.checked = false
+			document.form1.improvedpreciseshot.checked = false;
 		}
 
 		if (document.form1.improvedpreciseshot.checked == true) {
@@ -15376,45 +15374,45 @@ function Feats() {
 				+ monkfeatentitlement + halfelffeatentitlement;
 
 		if (SkillPointsAreLocked == false) {
-			document.form1.feat.value = "Wait to choose your feats."
+			document.form1.feat.value = "Wait to choose your feats.";
 		} else {
 			document.form1.feat.value += "You must choose " + z
-					+ " feats.  You have " + x + ".\r"
+					+ " feats.  You have " + x + ".\r";
 			if (wizardfeatentitlement > 0) {
-				document.form1.feat.value += "There must be "
+				document.form1.feat.value += "There must be ";
 						+ wizardfeatentitlement
 						+ " wizard feats [W].  You have " + total_wizard_feats
 						+ ".\r";
 			}
 			if (fighterfeatentitlement > 0) {
-				document.form1.feat.value += "There must be "
+				document.form1.feat.value += "There must be ";
 						+ fighterfeatentitlement
-						+ " fighter feats [F].  You have "
+						+ " fighter feats [F].  You have ";
 						+ total_fighter_feats + ".\r";
 			}
 			if (halfelffeatentitlement > 0) {
-				document.form1.feat.value += "A half-elf must take one Skill Focus feat.  You have "
+				document.form1.feat.value += "A half-elf must take one Skill Focus feat.  You have ";
 						+ total_halfelf_feats + ".\r";
 			}
 			if (monkfeatentitlement > 0) {
-				document.form1.feat.value += "There must be "
-						+ monkfeatentitlement + " monk feats [M].  You have "
+				document.form1.feat.value += "There must be ";
+						+ monkfeatentitlement + " monk feats [M].  You have ";
 						+ total_monk_feats + ".\r";
 			}
 			if (r1featentitlement > 0) {
-				document.form1.feat.value += "There must be "
+				document.form1.feat.value += "There must be ";
 						+ r1featentitlement
-						+ " archery-track ranger feats [R].  You have "
+						+ " archery-track ranger feats [R].  You have ";
 						+ total_r1_feats + ".\r";
 			}
 			if (r2featentitlement > 0) {
-				document.form1.feat.value += "There must be "
+				document.form1.feat.value += "There must be ";
 						+ r2featentitlement
-						+ " two-weapon ranger feats [R].  You have "
+						+ " two-weapon ranger feats [R].  You have ";
 						+ total_r2_feats + ".\r";
 			}
 			if (sorcererfeatentitlement > 0) {
-				document.form1.feat.value += "There must be "
+				document.form1.feat.value += "There must be ";
 						+ sorcererfeatentitlement
 						+ " bloodline feats.  See the rulebook.  You are on your honor.\r";
 			}
@@ -15426,21 +15424,21 @@ function Feats() {
 					& (total_r2_feats >= r2featentitlement)
 					& (total_wizard_feats >= wizardfeatentitlement)
 					& (total_monk_feats >= monkfeatentitlement) & (x > 0)) {
-				document.form1.feat.value += "You can accept these."
-				document.form1.sixth_comment_box.value = "You can accept these."
+				document.form1.feat.value += "You can accept these.";
+				document.form1.sixth_comment_box.value = "You can accept these.";
 				document.form1.acceptfeatsarrow.src = "dragonarrowleft.gif";
 				document.form1.featsarrow.src = "dragongrayright.gif";
 				return true;
 			} else {
-				document.form1.feat.value += "Keep working."
-				document.form1.sixth_comment_box.value = "Keep working."
+				document.form1.feat.value += "Keep working.";
+				document.form1.sixth_comment_box.value = "Keep working.";
 				if (x > z + 1) {
-					document.form1.feat.value += "  Un-check some boxes."
-					document.form1.sixth_comment_box.value = "  Un-check some boxes."
+					document.form1.feat.value += "  Un-check some boxes.";
+					document.form1.sixth_comment_box.value = "  Un-check some boxes.";
 				}
 				if (x == z + 1) {
-					document.form1.feat.value += "  Un-check a box."
-					document.form1.sixth_comment_box.value = "  Un-check a box."
+					document.form1.feat.value += "  Un-check a box.";
+					document.form1.sixth_comment_box.value = "  Un-check a box.";
 				}
 				document.form1.acceptfeatsarrow.src = "dragonblank.gif";
 				document.form1.featsarrow.src = "dragonarrowright.gif";
@@ -15454,15 +15452,15 @@ function Feats() {
 
 function modifier_number(skillo) {
 	if (skillo < 2) {
-		return -5
+		return -5;
 	} else if (skillo < 4) {
-		return -4
+		return -4;
 	} else if (skillo < 6) {
-		return -3
+		return -3;
 	} else if (skillo < 8) {
-		return -2
+		return -2;
 	} else if (skillo < 10) {
-		return -1
+		return -1;
 	} else {
 		return Math.floor((skillo - 10) / 2);
 	}
@@ -15470,15 +15468,15 @@ function modifier_number(skillo) {
 
 function modifier_string(skillo) {
 	if (skillo < 2) {
-		return "-5"
+		return "-5";
 	} else if (skillo < 4) {
-		return "-4"
+		return "-4";
 	} else if (skillo < 6) {
-		return "-3"
+		return "-3";
 	} else if (skillo < 8) {
-		return "-2"
+		return "-2";
 	} else if (skillo < 10) {
-		return "-1"
+		return "-1";
 	} else {
 		return "+" + (Math.floor(skillo / 2) - 5);
 	}
@@ -15520,7 +15518,7 @@ function SkillPointsPerLevel(klasso) {
 }
 
 function FigureClassSkillsAndTotalSkillPoints() {
-	// alert("intelligence01="+intelligence01+"
+	// alert("intelligence01="+intelligence01+";
 	// favored_for_skill="+favored_for_skill);
 	total_skill_points = 0;
 	/*
@@ -16103,7 +16101,7 @@ function RecordFighterFeatsEtc() {
 	}
 	if (document.form1.choose_energy[1].checked == true) {
 		if (alignment < 4) {
-			document.form1.choose_energy[0].checked == true
+			document.form1.choose_energy[0].checked == true;
 			channels_energy = 1;
 		} else {
 			channels_energy = 2;
@@ -16407,14 +16405,14 @@ function figure_skills() {
 		x += otherskill3;
 
 		skill_points_spent = x;
-		document.form1.skillpointcount.value = "You have spent " + x + " of "
+		document.form1.skillpointcount.value = "You have spent " + x + " of ";
 				+ total_skill_points + " skill points.";
 		if (x == 0) {
-			document.form1.fifth_comment_box.value = "Not ready yet"
+			document.form1.fifth_comment_box.value = "Not ready yet";
 		} else if (x == total_skill_points) {
-			document.form1.fifth_comment_box.value = "You can accept these skills."
+			document.form1.fifth_comment_box.value = "You can accept these skills.";
 		} else {
-			document.form1.fifth_comment_box.value = "Keep working"
+			document.form1.fifth_comment_box.value = "Keep working";
 		}
 
 		document.form1.about_appraise.value = (appraise) + " ranks";
@@ -17334,20 +17332,20 @@ function DoHPAndOtherClassStuff() {
 
 function lock_classes() {
 	if (class01 == 0) {
-		document.form1.third_comment_box.value = "Not yet"
+		document.form1.third_comment_box.value = "Not yet";
 	} else {
 		AddUpTheClasses();
-		GenerateClassString()
+		GenerateClassString();
 		ClassesHaveBeenEstablished = true;
 
 		document.form1.third_comment_box.value = "You chose a " + class_string
-				+ ".\r"
+				+ ".\r";
 
 		if (stringy != "") {
-			document.form1.third_comment_box.value += stringy + "\r"
+			document.form1.third_comment_box.value += stringy + "\r";
 		}
 
-		document.form1.third_comment_box.value += "Now complete the following as applicable."
+		document.form1.third_comment_box.value += "Now complete the following as applicable.";
 		// zzzzzz
 		if (sorcerer_levels > 0) {
 			if (rayce == 28) {
@@ -17385,7 +17383,7 @@ function lock_classes() {
 			}
 		}
 
-		DoHPAndOtherClassStuff()
+		DoHPAndOtherClassStuff();
 		DoFavoredClassPoints();
 		DoYourFeatEntitlements();
 		AdjustRangerFoes();
@@ -17454,7 +17452,7 @@ function lock_classes() {
 
 function assignclass(whatlevel, whatclass) {
 	if (ClassesHaveBeenEstablished == true) {
-		ShowHowWeChoseClasses()
+		ShowHowWeChoseClasses();
 	} else if (CharacterTypeHasBeenEstablished == false) {
 		NegateAllClassChoicesHereAndBelow(1);
 	} else if ((class01 == 0) & (whatlevel > 1)) {
@@ -17617,74 +17615,74 @@ function ShowHowWeChoseClasses() {
 	AddUpTheClasses();
 
 	if ((bard_levels >= 2) & (charisma < 11)) {
-		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r"
+		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r";
 	} else if ((bard_levels >= 5) & (charisma == 12)) {
-		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r"
+		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r";
 	} else if ((bard_levels >= 7) & (charisma == 13)) {
-		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r"
+		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r";
 	} else if ((bard_levels >= 10) & (charisma == 14)) {
-		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r"
+		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r";
 	} else if ((bard_levels >= 13) & (charisma == 15)) {
-		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r"
+		document.form1.third_comment_box.value += "Charisma is low for these bard levels.\r";
 	}
 
 	if ((wizard_levels >= 1) & (intelligence < 11)) {
-		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r"
+		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r";
 	} else if ((wizard_levels >= 3) & (intelligence == 12)) {
-		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r"
+		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r";
 	} else if ((wizard_levels >= 5) & (intelligence == 13)) {
-		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r"
+		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r";
 	} else if ((wizard_levels >= 7) & (intelligence == 14)) {
-		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r"
+		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r";
 	} else if ((wizard_levels >= 11) & (intelligence == 15)) {
-		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r"
+		document.form1.third_comment_box.value += "Intelligence is low for these wizard levels.\r";
 	}
 	if ((cleric_levels >= 1) & (wisdom < 11)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r";
 	} else if ((cleric_levels >= 3) & (wisdom == 12)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r";
 	} else if ((cleric_levels >= 5) & (wisdom == 13)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r";
 	} else if ((cleric_levels >= 7) & (wisdom == 14)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r";
 	} else if ((cleric_levels >= 11) & (wisdom == 15)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these cleric levels.\r";
 	}
 	if ((druid_levels >= 1) & (wisdom < 11)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r";
 	} else if ((druid_levels >= 3) & (wisdom == 12)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r";
 	} else if ((druid_levels >= 5) & (wisdom == 13)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r";
 	} else if ((druid_levels >= 7) & (wisdom == 14)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r";
 	} else if ((druid_levels >= 11) & (wisdom == 15)) {
-		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r"
+		document.form1.third_comment_box.value += "Wisdom is low for these druid levels.\r";
 	}
 	if ((barbarian_levels > 0) & (strength + dexterity + constitution <= 30)) {
-		document.form1.third_comment_box.value += "Low scores will handicap a barbarian.\r"
+		document.form1.third_comment_box.value += "Low scores will handicap a barbarian.\r";
 	}
 
 	if ((bard_levels > 0) & (charisma < 16)
 			& ((charisma + dexterity + intelligence <= 20) | (charisma < 12))) {
-		document.form1.third_comment_box.value += "Low scores may limit your bard.\r"
+		document.form1.third_comment_box.value += "Low scores may limit your bard.\r";
 	}
 	if ((fighter_levels > 0)
 			& (((strength + dexterity < 22) & (strength < 14) & (dexterity < 14)) | ((constitution < 10) & (strength
 					+ dexterity < 28)))) {
-		document.form1.third_comment_box.value += "Low scores will handicap a fighter.\r"
+		document.form1.third_comment_box.value += "Low scores will handicap a fighter.\r";
 	}
 	if ((paladin_levels > 0)
 			& (charisma + wisdom + constitution + strength <= 40)) {
-		document.form1.third_comment_box.value += "Low scores will handicap a paladin.\r"
+		document.form1.third_comment_box.value += "Low scores will handicap a paladin.\r";
 	}
 	if ((ranger_levels > 0)
 			& (dexterity + wisdom + constitution + strength <= 40)) {
-		document.form1.third_comment_box.value += "Low scores will handicap a ranger.\r"
+		document.form1.third_comment_box.value += "Low scores will handicap a ranger.\r";
 	}
 	if ((rogue_levels > 0) & (dexterity + intelligence <= 20)
 			& (dexterity < 16)) {
-		document.form1.third_comment_box.value += "Low scores will handicap a rogue.\r"
+		document.form1.third_comment_box.value += "Low scores will handicap a rogue.\r";
 	}
 
 }
@@ -18561,69 +18559,69 @@ function WriteTextForCharacterSheet() {
 	wt = 0;
 	DoHPAndOtherClassStuff();
 
-	CalculateHitPoints()
-	CalculateArmorClass()
-	PrepareBardSpellArrays()
-	PrepareClericSpellArrays()
-	PrepareDruidSpellArrays()
-	PreparePaladinSpellArrays()
-	PrepareRangerSpellArrays()
-	PrepareSorcererSpellArrays()
-	PrepareWizardSpellArrays()
+	CalculateHitPoints();
+	CalculateArmorClass();
+	PrepareBardSpellArrays();
+	PrepareClericSpellArrays();
+	PrepareDruidSpellArrays();
+	PreparePaladinSpellArrays();
+	PrepareRangerSpellArrays();
+	PrepareSorcererSpellArrays();
+	PrepareWizardSpellArrays();
 	genderandrace_string = "";
 	if (gender == 1) {
-		genderandrace_string += "Male "
+		genderandrace_string += "Male ";
 	}
 	if (gender == 2) {
-		genderandrace_string += "Female "
+		genderandrace_string += "Female ";
 	}
 	if (rayce == 1) {
-		genderandrace_string += "Human "
+		genderandrace_string += "Human ";
 	}
 	if (rayce == 2) {
-		genderandrace_string += "Half-Elf "
+		genderandrace_string += "Half-Elf ";
 	}
 	if (rayce == 3) {
-		genderandrace_string += "Elf "
+		genderandrace_string += "Elf ";
 	}
 	if (rayce == 4) {
-		genderandrace_string += "Dwarf "
+		genderandrace_string += "Dwarf ";
 	}
 	if (rayce == 5) {
-		genderandrace_string += "Gnome "
+		genderandrace_string += "Gnome ";
 	}
 	if (rayce == 6) {
-		genderandrace_string += "Halfling "
+		genderandrace_string += "Halfling ";
 	}
 	if (rayce == 7) {
-		genderandrace_string += "Half-Orc "
+		genderandrace_string += "Half-Orc ";
 	}
 	if (rayce == 28) {
-		genderandrace_string += "Aasimar "
+		genderandrace_string += "Aasimar ";
 	}
 	if (rayce == 12) {
-		genderandrace_string += "Drow "
+		genderandrace_string += "Drow ";
 	}
 	if (rayce == 33) {
-		genderandrace_string += "Tiefling "
+		genderandrace_string += "Tiefling ";
 	}
 	if (rayce == 29) {
-		genderandrace_string += "Sylph "
+		genderandrace_string += "Sylph ";
 	}
 	if (rayce == 30) {
-		genderandrace_string += "Oread "
+		genderandrace_string += "Oread ";
 	}
 	if (rayce == 31) {
-		genderandrace_string += "Ifrit "
+		genderandrace_string += "Ifrit ";
 	}
 	if (rayce == 32) {
-		genderandrace_string += "Undine "
+		genderandrace_string += "Undine ";
 	}
 	if (rayce == 9) {
-		genderandrace_string += "Dhampir "
+		genderandrace_string += "Dhampir ";
 	}
 	if (rayce == 22) {
-		genderandrace_string += "Orc "
+		genderandrace_string += "Orc ";
 	}
 	// zzzzzzzzzz
 
@@ -18633,96 +18631,96 @@ function WriteTextForCharacterSheet() {
 		stringy += document.form1.title_list.options[x].value;
 	}
 	if ((stringy == "") & (genderandrace_string + class_string != "")) {
-		stringy = "Unnamed " + genderandrace_string + class_string
+		stringy = "Unnamed " + genderandrace_string + class_string;
 	}
 	;
 	if (stringy == "") {
 		stringy = "Unnamed Character";
 	}
 
-	SWD = "<html><head><style type=text/css media-screen><!--  body {font-family: Arial; font-size: 12 pt;}  --></style><title>"
-			+ stringy + "</title></head>\r<body>"
+	SWD = "<html><head><style type=text/css media-screen><!--  body {font-family: Arial; font-size: 12 pt;}  --></style><title>";
+			+ stringy + "</title></head>\r<body>";
 
 	if (FeatsAreLocked == false) {
-		SWD += "<b>Your character is not yet completed.</b><p>"
+		SWD += "<b>Your character is not yet completed.</b><p>";
 	} else {
 		my_character_is_done = true;
 		ArrowShow();
 		document.form1.want_another_character.src = "another_character.jpg";
 	}
-	SWD += "<center><b><font size=\" + 2\">"
+	SWD += "<center><b><font size=\" + 2\">";
 	SWD += document.form1.moniker.value;
 	x = document.form1.title_list.selectedIndex;
 	if (x > 0) {
 		SWD += document.form1.title_list.options[x].value;
 	}
-	SWD += "</font size></b></center><p>\r"
-	SWD += genderandrace_string + class_string + "<br>"
+	SWD += "</font size></b></center><p>\r";
+	SWD += genderandrace_string + class_string + "<br>";
 	if (alignment == 1) {
-		SWD += "Lawful Good"
+		SWD += "Lawful Good";
 	}
 	if (alignment == 2) {
-		SWD += "Neutral Good"
+		SWD += "Neutral Good";
 	}
 	if (alignment == 3) {
-		SWD += "Chaotic Good"
+		SWD += "Chaotic Good";
 	}
 	if (alignment == 4) {
-		SWD += "Lawful Neutral"
+		SWD += "Lawful Neutral";
 	}
 	if (alignment == 5) {
-		SWD += "True Neutral"
+		SWD += "True Neutral";
 	}
 	if (alignment == 6) {
-		SWD += "Chaotic Neutral"
+		SWD += "Chaotic Neutral";
 	}
 	if (alignment == 7) {
-		SWD += "Lawful Evil"
+		SWD += "Lawful Evil";
 	}
 	if (alignment == 8) {
-		SWD += "Neutral Evil"
+		SWD += "Neutral Evil";
 	}
 	if (alignment == 9) {
-		SWD += "Chaotic Evil"
+		SWD += "Chaotic Evil";
 	}
-	SWD += "<br>"
+	SWD += "<br>";
 	if (document.form1.sect.value != "") {
 		SWD += document.form1.sect.value + "<p>";
 	}
 	if (document.form1.playerName.value != "") {
 		SWD += "Representing " + document.form1.playerName.value;
 	}
-	SWD += "<p>\r"
+	SWD += "<p>\r";
 
-	SWD += "<p><table width=100%><tr width=100%><td width=50%>"
+	SWD += "<p><table width=100%><tr width=100%><td width=50%>";
 
-	SWD += "<table><tr> <td>"
-	SWD += "Strength</td> <td align=\"right\">" + strength + "</td><td>("
-			+ modifier_string(strength) + ")</td></tr>\r<tr> <td>"
-	SWD += "Dexterity</td> <td align=\"right\">" + dexterity + "</td><td>("
-			+ modifier_string(dexterity) + ")</td></tr>\r<tr> <td>"
+	SWD += "<table><tr> <td>";
+	SWD += "Strength</td> <td align=\"right\">" + strength + "</td><td>(";
+			+ modifier_string(strength) + ")</td></tr>\r<tr> <td>";
+	SWD += "Dexterity</td> <td align=\"right\">" + dexterity + "</td><td>(";
+			+ modifier_string(dexterity) + ")</td></tr>\r<tr> <td>";
 	SWD += "Constitution</td> <td align=\"right\">" + constitution
 			+ "</td><td>(" + modifier_string(constitution)
-			+ ")</td></tr>\r<tr> <td>"
+			+ ")</td></tr>\r<tr> <td>";
 	SWD += "Intelligence</td> <td align=\"right\">" + intelligence
 			+ "</td><td>(" + modifier_string(intelligence)
-			+ ")</td></tr>\r<tr> <td>"
-	SWD += "Wisdom</td> <td align=\"right\">" + wisdom + "</td><td>("
-			+ modifier_string(wisdom) + ")</td></tr>\r<tr> <td>"
-	SWD += "Charisma</td> <td align=\"right\">" + charisma + "</td><td>("
-			+ modifier_string(charisma) + ")</td></tr>\r</table>\r"
+			+ ")</td></tr>\r<tr> <td>";
+	SWD += "Wisdom</td> <td align=\"right\">" + wisdom + "</td><td>(";
+			+ modifier_string(wisdom) + ")</td></tr>\r<tr> <td>";
+	SWD += "Charisma</td> <td align=\"right\">" + charisma + "</td><td>(";
+			+ modifier_string(charisma) + ")</td></tr>\r</table>\r";
 
-	SWD += "</td><td width=50%>"
+	SWD += "</td><td width=50%>";
 
-	SWD += "<table>"
+	SWD += "<table>";
 
 	if (small == false) {
-		stringy = "Medium"
+		stringy = "Medium";
 	} else {
-		stringy = "Small"
+		stringy = "Small";
 	}
-	SWD += "<tr> <td>Size:</td> <td>" + stringy + "</td></tr>\r"
-	stringy = ""
+	SWD += "<tr> <td>Size:</td> <td>" + stringy + "</td></tr>\r";
+	stringy = "";
 	switch (document.form1.how_tall.selectedIndex) {
 	case 0: {
 		stringy = "---";
@@ -18933,8 +18931,8 @@ function WriteTextForCharacterSheet() {
 		break;
 	}
 	}
-	SWD += "<tr> <td>Height:</td> <td>" + stringy + "</td></tr>\r"
-	stringy = ""
+	SWD += "<tr> <td>Height:</td> <td>" + stringy + "</td></tr>\r";
+	stringy = "";
 	switch (document.form1.how_heavy.selectedIndex) {
 	case 0: {
 		stringy = "--- lb";
@@ -19241,8 +19239,8 @@ function WriteTextForCharacterSheet() {
 		break;
 	}
 	}
-	SWD += "<tr> <td>Weight:</td> <td>" + stringy + "</td></tr>\r"
-	stringy = ""
+	SWD += "<tr> <td>Weight:</td> <td>" + stringy + "</td></tr>\r";
+	stringy = "";
 	if (document.form1.eye_color[0].checked == true) {
 		stringy = "Red";
 	}
@@ -19276,8 +19274,8 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.eye_color[10].checked == true) {
 		stringy = "Silver";
 	}
-	SWD += "<tr> <td>Eyes:</td> <td>" + stringy + "</td></tr>\r"
-	stringy = ""
+	SWD += "<tr> <td>Eyes:</td> <td>" + stringy + "</td></tr>\r";
+	stringy = "";
 	if (document.form1.hair_color[0].checked == true) {
 		stringy = "White";
 	}
@@ -19340,8 +19338,8 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.beard_type[3].checked) {
 		stringy += "; Thick Beard";
 	}
-	SWD += "<tr> <td>Hair:</td> <td>" + stringy + "</td></tr>\r"
-	stringy = ""
+	SWD += "<tr> <td>Hair:</td> <td>" + stringy + "</td></tr>\r";
+	stringy = "";
 	if (document.form1.skin_color[0].checked == true) {
 		stringy = "Pale";
 	}
@@ -19375,12 +19373,12 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.skin_color[10].checked == true) {
 		stringy = "Red";
 	}
-	SWD += "<tr> <td>Skin:</td> <td>" + stringy + "</td></tr>\r"
+	SWD += "<tr> <td>Skin:</td> <td>" + stringy + "</td></tr>\r";
 
-	SWD += "</td></tr>\r</table>\r"
-	SWD += "</td></tr>\r</table>\r"
+	SWD += "</td></tr>\r</table>\r";
+	SWD += "</td></tr>\r</table>\r";
 
-	SWD += "<p>\r"
+	SWD += "<p>\r";
 
 	if (cleric_levels > 0) {
 		SWD += "Domains: ";
@@ -19483,12 +19481,12 @@ function WriteTextForCharacterSheet() {
 		if (has_weather_domain) {
 			SWD += " Weather ";
 		}
-		SWD += "<p>Energy: "
+		SWD += "<p>Energy: ";
 		if (channels_energy == 1) {
-			SWD += "Positive [Healing / Damages Undead]<p>\r"
+			SWD += "Positive [Healing / Damages Undead]<p>\r";
 		}
 		if (channels_energy == 2) {
-			SWD += "Negative [Harmful / Heals Undead]<p>\r"
+			SWD += "Negative [Harmful / Heals Undead]<p>\r";
 		}
 	}
 
@@ -19518,28 +19516,28 @@ function WriteTextForCharacterSheet() {
 
 	if ((wizard_levels > 0) & (no_specialist == false)) {
 		if (abjuration_specialist == true) {
-			SWD += "Specialty: Abjuration<p>"
+			SWD += "Specialty: Abjuration<p>";
 		}
 		if (conjuration_specialist == true) {
-			SWD += "Specialty: Conjuration<p>"
+			SWD += "Specialty: Conjuration<p>";
 		}
 		if (divination_specialist == true) {
-			SWD += "Specialty: Divination<p>"
+			SWD += "Specialty: Divination<p>";
 		}
 		if (enchantment_specialist == true) {
-			SWD += "Specialty: Enchantment<p>"
+			SWD += "Specialty: Enchantment<p>";
 		}
 		if (evocation_specialist == true) {
-			SWD += "Specialty: Evocation<p>"
+			SWD += "Specialty: Evocation<p>";
 		}
 		if (illusion_specialist == true) {
-			SWD += "Specialty: Illusion<p>"
+			SWD += "Specialty: Illusion<p>";
 		}
 		if (necromancy_specialist == true) {
-			SWD += "Specialty: Necromancy<p>"
+			SWD += "Specialty: Necromancy<p>";
 		}
 		if (transmutation_specialist == true) {
-			SWD += "Specialty: Transmutation<p>"
+			SWD += "Specialty: Transmutation<p>";
 		}
 		SWD += "Gave up: ";
 
@@ -19570,12 +19568,12 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "\r<p>Total Hit Points: " + total_hit_points;
 	if (has_toughness == true) {
-		SWD += " [includes toughness] "
+		SWD += " [includes toughness] ";
 	}
 	if (toad_familiar == true) {
-		SWD += " [includes toad bonus] "
+		SWD += " [includes toad bonus] ";
 	}
-	SWD += "<p>\r"
+	SWD += "<p>\r";
 	if (age_adjustment == 1) {
 		SWD += "Middle-aged<p>";
 	}
@@ -19585,59 +19583,59 @@ function WriteTextForCharacterSheet() {
 	if (age_adjustment == 3) {
 		SWD += "Venerable<p>";
 	}
-	SWD += "Speed: " + speed_string + "<p>\r"
-	SWD += "Armor Class: " + total_armor_class
+	SWD += "Speed: " + speed_string + "<p>\r";
+	SWD += "Armor Class: " + total_armor_class;
 	if (armor_class_string != "") {
-		SWD += " = 10 " + armor_class_string
+		SWD += " = 10 " + armor_class_string;
 	}
 
-	SWD += "<ul>Touch AC: " + touch_armor_class
-	SWD += "<br>Flat-footed: " + flatfooted_armor_class
+	SWD += "<ul>Touch AC: " + touch_armor_class;
+	SWD += "<br>Flat-footed: " + flatfooted_armor_class;
 	if (has_uncanny_dodge == true) {
-		SWD += " [uncanny dodge] "
+		SWD += " [uncanny dodge] ";
 	}
-	SWD += "</ul><p>\r"
-	SWD += "<table>"
+	SWD += "</ul><p>\r";
+	SWD += "<table>";
 
 	SWD += "<tr><td>Initiative modifier:</td><td>" + initiative_string_1
-			+ "</td><td>" + initiative_string_2 + "</td></tr>\r"
+			+ "</td><td>" + initiative_string_2 + "</td></tr>\r";
 	SWD += "<tr><td>Fortitude save:</td><td>" + fortitude_string_1
-			+ "</td><td>" + fortitude_string_2 + "</td></tr>\r"
-	SWD += "<tr><td>Reflex save:</td><td>" + reflex_string_1 + "</td><td>"
-			+ reflex_string_2 + "</td></tr>\r"
-	SWD += "<tr><td>Will save:</td><td>" + will_string_1 + "</td><td>"
-			+ will_string_2 + "</td></tr>\r"
+			+ "</td><td>" + fortitude_string_2 + "</td></tr>\r";
+	SWD += "<tr><td>Reflex save:</td><td>" + reflex_string_1 + "</td><td>";
+			+ reflex_string_2 + "</td></tr>\r";
+	SWD += "<tr><td>Will save:</td><td>" + will_string_1 + "</td><td>";
+			+ will_string_2 + "</td></tr>\r";
 	SWD += "<tr><td>Attack (handheld):</td><td>" + handheld_attack_string_1
-			+ "</td><td>" + handheld_attack_string_2 + "</td></tr>\r"
+			+ "</td><td>" + handheld_attack_string_2 + "</td></tr>\r";
 
 	if (has_weaponfinesse == true) {
-		SWD += "<tr><td>&nbsp;&nbsp;&nbsp;Weapon Finesse:</td><td>"
-				+ finesse_attack_string_1 + "</td><td>"
-				+ finesse_attack_string_2 + "</td></tr>\r"
+		SWD += "<tr><td>&nbsp;&nbsp;&nbsp;Weapon Finesse:</td><td>";
+				+ finesse_attack_string_1 + "</td><td>";
+				+ finesse_attack_string_2 + "</td></tr>\r";
 	}
 
 	if (monk_levels > 0) {
 		// SWD +="<tr><td>Flurry of Blows:</td><td>" + flurry_of_blows_string +
-		// "</td><td></td></tr>\r"
+		// "</td><td></td></tr>\r";
 		stringy = "";
 		if ((strength != 10) & (strength != 11)) {
 			stringy = "&nbsp;&nbsp;&nbsp;&nbsp;[includes strength modifier]";
 		}
 		SWD += "<tr><td>Flurry of Blows:</td><td>" + flurry_of_blows_string
-				+ "</td><td>" + stringy + "</td></tr>\r"
+				+ "</td><td>" + stringy + "</td></tr>\r";
 	}
 
 	SWD += "<tr><td>Attack (missile):</td><td>" + missile_attack_string_1
-			+ "</td><td>" + missile_attack_string_2 + "</td></tr>\r"
+			+ "</td><td>" + missile_attack_string_2 + "</td></tr>\r";
 	SWD += "<tr><td>Combat Maneuver Bonus:</td><td>" + CMB_string_1
-			+ "</td><td>" + CMB_string_2 + "</td></tr>\r"
+			+ "</td><td>" + CMB_string_2 + "</td></tr>\r";
 	SWD += "<tr><td>Combat Maneuver Defense:</td><td>" + CMD_string_1
-			+ "</td><td>" + CMD_string_2 + "</td></tr>\r"
-	SWD += "</table><p>\r"
-	SWD += "<table><tr><td>Light load:<br>Medium load:<br>Heavy load:<br>Lift over head:<br>Lift off ground:<br>Push or drag:<br></td><td>"
+			+ "</td><td>" + CMD_string_2 + "</td></tr>\r";
+	SWD += "</table><p>\r";
+	SWD += "<table><tr><td>Light load:<br>Medium load:<br>Heavy load:<br>Lift over head:<br>Lift off ground:<br>Push or drag:<br></td><td>";
 	x = 0;
 	z = 0;
-	x_and_heft()
+	x_and_heft();
 	if (small == false) {
 		SWD += x + " lb. or less<br>";
 	}
@@ -19855,301 +19853,301 @@ function WriteTextForCharacterSheet() {
 		SWD += Math.round(z * 15 / 4) + " lb.<br>";
 	}
 
-	SWD += "</td></tr></table><p>"
+	SWD += "</td></tr></table><p>";
 
-	SWD += "<p><table><tr><td valign=\"top\">Languages:</td><td>"
+	SWD += "<p><table><tr><td valign=\"top\">Languages:</td><td>";
 	if ((document.form1.speak_aarakocra.checked == true)
 			| (aarakocra_nativespeaker == true)) {
-		SWD += "Aarakocra  "
+		SWD += "Aarakocra  ";
 	}
 	if ((document.form1.speak_aboleth.checked == true)
 			| (aboleth_nativespeaker == true)) {
-		SWD += "Aboleth  "
+		SWD += "Aboleth  ";
 	}
 	if (document.form1.speak_abyssal.checked == true) {
-		SWD += "Abyssal  "
+		SWD += "Abyssal  ";
 	}
 	if ((document.form1.speak_aklo.checked == true)
 			| (aklo_nativespeaker == true)) {
-		SWD += "Aklo  "
+		SWD += "Aklo  ";
 	}
 	if ((document.form1.speak_aquan.checked == true)
 			| (aquan_nativespeaker == true)) {
-		SWD += "Aquan  "
+		SWD += "Aquan  ";
 	}
 	if ((document.form1.speak_auran.checked == true) | (auran_nativespeaker)) {
-		SWD += "Auran  "
+		SWD += "Auran  ";
 	}
 	if (document.form1.speak_celestial.checked == true) {
-		SWD += "Celestial  "
+		SWD += "Celestial  ";
 	}
 	if ((document.form1.speak_common.checked == true)
 			| (common_nativespeaker == true)) {
-		SWD += "Common  "
+		SWD += "Common  ";
 	}
 
 	if ((document.form1.speak_dwarven.checked == true)
 			| (dwarven_nativespeaker == true)) {
-		SWD += "Dwarven  "
+		SWD += "Dwarven  ";
 	}
 	if ((document.form1.speak_draconic.checked == true)
 			| (draconic_nativespeaker == true)) {
-		SWD += "Draconic  "
+		SWD += "Draconic  ";
 	}
 	if (druid_levels > 0) {
-		SWD += "Druidic  "
+		SWD += "Druidic  ";
 	}
 	if ((document.form1.speak_elven.checked == true)
 			| (elven_nativespeaker == true)) {
-		SWD += "Elven  "
+		SWD += "Elven  ";
 	}
 	if ((document.form1.speak_darkelfsilent.checked == true)) {
-		SWD += "Dark_Elf_Silent "
+		SWD += "Dark_Elf_Silent ";
 	}
 	if ((document.form1.speak_giant.checked == true)
 			| (giant_nativespeaker == true)) {
-		SWD += "Giant  "
+		SWD += "Giant  ";
 	}
 	if ((document.form1.speak_gith.checked == true)
 			| (gith_nativespeaker == true)) {
-		SWD += "Gith  "
+		SWD += "Gith  ";
 	}
 	if ((document.form1.speak_gnoll.checked == true) | (gnoll_nativespeaker)) {
-		SWD += "Gnoll  "
+		SWD += "Gnoll  ";
 	}
 	if ((document.form1.speak_gnome.checked == true)
 			| (gnome_nativespeaker == true)) {
-		SWD += "Gnome  "
+		SWD += "Gnome  ";
 	}
 	if ((document.form1.speak_goblin.checked == true)
 			| (goblin_nativespeaker == true)) {
-		SWD += "Goblin  "
+		SWD += "Goblin  ";
 	}
 	if ((document.form1.speak_halfling.checked == true)
 			| (halfling_nativespeaker == true)) {
-		SWD += "Halfling  "
+		SWD += "Halfling  ";
 	}
 	if ((document.form1.speak_ignan.checked == true)
 			| (ignan_nativespeaker == true)) {
-		SWD += "Ignan  "
+		SWD += "Ignan  ";
 	}
 	if (document.form1.speak_infernal.checked == true) {
-		SWD += "Infernal  "
+		SWD += "Infernal  ";
 	}
 	if ((document.form1.speak_orc.checked == true)
 			| (orc_nativespeaker == true)) {
-		SWD += "Orc  "
+		SWD += "Orc  ";
 	}
 	if ((document.form1.speak_pterran.checked == true)
 			| (pterran_nativespeaker)) {
-		SWD += "Pterran  "
+		SWD += "Pterran  ";
 	}
 	if ((document.form1.speak_sylvan.checked == true) | (sylvan_nativespeaker)) {
-		SWD += "Sylvan  "
+		SWD += "Sylvan  ";
 	}
 	if ((document.form1.speak_terran.checked == true) | (terran_nativespeaker)) {
-		SWD += "Terran  "
+		SWD += "Terran  ";
 	}
 	if ((document.form1.speak_thrikreen.checked == true)
 			| (thrikreen_nativespeaker)) {
-		SWD += "Thri-Kreen  "
+		SWD += "Thri-Kreen  ";
 	}
 	if ((document.form1.speak_undercommon.checked == true)
 			| (undercommon_nativespeaker)) {
-		SWD += "Undercommon  "
+		SWD += "Undercommon  ";
 	}
 	if ((document.form1.speak_xeph.checked == true)
 			| (xeph_nativespeaker == true)) {
-		SWD += "Xeph  "
+		SWD += "Xeph  ";
 	}
 	if (document.form1.speak_otherlanguage1.checked == true) {
-		SWD += document.form1.other_language_1_name.value + "  "
+		SWD += document.form1.other_language_1_name.value + "  ";
 	}
 	if (document.form1.speak_otherlanguage2.checked == true) {
-		SWD += document.form1.other_language_2_name.value + "  "
+		SWD += document.form1.other_language_2_name.value + "  ";
 	}
 	if (document.form1.speak_otherlanguage3.checked == true) {
-		SWD += document.form1.other_language_3_name.value + "  "
+		SWD += document.form1.other_language_3_name.value + "  ";
 	}
 	if (document.form1.speak_otherlanguage4.checked == true) {
-		SWD += document.form1.other_language_4_name.value + "  "
+		SWD += document.form1.other_language_4_name.value + "  ";
 	}
 	if (document.form1.speak_otherlanguage5.checked == true) {
-		SWD += document.form1.other_language_5_name.value + "  "
+		SWD += document.form1.other_language_5_name.value + "  ";
 	}
 	if (document.form1.speak_otherlanguage6.checked == true) {
-		SWD += document.form1.other_language_6_name.value + "  "
+		SWD += document.form1.other_language_6_name.value + "  ";
 	}
 
 	Languages();
 	if (total_bonus_languages < total_bonus_language_entitlement) {
-		SWD += " (? "
+		SWD += " (? ";
 				+ (total_bonus_language_entitlement - total_bonus_languages)
-				+ " more)"
+				+ " more)";
 	}
 
-	SWD += "</td></tr></table><p>"
+	SWD += "</td></tr></table><p>";
 	if (monk_levels > 0) {
 
-		SWD += "Unarmed Damage: "
+		SWD += "Unarmed Damage: ";
 		if (monk_levels == 1) {
 			if (small == false) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 			if (small == true) {
-				SWD += "1d4"
+				SWD += "1d4";
 			}
 		}
 		if (monk_levels == 2) {
 			if (small == false) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 			if (small == true) {
-				SWD += "1d4"
+				SWD += "1d4";
 			}
 		}
 		if (monk_levels == 3) {
 			if (small == false) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 			if (small == true) {
-				SWD += "1d4"
+				SWD += "1d4";
 			}
 		}
 		if (monk_levels == 4) {
 			if (small == false) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 			if (small == true) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 		}
 		if (monk_levels == 5) {
 			if (small == false) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 			if (small == true) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 		}
 		if (monk_levels == 6) {
 			if (small == false) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 			if (small == true) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 		}
 		if (monk_levels == 7) {
 			if (small == false) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 			if (small == true) {
-				SWD += "1d6"
+				SWD += "1d6";
 			}
 		}
 		if (monk_levels == 8) {
 			if (small == false) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 			if (small == true) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 		}
 		if (monk_levels == 9) {
 			if (small == false) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 			if (small == true) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 		}
 		if (monk_levels == 10) {
 			if (small == false) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 			if (small == true) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 		}
 		if (monk_levels == 11) {
 			if (small == false) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 			if (small == true) {
-				SWD += "1d8"
+				SWD += "1d8";
 			}
 		}
 		if (monk_levels == 12) {
 			if (small == false) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 			if (small == true) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 		}
 		if (monk_levels == 13) {
 			if (small == false) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 			if (small == true) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 		}
 		if (monk_levels == 14) {
 			if (small == false) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 			if (small == true) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 		}
 		if (monk_levels == 15) {
 			if (small == false) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 			if (small == true) {
-				SWD += "1d10"
+				SWD += "1d10";
 			}
 		}
 		if (monk_levels == 16) {
 			if (small == false) {
-				SWD += "2d8"
+				SWD += "2d8";
 			}
 			if (small == true) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 		}
 		if (monk_levels == 17) {
 			if (small == false) {
-				SWD += "2d8"
+				SWD += "2d8";
 			}
 			if (small == true) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 		}
 		if (monk_levels == 18) {
 			if (small == false) {
-				SWD += "2d8"
+				SWD += "2d8";
 			}
 			if (small == true) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 		}
 		if (monk_levels == 19) {
 			if (small == false) {
-				SWD += "2d8"
+				SWD += "2d8";
 			}
 			if (small == true) {
-				SWD += "2d6"
+				SWD += "2d6";
 			}
 		}
 		if (monk_levels == 20) {
 			if (small == false) {
-				SWD += "2d10"
+				SWD += "2d10";
 			}
 			if (small == true) {
-				SWD += "2d8"
+				SWD += "2d8";
 			}
 		}
 		if (strength > 11) {
@@ -20158,247 +20156,247 @@ function WriteTextForCharacterSheet() {
 		if (strength < 10) {
 			SWD += modifier_number(strength) + " [strength]";
 		}
-		SWD += "<p>"
+		SWD += "<p>";
 	}
 	if (document.form1.gauntlet.checked == true) {
 		if (small == true) {
 			SWD += "Gauntlet [1d2, crit x2, 1/2 lb,  light, bludgeoning]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Gauntlet [1d3, crit x2, 1 lb,  light, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if ((document.form1.dagger.checked == true)
 			| (document.form1.throwingdaggers.selectedIndex > 0)) {
 		if (small == true) {
 			SWD += "Dagger [1d3, crit 19-20/x2, range inc 10 ft., 1/2 lb., light, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Dagger [1d4, crit 19-20/x2, range inc 10 ft., 1 lb., light, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.punchingdagger.checked == true) {
 		if (small == true) {
 			SWD += "Punching Dagger [1d3, crit x3, 1/2 lb.,  light, piercing or slashing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Punching Dagger [1d4, crit x3, 1 lb.,  light, piercing or slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.spikedgauntlet.checked == true) {
 		if (small == true) {
 			SWD += "Spiked Gauntlet [1d3, crit x2, 1/2 lb,  light, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Spiked Gauntlet [1d4, crit x2, 1 lb,  light, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.lightmace.checked == true) {
 		if (small == true) {
 			SWD += "Light Mace [1d4, crit x2, 1/2 lb,  light, bludgeoning]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Light Mace [1d6, crit x2, 1 lb,  light, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.sickle.checked == true) {
 		if (small == true) {
 			SWD += "Sickle [1d4, crit x2, 1 lb,  light, slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Sickle [1d6, crit x2, 2 lb,  light, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.club.checked == true) {
 		if (small == true) {
 			SWD += "Club [1d4, crit x2, range incr. 10 ft., 1 1/2 lb, one-handed, bludgeoning]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Club [1d6, crit x2, range incr. 10 ft., 3 lb, one-handed, bludgeoning]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.heavymace.checked == true) {
 		if (small == true) {
 			SWD += "Heavy Mace [1d6, crit x2, 4 lb., one-handed, bludgeoning]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if (small == false) {
 			SWD += "Heavy Mace [1d8, crit x2, 8 lb., one-handed, bludgeoning]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.morningstar.checked == true) {
 		if (small == true) {
 			SWD += "Morningstar [1d6, crit x2, 3 lb,  one-handed, bludgeoning/piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Morningstar [1d8, crit x2, 6 lb,  one-handed, bludgeoning/piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.shortspear.checked == true) {
 		if (small == true) {
 			SWD += "Short Spear [1d4, crit x2, range inc 20 ft., 1 1/2 lb, one-handed, piercing]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Short Spear [1d6, crit x2, range inc 20 ft., 3 lb, one-handed, piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.longspear.checked == true) {
 		if (small == true) {
 			SWD += "Long Spear [1d6, crit x3, 4 1/2 lb.,  two-handed, piercing]<p>\r";
-			wt += 4.5
+			wt += 4.5;
 		}
 		if (small == false) {
 			SWD += "Long Spear [1d8, crit x3, 9 lb.,  two-handed, piercing]<p>\r";
-			wt += 9
+			wt += 9;
 		}
 	}
 	if (document.form1.quarterstaff.checked == true) {
 		if (small == true) {
 			SWD += "Quarterstaff [1d4/1d4, crit x2, 2 lb., two-handed, bludgeoning]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 		if (small == false) {
 			SWD += "Quarterstaff [1d6/1d6, crit x2, 4 lb., two-handed, bludgeoning]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 	}
 	if (document.form1.spear.checked == true) {
 		if (small == true) {
 			SWD += "Spear [1d6, crit x3, range incr 20 ft., 3 lb.,  two-handed, piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Spear [1d8, crit x3, range incr 20 ft., 6 lb.,  two-handed, piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.heavycrossbow.checked == true) {
 		if (small == true) {
 			SWD += "Heavy Crossbow [1d8, crit 19-20/x2, range inc 120 ft., 4 lb., piercing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if (small == false) {
 			SWD += "Heavy Crossbow [1d10, crit 19-20/x2, range inc 120 ft., 8 lb., piercing]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.lightcrossbow.checked == true) {
 		if (small == true) {
 			SWD += "Light Crossbow [1d6, crit 19-20/x2, range inc 80 ft., 2 lb, piercing]]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 		if (small == false) {
 			SWD += "Light Crossbow [1d8, crit 19-20/x2, range inc 80 ft., 4 lb, piercing]]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 	}
 	if (document.form1.dart.checked == true) {
 		if (small == true) {
 			SWD += "Dart [1d3, crit x2, range inc. 20 ft., 1/4 lb, piercing]<p>\r";
-			wt += 0.25
+			wt += 0.25;
 		}
 		if (small == false) {
 			SWD += "Dart [1d4, crit x2, range inc. 20 ft., 1/2 lb, piercing]<p>\r";
-			wt += 0.50
+			wt += 0.50;
 		}
 	}
 	if (document.form1.javelin.checked == true) {
 		if (small == true) {
 			SWD += "Javelin [1d4, crit x2, range inc 30 ft., 1 lb, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Javelin [1d6, crit x2, range inc 30 ft., 2 lb, piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.sling.checked == true) {
 		if (small == true) {
 			SWD += "Sling [1d3, crit x2, range inc. 50 ft., 0 lb, bludgeoning]<p>\r";
-			wt += 0
+			wt += 0;
 		}
 		if (small == false) {
 			SWD += "Sling [1d4, crit x2, range inc. 50 ft., 0 lb, bludgeoning]<p>\r";
-			wt += 0
+			wt += 0;
 		}
 	}
 	if (document.form1.throwingaxe.checked == true) {
 		if (small == true) {
 			SWD += "Throwing Axe [1d4, crit x2, range inc 10 ft., 1 lb, light, slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Throwing Axe [1d6, crit x2, range inc 10 ft., 2 lb, light, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.lighthammer.checked == true) {
 		if (small == true) {
 			SWD += "Light Hammer [1d3, crit x2, range inc 20 ft., 1 lb., light,  bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Light Hammer [1d4, crit x2, range inc 20 ft., 2 lb., light,  bludgeoning]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.handaxe.checked == true) {
 		if (small == true) {
 			SWD += "Hand Axe [1d4, crit x3, crit x2., 1 1/2 lb.,  light, slashing]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Hand Axe [1d6, crit x3, crit x2., 3 lb.,  light, slashing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.kukri.checked == true) {
 		if (small == true) {
 			SWD += "Kukri [1d3, crit 18-20/x2, 1 lb.,  light, slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Kukri [1d4, crit 18-20/x2, 2 lb.,  light, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.lightpick.checked == true) {
 		if (small == true) {
 			SWD += "Light Pick [1d3, crit x4, 1 1/2 lb., light,  piercing]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Light Pick [1d4, crit x4, 3 lb., light,  piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.sap.checked == true) {
 		if (small == true) {
 			SWD += "Sap [1d4 nonlethal, crit x2., 1 lb.,  light, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Sap [1d6 nonlethal, crit x2., 2 lb.,  light, bludgeoning]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.lightshield.checked == true) {
@@ -20428,71 +20426,71 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.shortsword.checked == true) {
 		if (small == true) {
 			SWD += "Short Sword [1d4, crit 19-20/x2, 1/2 lb, light, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Short Sword [1d6, crit 19-20/x2, 1 lb, light, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.battleaxe.checked == true) {
 		if (small == true) {
 			SWD += "Battle Axe [1d6, crit x3, 3 lb., one-handed, slashing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Battle Axe [1d8, crit x3, 6 lb., one-handed, slashing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.flail.checked == true) {
 		if (small == true) {
 			SWD += "Flail [1d6, crit x2, 2 1/2 lb.,  one-handed, bludgeoning]<p>\r";
-			wt += 2.5
+			wt += 2.5;
 		}
 		if (small == false) {
 			SWD += "Flail [1d8, crit x2, 5 lb.,  one-handed, bludgeoning]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 	}
 	if (document.form1.longsword.checked == true) {
 		if (small == true) {
 			SWD += "Longsword [1d6, crit 19-20/x2 2 lb, one-handed, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 		if (small == false) {
 			SWD += "Longsword [1d8, crit 19-20/x2 4 lb, one-handed, slashing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 	}
 	if (document.form1.heavypick.checked == true) {
 		if (small == true) {
 			SWD += "Heavy Pick [1d4, crit x4, 3 lb.,  one-handed, piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Heavy Pick [1d6, crit x4, 6 lb.,  one-handed, piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.rapier.checked == true) {
 		if (small == true) {
 			SWD += "Rapier [1d4, crit 18-20/x2, 1 lb.,  one-handed, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Rapier [1d6, crit 18-20/x2, 2 lb.,  one-handed, piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.scimitar.checked == true) {
 		if (small == true) {
 			SWD += "Scimitar [1d4, crit 18-20/x2, 2 lb, one-handed, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 		if (small == false) {
 			SWD += "Scimitar [1d6, crit 18-20/x2, 4 lb, one-handed, slashing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 	}
 	if (document.form1.heavyshield.checked == true) {
@@ -20506,370 +20504,370 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.trident.checked == true) {
 		if (small == true) {
 			SWD += "Trident [1d6, crit x2, range incr. 10 ft., 2 lb.,  one-handed, piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 		if (small == false) {
 			SWD += "Trident [1d8, crit x2, range incr. 10 ft., 4 lb.,  one-handed, piercing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 	}
 	if (document.form1.warhammer.checked == true) {
 		if (small == true) {
 			SWD += "War Hammer [1d6, crit x3., 2 1/2 lb.,  one-handed, bludgeoning]<p>\r";
-			wt += 2.5
+			wt += 2.5;
 		}
 		if (small == false) {
 			SWD += "War Hammer [1d8, crit x3., 5 lb.,  one-handed, bludgeoning]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 	}
 	if (document.form1.falchion.checked == true) {
 		if (small == true) {
 			SWD += "Falchion [1d6, crit 18-20/x2, 4 lb, two-handed, slashing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if (small == false) {
 			SWD += "Falchion [2d4, crit 18-20/x2, 8 lb, two-handed, slashing]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.glaive.checked == true) {
 		if (small == true) {
 			SWD += "Glaive [1d8, crit x3, 5 lb., two-handed,  slashing]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Glaive [1d10, crit x3, 10 lb., two-handed,  slashing]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.greataxe.checked == true) {
 		if (small == true) {
 			SWD += "Greataxe [1d10, crit x3, 6 lb,  two-handed, two-handed, slashing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Greataxe [1d12, crit x3, 12 lb,  two-handed, two-handed, slashing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.greatclub.checked == true) {
 		if (small == true) {
 			SWD += "Greatclub [1d8, crit x2, 4 lb,  two-handed,  bludgeoning]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if ((small == false)) {
 			SWD += "Greatclub [1d10, crit x2, 8 lb,   two-handed, bludgeoning]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.heavyflail.checked == true) {
 		if (small == true) {
 			SWD += "Heavy Flail [1d8, crit 19-20/x2, 5 lb., two-handed,  bludgeoning]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Heavy Flail [1d10, crit 19-20/x2, 10 lb., two-handed,  bludgeoning]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.greatsword.checked == true) {
 		if (small == true) {
 			SWD += "Greatsword [1d10, crit 19-20/x2, 4 lb., two-handed, slashing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if (small == false) {
 			SWD += "Greatsword [2d6, crit 19-20/x2, 8 lb., two-handed, slashing]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.guisarme.checked == true) {
 		if (small == true) {
 			SWD += "Guisarme [1d6, crit x3, 6 lb.,  two-handed, slashing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Guisarme [2d4, crit x3, 12 lb.,  two-handed, slashing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.halberd.checked == true) {
 		if (small == true) {
 			SWD += "Halberd [1d8, crit x3, 6 lb.,  two-handed, piercing or slashing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Halberd [1d10, crit x3, 12 lb.,  two-handed, piercing or slashing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.lance.checked == true) {
 		if (small == true) {
 			SWD += "Lance [1d6, crit x3, 6 lb.,  two-handed, piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Lance [2d4, crit x3, 12 lb.,  two-handed, piercing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.ranseur.checked == true) {
 		if (small == true) {
 			SWD += "Ranseur [1d6, crit x3, 6 lb.,  two-handed, piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Ranseur [2d4, crit x3, 12 lb.,  two-handed, piercing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.scythe.checked == true) {
 		if (small == true) {
 			SWD += "Scythe [1d6, crit x4, 5 lb.,  two-handed, piercing or slashing]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Scythe [2d4, crit x4, 10 lb.,  two-handed, piercing or slashing]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.longbow.checked == true) {
 		if (small == true) {
 			SWD += "Longbow [1d6, crit x3, range inc. 100 ft, 1 1/2 lb, piercing]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Longbow [1d8, crit x3, range inc. 100 ft, 3 lb, piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.compositelongbow.checked == true) {
 		if (small == true) {
 			SWD += "Composite Longbow [1d6, crit x3, range incr. 110 ft., 1 1/2 lb, piercing]<p>\r";
-			wt += 1.5
+			wt += 1.5;
 		}
 		if (small == false) {
 			SWD += "Composite Longbow [1d8, crit x3, range incr. 110 ft., 3 lb, piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 	}
 	if (document.form1.shortbow.checked == true) {
 		if (small == true) {
 			SWD += "Shortbow [1d4, crit x3, range inc. 60 ft., 1 lb., piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Shortbow [1d6, crit x3, range inc. 60 ft., 2 lb., piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.compositeshortbow.checked == true) {
 		if (small == true) {
 			SWD += "Composite Shortbow [1d4, crit x3, range incr. 70 ft., 1 lb., piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Composite Shortbow [1d6, crit x3, range incr. 70 ft., 2 lb., piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.kama.checked == true) {
 		if (small == true) {
 			SWD += "Kama [1d4, crit x2, 1 lb., light, slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Kama [1d6, crit x2, 2 lb., light, slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.nanchaku.checked == true) {
 		if (small == true) {
 			SWD += "Nanchaku [1d4 crit x2, 1 lb.,  light, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Nanchaku [1d6 crit x2, 2 lb.,  light, bludgeoning]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.sai.checked == true) {
 		if (small == true) {
 			SWD += "Sai [1d3, crit x2, range incr 10 ft., 1/2 lb.,  light, bludgeoning]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Sai [1d4, crit x2, range incr 10 ft., 1 lb.,  light, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.siangham.checked == true) {
 		if (small == true) {
 			SWD += "Siangham [1d4, crit x2, 1/2 lb.,  light, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Siangham [1d6, crit x2, 1 lb.,  light, piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 	}
 	if (document.form1.bastardsword.checked == true) {
 		if (small == true) {
 			SWD += "Bastard Sword [1d8, crit 19-20/x2, 3 lb., one-handed, slashing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Bastard Sword [1d10, crit 19-20/x2, 6 lb., one-handed, slashing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.dwarvenwaraxe.checked == true) {
 		if (small == true) {
 			SWD += "Dwarven Waraxe [1d8, crit x3, 4 lb.,  one-handed, slashing]<p>\r";
-			wt += 4
+			wt += 4;
 		}
 		if (small == false) {
 			SWD += "Dwarven Waraxe [1d10, crit x3, 8 lb.,  one-handed, slashing]<p>\r";
-			wt += 8
+			wt += 8;
 		}
 	}
 	if (document.form1.whip.checked == true) {
 		if (small == true) {
 			SWD += "Whip [1d2 (nonlethal), crit x2, 1 lb., one-handed,  slashing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Whip [1d3 (nonlethal), crit x2, 2 lb., one-handed,  slashing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.orcdoubleaxe.checked == true) {
 		if (small == true) {
 			SWD += "Orc Double Axe [1d6/1d6, crit x3, 7 1/2 lb., two-handed, slashing]<p>\r";
-			wt += 7.5
+			wt += 7.5;
 		}
 		if (small == false) {
 			SWD += "Orc Double Axe [1d8/1d8, crit x3, 15 lb., two-handed, slashing]<p>\r";
-			wt += 15
+			wt += 15;
 		}
 	}
 	if (document.form1.spikedchain.checked == true) {
 		if (small == true) {
 			SWD += "Spiked Chain [1d6, crit x2, 5 lb.,  two-handed, piercing]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Spiked Chain [2d4, crit x2, 10 lb.,  two-handed, piercing]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.direflail.checked == true) {
 		if (small == true) {
 			SWD += "Dire Flail [1d6/1d6, crit x2, 5 lb., two-handed,  bludgeoning]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Dire Flail [1d8/1d8, crit x2, 10 lb., two-handed,  bludgeoning]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.gnomehookedhammer.checked == true) {
 		if (small == true) {
 			SWD += "Gnome Hooked Hammer [1d6/1d4, crit x3/x4, 3 lb.,  two-handed, bludgeoning and piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Gnome Hooked Hammer [1d8/1d6, crit x3/x4, 6 lb.,  two-handed, bludgeoning and piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.twobladedsword.checked == true) {
 		if (small == true) {
 			SWD += "Two-bladed Sword [1d6/1d6, crit 19-20/x2, 5 lb.,  two-handed, slashing]<p>\r";
-			wt += 5
+			wt += 5;
 		}
 		if (small == false) {
 			SWD += "Two-bladed Sword [1d8/1d8, crit 19-20/x2, 10 lb.,  two-handed, slashing]<p>\r";
-			wt += 10
+			wt += 10;
 		}
 	}
 	if (document.form1.dwarvenurgrosh.checked == true) {
 		if (small == true) {
 			SWD += "Dwarven Urgrosh [1d6/1d4, crit x3, 6 lb.,  two-handed, slashing or piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Dwarven Urgrosh [1d8/1d6, crit x3, 12 lb.,  two-handed, slashing or piercing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.bolas.checked == true) {
 		if (small == true) {
 			SWD += "Bolas [1d3 (nonlethal), crit x2, range incr 10 ft., 1 lb, bludgeoning]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Bolas [1d4 (nonlethal), crit x2, range incr 10 ft., 2 lb, bludgeoning]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.handcrossbow.checked == true) {
 		if (small == true) {
 			SWD += "Hand Crossbow [1d3, 19-20/x2, range incr 30 ft., 1 lb., piercing]<p>\r";
-			wt += 1
+			wt += 1;
 		}
 		if (small == false) {
 			SWD += "Hand Crossbow [1d4, 19-20/x2, range incr 30 ft., 2 lb., piercing]<p>\r";
-			wt += 2
+			wt += 2;
 		}
 	}
 	if (document.form1.repeatingheavycrossbow.checked == true) {
 		if (small == true) {
 			SWD += "Repeating Heavy Crossbow [1d8, 19-20/x2, range incr 120 ft., 6 lb., piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 		if (small == false) {
 			SWD += "Repeating Heavy Crossbow [1d10, 19-20/x2, range incr 120 ft., 12 lb., piercing]<p>\r";
-			wt += 12
+			wt += 12;
 		}
 	}
 	if (document.form1.repeatinglightcrossbow.checked == true) {
 		if (small == true) {
 			SWD += "Repeating Light Crossbow [1d6, 19-20/x2, range incr 80 ft., 3 lb., piercing]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Repeating Light Crossbow [1d8, 19-20/x2, range incr 80 ft., 6 lb., piercing]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.net.checked == true) {
 		if (small == true) {
 			SWD += "Net [--, 10 ft., 3 lb., --]<p>\r";
-			wt += 3
+			wt += 3;
 		}
 		if (small == false) {
 			SWD += "Net [--, 10 ft., 6 lb., --]<p>\r";
-			wt += 6
+			wt += 6;
 		}
 	}
 	if (document.form1.shuriken.checked == true) {
 		if (small == true) {
 			SWD += "Shuriken [1, crit x2, range incr 10 ft, 1/2 lb, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 		if (small == false) {
 			SWD += "Shuriken [1d2, crit x2, range incr 10 ft, 1/2 lb, piercing]<p>\r";
-			wt += 0.5
+			wt += 0.5;
 		}
 	}
 	if (document.form1.pistol.checked == true) {
 		SWD += "Pistol [1d10, crit x3, range incr 50 ft, 3 lb, piercing]<p>\r";
-		wt += 3
+		wt += 3;
 	}
 	if (document.form1.musket.checked == true) {
 		SWD += "Musket [1d12, crit x3, range incr 150 ft, 10 lb, piercing]<p>\r";
-		wt += 10
+		wt += 10;
 	}
 
 	if (armor_string != "") {
@@ -20880,823 +20878,823 @@ function WriteTextForCharacterSheet() {
 	}
 	if (wizard_levels > 0) {
 		if (no_familiar == true) {
-			SWD += "No familiar yet -- option to create your bonded object instead"
+			SWD += "No familiar yet -- option to create your bonded object instead";
 		}
 		if (bat_familiar == true) {
-			SWD += "Bat familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Bat familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (cat_familiar == true) {
-			SWD += "Cat familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Cat familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (hawk_familiar == true) {
-			SWD += "Hawk familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Hawk familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (lizard_familiar == true) {
-			SWD += "Lizard familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Lizard familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (monkey_familiar == true) {
-			SWD += "Monkey familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Monkey familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (owl_familiar == true) {
-			SWD += "Owl familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Owl familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (rat_familiar == true) {
-			SWD += "Rat familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Rat familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (raven_familiar == true) {
-			SWD += "Raven familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Raven familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (snake_familiar == true) {
-			SWD += "Snake familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Snake familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (toad_familiar == true) {
-			SWD += "Toad familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Toad familiar: See rules in Core Handbook and stats in Bestiary";
 		}
 		if (weasel_familiar == true) {
-			SWD += "Weasel familiar: See rules in Core Handbook and stats in Bestiary"
+			SWD += "Weasel familiar: See rules in Core Handbook and stats in Bestiary";
 		}
-		SWD += "<p>\r"
+		SWD += "<p>\r";
 	}
 
-	SWD += "<p>Feats:<ul>"
-	SWD += "<table>"
+	SWD += "<p>Feats:<ul>";
+	SWD += "<table>";
 
 	if (has_acrobatic == true) {
-		SWD += "<tr><td valign=\"top\">Acrobatic</td><td>+2 on acrobatics and fly checks</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Acrobatic</td><td>+2 on acrobatics and fly checks</td></tr>\r";
 	}
 	if (has_agilemaneuvers == true) {
-		SWD += "<tr><td valign=\"top\">Agile Maneuvers</td><td>Use dexterity instead of strength for combat maneuvers</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Agile Maneuvers</td><td>Use dexterity instead of strength for combat maneuvers</td></tr>\r";
 	}
 	if (has_alertness == true) {
-		SWD += "<tr><td valign=\"top\">Alertness</td><td>+2 on perception and sense motive</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Alertness</td><td>+2 on perception and sense motive</td></tr>\r";
 	}
 	if (has_animalaffinity == true) {
-		SWD += "<tr><td valign=\"top\">Animal Affinity</td><td>+2 on handle animal and ride</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Animal Affinity</td><td>+2 on handle animal and ride</td></tr>\r";
 	}
 	if (has_arcanestrike == true) {
-		SWD += "<tr><td valign=\"top\">Arcane Strike</td><td>Give a weapon a magical plus for one round</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Arcane Strike</td><td>Give a weapon a magical plus for one round</td></tr>\r";
 	}
 	if (has_armorproficiencylight == true) {
-		SWD += "<tr><td valign=\"top\">Armor Proficiency (light)</td><td>Removes attack penalty</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Armor Proficiency (light)</td><td>Removes attack penalty</td></tr>\r";
 	}
 	if (has_armorproficiencymedium == true) {
-		SWD += "<tr><td valign=\"top\">Armor Proficiency (medium)</td><td>Removes attack penalty</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Armor Proficiency (medium)</td><td>Removes attack penalty</td></tr>\r";
 	}
 	if (has_armorproficiencyheavy == true) {
-		SWD += "<tr><td valign=\"top\">Armor Proficiency (heavy)</td><td>Removes attack penalty</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Armor Proficiency (heavy)</td><td>Removes attack penalty</td></tr>\r";
 	}
 	if (has_athletic == true) {
-		SWD += "<tr><td valign=\"top\">Athletic</td><td>+1 on climb and swim</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Athletic</td><td>+1 on climb and swim</td></tr>\r";
 	}
 	if (has_augmentsummoning == true) {
-		SWD += "<tr><td valign=\"top\">Augment Summoning</td><td>+4 strength and +4 constitution for summoned creatures</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Augment Summoning</td><td>+4 strength and +4 constitution for summoned creatures</td></tr>\r";
 	}
 	if ((has_blindfight == true) | (has_blindfight == true)) {
-		SWD += "<tr><td valign=\"top\">Blind-fight</td><td>Re-roll misses due to concealment</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Blind-fight</td><td>Re-roll misses due to concealment</td></tr>\r";
 	}
 
 	if (has_combatcasting == true) {
-		SWD += "<tr><td valign=\"top\">Combat Casting</td><td>+4 on concentration checks for defensive casting</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Combat Casting</td><td>+4 on concentration checks for defensive casting</td></tr>\r";
 	}
 	if ((has_combatexpertise == true)) {
-		SWD += "<tr><td valign=\"top\">Combat Expertise</td><td>Reduce attack bonus to obtain AC bonus</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Combat Expertise</td><td>Reduce attack bonus to obtain AC bonus</td></tr>\r";
 	}
 	if ((has_improveddisarm == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Disarm</td><td>+2 on disarm attempts, no opportunity attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Disarm</td><td>+2 on disarm attempts, no opportunity attack</td></tr>\r";
 	}
 	if ((has_improvedfeint == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Feint</td><td>Feint becomes a move action</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Feint</td><td>Feint becomes a move action</td></tr>\r";
 	}
 	if ((has_improvedtrip == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Trip</td><td>+2 on trip attempts, no opportunity attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Trip</td><td>+2 on trip attempts, no opportunity attack</td></tr>\r";
 	}
 	if ((has_whirlwindattack == true)) {
-		SWD += "<tr><td valign=\"top\">Whirlwind Attack</td><td>Make 1 melee attack against each enemy in reach</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Whirlwind Attack</td><td>Make 1 melee attack against each enemy in reach</td></tr>\r";
 	}
 	if ((has_combatreflexes == true)) {
-		SWD += "<tr><td valign=\"top\">Combat Reflexes</td><td>Additional opportunity attacks</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Combat Reflexes</td><td>Additional opportunity attacks</td></tr>\r";
 	}
 	if (has_deceitful == true) {
-		SWD += "<tr><td valign=\"top\">Deceitful</td><td>+2 on bluff and disguise</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deceitful</td><td>+2 on bluff and disguise</td></tr>\r";
 	}
 	if (has_defthands == true) {
-		SWD += "<tr><td valign=\"top\">Deft Hands</td><td>+2 on disable device and sleight of hand</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deft Hands</td><td>+2 on disable device and sleight of hand</td></tr>\r";
 	}
 	if ((has_dodge == true)) {
-		SWD += "<tr><td valign=\"top\">Dodge</td><td>+1 dodge bonus on AC</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Dodge</td><td>+1 dodge bonus on AC</td></tr>\r";
 	}
 	if ((has_mobility == true) | (has_mobility == true)) {
-		SWD += "<tr><td valign=\"top\">Mobility</td><td>+4 on AC vs opportunity attacks caused by movement</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Mobility</td><td>+4 on AC vs opportunity attacks caused by movement</td></tr>\r";
 	}
 	if ((has_springattack == true) | (has_springattack == true)) {
-		SWD += "<tr><td valign=\"top\">Spring Attack</td><td>Move before and after attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spring Attack</td><td>Move before and after attack</td></tr>\r";
 	}
 	if (has_endurance == true) {
-		SWD += "<tr><td valign=\"top\">Endurance</td><td>+4 on saves vs. nonlethal damage </td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Endurance</td><td>+4 on saves vs. nonlethal damage </td></tr>\r";
 	}
 	if (ranger_levels > 2) {
-		SWD += "<tr><td valign=\"top\">Endurance</td><td>+4 on saves vs. nonlethal damage [free to rangers]</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Endurance</td><td>+4 on saves vs. nonlethal damage [free to rangers]</td></tr>\r";
 	}
 	if (has_diehard == true) {
-		SWD += "<tr><td valign=\"top\">Die Hard</td><td>Remain conscious and stabilized below 0 hp</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Die Hard</td><td>Remain conscious and stabilized below 0 hp</td></tr>\r";
 	}
 	if (has_eschewmaterials == true) {
-		SWD += "<tr><td valign=\"top\">Eschew Materials</td><td>No need for cheap material components</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Eschew Materials</td><td>No need for cheap material components</td></tr>\r";
 	}
 	if ((has_exoticweaponproficiency == true)) {
-		SWD += "<tr><td valign=\"top\">Exotic Weapon Proficiency</td><td>Weapon: </td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Exotic Weapon Proficiency</td><td>Weapon: </td></tr>\r";
 	}
 	if (has_extrachannel > 0) {
-		SWD += "<tr><td valign=\"top\">Extra Channel x"
+		SWD += "<tr><td valign=\"top\">Extra Channel x";
 				+ has_extrachannel
-				+ "</td><td>Channel energy two additional times per day per feat</td></tr>\r"
+				+ "</td><td>Channel energy two additional times per day per feat</td></tr>\r";
 	}
 	if (has_extraki > 0) {
 		SWD += "<tr><td valign=\"top\">Extra Ki x" + has_extraki
-				+ "</td><td>Gain 2 points for ki pool per feat</td></tr>\r"
+				+ "</td><td>Gain 2 points for ki pool per feat</td></tr>\r";
 	}
 	if (has_extralayonhands > 0) {
-		SWD += "<tr><td valign=\"top\">Extra Lay on Hands x"
-				+ has_extralayonhands + "</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Extra Lay on Hands x";
+				+ has_extralayonhands + "</td><td></td></tr>\r";
 	}
 	if (has_extramercy > 0) {
 		SWD += "<tr><td valign=\"top\">Extra Mercy x" + has_extramercy
-				+ "</td><td>Gain an additional mercy per feat</td></tr>\r"
+				+ "</td><td>Gain an additional mercy per feat</td></tr>\r";
 	}
 	if (has_extraperformance > 0) {
-		SWD += "<tr><td valign=\"top\">Extra Performance x"
+		SWD += "<tr><td valign=\"top\">Extra Performance x";
 				+ has_extraperformance
-				+ "</td><td>Perform six extra rounds per day per feat</td></tr>\r"
+				+ "</td><td>Perform six extra rounds per day per feat</td></tr>\r";
 	}
 	if (has_extrarage > 0) {
 		SWD += "<tr><td valign=\"top\">Extra Rage x" + has_extrarage
-				+ "</td><td>Rage 6 extra rounds per day per feat</td></tr>\r"
+				+ "</td><td>Rage 6 extra rounds per day per feat</td></tr>\r";
 	}
 	if (has_greatfortitude == true) {
-		SWD += "<tr><td valign=\"top\">Great Fortitude</td><td>+2 on fortitude saves</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Great Fortitude</td><td>+2 on fortitude saves</td></tr>\r";
 	}
 	if (has_improvedcounterspell == true) {
-		SWD += "<tr><td valign=\"top\">Improved Counterspell</td><td>Use spell of same schol to counterspell</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Counterspell</td><td>Use spell of same schol to counterspell</td></tr>\r";
 	}
 	if ((has_improvedcritical > 0)) {
-		SWD += "<tr><td valign=\"top\">Improved Critical x"
-				+ has_improvedcritical + "</td><td>Weapon(s):</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Critical x";
+				+ has_improvedcritical + "</td><td>Weapon(s):</td></tr>\r";
 	}
 	if ((has_improvedinitiative == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Initiative</td><td>+4</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Initiative</td><td>+4</td></tr>\r";
 	}
 	if ((has_improvedunarmedstrike == true)
 			| (has_improvedunarmedstrike == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Unarmed Strike</td><td>Always considered armed</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Unarmed Strike</td><td>Always considered armed</td></tr>\r";
 	}
 	if (monk_levels > 0) {
-		SWD += "<tr><td valign=\"top\">Improved Unarmed Strike [free to monk]</td><td>Always considered armed</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Unarmed Strike [free to monk]</td><td>Always considered armed</td></tr>\r";
 	}
 	if ((has_improvedgrapple == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Grapple</td><td>+2 on grapple attempts, no attack of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Grapple</td><td>+2 on grapple attempts, no attack of opportunity</td></tr>\r";
 	}
 	if ((has_deflectarrows == true)) {
-		SWD += "<tr><td valign=\"top\">Deflect Arrows</td><td>Avoid one ranged attack per round</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deflect Arrows</td><td>Avoid one ranged attack per round</td></tr>\r";
 	}
 	if ((has_snatcharrows == true)) {
-		SWD += "<tr><td valign=\"top\">Snatch Arrows</td><td>Catch one ranged attack per round</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Snatch Arrows</td><td>Catch one ranged attack per round</td></tr>\r";
 	}
 	if ((has_stunningfist == true)) {
-		SWD += "<tr><td valign=\"top\">Stunning Fist</td><td>Stun opponent with unarmed strike</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Stunning Fist</td><td>Stun opponent with unarmed strike</td></tr>\r";
 	}
 	if (monk_levels > 0) {
-		SWD += "<tr><td valign=\"top\">Stunning Fist</td><td>Stun opponent with unarmed strike [free to monks]</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Stunning Fist</td><td>Stun opponent with unarmed strike [free to monks]</td></tr>\r";
 	}
 	if (has_ironwill == true) {
-		SWD += "<tr><td valign=\"top\">Iron Will</td><td>+2 on will saves</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Iron Will</td><td>+2 on will saves</td></tr>\r";
 	}
 	if (has_leadership == true) {
-		SWD += "<tr><td valign=\"top\">Leadership</td><td>Cohort and followers</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Leadership</td><td>Cohort and followers</td></tr>\r";
 	}
 	if (has_lightningreflexes == true) {
-		SWD += "<tr><td valign=\"top\">Lightning Reflexes</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Lightning Reflexes</td><td></td></tr>\r";
 	}
 	if (has_magicalaptitude == true) {
-		SWD += "<tr><td valign=\"top\">Magical Aptitude</td><td>+2 on spellcraft and use magical device</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Magical Aptitude</td><td>+2 on spellcraft and use magical device</td></tr>\r";
 	}
 	if (has_martialweaponproficiency == true) {
-		SWD += "<tr><td valign=\"top\">Martial Weapon Proficiency</td><td>Weapon:</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Martial Weapon Proficiency</td><td>Weapon:</td></tr>\r";
 	}
 	if ((has_mountedcombat == true)) {
-		SWD += "<tr><td valign=\"top\">Mounted Combat</td><td>Ride check enables you to avoid attacks on mount</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Mounted Combat</td><td>Ride check enables you to avoid attacks on mount</td></tr>\r";
 	}
 	if ((has_mountedarchery == true) | (has_mountedarchery == true)) {
-		SWD += "<tr><td valign=\"top\">Mounted Archery</td><td>Half penalty for ranged attacks while mounted</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Mounted Archery</td><td>Half penalty for ranged attacks while mounted</td></tr>\r";
 	}
 	if ((has_ridebyattack == true)) {
-		SWD += "<tr><td valign=\"top\">Rideby Attack</td><td>Move both before and after a charge while mounted</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Rideby Attack</td><td>Move both before and after a charge while mounted</td></tr>\r";
 	}
 	if ((has_spiritedcharge == true) | (has_spiritedcharge == true)) {
-		SWD += "<tr><td valign=\"top\">Spirited Charge</td><td>Double damage on a mounted charge</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spirited Charge</td><td>Double damage on a mounted charge</td></tr>\r";
 	}
 	if ((has_trample == true)) {
-		SWD += "<tr><td valign=\"top\">Trample</td><td>Overrun oponents when mounted</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Trample</td><td>Overrun oponents when mounted</td></tr>\r";
 	}
 	if (has_naturalspell == true) {
-		SWD += "<tr><td valign=\"top\">Natural Spell</td><td>Cast spells in animal shape</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Natural Spell</td><td>Cast spells in animal shape</td></tr>\r";
 	}
 	if (has_persuasive == true) {
-		SWD += "<tr><td valign=\"top\">Persuasive</td><td>+2 on diplomacy and intimidate</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Persuasive</td><td>+2 on diplomacy and intimidate</td></tr>\r";
 	}
 	if ((has_pointblankshot == true)) {
-		SWD += "<tr><td valign=\"top\">Point Blank Shot</td><td>+1 attack on damage on ranged targets within 30 feet</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Point Blank Shot</td><td>+1 attack on damage on ranged targets within 30 feet</td></tr>\r";
 	}
 	if ((has_farshot == true)) {
-		SWD += "<tr><td valign=\"top\">Far Shot</td><td>Decreased penalties for ranged attacks by half</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Far Shot</td><td>Decreased penalties for ranged attacks by half</td></tr>\r";
 	}
 	if ((has_preciseshot == true) | (has_preciseshot == true)) {
-		SWD += "<tr><td valign=\"top\">Precise Shot</td><td>Fire into melee without penalty</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Precise Shot</td><td>Fire into melee without penalty</td></tr>\r";
 	}
 	if ((has_rapidshot == true)) {
-		SWD += "<tr><td valign=\"top\">Rapid Shot</td><td>One extra arrow / round, all at -2 to hit</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Rapid Shot</td><td>One extra arrow / round, all at -2 to hit</td></tr>\r";
 	}
 	if ((has_manyshot == true)) {
-		SWD += "<tr><td valign=\"top\">Many Shot</td><td>Shoot two arrows at once</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Many Shot</td><td>Shoot two arrows at once</td></tr>\r";
 	}
 	if ((has_shotontherun == true)) {
-		SWD += "<tr><td valign=\"top\">Shot on the Run</td><td>Shoot at any time while moving</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shot on the Run</td><td>Shoot at any time while moving</td></tr>\r";
 	}
 	if ((has_improvedpreciseshot == true) | (has_improvedpreciseshot == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Precise Shot</td><td>Ranged attacks ignore cover and concealment</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Precise Shot</td><td>Ranged attacks ignore cover and concealment</td></tr>\r";
 	}
 	if ((has_powerattack == true) | (has_powerattack == true)) {
-		SWD += "<tr><td valign=\"top\">Power Attack</td><td>Take penalty on attack for larger bonus on damage</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Power Attack</td><td>Take penalty on attack for larger bonus on damage</td></tr>\r";
 	}
 	if ((has_cleave == true) | (has_cleave == true)) {
-		SWD += "<tr><td valign=\"top\">Cleave</td><td>One attack, AC-2, make additional attack if first one hits</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Cleave</td><td>One attack, AC-2, make additional attack if first one hits</td></tr>\r";
 	}
 	if ((has_greatcleave == true) | (has_greatcleave == true)) {
-		SWD += "<tr><td valign=\"top\">Great Cleave</td><td>One attack, AC-2, make additional attacks as each one hits</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Great Cleave</td><td>One attack, AC-2, make additional attacks as each one hits</td></tr>\r";
 	}
 	if ((has_improvedbullrush == true) | (has_improvedbullrush == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Bull Rush</td><td>+2 on bull rush attempts, no attack of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Bull Rush</td><td>+2 on bull rush attempts, no attack of opportunity</td></tr>\r";
 	}
 	if ((has_improvedoverrun == true) | (has_improvedoverrun == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Overrun</td><td>+2 on overrun attempts, no attack of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Overrun</td><td>+2 on overrun attempts, no attack of opportunity</td></tr>\r";
 	}
 	if ((has_improvedsunder == true) | (has_improvedsunder == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Sunder</td><td>+2 on sunder attempts, no attack of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Sunder</td><td>+2 on sunder attempts, no attack of opportunity</td></tr>\r";
 	}
 	if ((has_quickdraw == true) | (has_quickdraw == true)) {
-		SWD += "<tr><td valign=\"top\">Quick Draw</td><td>Draw weapon is free action</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Quick Draw</td><td>Draw weapon is free action</td></tr>\r";
 	}
 	if ((has_rapidreload == true)) {
-		SWD += "<tr><td valign=\"top\">Rapid Reload</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Rapid Reload</td><td></td></tr>\r";
 	}
 	if (has_run == true) {
-		SWD += "<tr><td valign=\"top\">Run</td><td>Run at 5x normal speed</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Run</td><td>Run at 5x normal speed</td></tr>\r";
 	}
 	if (has_selfsufficient == true) {
-		SWD += "<tr><td valign=\"top\">Self-Sufficient</td><td>+2 on heal and survival</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Self-Sufficient</td><td>+2 on heal and survival</td></tr>\r";
 	}
 	if (has_shieldproficiency == true) {
-		SWD += "<tr><td valign=\"top\">Shield Proficiency</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shield Proficiency</td><td></td></tr>\r";
 	}
 	if ((has_improvedshieldbash == true) | (has_improvedshieldbash == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Shield Bash</td><td>Shield bonus still applies when bashing</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Shield Bash</td><td>Shield bonus still applies when bashing</td></tr>\r";
 	}
 	if (has_towershieldproficiency == true) {
-		SWD += "<tr><td valign=\"top\">Tower Shield Proficiency</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Tower Shield Proficiency</td><td></td></tr>\r";
 	}
 	if (has_simpleweaponproficiency == true) {
-		SWD += "<tr><td valign=\"top\">Simple Weapon Proficiency</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Simple Weapon Proficiency</td><td></td></tr>\r";
 	}
 	if (has_skillfocusacrobatics == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Acrobatics)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Acrobatics)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusappraise == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Appraise)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Appraise)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusbluff == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Bluff)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Bluff)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusclimb == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Climb)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Climb)</td><td></td></tr>\r";
 	}
 	if (has_skillfocuscraft_1 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_1)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_1)</td><td></td></tr>\r";
 	}
 	if (has_skillfocuscraft_2 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_2)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_2)</td><td></td></tr>\r";
 	}
 	if (has_skillfocuscraft_3 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_3)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Craft_3)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusdiplomacy == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Diplomacy)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Diplomacy)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusdisabledevice == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Disable Device)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Disable Device)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusdisguise == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Disguise)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Disguise)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusescapeartist == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Escape Artist)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Escape Artist)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusfly == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Fly)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Fly)</td><td></td></tr>\r";
 	}
 	if (has_skillfocushandleanimal == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Handle Animal)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Handle Animal)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusheal == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Heal)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Heal)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusstealth == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Stealth)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Stealth)</td><td></td></tr>\r";
 	}
 	// if (has_skillfocushypnosis==true){SWD +="<tr><td valign=\"top\">Skill
 	// Focus (hypnosis)</td><td></td></tr>\r"}
 	if (has_skillfocusintimidate == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Intimidate)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Intimidate)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgearcana == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Arcana)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Arcana)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgedungeoneering == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Dungeoneering)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Dungeoneering)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgeengineering == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Engineering)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Engineering)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgegeography == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Geography)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Geography)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgehistory == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know History)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know History)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgelocal == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Local)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Local)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgenature == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Nature)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Nature)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgenobility == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Nobility)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Nobility)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusknowledgereligion == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Religion)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Religion)</td><td></td></tr>\r";
 	}
 
 	if (has_skillfocusknowledgeplanes == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Know Planes)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Know Planes)</td><td></td></tr>\r";
 	}
 	if (has_skillfocuslinguistics == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Linguistics)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Linguistics)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperception == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perception)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perception)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperform_1 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_1)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_1)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperform_2 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_2)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_2)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperform_3 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_3)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_3)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperform_4 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_4)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_4)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusperform_5 == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_5)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Perform_5)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusprofession == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Profession)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Profession)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusride == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Ride)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Ride)</td><td></td></tr>\r";
 	}
 
 	if (has_skillfocussensemotive == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Sense Motive)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Sense Motive)</td><td></td></tr>\r";
 	}
 	if (has_skillfocussleightofhand == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Sleight of Hand)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Sleight of Hand)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusspellcraft == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Spellcraft)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Spellcraft)</td><td></td></tr>\r";
 	}
 	if (has_skillfocussurvival == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Survival)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Survival)</td><td></td></tr>\r";
 	}
 	if (has_skillfocusswim == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Swim)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Swim)</td><td></td></tr>\r";
 	}
 	if (has_skillfocususemagicdevice == true) {
-		SWD += "<tr><td valign=\"top\">Skill Focus (Use Magic Device)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Skill Focus (Use Magic Device)</td><td></td></tr>\r";
 	}
 
 	if (has_spellfocusabjuration == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Abjuration)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Abjuration)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusconjuration == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Conjuration)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Conjuration)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusdivination == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Divination)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Divination)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusenchantment == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Enchantment)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Enchantment)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusevocation == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Evocation)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Evocation)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusillusion == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Illusion)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Illusion)</td><td></td></tr>\r";
 	}
 	if (has_spellfocusnecromancy == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Necromancy)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Necromancy)</td><td></td></tr>\r";
 	}
 	if (has_spellfocustransmutation == true) {
-		SWD += "<tr><td valign=\"top\">Spell Focus (Transmutation)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Focus (Transmutation)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusabjuration == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Abjuration)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Abjuration)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusconjuration == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Conjuration)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Conjuration)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusdivination == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Divination)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Divination)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusenchantment == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Enchantment)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Enchantment)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusevocation == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Evocation)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Evocation)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusillusion == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Illusion)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Illusion)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocusnecromancy == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Necromancy)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Necromancy)</td><td></td></tr>\r";
 	}
 	if (has_greaterspellfocustransmutation == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Transmutation)</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Focus (Transmutation)</td><td></td></tr>\r";
 	}
 	if (has_spellmastery > 0) {
 		SWD += "<tr><td valign=\"top\">Spell Mastery x" + has_spellmastery
-				+ "</td><td>No spellbook required.  Spells:</td></tr>\r"
+				+ "</td><td>No spellbook required.  Spells:</td></tr>\r";
 	}
 	if (has_spellpenetration == true) {
-		SWD += "<tr><td valign=\"top\">Spell Penetration</td><td>+2 to beat spell resistance</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spell Penetration</td><td>+2 to beat spell resistance</td></tr>\r";
 	}
 	if (has_greaterspellpenetration == true) {
-		SWD += "<tr><td valign=\"top\">Greater Spell Penetration</td><td>+2 to beat spell resistance</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Spell Penetration</td><td>+2 to beat spell resistance</td></tr>\r";
 	}
 	if (has_stealthy == true) {
-		SWD += "<tr><td valign=\"top\">Stealthy</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Stealthy</td><td></td></tr>\r";
 	}
 	if (has_stepup == true) {
-		SWD += "<tr><td valign=\"top\">Step Up</td><td>Take 5 foot step as immediate action</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Step Up</td><td>Take 5 foot step as immediate action</td></tr>\r";
 	}
 	if (has_strikeback == true) {
-		SWD += "<tr><td valign=\"top\">Strike Back</td><td>Reach attack against any opponent who may use superior reach to attack you</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Strike Back</td><td>Reach attack against any opponent who may use superior reach to attack you</td></tr>\r";
 	}
 	if (has_throwanything == true) {
-		SWD += "<tr><td valign=\"top\">Throw Anything</td><td>No penalty on improvised ranged weapons</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Throw Anything</td><td>No penalty on improvised ranged weapons</td></tr>\r";
 	}
 	if (has_toughness == true) {
-		SWD += "<tr><td valign=\"top\">Toughness</td><td>+3 hp + 1/level over 3</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Toughness</td><td>+3 hp + 1/level over 3</td></tr>\r";
 	}
 	if ((has_twoweaponfighting == true) | (has_twoweaponfighting == true)) {
-		SWD += "<tr><td valign=\"top\">Two-Weapon Fighting</td><td>Reduce 2-weapon fighting penalties</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Two-Weapon Fighting</td><td>Reduce 2-weapon fighting penalties</td></tr>\r";
 	}
 	if ((has_twoweapondefense == true) | (has_twoweapondefense == true)) {
-		SWD += "<tr><td valign=\"top\">Two-Weapon Defense</td><td>+1 shield bonus if fighting with two weapons</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Two-Weapon Defense</td><td>+1 shield bonus if fighting with two weapons</td></tr>\r";
 	}
 	if ((has_improvedtwoweaponfighting == true)
 			| (has_improvedtwoweaponfighting == true)) {
-		SWD += "<tr><td valign=\"top\">Improved Two-Weapon Fighting</td><td>Additional off-hand attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Two-Weapon Fighting</td><td>Additional off-hand attack</td></tr>\r";
 	}
 	if ((has_greatertwoweaponfighting == true)
 			| (has_greatertwoweaponfighting == true)) {
-		SWD += "<tr><td valign=\"top\">Greater Two-Weapon Fighting</td><td>Additional off-hand attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Two-Weapon Fighting</td><td>Additional off-hand attack</td></tr>\r";
 	}
 	if ((has_weaponfinesse == true)) {
-		SWD += "<tr><td valign=\"top\">Weapon Finesse </td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Weapon Finesse </td><td></td></tr>\r";
 	}
 	if ((has_otherfeat1 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_1.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat2 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_2.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat3 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_3.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat4 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_4.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat5 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_5.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat6 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_6.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat7 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_7.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat8 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_8.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat9 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_9.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_otherfeat10 == true)) {
 		SWD += "<tr><td valign=\"top\">" + document.form1.other_feat_10.value
-				+ "</td><td>[hand-edit as needed]</td></tr>\r"
+				+ "</td><td>[hand-edit as needed]</td></tr>\r";
 	}
 	if ((has_weaponfocus > 0)) {
 		SWD += "<tr><td valign=\"top\">Weapon Focus x" + has_weaponfocus
-				+ "</td><td>+1 to hit; Weapon(s):</td></tr>\r"
+				+ "</td><td>+1 to hit; Weapon(s):</td></tr>\r";
 	}
 	// if ((has_war_domain==true)){SWD +="<tr><td valign=\"top\">Weapon
 	// Focus</td><td>[war domain, sect weapon]</td></tr>\r"}
 	if ((has_weaponspecialization > 0)) {
-		SWD += "<tr><td valign=\"top\">Weapon Specialization x"
+		SWD += "<tr><td valign=\"top\">Weapon Specialization x";
 				+ has_weaponspecialization
-				+ "</td><td>+2 damage; Weapon(s):</td></tr>\r"
+				+ "</td><td>+2 damage; Weapon(s):</td></tr>\r";
 	}
 	if ((has_greaterweaponfocus > 0)) {
-		SWD += "<tr><td valign=\"top\">Greater Weapon Focus x"
+		SWD += "<tr><td valign=\"top\">Greater Weapon Focus x";
 				+ has_greaterweaponfocus
-				+ "</td><td>Additional +2 to hit; Weapon(s):</td></tr>\r"
+				+ "</td><td>Additional +2 to hit; Weapon(s):</td></tr>\r";
 	}
 	if ((has_greaterweaponspecialization > 0)) {
-		SWD += "<tr><td valign=\"top\">Greater Weapon Specialization x"
+		SWD += "<tr><td valign=\"top\">Greater Weapon Specialization x";
 				+ has_greaterweaponspecialization
-				+ "</td><td>Additional +2 damage; Weapon(s):</td></tr>\r"
+				+ "</td><td>Additional +2 damage; Weapon(s):</td></tr>\r";
 	}
 	if (has_brewpotion == true) {
-		SWD += "<tr><td valign=\"top\">Brew Potion</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Brew Potion</td><td></td></tr>\r";
 	}
 	if (has_craftmaa == true) {
-		SWD += "<tr><td valign=\"top\">Craft Magic Arms and Armor</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Craft Magic Arms and Armor</td><td></td></tr>\r";
 	}
 	if (has_craftrod == true) {
-		SWD += "<tr><td valign=\"top\">Craft Rod</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Craft Rod</td><td></td></tr>\r";
 	}
 	if (has_craftstaff == true) {
-		SWD += "<tr><td valign=\"top\">Craft Staff</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Craft Staff</td><td></td></tr>\r";
 	}
 	if (has_craftwand == true) {
-		SWD += "<tr><td valign=\"top\">Craft Wand</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Craft Wand</td><td></td></tr>\r";
 	}
 	if (has_craftwondrousitem == true) {
-		SWD += "<tr><td valign=\"top\">Craft Wondrous Item</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Craft Wondrous Item</td><td></td></tr>\r";
 	}
 	if (has_forgering == true) {
-		SWD += "<tr><td valign=\"top\">Forge Ring</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Forge Ring</td><td></td></tr>\r";
 	}
 	if (has_scribescroll == true) {
-		SWD += "<tr><td valign=\"top\">Scribe Scroll</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Scribe Scroll</td><td></td></tr>\r";
 	}
 	if (wizard_levels > 0) {
-		SWD += "<tr><td valign=\"top\">Scribe Scroll</td><td>[free to wizard]</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Scribe Scroll</td><td>[free to wizard]</td></tr>\r";
 	}
 	if (has_empowerspell == true) {
-		SWD += "<tr><td valign=\"top\">Empower Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Empower Spell</td><td></td></tr>\r";
 	}
 	if (has_enlargespell == true) {
-		SWD += "<tr><td valign=\"top\">Enlarge Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Enlarge Spell</td><td></td></tr>\r";
 	}
 	if (has_extendspell == true) {
-		SWD += "<tr><td valign=\"top\">Extend Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Extend Spell</td><td></td></tr>\r";
 	}
 	if (has_heightenspell == true) {
-		SWD += "<tr><td valign=\"top\">Heighten Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Heighten Spell</td><td></td></tr>\r";
 	}
 	if (has_maximizespell == true) {
-		SWD += "<tr><td valign=\"top\">Maximize Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Maximize Spell</td><td></td></tr>\r";
 	}
 	if (has_quickenspell == true) {
-		SWD += "<tr><td valign=\"top\">Quicken Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Quicken Spell</td><td></td></tr>\r";
 	}
 	if (has_silentspell == true) {
-		SWD += "<tr><td valign=\"top\">Silent Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Silent Spell</td><td></td></tr>\r";
 	}
 	if (has_stillspell == true) {
-		SWD += "<tr><td valign=\"top\">Still Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Still Spell</td><td></td></tr>\r";
 	}
 	if (has_widenspell == true) {
-		SWD += "<tr><td valign=\"top\">Widen Spell</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Widen Spell</td><td></td></tr>\r";
 	}
 
 	if (has_alignmentchannel) {
-		SWD += "<tr><td valign=\"top\">Alignment Channel</td><td>Channeled energy can heal / harm outsiders</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Alignment Channel</td><td>Channeled energy can heal / harm outsiders</td></tr>\r";
 	}
 	if (has_arcanearmortraining) {
-		SWD += "<tr><td valign=\"top\">Arcane Armor Training</td><td>Reduce chance of arcane spell failure by 10%</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Arcane Armor Training</td><td>Reduce chance of arcane spell failure by 10%</td></tr>\r";
 	}
 	if (has_arcanearmormastery) {
-		SWD += "<tr><td valign=\"top\">Arcane Armor Mastery</td><td>Reduce chance of arcane spell failure by 20%</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Arcane Armor Mastery</td><td>Reduce chance of arcane spell failure by 20%</td></tr>\r";
 	}
 	if (has_catchoffguard) {
-		SWD += "<tr><td valign=\"top\">Catch Off Guard</td><td>No penalties for improvised melee weapons</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Catch Off Guard</td><td>No penalties for improvised melee weapons</td></tr>\r";
 	}
 	if (has_channelsmite) {
-		SWD += "<tr><td valign=\"top\">Channel Smite</td><td>Attack channels energy</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Channel Smite</td><td>Attack channels energy</td></tr>\r";
 	}
 	if (has_greaterdisarm) {
-		SWD += "<tr><td valign=\"top\">Greater Disarm</td><td>Disarmed weapons are knocked away</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Disarm</td><td>Disarmed weapons are knocked away</td></tr>\r";
 	}
 	if (has_greaterfeint) {
-		SWD += "<tr><td valign=\"top\">Greater Feint</td><td>Enemies you feint lose dexterity bonus for a round</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Feint</td><td>Enemies you feint lose dexterity bonus for a round</td></tr>\r";
 	}
 	if (has_greatertrip) {
-		SWD += "<tr><td valign=\"top\">Greater Trip</td><td>Get attack of opportunity against enemies you trip</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Trip</td><td>Get attack of opportunity against enemies you trip</td></tr>\r";
 	}
 	if (has_standstill) {
-		SWD += "<tr><td valign=\"top\">Stand Still</td><td>You can stop enemies from moving past you</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Stand Still</td><td>You can stop enemies from moving past you</td></tr>\r";
 	}
 	if (has_commandundead) {
-		SWD += "<tr><td valign=\"top\">Command Undead</td><td>Use channel energy to try to enslave up to you HD in undead</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Command Undead</td><td>Use channel energy to try to enslave up to you HD in undead</td></tr>\r";
 	}
 	if (has_criticalfocus) {
-		SWD += "<tr><td valign=\"top\">Critical Focus</td><td>+4 on rolls to confirm a critical hit</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Critical Focus</td><td>+4 on rolls to confirm a critical hit</td></tr>\r";
 	}
 	if (has_bleedingcritical) {
-		SWD += "<tr><td valign=\"top\">Bleeding Critical</td><td>Critical hit causes 2d6 bleeding</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Bleeding Critical</td><td>Critical hit causes 2d6 bleeding</td></tr>\r";
 	}
 	if (has_blindingcritical) {
-		SWD += "<tr><td valign=\"top\">Blinding Critical</td><td>Critical hit blinds the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Blinding Critical</td><td>Critical hit blinds the target</td></tr>\r";
 	}
 	if (has_criticalmastery) {
-		SWD += "<tr><td valign=\"top\">Critical Mastery</td><td>Can use two effects on your critical hits</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Critical Mastery</td><td>Can use two effects on your critical hits</td></tr>\r";
 	}
 	if (has_deafeningcritical) {
-		SWD += "<tr><td valign=\"top\">Deafening Critical</td><td>Critical hit deafens the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deafening Critical</td><td>Critical hit deafens the target</td></tr>\r";
 	}
 	if (has_sickeningcritical) {
-		SWD += "<tr><td valign=\"top\">Sickening Critical</td><td>Critical hit sickens the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Sickening Critical</td><td>Critical hit sickens the target</td></tr>\r";
 	}
 	if (has_staggeringcritical) {
-		SWD += "<tr><td valign=\"top\">Staggering Critical</td><td>Critical hit staggers the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Staggering Critical</td><td>Critical hit staggers the target</td></tr>\r";
 	}
 	if (has_stunningcritical) {
-		SWD += "<tr><td valign=\"top\">Stunning Critical</td><td>Critical hit stuns the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Stunning Critical</td><td>Critical hit stuns the target</td></tr>\r";
 	}
 	if (has_tiringcritical) {
-		SWD += "<tr><td valign=\"top\">Tiring Critical</td><td>Critical hit tires the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Tiring Critical</td><td>Critical hit tires the target</td></tr>\r";
 	}
 	if (has_exhaustingcritical) {
-		SWD += "<tr><td valign=\"top\">Exhausting Critical</td><td>Critical hit exhausts the target</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Exhausting Critical</td><td>Critical hit exhausts the target</td></tr>\r";
 	}
 	if (has_deadlyaim) {
-		SWD += "<tr><td valign=\"top\">Deadly Aim</td><td>Reduce ranged attack roll to increase damage</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deadly Aim</td><td>Reduce ranged attack roll to increase damage</td></tr>\r";
 	}
 	if (has_defensivecombattraining) {
-		SWD += "<tr><td valign=\"top\">Defensive Combat Training</td><td>Use total levels as base attack bonus for CMD</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Defensive Combat Training</td><td>Use total levels as base attack bonus for CMD</td></tr>\r";
 	}
 	if (has_disruptive) {
-		SWD += "<tr><td valign=\"top\">Disruptive</td><td>Higher DC to cast spells adjacent to you</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Disruptive</td><td>Higher DC to cast spells adjacent to you</td></tr>\r";
 	}
 	if (has_spellbreaker) {
-		SWD += "<tr><td valign=\"top\">Spellbreaker</td><td>Attack of opportunity against enemies whose spells fail</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Spellbreaker</td><td>Attack of opportunity against enemies whose spells fail</td></tr>\r";
 	}
 	if (has_windstance) {
-		SWD += "<tr><td valign=\"top\">Wind Stance</td><td>20% concealment if you move</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Wind Stance</td><td>20% concealment if you move</td></tr>\r";
 	}
 	if (has_lightningstance) {
-		SWD += "<tr><td valign=\"top\">Lightning Stance</td><td>50% concealment if you move</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Lightning Stance</td><td>50% concealment if you move</td></tr>\r";
 	}
 	if (has_elementalchannel) {
-		SWD += "<tr><td valign=\"top\">Elemental Channel</td><td>Harm / heal elementals</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Elemental Channel</td><td>Harm / heal elementals</td></tr>\r";
 	}
 	if (has_fleet) {
-		SWD += "<tr><td valign=\"top\">Fleet</td><td>Add 5 feet to base speed</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Fleet</td><td>Add 5 feet to base speed</td></tr>\r";
 	}
 	if (has_improvedgreatfortitude) {
-		SWD += "<tr><td valign=\"top\">Improved Great Fortitude</td><td>Re-roll a fortitude save once a day</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Great Fortitude</td><td>Re-roll a fortitude save once a day</td></tr>\r";
 	}
 	if (has_improvedchannel) {
-		SWD += "<tr><td valign=\"top\">Improved Channel</td><td>+2 bonus on DC for enemy saves</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Channel</td><td>+2 bonus on DC for enemy saves</td></tr>\r";
 	}
 	if (has_improvedfamiliar) {
-		SWD += "<tr><td valign=\"top\">Improved Familiar</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Familiar</td><td></td></tr>\r";
 	}
 	if (has_greatergrapple) {
-		SWD += "<tr><td valign=\"top\">Greater Grapple</td><td>Maintaining grapple is a move action</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Grapple</td><td>Maintaining grapple is a move action</td></tr>\r";
 	}
 	if (has_scorpionstyle) {
-		SWD += "<tr><td valign=\"top\">Scorpion Style</td><td>Slow target to speed of five feet</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Scorpion Style</td><td>Slow target to speed of five feet</td></tr>\r";
 	}
 	if (has_gorgonsfist) {
-		SWD += "<tr><td valign=\"top\">Gorgon's Fist</td><td>Stagger a foe whose speed is reduced</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Gorgon's Fist</td><td>Stagger a foe whose speed is reduced</td></tr>\r";
 	}
 	if (has_medusaswrath) {
-		SWD += "<tr><td valign=\"top\">Medusa's Wrath</td><td>Get 2 extra attacks vs. hindered foe</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Medusa's Wrath</td><td>Get 2 extra attacks vs. hindered foe</td></tr>\r";
 	}
 	if (has_improvisedweaponmastery) {
-		SWD += "<tr><td valign=\"top\">Improvised Weapon Mastery</td><td>Increase damage from improvised weapon</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improvised Weapon Mastery</td><td>Increase damage from improvised weapon</td></tr>\r";
 	}
 	if (has_intimidatingprowess) {
-		SWD += "<tr><td valign=\"top\">Intimidating Prowess</td><td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Intimidating Prowess</td><td></td></tr>\r";
 	}
 	if (has_improvedironwill) {
-		SWD += "<tr><td valign=\"top\">Improved Iron Will</td><td>Re-roll a will save once a day</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Iron Will</td><td>Re-roll a will save once a day</td></tr>\r";
 	}
 	if (has_improvedlightningreflexes) {
-		SWD += "<tr><td valign=\"top\">Improved Lightning Reflexes</td><td>Re-roll a reflex save once a day</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Lightning Reflexes</td><td>Re-roll a reflex save once a day</td></tr>\r";
 	}
 	if (has_lunge) {
-		SWD += "<tr><td valign=\"top\">Lunge</td><td>-2 on AC to gain extra five feet reach</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Lunge</td><td>-2 on AC to gain extra five feet reach</td></tr>\r";
 	}
 	if (has_mastercraftsman) {
-		SWD += "<tr><td valign=\"top\">Master Craftsman</td><td>Make magic arms, armor, wondrous items</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Master Craftsman</td><td>Make magic arms, armor, wondrous items</td></tr>\r";
 	}
 	if (has_unseat) {
-		SWD += "<tr><td valign=\"top\">Unseat</td><td>Knock opponents off mount</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Unseat</td><td>Knock opponents off mount</td></tr>\r";
 	}
 	if (has_nimblemoves) {
-		SWD += "<tr><td valign=\"top\">Nimble Moves</td><td>Ignore five feet of diffficult terrain</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Nimble Moves</td><td>Ignore five feet of diffficult terrain</td></tr>\r";
 	}
 	if (has_acrobaticsteps) {
-		SWD += "<tr><td valign=\"top\">Acrobatic Steps</td><td>Ignore twenty feet of difficult terran</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Acrobatic Steps</td><td>Ignore twenty feet of difficult terran</td></tr>\r";
 	}
 	if (has_pinpointtargeting) {
-		SWD += "<tr><td valign=\"top\">Pinpoint Targeting</td>As a standard action, shoot one arrow, ignores opponent armor, natural armor and shield<td></td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Pinpoint Targeting</td>As a standard action, shoot one arrow, ignores opponent armor, natural armor and shield<td></td></tr>\r";
 	}
 	if (has_greaterbullrush) {
-		SWD += "<tr><td valign=\"top\">Greater Bull Rush</td><td>Enemies you bullrush provoke attacks of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Bull Rush</td><td>Enemies you bullrush provoke attacks of opportunity</td></tr>\r";
 	}
 	if (has_greateroverrun) {
-		SWD += "<tr><td valign=\"top\">Greater Overrun</td><td>Enemies you overrun provoke attacks of opportunity</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Overrun</td><td>Enemies you overrun provoke attacks of opportunity</td></tr>\r";
 	}
 	if (has_greatersunder) {
-		SWD += "<tr><td valign=\"top\">Greater Sunder</td><td>Damage from sunder can be used instead to destroy weapon / armor</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Sunder</td><td>Damage from sunder can be used instead to destroy weapon / armor</td></tr>\r";
 	}
 	if (has_selectivechanneling) {
-		SWD += "<tr><td valign=\"top\"><font face=\"Arial\"Selective Channeling</td><td>Decide who to affect and not affect</td></tr>\r"
+		SWD += "<tr><td valign=\"top\"><font face=\"Arial\"Selective Channeling</td><td>Decide who to affect and not affect</td></tr>\r";
 	}
 	if (has_shieldslam) {
-		SWD += "<tr><td valign=\"top\">Shield Slam</td><td>Free bull rush with bash attack</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shield Slam</td><td>Free bull rush with bash attack</td></tr>\r";
 	}
 	if (has_shieldmaster) {
-		SWD += "<tr><td valign=\"top\">Shield Master</td><td>No two-hand penalty if attacking with shield</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shield Master</td><td>No two-hand penalty if attacking with shield</td></tr>\r";
 	}
 	if (has_shieldfocus) {
-		SWD += "<tr><td valign=\"top\">Shield Focus</td><td>+1 on AC when using shieild</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shield Focus</td><td>+1 on AC when using shieild</td></tr>\r";
 	}
 	if (has_greatershieldfocus) {
-		SWD += "<tr><td valign=\"top\">Greater Shield Focus</td><td>+1 on AC when using shieild</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Shield Focus</td><td>+1 on AC when using shieild</td></tr>\r";
 	}
 	if (has_turnundead) {
-		SWD += "<tr><td valign=\"top\">Turn Undead</td><td>Positive energy can make undead flee</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Turn Undead</td><td>Positive energy can make undead flee</td></tr>\r";
 	}
 	if (has_doubleslice) {
-		SWD += "<tr><td valign=\"top\">Double Slice</td><td>Add strength bonus to off-hand damage</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Double Slice</td><td>Add strength bonus to off-hand damage</td></tr>\r";
 	}
 	if (has_twoweaponrend) {
-		SWD += "<tr><td valign=\"top\">Two Weapon Rend</td><td>If hit by both weapons, foe is rended</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Two Weapon Rend</td><td>If hit by both weapons, foe is rended</td></tr>\r";
 	}
 	if (has_vitalstrike) {
-		SWD += "<tr><td valign=\"top\">Vital Strike</td><td>One attack, roll the damage dice x2</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Vital Strike</td><td>One attack, roll the damage dice x2</td></tr>\r";
 	}
 	if (has_improvedvitalstrike) {
-		SWD += "<tr><td valign=\"top\">Improved Vital Strike</td><td>One attack, roll the damage dice x3</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Improved Vital Strike</td><td>One attack, roll the damage dice x3</td></tr>\r";
 	}
 	if (has_greatervitalstrike) {
-		SWD += "<tr><td valign=\"top\">Greater Vital Strike</td><td>One attack, roll the damage dice x4</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Vital Strike</td><td>One attack, roll the damage dice x4</td></tr>\r";
 	}
 	if (has_dazzlingdisplay) {
-		SWD += "<tr><td valign=\"top\">Dazzling Display</td><td>Using focus weapon, intimidate all in 30 feet</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Dazzling Display</td><td>Using focus weapon, intimidate all in 30 feet</td></tr>\r";
 	}
 	if (has_shatterdefenses) {
-		SWD += "<tr><td valign=\"top\">Shatter Defenses</td><td>Using focus weapon, hindered foes are flat-footed`</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Shatter Defenses</td><td>Using focus weapon, hindered foes are flat-footed`</td></tr>\r";
 	}
 	if (has_deadlystroke) {
-		SWD += "<tr><td valign=\"top\">Deadly Stroke</td><td>Using focus weapon, do double damage plus 1 point of constitution loss from bleeding</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Deadly Stroke</td><td>Using focus weapon, do double damage plus 1 point of constitution loss from bleeding</td></tr>\r";
 	}
 	if (has_penetratingstrike) {
-		SWD += "<tr><td valign=\"top\">Penetrating Strike</td><td>Using focus weapon, ignore five points of damage reduction</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Penetrating Strike</td><td>Using focus weapon, ignore five points of damage reduction</td></tr>\r";
 	}
 	if (has_greaterpenetratingstrike) {
-		SWD += "<tr><td valign=\"top\">Greater Penetrating Strike</td><td>Using focus weapon, ignore ten points of damage reduction</td></tr>\r"
+		SWD += "<tr><td valign=\"top\">Greater Penetrating Strike</td><td>Using focus weapon, ignore ten points of damage reduction</td></tr>\r";
 	}
 
-	SWD += "</table>\r</ul><p>\r"
+	SWD += "</table>\r</ul><p>\r";
 
-	SWD += "<table>"
-	SWD += "<tr> <td><center><i>Skill Name</i></center></td> <td><center><i>Key<br>Ability</td> <td><center><i>Skill<br>Modifier</td><td><center><i>Ability<br>Modifier</td> <td><center><i>Ranks</td> <td><center><i>Misc.<br>Modifier</td></tr>\r"
+	SWD += "<table>";
+	SWD += "<tr> <td><center><i>Skill Name</i></center></td> <td><center><i>Key<br>Ability</td> <td><center><i>Skill<br>Modifier</td><td><center><i>Ability<br>Modifier</td> <td><center><i>Ranks</td> <td><center><i>Misc.<br>Modifier</td></tr>\r";
 
 	x = modifier_number(dexterity) + acrobatics + armor_check_penalty
 			+ shield_check_penalty;
@@ -21704,13 +21702,13 @@ function WriteTextForCharacterSheet() {
 		x += 3;
 	}
 	if (monkey_familiar == true) {
-		x += 3
+		x += 3;
 	}
 	if (has_acrobatic) {
-		x += 2
+		x += 2;
 	}
 	if (rayce == 6) {
-		x += 2
+		x += 2;
 	}
 	if (has_skillfocusacrobatics == true) {
 		x = x + 3;
@@ -21718,29 +21716,29 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Acrobatics</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Acrobatics</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 			+ x
-			+ " = </td> <td><center>"
+			+ " = </td> <td><center>";
 			+ modifier_string(dexterity)
-			+ "</td><td>"
+			+ "</td><td>";
 	if (acrobatics > 0) {
 		SWD += " + " + acrobatics;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.acrobatics_ics.checked) & (acrobatics > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (monkey_familiar == true) {
-		SWD += "  + 3 [monkey] "
+		SWD += "  + 3 [monkey] ";
 	}
 	if (has_acrobatic) {
-		SWD += "  + 2 [acrobatic] "
+		SWD += "  + 2 [acrobatic] ";
 	}
 	if (rayce == 6) {
-		SWD += "  + 2 [halfling] "
+		SWD += "  + 2 [halfling] ";
 	}
 	if (has_skillfocusacrobatics == true) {
-		SWD += "  + " + SixOrThree(acrobatics) + " [skill focus] "
+		SWD += "  + " + SixOrThree(acrobatics) + " [skill focus] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -21748,7 +21746,7 @@ function WriteTextForCharacterSheet() {
 	if (shield_check_penalty != 0) {
 		SWD += shield_check_penalty + " [shield] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(intelligence) + appraise;
 	if ((document.form1.appraise_ics.checked) & (appraise > 0)) {
@@ -21765,22 +21763,22 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Appraise</td> <td>Int</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(intelligence)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (appraise > 0) {
-		SWD += " + " + appraise
+		SWD += " + " + appraise;
 	}
 	;
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.appraise_ics.checked) & (appraise > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (raven_familiar == true) {
-		SWD += "  + 2 [raven] "
+		SWD += "  + 2 [raven] ";
 	}
 	if (has_skillfocusappraise == true) {
-		SWD += "  + " + SixOrThree(appraise) + " [skill focus] "
+		SWD += "  + " + SixOrThree(appraise) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + bluff;
 	if ((document.form1.bluff_ics.checked) & (bluff > 0)) {
@@ -21812,37 +21810,37 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Bluff</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (bluff > 0) {
 		SWD += " + " + bluff;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.bluff_ics.checked) & (bluff > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (snake_familiar == true) {
-		SWD += "  + 3 [snake] "
+		SWD += "  + 3 [snake] ";
 	}
 	if (has_persuasive == true) {
-		SWD += "  + 2 [persuasive] "
+		SWD += "  + 2 [persuasive] ";
 	}
 	if (rayce == 33) {
-		SWD += "  + 2 [tiefling] "
+		SWD += "  + 2 [tiefling] ";
 	}
 	if (rayce == 9) {
-		SWD += "  + 2 [dhampir] "
+		SWD += "  + 2 [dhampir] ";
 	}
 	if (has_deceitful == true) {
-		SWD += " +2 [deceitful] "
+		SWD += " +2 [deceitful] ";
 	}
 	if (wizard_specialty_name == "Enchanter") {
 		SWD += "<font face=\"Arial\" +" + TwoToSix(wizard_levels)
 				+ " [enchanter] ";
 	}
 	if (has_skillfocusbluff == true) {
-		SWD += "  + " + SixOrThree(bluff) + " [skill focus] "
+		SWD += "  + " + SixOrThree(bluff) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(strength) + climb + armor_check_penalty
 			+ shield_check_penalty;
@@ -21864,27 +21862,27 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Climb</td> <td>Str<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Climb</td> <td>Str<sup>*</sup></td> <td align=\"right\">";
 			+ x + " = </td> <td><center>" + modifier_string(strength)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (climb > 0) {
 		SWD += " + " + climb;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.climb_ics.checked) & (climb > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (rayce == 6) {
-		SWD += "  + 2 [halfling] "
+		SWD += "  + 2 [halfling] ";
 	}
 	if (has_athletic) {
-		SWD += "  + 2 [athletic] "
+		SWD += "  + 2 [athletic] ";
 	}
 	if (lizard_familiar == true) {
-		SWD += "  + 3 [lizard] "
+		SWD += "  + 3 [lizard] ";
 	}
 	if (has_skillfocusclimb == true) {
-		SWD += "  + " + SixOrThree(climb) + " [skill focus] "
+		SWD += "  + " + SixOrThree(climb) + " [skill focus] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -21892,7 +21890,7 @@ function WriteTextForCharacterSheet() {
 	if (shield_check_penalty != 0) {
 		SWD += shield_check_penalty + " [shield] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(intelligence) + craft_1;
 	if ((document.form1.craft_1_ics.checked) & (craft_1 > 0)) {
@@ -21906,18 +21904,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Craft_1</td> <td>Int</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(intelligence)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (craft_1 > 0) {
 		SWD += " + " + craft_1;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.craft_1_ics.checked) & (craft_1 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocuscraft_1 == true) {
-		SWD += "  + " + SixOrThree(craft_1) + " [skill focus] "
+		SWD += "  + " + SixOrThree(craft_1) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(intelligence) + craft_2;
 	if ((document.form1.craft_2_ics.checked) & (craft_2 > 0)) {
@@ -21931,18 +21929,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Craft_2</td> <td>Int</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(intelligence)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (craft_2 > 0) {
 		SWD += " + " + craft_2;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.craft_2_ics.checked) & (craft_2 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocuscraft_2 == true) {
-		SWD += "  + " + SixOrThree(craft_2) + " [skill focus] "
+		SWD += "  + " + SixOrThree(craft_2) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(intelligence) + craft_3;
 	if ((document.form1.craft_3_ics.checked) & (craft_3 > 0)) {
@@ -21956,18 +21954,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Craft_3</td> <td>Int</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(intelligence)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (craft_3 > 0) {
 		SWD += " + " + craft_3;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.craft_3_ics.checked) & (craft_3 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocuscraft_3 == true) {
-		SWD += "  + " + SixOrThree(craft_3) + " [skill focus] "
+		SWD += "  + " + SixOrThree(craft_3) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + diplomacy;
 	if ((document.form1.diplomacy_ics.checked) & (diplomacy > 0)) {
@@ -21990,28 +21988,28 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Diplomacy</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (diplomacy > 0) {
 		SWD += " + " + diplomacy;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.diplomacy_ics.checked) & (diplomacy > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (rayce == 2) {
-		SWD += "  + 2 [half-elf] "
+		SWD += "  + 2 [half-elf] ";
 	}
 	if (rayce == 28) {
-		SWD += "  + 2 [aasimar] "
+		SWD += "  + 2 [aasimar] ";
 	}
 	if (wizard_specialty_name == "Enchanter") {
 		SWD += "<font face=\"Arial\" +" + TwoToSix(wizard_levels)
 				+ " [enchanter] ";
 	}
 	if (has_skillfocusdiplomacy == true) {
-		SWD += "  + " + SixOrThree(diplomacy) + " [skill focus] "
+		SWD += "  + " + SixOrThree(diplomacy) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((disabledevice > 0) | (bard_levels >= 10)) {
 		x = modifier_number(dexterity) + disabledevice;
@@ -22027,26 +22025,26 @@ function WriteTextForCharacterSheet() {
 		if (has_defthands == true) {
 			x = x + 2;
 		}
-		SWD += "<tr> <td>Disable Device</td> <td>Dex</td> <td align=\"right\">"
+		SWD += "<tr> <td>Disable Device</td> <td>Dex</td> <td align=\"right\">";
 				+ x + " = </td> <td><center>" + modifier_string(dexterity)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (disabledevice > 0) {
 			SWD += " + " + disabledevice;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.disabledevice_ics.checked) & (disabledevice > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (disabledevice == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_defthands) {
-			SWD += "  + 2 [deft hands] "
+			SWD += "  + 2 [deft hands] ";
 		}
 		if (has_skillfocusdisabledevice == true) {
-			SWD += "  + " + SixOrThree(disabledevice) + " [skill focus] "
+			SWD += "  + " + SixOrThree(disabledevice) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	x = modifier_number(charisma) + disguise;
@@ -22064,21 +22062,21 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Disguise</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (disguise > 0) {
 		SWD += " + " + disguise;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.disguise_ics.checked) & (disguise > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusdisguise == true) {
-		SWD += "  + " + SixOrThree(disguise) + " [skill focus] "
+		SWD += "  + " + SixOrThree(disguise) + " [skill focus] ";
 	}
 	if (has_deceitful == true) {
-		SWD += " +2 [deceitful] "
+		SWD += " +2 [deceitful] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(dexterity) + escapeartist + armor_check_penalty
 			+ shield_check_penalty;
@@ -22091,17 +22089,17 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Escape Artist</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Escape Artist</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 			+ x
-			+ " = </td> <td><center>"
+			+ " = </td> <td><center>";
 			+ modifier_string(dexterity)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (escapeartist > 0) {
 		SWD += " + " + escapeartist;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.escapeartist_ics.checked) & (escapeartist > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -22110,9 +22108,9 @@ function WriteTextForCharacterSheet() {
 		SWD += shield_check_penalty + " [shield] ";
 	}
 	if (has_skillfocusescapeartist == true) {
-		SWD += "  + " + SixOrThree(escapeartist) + " [skill focus] "
+		SWD += "  + " + SixOrThree(escapeartist) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(dexterity) + fly + armor_check_penalty
 			+ shield_check_penalty;
@@ -22131,21 +22129,21 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Fly</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Fly</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 			+ x + " = </td> <td><center>" + modifier_string(dexterity)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (fly > 0) {
 		SWD += " + " + fly;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.fly_ics.checked) & (fly > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (bat_familiar == true) {
-		SWD += "  + 3 [bat] "
+		SWD += "  + 3 [bat] ";
 	}
 	if (has_acrobatic) {
-		SWD += "  + 2 [acrobatic] "
+		SWD += "  + 2 [acrobatic] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -22154,9 +22152,9 @@ function WriteTextForCharacterSheet() {
 		SWD += shield_check_penalty + " [shield] ";
 	}
 	if (has_skillfocusfly == true) {
-		SWD += "  + " + SixOrThree(fly) + " [skill focus] "
+		SWD += "  + " + SixOrThree(fly) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((handleanimal > 0) | (bard_levels > 10)) {
 		x = modifier_number(charisma) + handleanimal;
@@ -22172,26 +22170,26 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td>Handle Animal</td> <td>Cha</td> <td align=\"right\">"
+		SWD += "<tr> <td>Handle Animal</td> <td>Cha</td> <td align=\"right\">";
 				+ x + " = </td> <td><center>" + modifier_string(charisma)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (handleanimal > 0) {
 			SWD += " + " + handleanimal;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.handleanimal_ics.checked) & (handleanimal > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (handleanimal == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_animalaffinity == true) {
-			SWD += "  + 2 [animal affinity] "
+			SWD += "  + 2 [animal affinity] ";
 		}
 		if (has_skillfocushandleanimal == true) {
-			SWD += "  + " + SixOrThree(handleanimal) + " [skill focus] "
+			SWD += "  + " + SixOrThree(handleanimal) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	x = modifier_number(wisdom) + heal;
@@ -22208,21 +22206,21 @@ function WriteTextForCharacterSheet() {
 		}
 	}
 	SWD += "<tr> <td>Heal</td> <td>Wis</td> <td align=\"right\">" + x
-			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>"
+			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>";
 	if (heal > 0) {
 		SWD += " + " + heal;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.heal_ics.checked) & (heal > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_selfsufficient) {
-		SWD += "  + 2 [self-sufficient] "
+		SWD += "  + 2 [self-sufficient] ";
 	}
 	if (has_skillfocusheal == true) {
-		SWD += "  + " + SixOrThree(heal) + " [skill focus] "
+		SWD += "  + " + SixOrThree(heal) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + intimidate;
 	if (has_intimidatingprowess) {
@@ -22248,31 +22246,31 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Intimidate</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (intimidate > 0) {
 		SWD += " + " + intimidate;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.intimidate_ics.checked) & (intimidate > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_persuasive == true) {
-		SWD += "  + 2 [persuasive] "
+		SWD += "  + 2 [persuasive] ";
 	}
 	if (rayce == 7) {
-		SWD += "  + 2 [half-orc] "
+		SWD += "  + 2 [half-orc] ";
 	}
 	if (has_intimidatingprowess) {
-		SWD += " + " + modifier_number(strength) + " [intimidating prowess]"
+		SWD += " + " + modifier_number(strength) + " [intimidating prowess]";
 	}
 	if (wizard_specialty_name == "Enchanter") {
 		SWD += "<font face=\"Arial\" +" + TwoToSix(wizard_levels)
 				+ " [enchanter] ";
 	}
 	if (has_skillfocusintimidate == true) {
-		SWD += "  + " + SixOrThree(intimidate) + " [skill focus] "
+		SWD += "  + " + SixOrThree(intimidate) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((knowledgearcana > 0) | (bard_levels > 0)) {
 		x = modifier_number(intelligence) + knowledgearcana + BardKnow();
@@ -22286,29 +22284,29 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td>Knowledge (arcana)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td>Knowledge (arcana)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgearcana > 0) {
 			SWD += " + " + knowledgearcana;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgearcana_ics.checked)
 				& (knowledgearcana > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgearcana == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgearcana == true) {
-			SWD += "  + " + SixOrThree(knowledgearcana) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgearcana) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgedungeoneering > 0) | (bard_levels > 0)) {
@@ -22323,30 +22321,30 @@ function WriteTextForCharacterSheet() {
 		if (has_skillfocusknowledgedungeoneering == true) {
 			x = x + 3;
 		}
-		SWD += "<tr> <td> Knowledge (dungeoneering)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (dungeoneering)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgedungeoneering > 0) {
 			SWD += " + " + knowledgedungeoneering;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgedungeoneering_ics.checked)
 				& (knowledgedungeoneering > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgedungeoneering == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgedungeoneering == true) {
 			SWD += "  + " + SixOrThree(knowledgedungeoneering)
-					+ " [skill focus] "
+					+ " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgeengineering > 0) | (bard_levels > 0)) {
@@ -22361,30 +22359,30 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (engineering)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (engineering)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td><td>"
+				+ "</td><td>";
 		if (knowledgeengineering > 0) {
 			SWD += " + " + knowledgeengineering;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgeengineering_ics.checked)
 				& (knowledgeengineering > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgeengineering == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgeengineering == true) {
 			SWD += "  + " + SixOrThree(knowledgeengineering)
-					+ " [skill focus] "
+					+ " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgegeography > 0) | (bard_levels > 0)) {
@@ -22399,29 +22397,29 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (geography)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (geography)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgegeography > 0) {
 			SWD += " + " + knowledgegeography;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgegeography_ics.checked)
 				& (knowledgegeography > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgegeography == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgegeography == true) {
-			SWD += "  + " + SixOrThree(knowledgegeography) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgegeography) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgehistory > 0) | (bard_levels > 0)) {
@@ -22436,29 +22434,29 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (history)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (history)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgehistory > 0) {
 			SWD += " + " + knowledgehistory;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgehistory_ics.checked)
 				& (knowledgehistory > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgehistory == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgehistory == true) {
-			SWD += "  + " + SixOrThree(knowledgehistory) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgehistory) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgelocal > 0) | (bard_levels > 0)) {
@@ -22472,31 +22470,31 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (local)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (local)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgelocal > 0) {
 			SWD += " + " + knowledgelocal;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgelocal_ics.checked) & (knowledgelocal > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgelocal == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgelocal == true) {
-			SWD += "  + " + SixOrThree(knowledgelocal) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgelocal) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgenature > 0) | (druid_levels > 0) | (bard_levels > 0)) {
@@ -22511,29 +22509,29 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (nature)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (nature)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgenature > 0) {
 			SWD += " + " + knowledgenature;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgenature_ics.checked)
 				& (knowledgenature > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgenature == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgenature == true) {
-			SWD += "  + " + SixOrThree(knowledgenature) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgenature) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgenobility > 0) | (bard_levels > 0)) {
@@ -22548,29 +22546,29 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td> Knowledge (nobility)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (nobility)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgenobility > 0) {
 			SWD += " + " + knowledgenobility;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgenobility_ics.checked)
 				& (knowledgenobility > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgenobility == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgenobility == true) {
-			SWD += "  + " + SixOrThree(knowledgenobility) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgenobility) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgeplanes > 0) | (bard_levels > 0)) {
@@ -22585,29 +22583,29 @@ function WriteTextForCharacterSheet() {
 		if (has_skillfocusknowledgeplanes == true) {
 			x = x + 3;
 		}
-		SWD += "<tr> <td> Knowledge (planes)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (planes)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgeplanes > 0) {
 			SWD += " + " + knowledgeplanes;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgeplanes_ics.checked)
 				& (knowledgeplanes > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgeplanes == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgeplanes == true) {
-			SWD += "  + " + SixOrThree(knowledgeplanes) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgeplanes) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((knowledgereligion > 0) | (bard_levels > 0)) {
@@ -22622,29 +22620,29 @@ function WriteTextForCharacterSheet() {
 		if (has_skillfocusknowledgereligion == true) {
 			x = x + 3;
 		}
-		SWD += "<tr> <td> Knowledge (religion)</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td> Knowledge (religion)</td> <td>Int</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (knowledgereligion > 0) {
 			SWD += " + " + knowledgereligion;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.knowledgereligion_ics.checked)
 				& (knowledgereligion > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (knowledgereligion == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusknowledgereligion == true) {
-			SWD += "  + " + SixOrThree(knowledgereligion) + " [skill focus] "
+			SWD += "  + " + SixOrThree(knowledgereligion) + " [skill focus] ";
 		}
 		if (bard_levels > 0) {
-			SWD += " + " + BardKnow() + " [bardic knowledge] "
+			SWD += " + " + BardKnow() + " [bardic knowledge] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((linguistics > 0)) {
@@ -22658,23 +22656,23 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td>Linguistics</td> <td>Int</td> <td align=\"right\">"
+		SWD += "<tr> <td>Linguistics</td> <td>Int</td> <td align=\"right\">";
 				+ x + " = </td> <td><center>" + modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (linguistics > 0) {
 			SWD += " + " + linguistics;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.linguistics_ics.checked) & (linguistics > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (linguistics == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocuslinguistics == true) {
-			SWD += "  + " + SixOrThree(linguistics) + " [skill focus] "
+			SWD += "  + " + SixOrThree(linguistics) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	x = modifier_number(wisdom) + perception;
@@ -22712,42 +22710,42 @@ function WriteTextForCharacterSheet() {
 		}
 	}
 	SWD += "<tr> <td>Perception</td> <td>Wis</td> <td align=\"right\">" + x
-			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>"
+			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>";
 	if (perception > 0) {
 		SWD += " + " + perception;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perception_ics.checked) & (perception > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (rayce == 3) {
-		SWD += "  + 2 [elf] "
+		SWD += "  + 2 [elf] ";
 	}
 	if (rayce == 28) {
-		SWD += "  + 2 [aasimar] "
+		SWD += "  + 2 [aasimar] ";
 	}
 	if (rayce == 5) {
-		SWD += "  + 2 [gnome] "
+		SWD += "  + 2 [gnome] ";
 	}
 	if (rayce == 2) {
-		SWD += "  + 2 [half-elf] "
+		SWD += "  + 2 [half-elf] ";
 	}
 	if (rayce == 6) {
-		SWD += "  + 2 [halfling] "
+		SWD += "  + 2 [halfling] ";
 	}
 	if (rayce == 9) {
-		SWD += "  + 2 [dhampir] "
+		SWD += "  + 2 [dhampir] ";
 	}
 	if (rayce == 12) {
-		SWD += "  + 2 [drow] "
+		SWD += "  + 2 [drow] ";
 	}
 	if (has_alertness) {
-		SWD += "  + 2 [alertness] "
+		SWD += "  + 2 [alertness] ";
 	}
 	if (has_skillfocusperception == true) {
-		SWD += "  + " + SixOrThree(perception) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perception) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + perform_1;
 	if ((document.form1.perform_1_ics.checked) & (perform_1 > 0)) {
@@ -22761,18 +22759,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Perform_1</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (perform_1 > 0) {
 		SWD += " + " + perform_1;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perform_1_ics.checked) & (perform_1 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusperform_1 == true) {
-		SWD += "  + " + SixOrThree(perform_1) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perform_1) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + perform_2;
 	if ((document.form1.perform_2_ics.checked) & (perform_2 > 0)) {
@@ -22786,18 +22784,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Perform_2</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (perform_2 > 0) {
 		SWD += " + " + perform_2;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perform_2_ics.checked) & (perform_2 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusperform_2 == true) {
-		SWD += "  + " + SixOrThree(perform_2) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perform_2) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + perform_3;
 	if ((document.form1.perform_3_ics.checked) & (perform_3 > 0)) {
@@ -22811,18 +22809,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Perform_3</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (perform_3 > 0) {
 		SWD += " + " + perform_3;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perform_3_ics.checked) & (perform_3 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusperform_3 == true) {
-		SWD += "  + " + SixOrThree(perform_3) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perform_3) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + perform_4;
 	if ((document.form1.perform_4_ics.checked) & (perform_4 > 0)) {
@@ -22836,18 +22834,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Perform_4</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (perform_4 > 0) {
 		SWD += " + " + perform_4;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perform_4_ics.checked) & (perform_4 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusperform_4 == true) {
-		SWD += "  + " + SixOrThree(perform_4) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perform_4) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(charisma) + perform_5;
 	if ((document.form1.perform_5_ics.checked) & (perform_5 > 0)) {
@@ -22861,18 +22859,18 @@ function WriteTextForCharacterSheet() {
 	}
 	SWD += "<tr> <td>Perform_5</td> <td>Cha</td> <td align=\"right\">" + x
 			+ " = </td> <td><center>" + modifier_string(charisma)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (perform_5 > 0) {
 		SWD += " + " + perform_5;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.perform_5_ics.checked) & (perform_5 > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocusperform_5 == true) {
-		SWD += "  + " + SixOrThree(perform_5) + " [skill focus] "
+		SWD += "  + " + SixOrThree(perform_5) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((profession > 0) | (bard_levels >= 10)) {
 		x = modifier_number(wisdom) + profession;
@@ -22887,21 +22885,21 @@ function WriteTextForCharacterSheet() {
 		}
 		SWD += "<tr> <td>Profession</td> <td>Wis</td> <td align=\"right\">" + x
 				+ " = </td> <td><center>" + modifier_string(wisdom)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (profession > 0) {
 			SWD += " + " + profession;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.profession_ics.checked) & (profession > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (profession == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_skillfocusprofession == true) {
-			SWD += "  + " + SixOrThree(profession) + " [skill focus] "
+			SWD += "  + " + SixOrThree(profession) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	x = modifier_number(dexterity) + ride + armor_check_penalty
@@ -22921,24 +22919,24 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Ride</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Ride</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 			+ x + " = </td> <td><center>" + modifier_string(dexterity)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (ride > 0) {
 		SWD += " + " + ride;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.ride_ics.checked) & (ride > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (handleanimal >= 5) {
-		SWD += "  + 2 [handle animal] "
+		SWD += "  + 2 [handle animal] ";
 	}
 	if (has_animalaffinity == true) {
-		SWD += "  + 2 [animal affinity] "
+		SWD += "  + 2 [animal affinity] ";
 	}
 	if (has_skillfocusride == true) {
-		SWD += "  + " + SixOrThree(ride) + " [skill focus] "
+		SWD += "  + " + SixOrThree(ride) + " [skill focus] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -22946,7 +22944,7 @@ function WriteTextForCharacterSheet() {
 	if (shield_check_penalty != 0) {
 		SWD += shield_check_penalty + " [shield] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(wisdom) + sensemotive;
 	if ((document.form1.sensemotive_ics.checked) & (sensemotive > 0)) {
@@ -22959,24 +22957,24 @@ function WriteTextForCharacterSheet() {
 		}
 	}
 	if (has_alertness) {
-		x += 2
+		x += 2;
 	}
 	SWD += "<tr> <td>Sense Motive</td> <td>Wis</td> <td align=\"right\">" + x
-			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>"
+			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>";
 	if (sensemotive > 0) {
 		SWD += " + " + sensemotive;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.sensemotive_ics.checked) & (sensemotive > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_skillfocussensemotive == true) {
-		SWD += "  + " + SixOrThree(sensemotive) + " [skill focus] "
+		SWD += "  + " + SixOrThree(sensemotive) + " [skill focus] ";
 	}
 	if (has_alertness) {
-		SWD += "  + 2 [alertness] "
+		SWD += "  + 2 [alertness] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((sleightofhand > 0) | (bard_levels >= 10)) {
 		x = modifier_number(dexterity) + sleightofhand;
@@ -22992,28 +22990,28 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td>Sleight of Hand</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+		SWD += "<tr> <td>Sleight of Hand</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(dexterity)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (sleightofhand > 0) {
 			SWD += " + " + sleightofhand;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.sleightofhand_ics.checked) & (sleightofhand > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (sleightofhand == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_defthands) {
-			SWD += "  + 2 [deft hands] "
+			SWD += "  + 2 [deft hands] ";
 		}
 		if (has_skillfocussleightofhand == true) {
-			SWD += "  + " + SixOrThree(sleightofhand) + " [skill focus] "
+			SWD += "  + " + SixOrThree(sleightofhand) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if ((spellcraft > 0) | (bard_levels >= 10)) {
@@ -23032,24 +23030,24 @@ function WriteTextForCharacterSheet() {
 		}
 		SWD += "<tr> <td>Spellcraft</td> <td>Int</td> <td align=\"right\">" + x
 				+ " = </td> <td><center>" + modifier_string(intelligence)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (spellcraft > 0) {
 			SWD += " + " + spellcraft;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.spellcraft_ics.checked) & (spellcraft > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (spellcraft == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_magicalaptitude) {
-			SWD += "  + 2 [magical aptitude] "
+			SWD += "  + 2 [magical aptitude] ";
 		}
 		if (has_skillfocusspellcraft == true) {
-			SWD += "  + " + SixOrThree(spellcraft) + " [skill focus] "
+			SWD += "  + " + SixOrThree(spellcraft) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	x = modifier_number(dexterity) + stealth + armor_check_penalty
@@ -23075,23 +23073,23 @@ function WriteTextForCharacterSheet() {
 	if (rayce == 33) {
 		x = x + 2;
 	}
-	SWD += "<tr> <td>Stealth</td> <td>Dex<sup>*</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Stealth</td> <td>Dex<sup>*</sup></td> <td align=\"right\">";
 			+ x
-			+ " = </td> <td><center>"
+			+ " = </td> <td><center>";
 			+ modifier_string(dexterity)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (stealth > 0) {
 		SWD += " + " + stealth;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.stealth_ics.checked) & (stealth > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (cat_familiar == true) {
-		SWD += "  + 3 [cat] "
+		SWD += "  + 3 [cat] ";
 	}
 	if (small == true) {
-		SWD += "  + 4 [small] "
+		SWD += "  + 4 [small] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -23100,15 +23098,15 @@ function WriteTextForCharacterSheet() {
 		SWD += shield_check_penalty + " [shield] ";
 	}
 	if (has_skillfocusstealth == true) {
-		SWD += "  + " + SixOrThree(stealth) + " [skill focus] "
+		SWD += "  + " + SixOrThree(stealth) + " [skill focus] ";
 	}
 	if (has_stealthy) {
-		SWD += "  + 2 [stealthy] "
+		SWD += "  + 2 [stealthy] ";
 	}
 	if (rayce == 33) {
-		SWD += "  + 2 [tiefling] "
+		SWD += "  + 2 [tiefling] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(wisdom) + survival;
 	if ((document.form1.survival_ics.checked) & (survival > 0)) {
@@ -23124,21 +23122,21 @@ function WriteTextForCharacterSheet() {
 		}
 	}
 	SWD += "<tr> <td>Survival</td> <td>Wis</td> <td align=\"right\">" + x
-			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>"
+			+ " = </td> <td><center>" + modifier_string(wisdom) + "</td> <td>";
 	if (survival > 0) {
 		SWD += " + " + survival;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.survival_ics.checked) & (survival > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_selfsufficient) {
-		SWD += "  + 2 [self-sufficient] "
+		SWD += "  + 2 [self-sufficient] ";
 	}
 	if (has_skillfocussurvival == true) {
-		SWD += "  + " + SixOrThree(survival) + " [skill focus] "
+		SWD += "  + " + SixOrThree(survival) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	x = modifier_number(strength) + swim + armor_check_penalty
 			+ shield_check_penalty;
@@ -23154,18 +23152,18 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 	}
-	SWD += "<tr> <td>Swim</td> <td>Str<sup>**</sup></td> <td align=\"right\">"
+	SWD += "<tr> <td>Swim</td> <td>Str<sup>**</sup></td> <td align=\"right\">";
 			+ x + " = </td> <td><center>" + modifier_string(strength)
-			+ "</td> <td>"
+			+ "</td> <td>";
 	if (swim > 0) {
 		SWD += " + " + swim;
 	}
-	SWD += "</td> <td>"
+	SWD += "</td> <td>";
 	if ((document.form1.swim_ics.checked) & (swim > 0)) {
-		SWD += "  + 3 [class skill] "
+		SWD += "  + 3 [class skill] ";
 	}
 	if (has_athletic) {
-		SWD += "  + 2 [athletic] "
+		SWD += "  + 2 [athletic] ";
 	}
 	if (armor_check_penalty != 0) {
 		SWD += armor_check_penalty + " [armor] ";
@@ -23174,9 +23172,9 @@ function WriteTextForCharacterSheet() {
 		SWD += shield_check_penalty + " [shield] ";
 	}
 	if (has_skillfocusswim == true) {
-		SWD += "  + " + SixOrThree(swim) + " [skill focus] "
+		SWD += "  + " + SixOrThree(swim) + " [skill focus] ";
 	}
-	SWD += "</td></tr>\r"
+	SWD += "</td></tr>\r";
 
 	if ((usemagicdevice > 0) | (bard_levels >= 10)) {
 		x = modifier_number(charisma) + usemagicdevice;
@@ -23192,28 +23190,28 @@ function WriteTextForCharacterSheet() {
 				x += 3;
 			}
 		}
-		SWD += "<tr> <td>Use Magic Device</td> <td>Cha</td> <td align=\"right\">"
+		SWD += "<tr> <td>Use Magic Device</td> <td>Cha</td> <td align=\"right\">";
 				+ x
-				+ " = </td> <td><center>"
+				+ " = </td> <td><center>";
 				+ modifier_string(charisma)
-				+ "</td> <td>"
+				+ "</td> <td>";
 		if (usemagicdevice > 0) {
 			SWD += " + " + usemagicdevice;
 		}
-		SWD += "</td> <td>"
+		SWD += "</td> <td>";
 		if ((document.form1.usemagicdevice_ics.checked) & (usemagicdevice > 0)) {
-			SWD += "  + 3 [class skill] "
+			SWD += "  + 3 [class skill] ";
 		}
 		if (usemagicdevice == 0) {
-			SWD += "[cannot use untrained] "
+			SWD += "[cannot use untrained] ";
 		}
 		if (has_magicalaptitude == true) {
-			SWD += "  + 2 [magical aptitude] "
+			SWD += "  + 2 [magical aptitude] ";
 		}
 		if (has_skillfocususemagicdevice == true) {
-			SWD += "  + " + SixOrThree(usemagicdevice) + " [skill focus] "
+			SWD += "  + " + SixOrThree(usemagicdevice) + " [skill focus] ";
 		}
-		SWD += "</td></tr>\r"
+		SWD += "</td></tr>\r";
 	}
 
 	if (otherskill1 > 0) {
@@ -23249,9 +23247,9 @@ function WriteTextForCharacterSheet() {
 		}
 		SWD += "<tr> <td>" + document.form1.otherskill1_name.value
 				+ "</td> <td>" + stringy + "</td> <td align=\"right\">" + x
-				+ " = </td> <td><center>" + y + "</td> <td>"
+				+ " = </td> <td><center>" + y + "</td> <td>";
 		SWD += " + " + otherskill1;
-		SWD += "</td> <td></td></tr>\r"
+		SWD += "</td> <td></td></tr>\r";
 	}
 
 	if (otherskill2 > 0) {
@@ -23287,9 +23285,9 @@ function WriteTextForCharacterSheet() {
 		}
 		SWD += "<tr> <td>" + document.form1.otherskill2_name.value
 				+ "</td> <td>" + stringy + "</td> <td align=\"right\">" + x
-				+ " = </td> <td><center>" + y + "</td> <td>"
+				+ " = </td> <td><center>" + y + "</td> <td>";
 		SWD += " + " + otherskill2;
-		SWD += "</td> <td></td></tr>\r"
+		SWD += "</td> <td></td></tr>\r";
 	}
 
 	if (otherskill3 > 0) {
@@ -23325,22 +23323,22 @@ function WriteTextForCharacterSheet() {
 		}
 		SWD += "<tr> <td>" + document.form1.otherskill3_name.value
 				+ "</td> <td>" + stringy + "</td> <td align=\"right\">" + x
-				+ " = </td> <td><center>" + y + "</td> <td>"
+				+ " = </td> <td><center>" + y + "</td> <td>";
 		SWD += " + " + otherskill3;
-		SWD += "</td> <td></td></tr>\r"
+		SWD += "</td> <td></td></tr>\r";
 	}
 
-	SWD += "</table>\r<p>\r* = check penalty for armor/shield<br>\r** = some groups double armor/shield penalties for swimmers<br><p>\r"
+	SWD += "</table>\r<p>\r* = check penalty for armor/shield<br>\r** = some groups double armor/shield penalties for swimmers<br><p>\r";
 
 	if (linguistics > 0) {
 		SWD += "This character also has " + linguistics
-				+ " ranks in Linguistics.<br>"
+				+ " ranks in Linguistics.<br>";
 	}
 	if (hawk_familiar == true) {
-		SWD += "The hawk confers  + 3 on visual perception checks in well-lit conditions.<br>"
+		SWD += "The hawk confers  + 3 on visual perception checks in well-lit conditions.<br>";
 	}
 	if (owl_familiar == true) {
-		SWD += "The owl confers  + 3 on visual perception checks in dimly-lit conditions.<br>"
+		SWD += "The owl confers  + 3 on visual perception checks in dimly-lit conditions.<br>";
 	}
 
 	if ((bat_familiar == true) | (cat_familiar == true)
@@ -23350,706 +23348,706 @@ function WriteTextForCharacterSheet() {
 			| (snake_familiar == true) | (toad_familiar == true)
 			| (weasel_familiar == true)) {
 		if (has_alertness == false) {
-			SWD += "If the familiar is within reach,  + 2 on  perception and sense motive (\"alertness\").<br>"
+			SWD += "If the familiar is within reach,  + 2 on  perception and sense motive (\"alertness\").<br>";
 		}
 	}
 
 	if (BardSpells0 != "") {
-		SWD += BardSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells1 != "") {
-		SWD += BardSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells2 != "") {
-		SWD += BardSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells3 != "") {
-		SWD += BardSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells4 != "") {
-		SWD += BardSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells5 != "") {
-		SWD += BardSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (BardSpells6 != "") {
-		SWD += BardSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += BardSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells0 != "") {
-		SWD += ClericSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells1 != "") {
-		SWD += ClericSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells2 != "") {
-		SWD += ClericSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells3 != "") {
-		SWD += ClericSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells4 != "") {
-		SWD += ClericSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
-	}
+		SWD += ClericSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
+	};
 	if (ClericSpells5 != "") {
-		SWD += ClericSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells6 != "") {
-		SWD += ClericSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells7 != "") {
-		SWD += ClericSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells8 != "") {
-		SWD += ClericSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (ClericSpells9 != "") {
-		SWD += ClericSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += ClericSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells0 != "") {
-		SWD += DruidSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells1 != "") {
-		SWD += DruidSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells2 != "") {
-		SWD += DruidSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells3 != "") {
-		SWD += DruidSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells4 != "") {
-		SWD += DruidSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells5 != "") {
-		SWD += DruidSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells6 != "") {
-		SWD += DruidSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells7 != "") {
-		SWD += DruidSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells8 != "") {
-		SWD += DruidSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (DruidSpells9 != "") {
-		SWD += DruidSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += DruidSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (PaladinSpells1 != "") {
-		SWD += PaladinSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += PaladinSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (PaladinSpells2 != "") {
-		SWD += PaladinSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += PaladinSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (PaladinSpells3 != "") {
-		SWD += PaladinSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += PaladinSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (PaladinSpells4 != "") {
-		SWD += PaladinSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += PaladinSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 
 	if (RangerSpells1 != "") {
-		SWD += RangerSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += RangerSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (RangerSpells2 != "") {
-		SWD += RangerSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += RangerSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (RangerSpells3 != "") {
-		SWD += RangerSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += RangerSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (RangerSpells4 != "") {
-		SWD += RangerSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += RangerSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 
 	if (SorcererSpells0 != "") {
-		SWD += SorcererSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells1 != "") {
-		SWD += SorcererSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells2 != "") {
-		SWD += SorcererSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells3 != "") {
-		SWD += SorcererSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells4 != "") {
-		SWD += SorcererSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells5 != "") {
-		SWD += SorcererSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells6 != "") {
-		SWD += SorcererSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells7 != "") {
-		SWD += SorcererSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells8 != "") {
-		SWD += SorcererSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (SorcererSpells9 != "") {
-		SWD += SorcererSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += SorcererSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells0 != "") {
-		SWD += WizardSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells0 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells1 != "") {
-		SWD += WizardSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells1 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells2 != "") {
-		SWD += WizardSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells2 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells3 != "") {
-		SWD += WizardSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells3 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells4 != "") {
-		SWD += WizardSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells4 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells5 != "") {
-		SWD += WizardSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells5 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells6 != "") {
-		SWD += WizardSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells6 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells7 != "") {
-		SWD += WizardSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells7 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells8 != "") {
-		SWD += WizardSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells8 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	if (WizardSpells9 != "") {
-		SWD += WizardSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r"
+		SWD += WizardSpells9 + "<p>\r<img src=\"spellbar.gif\"><p>\r";
 	}
 	SWD += "<p>Favored class points: Hit points +" + favored_for_hp
 			+ "; Skill points +" + favored_for_skill + "<br>";
 	SWD += "<p>Adjust weapon attack rolls and armor penalties as required for masterwork / magic equipment.<p>";
 
 	if (rayce == 1) {
-		SWD += "Human<p><ul>"
+		SWD += "Human<p><ul>";
 		stringy = whichabilityup();
 		SWD += "<li>This human chose +2 to " + stringy
-				+ " (already included)</li>"
-		SWD += "<li>Extra feat at first level (already included)</li>"
-		SWD += "<li>Four extra skill points at first level (already included)</li>"
-		SWD += "<li>One extra skill point at each additional level (already included)</li>"
-		SWD += "</ul>"
+				+ " (already included)</li>";
+		SWD += "<li>Extra feat at first level (already included)</li>";
+		SWD += "<li>Four extra skill points at first level (already included)</li>";
+		SWD += "<li>One extra skill point at each additional level (already included)</li>";
+		SWD += "</ul>";
 	}
 	if (rayce == 4) {
-		SWD += "Dwarf<p><ul>"
-		SWD += "<li> + 2 constitution, +2 wisdom, -2 charisma (already included)</li><br>"
-		SWD += "<li>Can move 20 feet even if in heavy armor</li><br>"
-		SWD += "<li>Darkvision (see 60 feet in pitch-dark)</li><br>"
-		SWD += "<li>Stonecunning ( + 2 on perception checks regarding stonework; automatic check if passing in ten feet)</li><br>"
-		SWD += "<li>All dwarves are proficient with battleaxes, heavy picks, and warhammers. </li><br>"
-		SWD += "<li> + 4 to avoid being bullrushed / tripped while standing on ground</li><br>"
-		SWD += "<li> + 2 racial bonus on saves vs. poison</li><br>"
-		SWD += "<li> + 2 racial bonus on saves vs. spells / spell-like abilities</li><br>"
-		SWD += "<li> + 1 racial bonus to hit orcs and goblinoids</li><br>"
-		SWD += "<li> + 4 dodge bonus on AC against giants</li><br>"
-		SWD += "<li> + 2 racial bonus on appraise checks if stone/metal</li><br>"
-		SWD += "</ul>"
+		SWD += "Dwarf<p><ul>";
+		SWD += "<li> + 2 constitution, +2 wisdom, -2 charisma (already included)</li><br>";
+		SWD += "<li>Can move 20 feet even if in heavy armor</li><br>";
+		SWD += "<li>Darkvision (see 60 feet in pitch-dark)</li><br>";
+		SWD += "<li>Stonecunning ( + 2 on perception checks regarding stonework; automatic check if passing in ten feet)</li><br>";
+		SWD += "<li>All dwarves are proficient with battleaxes, heavy picks, and warhammers. </li><br>";
+		SWD += "<li> + 4 to avoid being bullrushed / tripped while standing on ground</li><br>";
+		SWD += "<li> + 2 racial bonus on saves vs. poison</li><br>";
+		SWD += "<li> + 2 racial bonus on saves vs. spells / spell-like abilities</li><br>";
+		SWD += "<li> + 1 racial bonus to hit orcs and goblinoids</li><br>";
+		SWD += "<li> + 4 dodge bonus on AC against giants</li><br>";
+		SWD += "<li> + 2 racial bonus on appraise checks if stone/metal</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 3) {
-		SWD += "Elf<p><ul>"
-		SWD += "<li> + 2 dexterity, +2 intelligence, -2 constitution (already included)</li><br>"
-		SWD += "<li>Immune to magical sleep</li><br>"
-		SWD += "<li> + 2 racial bonus to saves vs. enchantments</li><br>"
-		SWD += "<li>Low-light vision -- see twice as far as humans in dim light</li><br>"
-		SWD += "<li>Proficient with longswords, rapiers, longbows, composite longbows, & shortbow</li><br>"
-		SWD += "<li> + 2 racial bonus on perception checks</li><br>"
-		SWD += "<li> + 2 racial bonus to overcome spell restance</li><br>"
-		SWD += "<li> + 2 racial bonus on spellcraft to identify properties of magic items</li><br>"
-		SWD += "</ul>"
+		SWD += "Elf<p><ul>";
+		SWD += "<li> + 2 dexterity, +2 intelligence, -2 constitution (already included)</li><br>";
+		SWD += "<li>Immune to magical sleep</li><br>";
+		SWD += "<li> + 2 racial bonus to saves vs. enchantments</li><br>";
+		SWD += "<li>Low-light vision -- see twice as far as humans in dim light</li><br>";
+		SWD += "<li>Proficient with longswords, rapiers, longbows, composite longbows, & shortbow</li><br>";
+		SWD += "<li> + 2 racial bonus on perception checks</li><br>";
+		SWD += "<li> + 2 racial bonus to overcome spell restance</li><br>";
+		SWD += "<li> + 2 racial bonus on spellcraft to identify properties of magic items</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 5) {
-		SWD += "Gnome<p><ul>"
-		SWD += "<li> + 2 constitution, +2 charisma, -2 strength (already included)</li><br>"
-		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>"
-		SWD += "<li>Low-light vision</li><br>"
-		SWD += "<li> + 2 racial bonus on saves vs. illusions</li><br>"
-		SWD += "<li> + 1 on DC of opponent's save vs. gnomish illusions</li><br>"
-		SWD += "<li> + 1 racial bonus to hit reptilians and goblinoids</li><br>"
-		SWD += "<li> + 4 dodge bonus on AC against giants</li><br>"
-		SWD += "<li> + 2 bonus on perception checks (already included)</li><br>"
+		SWD += "Gnome<p><ul>";
+		SWD += "<li> + 2 constitution, +2 charisma, -2 strength (already included)</li><br>";
+		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>";
+		SWD += "<li>Low-light vision</li><br>";
+		SWD += "<li> + 2 racial bonus on saves vs. illusions</li><br>";
+		SWD += "<li> + 1 on DC of opponent's save vs. gnomish illusions</li><br>";
+		SWD += "<li> + 1 racial bonus to hit reptilians and goblinoids</li><br>";
+		SWD += "<li> + 4 dodge bonus on AC against giants</li><br>";
+		SWD += "<li> + 2 bonus on perception checks (already included)</li><br>";
 		if (charisma >= 11) {
-			SWD += "<li>1/day <i>dancing lights, ghost sound, prestidigitation, speak with animals</i></li><br>"
+			SWD += "<li>1/day <i>dancing lights, ghost sound, prestidigitation, speak with animals</i></li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 2) {
-		SWD += "Half-Elf<p><ul>"
+		SWD += "Half-Elf<p><ul>";
 		stringy = whichabilityup();
 		SWD += "<li>This half-elf chose +2 to " + stringy
-				+ " (already included)</li>"
-		SWD += "<li>Immune to magical sleep</li><br>"
-		SWD += "<li>Allowed two favored classes.  Here I am assuming it is the first two favored classes.</li><br>"
-		SWD += "<li>Take a skill focus as a bonus feat at level 1</li><br>"
-		SWD += "<li> + 2 racial bonus on saves vs. enchantments</li><br>"
-		SWD += "<li>Low-light vision</li><br>"
-		SWD += "<li> + 1 racial bonus on perception checks</li><br>"
-		SWD += "<li> + 2 racial bonus on diplomacy and gather information checks</li><br>"
-		SWD += "</ul>"
+				+ " (already included)</li>";
+		SWD += "<li>Immune to magical sleep</li><br>";
+		SWD += "<li>Allowed two favored classes.  Here I am assuming it is the first two favored classes.</li><br>";
+		SWD += "<li>Take a skill focus as a bonus feat at level 1</li><br>";
+		SWD += "<li> + 2 racial bonus on saves vs. enchantments</li><br>";
+		SWD += "<li>Low-light vision</li><br>";
+		SWD += "<li> + 1 racial bonus on perception checks</li><br>";
+		SWD += "<li> + 2 racial bonus on diplomacy and gather information checks</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 7) {
-		SWD += "Half-Orc<p><ul>"
+		SWD += "Half-Orc<p><ul>";
 		stringy = whichabilityup();
 		SWD += "<li>This half-orc chose +2 to " + stringy
-				+ " (already included)</li>"
-		SWD += "<li>Darkvision (see 60 feet in pitch-dark)</li><br>"
-		SWD += "<li>+2 on intimidate (already included)</li><br>"
-		SWD += "<li>Orc Ferocity -- if brought below 0 hp, fight for 1 round anyway</li><br>"
-		SWD += "<li>All orcs know greataxes and falchions</li><br>"
-		SWD += "</ul>"
+				+ " (already included)</li>";
+		SWD += "<li>Darkvision (see 60 feet in pitch-dark)</li><br>";
+		SWD += "<li>+2 on intimidate (already included)</li><br>";
+		SWD += "<li>Orc Ferocity -- if brought below 0 hp, fight for 1 round anyway</li><br>";
+		SWD += "<li>All orcs know greataxes and falchions</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 6) {
-		SWD += "Halfling<p><ul>"
-		SWD += "<li> + 2 dexterity, +2 charisma, -2 strength (already included)</li><br>"
-		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>"
-		SWD += "<li> + 2 racial bonus on acrobatics, climb, and perception (already included)</li><br>"
-		SWD += "<li> + 1 racial bonus on all saving throws (already included)</li><br>"
-		SWD += "<li> + 2 morale bonus on saves vs. fear (stacks with racial bonus to all saves)</li><br>"
-		SWD += "<li> + 1 to hit with thrown weapons and slings</li><br>"
-		SWD += "</ul>"
+		SWD += "Halfling<p><ul>";
+		SWD += "<li> + 2 dexterity, +2 charisma, -2 strength (already included)</li><br>";
+		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>";
+		SWD += "<li> + 2 racial bonus on acrobatics, climb, and perception (already included)</li><br>";
+		SWD += "<li> + 1 racial bonus on all saving throws (already included)</li><br>";
+		SWD += "<li> + 2 morale bonus on saves vs. fear (stacks with racial bonus to all saves)</li><br>";
+		SWD += "<li> + 1 to hit with thrown weapons and slings</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 9) {
-		SWD += "Dhampir<p><ul>"
-		SWD += "<li>Dhampirs are people with vampiric heredity.</li><br>"
-		SWD += "<li> + 2 dexterity, +2 charisma, -2 constitution (already included)</li><br>"
-		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>"
-		SWD += "<li> + 2 racial bonus on bluff and perception</li><br>"
-		SWD += "<li> + 2 on saves against disease and mind-affecting spels</li><br>"
-		SWD += "<li>No penalties for negative levels, except dying when negative levels equals total levels; all are gone by next day with no save required</li><br>"
-		SWD += "<li>Dazzled in bright light</li><br>"
-		SWD += "<li>Detect unded x3 daily</li><br>"
-		SWD += "<li>Reputedly, negative energy heals these characters and positive energy harms them.  Whether this is workable in your campaign is up to your referee.</li><br>"
-		SWD += "</ul>"
+		SWD += "Dhampir<p><ul>";
+		SWD += "<li>Dhampirs are people with vampiric heredity.</li><br>";
+		SWD += "<li> + 2 dexterity, +2 charisma, -2 constitution (already included)</li><br>";
+		SWD += "<li>Small (combat bonuses,  + 4 to stealth already included)</li><br>";
+		SWD += "<li> + 2 racial bonus on bluff and perception</li><br>";
+		SWD += "<li> + 2 on saves against disease and mind-affecting spels</li><br>";
+		SWD += "<li>No penalties for negative levels, except dying when negative levels equals total levels; all are gone by next day with no save required</li><br>";
+		SWD += "<li>Dazzled in bright light</li><br>";
+		SWD += "<li>Detect unded x3 daily</li><br>";
+		SWD += "<li>Reputedly, negative energy heals these characters and positive energy harms them.  Whether this is workable in your campaign is up to your referee.</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (rayce == 22) {
-		SWD += "Orc<p><ul>"
-		SWD += "<li>+4 strength, -2 intelligence, -2 wisdom, -2 charisma (already included).</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>Light-sensitive.  Dazzled in bright light.</li><br>"
-		SWD += "<li>Always proficient with greataxes and falchions.</li><br>"
-		SWD += "</ul>"
+		SWD += "Orc<p><ul>";
+		SWD += "<li>+4 strength, -2 intelligence, -2 wisdom, -2 charisma (already included).</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>Light-sensitive.  Dazzled in bright light.</li><br>";
+		SWD += "<li>Always proficient with greataxes and falchions.</li><br>";
+		SWD += "</ul>";
 	}
 	if (rayce == 28) {
-		SWD += "Aasimar<p><ul>"
-		SWD += "<li>Aasimar are people with celestial heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This aasimar was allowed to choose one ability to raise by +2 (already included).  Aasimar conventionally get +2 wisdom, +2 charisma.  Hand-edit if needed.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>+2 racial bonus to diplomacy and perception (already included)</li><br>"
-		SWD += "<li>+5 resistance to acid, cold, electricity</li><br>"
-		SWD += "<li>Daylight spell once daily</li><br>"
+		SWD += "Aasimar<p><ul>";
+		SWD += "<li>Aasimar are people with celestial heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This aasimar was allowed to choose one ability to raise by +2 (already included).  Aasimar conventionally get +2 wisdom, +2 charisma.  Hand-edit if needed.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>+2 racial bonus to diplomacy and perception (already included)</li><br>";
+		SWD += "<li>+5 resistance to acid, cold, electricity</li><br>";
+		SWD += "<li>Daylight spell once daily</li><br>";
 		if ((sorcerer_levels > 0) & (has_celestial_bloodline)) {
-			SWD += "<li>Aasimar sorcerers with the celestial bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Aasimar sorcerers with the celestial bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 29) {
-		SWD += "Sylph<p><ul>"
-		SWD += "<li>Sylphs are people with elemental air heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This sylph was allowed to choose one ability to raise by +2 (already included).  Sylphs conventionally get +2 dexterity, +2 intelligence, -2 constitution.  Hand-edit if needed.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>Sylphs do not breathe and therefore cannot drown or be suffocated or harmed by inhalant poison</li><br>"
-		SWD += "<li>+5 resistance to electricity</li><br>"
+		SWD += "Sylph<p><ul>";
+		SWD += "<li>Sylphs are people with elemental air heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This sylph was allowed to choose one ability to raise by +2 (already included).  Sylphs conventionally get +2 dexterity, +2 intelligence, -2 constitution.  Hand-edit if needed.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>Sylphs do not breathe and therefore cannot drown or be suffocated or harmed by inhalant poison</li><br>";
+		SWD += "<li>+5 resistance to electricity</li><br>";
 		// SWD +="<li>Immune to magic sleep effects. A 25% chance thata critical
-		// or sneak attack misses.</li><br>"
-		SWD += "<li>Feather fall spell once daily.  Some say gust of wind instead.</li><br>"
+		// or sneak attack misses.</li><br>";
+		SWD += "<li>Feather fall spell once daily.  Some say gust of wind instead.</li><br>";
 		if ((sorcerer_levels > 0) & (has_elemental_bloodline)) {
-			SWD += "<li>Sylph sorcerers with the elemental (air) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Sylph sorcerers with the elemental (air) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
 		if ((cleric_levels > 0) & (has_air_domain)) {
-			SWD += "<li>Sylph clerics with the air domain cast domain powers and air spells at +1 caster level.</li><br>"
+			SWD += "<li>Sylph clerics with the air domain cast domain powers and air spells at +1 caster level.</li><br>";
 		}
 		if ((druid_levels > 0) & (air_druid_domain)) {
-			SWD += "<li>Sylph druids with the air domain cast domain powers and air spells at +1 casterlevel.</li><br>"
+			SWD += "<li>Sylph druids with the air domain cast domain powers and air spells at +1 casterlevel.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 30) {
-		SWD += "Oread<p><ul>"
-		SWD += "<li>Oreads are people with elemental earth heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This oread was allowed to choose one ability to raise by +2 (already included).  Oreads conventionally get +2 constitution, +2 wisdom, -2 dexterity.  Hand-edit if needed.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>Oreads get +2 on perception to notice odd stonework, even if not looking.</li><br>"
-		SWD += "<li>+5 resistance to acid</li><br>"
+		SWD += "Oread<p><ul>";
+		SWD += "<li>Oreads are people with elemental earth heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This oread was allowed to choose one ability to raise by +2 (already included).  Oreads conventionally get +2 constitution, +2 wisdom, -2 dexterity.  Hand-edit if needed.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>Oreads get +2 on perception to notice odd stonework, even if not looking.</li><br>";
+		SWD += "<li>+5 resistance to acid</li><br>";
 		// SWD +="<li>Immune to magic sleep effects. A 25% chance that a
-		// critical or sneak attack misses.</li><br>"
-		SWD += "<li>Magic stone once daily</li><br>"
+		// critical or sneak attack misses.</li><br>";
+		SWD += "<li>Magic stone once daily</li><br>";
 		if ((sorcerer_levels > 0) & (has_elemental_bloodline)) {
-			SWD += "<li>Oread sorcerers with the elemental (earth) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Oread sorcerers with the elemental (earth) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
 		if ((cleric_levels > 0) & (has_earth_domain)) {
-			SWD += "<li>Oread clerics with the earth domain cast domain powers and earth spells at +1 caster level.</li><br>"
+			SWD += "<li>Oread clerics with the earth domain cast domain powers and earth spells at +1 caster level.</li><br>";
 		}
 		if ((druid_levels > 0) & (earth_druid_domain)) {
-			SWD += "<li>Oread druids with the earth domain cast domain powers and earth spells at +1 casterlevel.</li><br>"
+			SWD += "<li>Oread druids with the earth domain cast domain powers and earth spells at +1 casterlevel.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 31) {
-		SWD += "Ifrit<p><ul>"
-		SWD += "<li>Ifrits are people with elemental fire heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This ifrit was allowed to choose one ability to raise by +2 (already included).  Ifrits conventionally get +2 dexterity, +2 charisma, -2 wisdom.  Hand-edit if needed.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>Ifrits can use a swift action to make an unarmed attack do 1d6 points of extra fire damage for one round.  Usable once daily.</li><br>"
-		SWD += "<li>+5 resistance to fire</li><br>"
+		SWD += "Ifrit<p><ul>";
+		SWD += "<li>Ifrits are people with elemental fire heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This ifrit was allowed to choose one ability to raise by +2 (already included).  Ifrits conventionally get +2 dexterity, +2 charisma, -2 wisdom.  Hand-edit if needed.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>Ifrits can use a swift action to make an unarmed attack do 1d6 points of extra fire damage for one round.  Usable once daily.</li><br>";
+		SWD += "<li>+5 resistance to fire</li><br>";
 		// SWD +="<li>Immune to magic sleep effects. A 25% chance that a
-		// critical or sneak attack misses.</li><br>"
-		SWD += "<li>Burning hands spell once daily</li><br>"
+		// critical or sneak attack misses.</li><br>";
+		SWD += "<li>Burning hands spell once daily</li><br>";
 		if ((sorcerer_levels > 0) & (has_elemental_bloodline)) {
-			SWD += "<li>Ifrit sorcerers with the elemental (fire) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Ifrit sorcerers with the elemental (fire) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
 		if ((cleric_levels > 0) & (has_fire_domain)) {
-			SWD += "<li>Ifrit clerics with the fire domain cast domain powers and fire spells at +1 caster level.</li><br>"
+			SWD += "<li>Ifrit clerics with the fire domain cast domain powers and fire spells at +1 caster level.</li><br>";
 		}
 		if ((druid_levels > 0) & (fire_druid_domain)) {
-			SWD += "<li>Ifrit druids with the fire domain cast domain powers and fire spells at +1 casterlevel.</li><br>"
+			SWD += "<li>Ifrit druids with the fire domain cast domain powers and fire spells at +1 casterlevel.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 32) {
-		SWD += "Undine<p><ul>"
-		SWD += "<li>Undines are people with elemental water heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This undine was allowed to choose one ability to raise by +2 (already included).  Undines conventionally get +2 strength, +2 constitution, -2 charisma.  Hand-edit if needed.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>Undines breathe water as well as air and have swim speed 30.</li><br>"
-		SWD += "<li>+5 resistance to cold</li><br>"
+		SWD += "Undine<p><ul>";
+		SWD += "<li>Undines are people with elemental water heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This undine was allowed to choose one ability to raise by +2 (already included).  Undines conventionally get +2 strength, +2 constitution, -2 charisma.  Hand-edit if needed.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>Undines breathe water as well as air and have swim speed 30.</li><br>";
+		SWD += "<li>+5 resistance to cold</li><br>";
 		// SWD +="<li>Immune to magic sleep effects. A 25% chance that a
-		// critical or sneak attack misses.</li><br>"
-		SWD += "<li>Slipstream / hydraulic push spell once daily</li><br>"
+		// critical or sneak attack misses.</li><br>";
+		SWD += "<li>Slipstream / hydraulic push spell once daily</li><br>";
 		if ((sorcerer_levels > 0) & (has_elemental_bloodline)) {
-			SWD += "<li>Undine sorcerers with the elemental (water) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Undine sorcerers with the elemental (water) bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
 		if ((cleric_levels > 0) & (has_water_domain)) {
-			SWD += "<li>Undine clerics with the water domain cast domain powers and water spells at +1 caster level.</li><br>"
+			SWD += "<li>Undine clerics with the water domain cast domain powers and water spells at +1 caster level.</li><br>";
 		}
 		if ((druid_levels > 0) & (water_druid_domain)) {
-			SWD += "<li>Undine druids with the water domain cast domain powers and water spells at +1 casterlevel.</li><br>"
+			SWD += "<li>Undine druids with the water domain cast domain powers and water spells at +1 casterlevel.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 33) {
-		SWD += "Tiefling<p><ul>"
-		SWD += "<li>Tieflings are people with fiendish heredity and count as native outsiders.</li><br>"
-		SWD += "<li>This tiefling was allowed to choose one ability to raise by +2 (already included).  Tieflings conventionally get +2 dexterity, +2 intelligence, -2 charisma.  Hand-edit if needed.</li><br>"
-		SWD += "<li>This tiefling was given both infernal and abyssal as native languages.  Delete one if this does not fit your character concept.</li><br>"
-		SWD += "<li>Darkvision to sixty feet</li><br>"
-		SWD += "<li>+2 racial bonus to bluff and stealth (already included)</li><br>"
-		SWD += "<li>+5 resistance to cold, electricity, and fire</li><br>"
-		SWD += "<li>Darkness spell once daily</li><br>"
+		SWD += "Tiefling<p><ul>";
+		SWD += "<li>Tieflings are people with fiendish heredity and count as native outsiders.</li><br>";
+		SWD += "<li>This tiefling was allowed to choose one ability to raise by +2 (already included).  Tieflings conventionally get +2 dexterity, +2 intelligence, -2 charisma.  Hand-edit if needed.</li><br>";
+		SWD += "<li>This tiefling was given both infernal and abyssal as native languages.  Delete one if this does not fit your character concept.</li><br>";
+		SWD += "<li>Darkvision to sixty feet</li><br>";
+		SWD += "<li>+2 racial bonus to bluff and stealth (already included)</li><br>";
+		SWD += "<li>+5 resistance to cold, electricity, and fire</li><br>";
+		SWD += "<li>Darkness spell once daily</li><br>";
 		if ((sorcerer_levels > 0) & (has_infernal_bloodline)) {
-			SWD += "<li>Tiefling sorcerers with the infernal bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Tiefling sorcerers with the infernal bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
 		if ((sorcerer_levels > 0) & (has_abyssal_bloodline)) {
-			SWD += "<li>Tiefling sorcerers with the abyssal bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>"
+			SWD += "<li>Tiefling sorcerers with the abyssal bloodline have an effective bonus of +2 charisma with regards to sorcery.</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 	if (rayce == 12) {
-		SWD += "Drow [Dark Elf]<p><ul>"
-		SWD += "<li>+2 dexterity, +2 charisma, -2 constitution (already included).</li><br>"
-		SWD += "<li>Darkvision to 120 feet</li><br>"
-		SWD += "<li>Immune to magical sleep; +2 on saves vs. enchantments</li><br>"
-		SWD += "<li>Dancing lights, darkness, faerie fire each once daily</li><br>"
-		SWD += "<li>+2 racial bonus to perception (already included)</li><br>"
-		SWD += "<li>6 + level resistance to magic spells</li><br>"
-		SWD += "<li>Proficient with hand crossbow, rapier, and short sword</li><br>"
-		SWD += "<li>Abrupt exposure to bright light blinds for one round, dazzles afterwards</li><br>"
-		SWD += "</ul>"
+		SWD += "Drow [Dark Elf]<p><ul>";
+		SWD += "<li>+2 dexterity, +2 charisma, -2 constitution (already included).</li><br>";
+		SWD += "<li>Darkvision to 120 feet</li><br>";
+		SWD += "<li>Immune to magical sleep; +2 on saves vs. enchantments</li><br>";
+		SWD += "<li>Dancing lights, darkness, faerie fire each once daily</li><br>";
+		SWD += "<li>+2 racial bonus to perception (already included)</li><br>";
+		SWD += "<li>6 + level resistance to magic spells</li><br>";
+		SWD += "<li>Proficient with hand crossbow, rapier, and short sword</li><br>";
+		SWD += "<li>Abrupt exposure to bright light blinds for one round, dazzles afterwards</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (barbarian_levels > 0) {
-		SWD += "Barbarian<p><ul>"
-		SWD += "<li>Fast Movement (+10 feet, already included)</li><br>"
-		SWD += "<li>Rage -- 4 + con mod rounds per day.  Two more rounds / day for each level above 1.  +4 strength, +4 constitution, +2 on will saves, -2 on AC.</li><br>"
-		SWD += "<li>At each even-numbered level, barbabarians gain a new rage power</li><br>"
-		SWD += "<li>Uncanny Dodge (level 2) -- cannot be caught flat-footed, keeps dexterity bonus to AC unless feinted or immobilized</li><br>"
-		SWD += "<li>Trap Sense (level 3) -- bonuses on AC / reflex to avoid trap damage</li><br>"
-		SWD += "<li>Improved Uncanny Dodge (level 5) -- cannot be flanked</li><br>"
-		SWD += "<li>Damage Reduction 1 from any natural or weapon attack (level 7)</li><br>"
-		SWD += "<li>Damage Reduction 2 from any natural or weapon attack (level 10)</li><br>"
-		SWD += "<li>Greater Rage (level 11) -- +6 strength, +6 constitution, +3 will</li><br>"
-		SWD += "<li>Damage Reduction 3 from any natural or weapon attack (level 13)</li><br>"
-		SWD += "<li>Indominitable Will (level 14) -- +4 on will, stacks with rage and all other plusses</li><br>"
-		SWD += "<li>Damage Reduction 4 from any natural or weapon attack (level 16)</li><br>"
-		SWD += "<li>Tireless Rage (level 17) -- no longer fatigued after raging</li><br>"
-		SWD += "<li>Damage Reduction 5 from any natural or weapon attack (level 19)</li><br>"
-		SWD += "<li>Mighty Rage (level 20) -- +8 strength, +8 constitution, +4 will</li><br>"
-		SWD += "</ul>"
+		SWD += "Barbarian<p><ul>";
+		SWD += "<li>Fast Movement (+10 feet, already included)</li><br>";
+		SWD += "<li>Rage -- 4 + con mod rounds per day.  Two more rounds / day for each level above 1.  +4 strength, +4 constitution, +2 on will saves, -2 on AC.</li><br>";
+		SWD += "<li>At each even-numbered level, barbabarians gain a new rage power</li><br>";
+		SWD += "<li>Uncanny Dodge (level 2) -- cannot be caught flat-footed, keeps dexterity bonus to AC unless feinted or immobilized</li><br>";
+		SWD += "<li>Trap Sense (level 3) -- bonuses on AC / reflex to avoid trap damage</li><br>";
+		SWD += "<li>Improved Uncanny Dodge (level 5) -- cannot be flanked</li><br>";
+		SWD += "<li>Damage Reduction 1 from any natural or weapon attack (level 7)</li><br>";
+		SWD += "<li>Damage Reduction 2 from any natural or weapon attack (level 10)</li><br>";
+		SWD += "<li>Greater Rage (level 11) -- +6 strength, +6 constitution, +3 will</li><br>";
+		SWD += "<li>Damage Reduction 3 from any natural or weapon attack (level 13)</li><br>";
+		SWD += "<li>Indominitable Will (level 14) -- +4 on will, stacks with rage and all other plusses</li><br>";
+		SWD += "<li>Damage Reduction 4 from any natural or weapon attack (level 16)</li><br>";
+		SWD += "<li>Tireless Rage (level 17) -- no longer fatigued after raging</li><br>";
+		SWD += "<li>Damage Reduction 5 from any natural or weapon attack (level 19)</li><br>";
+		SWD += "<li>Mighty Rage (level 20) -- +8 strength, +8 constitution, +4 will</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (bard_levels > 0) {
-		SWD += "Bard<p><ul>"
-		SWD += "<li>Bardic Knowledge</li><br>"
-		SWD += "<li>Bardic Performance -- 4 + chr mod rounds per day.  Two more rounds day for each level above 1.</li><br>"
-		SWD += "<li>Cantrips</li><br>"
-		SWD += "<li>Can know only limited numbers of spells</li><br>"
+		SWD += "Bard<p><ul>";
+		SWD += "<li>Bardic Knowledge</li><br>";
+		SWD += "<li>Bardic Performance -- 4 + chr mod rounds per day.  Two more rounds day for each level above 1.</li><br>";
+		SWD += "<li>Cantrips</li><br>";
+		SWD += "<li>Can know only limited numbers of spells</li><br>";
 		if (charisma >= 12) {
-			SWD += "<li>High charisma gains bonus spells daily</li><br>"
+			SWD += "<li>High charisma gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Countersong</li><br>"
-		SWD += "<li>Distraction</li><br>"
-		SWD += "<li>Fascination</li><br>"
-		SWD += "<li>Inspire Courage +1</li><br>"
-		SWD += "<li>Versatile Performance (Level 2) -- you'll need to hand-edit</li><br>"
-		SWD += "<li>Well-Versed (Level 2) -- +4 on saves vs other bards, and sounds in general</li><br>"
-		SWD += "<li>Inspire Competence +2 (Level 3)</li><br>"
-		SWD += "<li>Inspire Competence +4 (Level 11)</li><br>"
-		SWD += "<li>Inspire Competence +5 (Level 15)</li><br>"
-		SWD += "<li>Inspire Competence +6 (Level 19)</li><br>"
-		SWD += "<li>Mass Suggestion (Level 18)</li><br>"
-		SWD += "<li>Inspire Courage +2 (Level 5)</li><br>"
-		SWD += "<li>Lore Master 1/day (Level 5)</li><br>"
-		SWD += "<li>Lore Master 2/day (Level 11)</li><br>"
-		SWD += "<li>Suggestion (Level 6)</li><br>"
-		SWD += "<li>Versatile Performance (Level 6) -- you'll need to hand-edit</li><br>"
-		SWD += "<li>Inspire Competence +3 (Level 7)</li><br>"
-		SWD += "<li>Dirge of Doom (Level 8)</li><br>"
-		SWD += "<li>Inspire Greatness (Level 9)</li><br>"
-		SWD += "<li>Versatile Performance (Level 10) -- you'll need to hand-edit</li><br>"
-		SWD += "<li>Jack of All Trades (Level 10)</li><br>"
-		SWD += "<li>Soothing Performance (Level 12)</li><br>"
-		SWD += "<li>Frightening Tune (Level 14)</li><br>"
-		SWD += "<li>Versatile Performance (Level 14) -- you'll need to hand-edit</li><br>"
-		SWD += "<li>Inspire Heroics (Level 15)</li><br>"
-		SWD += "<li>Lore Master 3/day (Level 17)</li><br>"
-		SWD += "<li>Versatile Performance (Level 18) -- you'll need to hand-edit</li><br>"
-		SWD += "<li>Deadly Performance (Level 20)</li><br>"
-		SWD += "<li>Concentration check: d20 + bard level + charisma modifier vs. DC</li><br>"
-		SWD += "</ul>"
+		SWD += "<li>Countersong</li><br>";
+		SWD += "<li>Distraction</li><br>";
+		SWD += "<li>Fascination</li><br>";
+		SWD += "<li>Inspire Courage +1</li><br>";
+		SWD += "<li>Versatile Performance (Level 2) -- you'll need to hand-edit</li><br>";
+		SWD += "<li>Well-Versed (Level 2) -- +4 on saves vs other bards, and sounds in general</li><br>";
+		SWD += "<li>Inspire Competence +2 (Level 3)</li><br>";
+		SWD += "<li>Inspire Competence +4 (Level 11)</li><br>";
+		SWD += "<li>Inspire Competence +5 (Level 15)</li><br>";
+		SWD += "<li>Inspire Competence +6 (Level 19)</li><br>";
+		SWD += "<li>Mass Suggestion (Level 18)</li><br>";
+		SWD += "<li>Inspire Courage +2 (Level 5)</li><br>";
+		SWD += "<li>Lore Master 1/day (Level 5)</li><br>";
+		SWD += "<li>Lore Master 2/day (Level 11)</li><br>";
+		SWD += "<li>Suggestion (Level 6)</li><br>";
+		SWD += "<li>Versatile Performance (Level 6) -- you'll need to hand-edit</li><br>";
+		SWD += "<li>Inspire Competence +3 (Level 7)</li><br>";
+		SWD += "<li>Dirge of Doom (Level 8)</li><br>";
+		SWD += "<li>Inspire Greatness (Level 9)</li><br>";
+		SWD += "<li>Versatile Performance (Level 10) -- you'll need to hand-edit</li><br>";
+		SWD += "<li>Jack of All Trades (Level 10)</li><br>";
+		SWD += "<li>Soothing Performance (Level 12)</li><br>";
+		SWD += "<li>Frightening Tune (Level 14)</li><br>";
+		SWD += "<li>Versatile Performance (Level 14) -- you'll need to hand-edit</li><br>";
+		SWD += "<li>Inspire Heroics (Level 15)</li><br>";
+		SWD += "<li>Lore Master 3/day (Level 17)</li><br>";
+		SWD += "<li>Versatile Performance (Level 18) -- you'll need to hand-edit</li><br>";
+		SWD += "<li>Deadly Performance (Level 20)</li><br>";
+		SWD += "<li>Concentration check: d20 + bard level + charisma modifier vs. DC</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (cleric_levels > 0) {
-		SWD += "Cleric<p><ul>"
-		SWD += "<li>Alignment Aura</li><br>"
-		SWD += "<li>Spontaneous casting -- trade prepared spells for curative spells</li><br>"
+		SWD += "Cleric<p><ul>";
+		SWD += "<li>Alignment Aura</li><br>";
+		SWD += "<li>Spontaneous casting -- trade prepared spells for curative spells</li><br>";
 		if (channels_energy == 1) {
-			SWD += "<li>Channels positive energy"
+			SWD += "<li>Channels positive energy";
 		}
 		if (channels_energy == 2) {
-			SWD += "<li>Channels negative energy"
+			SWD += "<li>Channels negative energy";
 		}
 		if (3 + modifier_number(charisma) + 4 * has_extrachannel > 0) {
-			SWD += " ("
+			SWD += " (";
 					+ (3 + modifier_number(charisma) + 4 * has_extrachannel)
-					+ "x/day)</li><br>"
+					+ "x/day)</li><br>";
 		}
 
 		if (wisdom >= 12) {
-			SWD += "<li>High wisdom gains bonus spells daily</li><br>"
+			SWD += "<li>High wisdom gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Domain choices give additional abilities.  See the rulebook for details</li><br>"
+		SWD += "<li>Domain choices give additional abilities.  See the rulebook for details</li><br>";
 		if (has_air_domain) {
-			SWD += "<li>Air clergy can throw lightning arcs, and at 6th level resist electric damage.</li><br>"
+			SWD += "<li>Air clergy can throw lightning arcs, and at 6th level resist electric damage.</li><br>";
 		}
 		if (has_animal_domain) {
-			SWD += "<li>Animal clergy can speak with animals, and get an animal companion at 4th level.</li><br>"
+			SWD += "<li>Animal clergy can speak with animals, and get an animal companion at 4th level.</li><br>";
 		}
 		if (has_artifice_domain) {
-			SWD += "<li>Artifice clergy can case Mending at will, fix things, and at 8th level make weapons danc.</li><br>"
+			SWD += "<li>Artifice clergy can case Mending at will, fix things, and at 8th level make weapons danc.</li><br>";
 		}
 		if (has_chaos_domain) {
-			SWD += "<li>Chaos clergy can touch an enemy and force to roll all d20s twice, taking the worse result. At8th level, can make a weapon anarchic.</li><br>"
+			SWD += "<li>Chaos clergy can touch an enemy and force to roll all d20s twice, taking the worse result. At8th level, can make a weapon anarchic.</li><br>";
 		}
 		if (has_charm_domain) {
-			SWD += "<li>Charm clergy can daze an opponent, and cast Charm Person as a swift action</li><br>"
+			SWD += "<li>Charm clergy can daze an opponent, and cast Charm Person as a swift action</li><br>";
 		}
 		if (has_community_domain) {
-			SWD += "<li>Community clergy can heal and remove fatigued, shaken, and sickened by touch, an at 8th level let others use yoursaves</li><br>"
+			SWD += "<li>Community clergy can heal and remove fatigued, shaken, and sickened by touch, an at 8th level let others use yoursaves</li><br>";
 		}
 		if (has_darkness_domain) {
-			SWD += "<li>Darkness clergy get a free Blind-Fight feat, can blur an opponent's vision, and at 8th level you can make yourself see perfectly even in magical darkness.</li><br>"
+			SWD += "<li>Darkness clergy get a free Blind-Fight feat, can blur an opponent's vision, and at 8th level you can make yourself see perfectly even in magical darkness.</li><br>";
 		}
 		if (has_death_domain) {
-			SWD += "<li>Death clergy can cause bleeding by touch, and at 8th level negative energy heals you</li><br>"
+			SWD += "<li>Death clergy can cause bleeding by touch, and at 8th level negative energy heals you</li><br>";
 		}
 		if (has_destruction_domain) {
-			SWD += "<li>Destruction clergy can sometimes add half their level to their melee to-hit rolls, and at 8th level can cause all attacks against friend and foes within 30 feet to have half your level added to the attack roll</li><br>"
+			SWD += "<li>Destruction clergy can sometimes add half their level to their melee to-hit rolls, and at 8th level can cause all attacks against friend and foes within 30 feet to have half your level added to the attack roll</li><br>";
 		}
 		if (has_earth_domain) {
-			SWD += "<li>Earth clergy can squirt acid, and at 6th level resist acid damage</li><br>"
+			SWD += "<li>Earth clergy can squirt acid, and at 6th level resist acid damage</li><br>";
 		}
 		if (has_evil_domain) {
-			SWD += "<li>Evil clergy can sicken by touch, and at 8th level make a weapon unholy</li><br>"
+			SWD += "<li>Evil clergy can sicken by touch, and at 8th level make a weapon unholy</li><br>";
 		}
 		if (has_fire_domain) {
-			SWD += "<li>Fire clergy can shoot flames, and at 6th level develop fire resistance</li><br>"
+			SWD += "<li>Fire clergy can shoot flames, and at 6th level develop fire resistance</li><br>";
 		}
 		if (has_glory_domain) {
-			SWD += "<li>Glory clergy can bestow massive bonuses on charisma-based skill chcks, and at 8th level offer sanctuary to all friends within 30 feet</li><br>"
+			SWD += "<li>Glory clergy can bestow massive bonuses on charisma-based skill chcks, and at 8th level offer sanctuary to all friends within 30 feet</li><br>";
 		}
 		if (has_good_domain) {
-			SWD += "<li>Good clergy can bestow a sacred bonus on d20 rolls for a round, and at 8th level make a weapon holy</li><br>"
+			SWD += "<li>Good clergy can bestow a sacred bonus on d20 rolls for a round, and at 8th level make a weapon holy</li><br>";
 		}
 		if (has_healing_domain) {
-			SWD += "<li>Healing clergy can touch the dying to restore them, and at 6th level all cure spells are enhanced by half as if empowered</li><br>"
+			SWD += "<li>Healing clergy can touch the dying to restore them, and at 6th level all cure spells are enhanced by half as if empowered</li><br>";
 		}
 		if (has_knowledge_domain) {
-			SWD += "<li>All knowledge skills are class skills.  clergy can touch a creature at will to learn its strengthsand waknesses, and at level 6 can remote-view.</li><br>"
+			SWD += "<li>All knowledge skills are class skills.  clergy can touch a creature at will to learn its strengthsand waknesses, and at level 6 can remote-view.</li><br>";
 		}
 		if (has_law_domain) {
-			SWD += "<li>Law clergy can cause an ally to roll 11s on all d20s, and at 8th level can make a weapon axiomatic.</li><br>"
+			SWD += "<li>Law clergy can cause an ally to roll 11s on all d20s, and at 8th level can make a weapon axiomatic.</li><br>";
 		}
 		if (has_liberation_domain) {
-			SWD += "<li>Liberation clergy can grant themselves freedom of movement, and at 8th level cause all allys to be unaffected by confusion, grappling, fright, panic, paralysis, pins, or shaken.</li><br>"
+			SWD += "<li>Liberation clergy can grant themselves freedom of movement, and at 8th level cause all allys to be unaffected by confusion, grappling, fright, panic, paralysis, pins, or shaken.</li><br>";
 		}
 		if (has_luck_domain) {
-			SWD += "<li>Luck clergy can grant a friend the power to roll all d20s twice and take the better result, and at 6th level you can reroll a d20 yourself.</li><br>"
+			SWD += "<li>Luck clergy can grant a friend the power to roll all d20s twice and take the better result, and at 6th level you can reroll a d20 yourself.</li><br>";
 		}
 		if (has_madness_domain) {
-			SWD += "<li>Madness clergy can bestow bonuses on attacks, saves, or skill checks with a penalty on the other two</li><br>"
+			SWD += "<li>Madness clergy can bestow bonuses on attacks, saves, or skill checks with a penalty on the other two</li><br>";
 		}
 		if (has_magic_domain) {
-			SWD += "<li>Magic clergy can make weapons fly and dispel magic with a touch.</li><br>"
+			SWD += "<li>Magic clergy can make weapons fly and dispel magic with a touch.</li><br>";
 		}
 		if (has_nobility_domain) {
-			SWD += "<li>Nobility clergy can speak an inspiring word to an ally and give +2 bonuses, and receive Leadership at 8th level as a free feat with +2 on leadership score.</li><br>"
+			SWD += "<li>Nobility clergy can speak an inspiring word to an ally and give +2 bonuses, and receive Leadership at 8th level as a free feat with +2 on leadership score.</li><br>";
 		}
 		if (has_plant_domain) {
-			SWD += "<li>Plant clergy can turn their hands to thorny wood, and at 6th level develop bramgle armor.</li><br>"
+			SWD += "<li>Plant clergy can turn their hands to thorny wood, and at 6th level develop bramgle armor.</li><br>";
 		}
 		if (has_protection_domain) {
-			SWD += "<li>Protection clergy get bonuses on saving throws which they can transfer to another, and at 8th level create an aura that helps protect friends from acid, cold, electricity, fire, and sound.</li><br>"
+			SWD += "<li>Protection clergy get bonuses on saving throws which they can transfer to another, and at 8th level create an aura that helps protect friends from acid, cold, electricity, fire, and sound.</li><br>";
 		}
 		if (has_repose_domain) {
-			SWD += "<li>Repose clergy can induce lethargy, and at 8th level suppress death effects, energy drain, and negative levels within 30 feet.</li><br>"
+			SWD += "<li>Repose clergy can induce lethargy, and at 8th level suppress death effects, energy drain, and negative levels within 30 feet.</li><br>";
 		}
 		if (has_rune_domain) {
-			SWD += "<li>Rune clergy get a free Scribe Scroll feat, can make exploding runes, and at 8th level put another spell into the exploding rune.</li><br>"
+			SWD += "<li>Rune clergy get a free Scribe Scroll feat, can make exploding runes, and at 8th level put another spell into the exploding rune.</li><br>";
 		}
 		if (has_strength_domain) {
-			SWD += "<li>Strength clergy can confer half their leevel to melee attacks and combat maneuver checks, plus strength basedskills and strength checks At 8th level, you can add cleric level to your strength score for a number of rounds per day equal to your cleric level.</li><br>"
+			SWD += "<li>Strength clergy can confer half their leevel to melee attacks and combat maneuver checks, plus strength basedskills and strength checks At 8th level, you can add cleric level to your strength score for a number of rounds per day equal to your cleric level.</li><br>";
 		}
 		if (has_sun_domain) {
-			SWD += "<li>Sun clergy can add their cleric level to positive energy damate to the undead and undead cannot use their channel restance.  At 8th level you give off light in a 30 foot radius that causes unead to take yourlevel damage per round, and that dispels darkness.</li><br>"
+			SWD += "<li>Sun clergy can add their cleric level to positive energy damate to the undead and undead cannot use their channel restance.  At 8th level you give off light in a 30 foot radius that causes unead to take yourlevel damage per round, and that dispels darkness.</li><br>";
 		}
 		if (has_travel_domain) {
-			SWD += "<li>Travel clergy can give themselves theability to ignore difficult terrain, and at 8th level dimension-hop 10 feet per clericlevel per day; if you bring friends this counts as distance.</li><br>"
+			SWD += "<li>Travel clergy can give themselves theability to ignore difficult terrain, and at 8th level dimension-hop 10 feet per clericlevel per day; if you bring friends this counts as distance.</li><br>";
 		}
 		if (has_trickery_domain) {
-			SWD += "<li>Tricky clergy take bluff, disguise, and stealth as class skills.  They can make illusions of themselves and at 8th level of their group.</li><br>"
+			SWD += "<li>Tricky clergy take bluff, disguise, and stealth as class skills.  They can make illusions of themselves and at 8th level of their group.</li><br>";
 		}
 		if (has_war_domain) {
-			SWD += "<li>War clergy can bestow bonuses on melee damage, and at 8th level can give themselves temporary combat feats for which they meet pre-requisites. </li><br>"
+			SWD += "<li>War clergy can bestow bonuses on melee damage, and at 8th level can give themselves temporary combat feats for which they meet pre-requisites. </li><br>";
 		}
 		if (has_water_domain) {
-			SWD += "<li>Water clergy can shoot icicles, and at 8th level resist cold.</li><br>"
+			SWD += "<li>Water clergy can shoot icicles, and at 8th level resist cold.</li><br>";
 		}
 		if (has_weather_domain) {
-			SWD += "<li>Weather clergy can make storms that do non-lethal damage, and at 8th level call lightning bolts.</li><br>"
+			SWD += "<li>Weather clergy can make storms that do non-lethal damage, and at 8th level call lightning bolts.</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + cleric level + wisdom modifier vs. DC</li><br>"
+		SWD += "<li>Concentration check: d20 + cleric level + wisdom modifier vs. DC</li><br>";
 
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 
 	if (druid_levels > 0) {
-		SWD += "Druid<p><ul>"
+		SWD += "Druid<p><ul>";
 		if (air_druid_domain) {
-			SWD += "<li>Air druids can throw lightning arcs, and at 6th level resist electric damage.</li><br>"
+			SWD += "<li>Air druids can throw lightning arcs, and at 6th level resist electric damage.</li><br>";
 		}
 		if (animal_druid_domain) {
-			SWD += "<li>Animal druids can speak with animals, and get an animal companion at 4th level.</li><br>"
+			SWD += "<li>Animal druids can speak with animals, and get an animal companion at 4th level.</li><br>";
 		}
 		if (earth_druid_domain) {
-			SWD += "<li>Earth druids can squirt acid, and at 6th level resist acid damage</li><br>"
+			SWD += "<li>Earth druids can squirt acid, and at 6th level resist acid damage</li><br>";
 		}
 		if (fire_druid_domain) {
-			SWD += "<li>Fire druids can shoot flames, and at 6th level develop fire resistance</li><br>"
+			SWD += "<li>Fire druids can shoot flames, and at 6th level develop fire resistance</li><br>";
 		}
 		if (plant_druid_domain) {
-			SWD += "<li>Plant druids can turn their hands to thorny wood, and at 6th level develop bramgle armor.</li><br>"
+			SWD += "<li>Plant druids can turn their hands to thorny wood, and at 6th level develop bramgle armor.</li><br>";
 		}
 		if (water_druid_domain) {
-			SWD += "<li>Water druids can shoot icicles, and at 8th level resist cold.</li><br>"
+			SWD += "<li>Water druids can shoot icicles, and at 8th level resist cold.</li><br>";
 		}
 		if (weather_druid_domain) {
-			SWD += "<li>Weather 	 can make storms that do non-lethal damage, and at 8th level call lightning bolts.</li><br>"
+			SWD += "<li>Weather 	 can make storms that do non-lethal damage, and at 8th level call lightning bolts.</li><br>";
 		}
-		SWD += "<li>Orisons</li><br>"
-		SWD += "<li>Spontaneous Casting (summon nature's ally)</li><br>"
-		SWD += "<li>Animal Companion, or may instead choose a cleric domain and bonus spells (hand-edit)</li><br>"
-		SWD += "<li>Nature sense: + 2 on Knowledge (nature) and Survival (already included)</li><br>"
-		SWD += "<li>Wild Empathy</li><br>"
-		SWD += "<li>Woodland Stride (level 2)</li><br>"
-		SWD += "<li>Trackless Step (level 3)</li><br>"
-		SWD += "<li>Resist Nature's Lure (level 4)</li><br>"
-		SWD += "<li>Wild Shape (level 4 now)</li><br>"
-		SWD += "<li>Venom Immunity (level 9)</li><br>"
-		SWD += "<li>A Thousand Faces (level 13)</li><br>"
-		SWD += "<li>Timeless Body (level 15)</li><br>"
+		SWD += "<li>Orisons</li><br>";
+		SWD += "<li>Spontaneous Casting (summon nature's ally)</li><br>";
+		SWD += "<li>Animal Companion, or may instead choose a cleric domain and bonus spells (hand-edit)</li><br>";
+		SWD += "<li>Nature sense: + 2 on Knowledge (nature) and Survival (already included)</li><br>";
+		SWD += "<li>Wild Empathy</li><br>";
+		SWD += "<li>Woodland Stride (level 2)</li><br>";
+		SWD += "<li>Trackless Step (level 3)</li><br>";
+		SWD += "<li>Resist Nature's Lure (level 4)</li><br>";
+		SWD += "<li>Wild Shape (level 4 now)</li><br>";
+		SWD += "<li>Venom Immunity (level 9)</li><br>";
+		SWD += "<li>A Thousand Faces (level 13)</li><br>";
+		SWD += "<li>Timeless Body (level 15)</li><br>";
 		if (wisdom >= 12) {
-			SWD += "<li>High wisdom gains bonus spells daily</li><br>"
+			SWD += "<li>High wisdom gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + druid level + wisdom modifier vs. DC</li><br>"
-		SWD += "</ul>"
+		SWD += "<li>Concentration check: d20 + druid level + wisdom modifier vs. DC</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (fighter_levels > 0) {
-		SWD += "Fighter<p><ul>"
-		SWD += "<li>Bonus Feats (already included)</li><br>"
-		SWD += "<li>Armor training -- penalties for armor decrease by one each at levels 3, 7, 11, and 15</li><br>"
-		SWD += "<li>At level 3, moves at normal speed in medium armor.  At level 7, moves at normal speed in any armor.</li><br>"
-		SWD += "<li>Bravery -- +1 on saves vs fear (level 2), increases by one at level 6, 10, 14, 18</li><br>"
-		SWD += "<li>Weapon training 1; at levels 5, 9, 13, and 17, chooose one group of weapons and take +1 on attacks and damage from this group and all groups previously selected.  Mark here:</li><ul>"
+		SWD += "Fighter<p><ul>";
+		SWD += "<li>Bonus Feats (already included)</li><br>";
+		SWD += "<li>Armor training -- penalties for armor decrease by one each at levels 3, 7, 11, and 15</li><br>";
+		SWD += "<li>At level 3, moves at normal speed in medium armor.  At level 7, moves at normal speed in any armor.</li><br>";
+		SWD += "<li>Bravery -- +1 on saves vs fear (level 2), increases by one at level 6, 10, 14, 18</li><br>";
+		SWD += "<li>Weapon training 1; at levels 5, 9, 13, and 17, chooose one group of weapons and take +1 on attacks and damage from this group and all groups previously selected.  Mark here:</li><ul>";
 		SWD += "<li>Level 5:</li>";
 		SWD += "<li>Level 9:</li>";
 		SWD += "<li>Level 13:</li>";
 		SWD += "<li>Level 17:</li></ul><br>";
 		SWD += "<li>Armor Mastery (level 19) -- Damage reduction 5/- wearing any armor or using any shield</li><br>";
-		SWD += "<li>Weapon Mastery (level 20) -- choose one weapon for which all critical threats confirmed and damage multiplier increased by 1; cannot be disarmed when using it</li><br>"
-		SWD += "</ul>"
+		SWD += "<li>Weapon Mastery (level 20) -- choose one weapon for which all critical threats confirmed and damage multiplier increased by 1; cannot be disarmed when using it</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (monk_levels > 0) {
-		SWD += "Monk<p><ul>"
-		SWD += "<li>AC and CMD Bonus for Wisdom</li><br>"
-		SWD += "<li>AC and CMD Bonus for level (begins level 4 now)</li><br>"
-		SWD += "<li>Flurry of Blows -- must use unarmed strike or special monk weapon</li><br>"
-		SWD += "<li>Unarmed Strike -- free Improved Unarmed Strike feat, can make unarmed strikes with hands full, lethal or non-lethal, extra damage</li><br>"
-		SWD += "<li>Bonus Feats (levels 1 2 6 10 14 & 18)</li><br>"
-		SWD += "<li>Evasion (level 2) -- no damage if saves</li><br>"
-		SWD += "<li>Fast Movement (level 3)</li><br>"
-		SWD += "<li>Still Mind (level 3) -- +2 on saves vs charm</li><br>"
-		SWD += "<li>Maneuver Training (level 3) -- may use your monk level instead of attack base for combat maneuvers</li><br>"
-		SWD += "<li>Ki Strike (level 4) -- half your monk level plus your wisdom modifier plus any feat bonuses; use these points for extra attacks, extra speed, or extra armor class</li><br>"
-		SWD += "<li>Slow Fall (level 4) -- if a wall is near, fall is as if twenty feet less at level 4, improves as levels are gained</li><br>"
-		SWD += "<li>Purity of Body (level 5) -- immune to all diseases</li><br>"
-		SWD += "<li>Wholeness of Body (level 7) -- use 2 ki points to heal your monk level of hp</li><br>"
-		SWD += "<li>Improved Evasion (level 9) -- half damage if save is failed</li><br>"
-		SWD += "<li>Diamond Body (level 11) -- immune to poison</li><br>"
-		SWD += "<li>Abundant Step (level 12) -- dimension door</li><br>"
-		SWD += "<li>Diamond Soul (level 13) -- spell resistance 10 + monk level</li><br>"
-		SWD += "<li>Quivering Palm (level 15)</li><br>"
-		SWD += "<li>Timeless Body (level 17) -- no aging penalties</li><br>"
-		SWD += "<li>Tongue of Sun and Moon (level 17) -- speak with any living creature</li><br>"
-		SWD += "<li>Empty Body (level 19) -- use 3 ki points to turn ethereal</li><br>"
-		SWD += "<li>Perfect Self (level 20) -- now an outsider, DR 10/chaotic</li><br>"
-		SWD += "</ul>"
+		SWD += "Monk<p><ul>";
+		SWD += "<li>AC and CMD Bonus for Wisdom</li><br>";
+		SWD += "<li>AC and CMD Bonus for level (begins level 4 now)</li><br>";
+		SWD += "<li>Flurry of Blows -- must use unarmed strike or special monk weapon</li><br>";
+		SWD += "<li>Unarmed Strike -- free Improved Unarmed Strike feat, can make unarmed strikes with hands full, lethal or non-lethal, extra damage</li><br>";
+		SWD += "<li>Bonus Feats (levels 1 2 6 10 14 & 18)</li><br>";
+		SWD += "<li>Evasion (level 2) -- no damage if saves</li><br>";
+		SWD += "<li>Fast Movement (level 3)</li><br>";
+		SWD += "<li>Still Mind (level 3) -- +2 on saves vs charm</li><br>";
+		SWD += "<li>Maneuver Training (level 3) -- may use your monk level instead of attack base for combat maneuvers</li><br>";
+		SWD += "<li>Ki Strike (level 4) -- half your monk level plus your wisdom modifier plus any feat bonuses; use these points for extra attacks, extra speed, or extra armor class</li><br>";
+		SWD += "<li>Slow Fall (level 4) -- if a wall is near, fall is as if twenty feet less at level 4, improves as levels are gained</li><br>";
+		SWD += "<li>Purity of Body (level 5) -- immune to all diseases</li><br>";
+		SWD += "<li>Wholeness of Body (level 7) -- use 2 ki points to heal your monk level of hp</li><br>";
+		SWD += "<li>Improved Evasion (level 9) -- half damage if save is failed</li><br>";
+		SWD += "<li>Diamond Body (level 11) -- immune to poison</li><br>";
+		SWD += "<li>Abundant Step (level 12) -- dimension door</li><br>";
+		SWD += "<li>Diamond Soul (level 13) -- spell resistance 10 + monk level</li><br>";
+		SWD += "<li>Quivering Palm (level 15)</li><br>";
+		SWD += "<li>Timeless Body (level 17) -- no aging penalties</li><br>";
+		SWD += "<li>Tongue of Sun and Moon (level 17) -- speak with any living creature</li><br>";
+		SWD += "<li>Empty Body (level 19) -- use 3 ki points to turn ethereal</li><br>";
+		SWD += "<li>Perfect Self (level 20) -- now an outsider, DR 10/chaotic</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (paladin_levels > 0) {
-		SWD += "Paladin<p><ul>"
-		SWD += "<li>Aura of Good</li><br>"
-		SWD += "<li>Detect Evil</li><br>"
-		SWD += "<li>Smite Evil ("
+		SWD += "Paladin<p><ul>";
+		SWD += "<li>Aura of Good</li><br>";
+		SWD += "<li>Detect Evil</li><br>";
+		SWD += "<li>Smite Evil (";
 		if (paladin_levels >= 19) {
-			SWD += "7x/day"
+			SWD += "7x/day";
 		} else if (paladin_levels >= 16) {
-			SWD += "6x/day"
+			SWD += "6x/day";
 		} else if (paladin_levels >= 13) {
-			SWD += "5x/day"
+			SWD += "5x/day";
 		} else if (paladin_levels >= 10) {
-			SWD += "4x/day"
+			SWD += "4x/day";
 		} else if (paladin_levels >= 7) {
-			SWD += "3x/day"
+			SWD += "3x/day";
 		} else if (paladin_levels >= 4) {
-			SWD += "2x/day"
+			SWD += "2x/day";
 		} else {
-			SWD += "1x/day"
+			SWD += "1x/day";
 		}
 
 		x = modifier_number(charisma);
@@ -24059,294 +24057,294 @@ function WriteTextForCharacterSheet() {
 		SWD += "; add +" + x
 				+ " to melee attack roll, paladin levels to damage";
 
-		SWD += ")</li><br>"
-		SWD += "<li>Divine Grace (level 2) -- apply charisma bonus, if any, to saving throws</li><br>"
-		SWD += "<li>Lay on Hands (level 2) -- half your paladin level, plus your charisma modifiers, times per day.  This heals 1d6 per two paladin levels, as standard action, or on self is swift action.  Can damage undea, no save.  Only one free hand required.</li><br>"
-		SWD += "<li>Aura of Courage (level 3) -- immune to all fear, +4 to saves for all allies in ten feet</li><br>"
-		SWD += "<li>Divine Health (level 3) -- immune to all disesaes, including magical ones</li><br>"
-		SWD += "<li>Mercy -- at level 3, and every 3rd level after, choose one mercy to augment laying on of hands</li><br>"
-		SWD += "<li>Channel positive energy(level 4) -- use two Lay on Hands to do as a cleric does"
+		SWD += ")</li><br>";
+		SWD += "<li>Divine Grace (level 2) -- apply charisma bonus, if any, to saving throws</li><br>";
+		SWD += "<li>Lay on Hands (level 2) -- half your paladin level, plus your charisma modifiers, times per day.  This heals 1d6 per two paladin levels, as standard action, or on self is swift action.  Can damage undea, no save.  Only one free hand required.</li><br>";
+		SWD += "<li>Aura of Courage (level 3) -- immune to all fear, +4 to saves for all allies in ten feet</li><br>";
+		SWD += "<li>Divine Health (level 3) -- immune to all disesaes, including magical ones</li><br>";
+		SWD += "<li>Mercy -- at level 3, and every 3rd level after, choose one mercy to augment laying on of hands</li><br>";
+		SWD += "<li>Channel positive energy(level 4) -- use two Lay on Hands to do as a cleric does";
 		if ((paladin_levels > 3)
 				& (3 + modifier_number(charisma) + 4 * has_extrachannel > 0)) {
-			SWD += " ("
+			SWD += " (";
 					+ (3 + modifier_number(charisma) + 4 * has_extrachannel)
-					+ "x/day)"
+					+ "x/day)";
 		}
-		SWD += "</li><br>"
-		SWD += "<li>Divine bond (level 5) -- may be various weapon enhancements or a steed</li><br>"
-		SWD += "<li>Aura of Resolve (level 8) -- immune to all charm, +4 to saves for all allies in ten feet</li><br>"
-		SWD += "<li>Aura of Justice (level 11) -- spend two uses of smite evil to give the power to smite evil to all non-evil allies</li><br>"
-		SWD += "<li>Aura of Faith (level 14) -- your weapons are good-aligned, as are all allied attacks within 10 feet of you</li><br>"
-		SWD += "<li>Aura of Righteousness (level 17) -- DR5/evil; immune to compulsion, +4 to saves for all allies in ten feet</li><br>"
-		SWD += "<li>Holy Champion (level 20) -- DR10/evil; smite evil successful against an evil outsides, the outsider is subject to banishment</li><br>"
-		SWD += "<li>Code of Conduct / Association</li><br>"
+		SWD += "</li><br>";
+		SWD += "<li>Divine bond (level 5) -- may be various weapon enhancements or a steed</li><br>";
+		SWD += "<li>Aura of Resolve (level 8) -- immune to all charm, +4 to saves for all allies in ten feet</li><br>";
+		SWD += "<li>Aura of Justice (level 11) -- spend two uses of smite evil to give the power to smite evil to all non-evil allies</li><br>";
+		SWD += "<li>Aura of Faith (level 14) -- your weapons are good-aligned, as are all allied attacks within 10 feet of you</li><br>";
+		SWD += "<li>Aura of Righteousness (level 17) -- DR5/evil; immune to compulsion, +4 to saves for all allies in ten feet</li><br>";
+		SWD += "<li>Holy Champion (level 20) -- DR10/evil; smite evil successful against an evil outsides, the outsider is subject to banishment</li><br>";
+		SWD += "<li>Code of Conduct / Association</li><br>";
 		if (wisdom >= 12) {
-			SWD += "<li>High charisma gains bonus spells daily</li><br>"
+			SWD += "<li>High charisma gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + paladin level + charisma modifier vs. DC</li><br>"
-		SWD += "</ul>"
+		SWD += "<li>Concentration check: d20 + paladin level + charisma modifier vs. DC</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (ranger_levels > 0) {
-		SWD += "Ranger<p><ul>"
-		SWD += "<li>Favored enemies.  Bonus applies to attack (unlike 3.5), damage, bluff, knowledge (can always make checks), perception, sense motive, survival.   </li><br>"
-		SWD += "<li>Favored terrains.   Bonus applies to initiative, geography, perception, stealth, surival; need not leave tracks.  </li><br>"
-		SWD += "<li>Bonus to tracking</li><br>"
-		SWD += "<li>Combat Style</li><br>"
-		SWD += "<li>Endurance</li><br>"
-		SWD += "<li>Wild empathy (roll level  +  charisma bonus)</li><br>"
-		SWD += "<li>Endurance (level 3)</li><br>"
-		SWD += "<li>Hunter's bond -- either an animal companion or bond with companions and grant some favored enemy bonuses to them(level 4)</li><br>"
-		SWD += "<li>Woodland Stride (level 7)</li><br>"
-		SWD += "<li>Swift Tracker (level 8)</li><br>"
-		SWD += "<li>Evasion (level 9)</li><br>"
-		SWD += "<li>Quarry (level 11)</li><br>"
-		SWD += "<li>Camouflage (level 12)</li><br>"
-		SWD += "<li>Improved Evasion (level 16)</li><br>"
-		SWD += "<li>Hide in Plain Sight (level 17) -- any favored terrain</li><br>"
-		SWD += "<li>Improved quarry (level 19) -- any favored terrain</li><br>"
-		SWD += "<li>Master Hunter (level 20) -- lethal attacks, superior tracking</li><br>"
+		SWD += "Ranger<p><ul>";
+		SWD += "<li>Favored enemies.  Bonus applies to attack (unlike 3.5), damage, bluff, knowledge (can always make checks), perception, sense motive, survival.   </li><br>";
+		SWD += "<li>Favored terrains.   Bonus applies to initiative, geography, perception, stealth, surival; need not leave tracks.  </li><br>";
+		SWD += "<li>Bonus to tracking</li><br>";
+		SWD += "<li>Combat Style</li><br>";
+		SWD += "<li>Endurance</li><br>";
+		SWD += "<li>Wild empathy (roll level  +  charisma bonus)</li><br>";
+		SWD += "<li>Endurance (level 3)</li><br>";
+		SWD += "<li>Hunter's bond -- either an animal companion or bond with companions and grant some favored enemy bonuses to them(level 4)</li><br>";
+		SWD += "<li>Woodland Stride (level 7)</li><br>";
+		SWD += "<li>Swift Tracker (level 8)</li><br>";
+		SWD += "<li>Evasion (level 9)</li><br>";
+		SWD += "<li>Quarry (level 11)</li><br>";
+		SWD += "<li>Camouflage (level 12)</li><br>";
+		SWD += "<li>Improved Evasion (level 16)</li><br>";
+		SWD += "<li>Hide in Plain Sight (level 17) -- any favored terrain</li><br>";
+		SWD += "<li>Improved quarry (level 19) -- any favored terrain</li><br>";
+		SWD += "<li>Master Hunter (level 20) -- lethal attacks, superior tracking</li><br>";
 		if (wisdom >= 12) {
-			SWD += "<li>High wisdom gains bonus spells daily</li><br>"
+			SWD += "<li>High wisdom gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + rangre level + wisdom modifier vs. DC</li><br>"
+		SWD += "<li>Concentration check: d20 + rangre level + wisdom modifier vs. DC</li><br>";
 
-		SWD += "</ul><p>Favored Enemies:<p><ul>"
+		SWD += "</ul><p>Favored Enemies:<p><ul>";
 		if (rf_aberration > 0) {
-			SWD += "<li>Aberrations  + " + (2 * rf_aberration) + "</li><br>"
+			SWD += "<li>Aberrations  + " + (2 * rf_aberration) + "</li><br>";
 		}
 		if (rf_animal > 0) {
-			SWD += "<li>Animals  + " + (2 * rf_animal) + "</li><br>"
+			SWD += "<li>Animals  + " + (2 * rf_animal) + "</li><br>";
 		}
 		if (rf_construct > 0) {
-			SWD += "<li>Constructs  + " + (2 * rf_construct) + "</li><br>"
+			SWD += "<li>Constructs  + " + (2 * rf_construct) + "</li><br>";
 		}
 		if (rf_dragon > 0) {
-			SWD += "<li>Dragons  + " + (2 * rf_dragon) + "</li><br>"
+			SWD += "<li>Dragons  + " + (2 * rf_dragon) + "</li><br>";
 		}
 		if (rf_fey > 0) {
-			SWD += "<li>Feys  + " + (2 * rf_fey) + "</li><br>"
+			SWD += "<li>Feys  + " + (2 * rf_fey) + "</li><br>";
 		}
 		if (rf_aquatic > 0) {
 			SWD += "<li>Humanoids (aquatic)  + " + (2 * rf_aquatic)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_dwarf > 0) {
-			SWD += "<li>Humanoids (dwarf)  + " + (2 * rf_dwarf) + "</li><br>"
+			SWD += "<li>Humanoids (dwarf)  + " + (2 * rf_dwarf) + "</li><br>";
 		}
 		if (rf_elf > 0) {
-			SWD += "<li>Humanoids (elf)  + " + (2 * rf_elf) + "</li><br>"
+			SWD += "<li>Humanoids (elf)  + " + (2 * rf_elf) + "</li><br>";
 		}
 		if (rf_giant > 0) {
-			SWD += "<li>Humanoids (giant)  + " + (2 * rf_giant) + "</li><br>"
+			SWD += "<li>Humanoids (giant)  + " + (2 * rf_giant) + "</li><br>";
 		}
 		if (rf_goblinoid > 0) {
 			SWD += "<li>Humanoids (goblinoid)  + " + (2 * rf_goblinoid)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_gnoll > 0) {
-			SWD += "<li>Humanoids (gnoll)  + " + (2 * rf_gnoll) + "</li><br>"
+			SWD += "<li>Humanoids (gnoll)  + " + (2 * rf_gnoll) + "</li><br>";
 		}
 		if (rf_gnome > 0) {
-			SWD += "<li>Humanoids (gnome)  + " + (2 * rf_gnome) + "</li><br>"
+			SWD += "<li>Humanoids (gnome)  + " + (2 * rf_gnome) + "</li><br>";
 		}
 		if (rf_halfling > 0) {
 			SWD += "<li>Humanoids (halfling)  + " + (2 * rf_halfling)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_human > 0) {
-			SWD += "<li>Humanoids (human)  + " + (2 * rf_human) + "</li><br>"
+			SWD += "<li>Humanoids (human)  + " + (2 * rf_human) + "</li><br>";
 		}
 		if (rf_orc > 0) {
-			SWD += "<li>Humanoids (orc)  + " + (2 * rf_orc) + "</li><br>"
+			SWD += "<li>Humanoids (orc)  + " + (2 * rf_orc) + "</li><br>";
 		}
 		if (rf_reptilian > 0) {
 			SWD += "<li>Humanoids (reptilian)  + " + (2 * rf_reptilian)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_humanoidothersubtype > 0) {
-			SWD += "<li>Humanoids (other subtype)  + "
-					+ (2 * rf_humanoidothersubtype) + "</li><br>"
+			SWD += "<li>Humanoids (other subtype)  + ";
+					+ (2 * rf_humanoidothersubtype) + "</li><br>";
 		}
 		if (rf_magicalbeast > 0) {
 			SWD += "<li>Magical Beasts  + " + (2 * rf_magicalbeast)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_monstroushumanoid > 0) {
 			SWD += "<li>Monstrous Humanoids  + " + (2 * rf_monstroushumanoid)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_ooze > 0) {
-			SWD += "<li>Oozes  + " + (2 * rf_ooze) + "</li><br>"
+			SWD += "<li>Oozes  + " + (2 * rf_ooze) + "</li><br>";
 		}
 		if (rf_air > 0) {
-			SWD += "<li>Outsiders (air)  + " + (2 * rf_air) + "</li><br>"
+			SWD += "<li>Outsiders (air)  + " + (2 * rf_air) + "</li><br>";
 		}
 		if (rf_chaotic > 0) {
 			SWD += "<li>Outsiders (chaotic)  + " + (2 * rf_chaotic)
-					+ "</li><br>"
+					+ "</li><br>";
 		}
 		if (rf_earth > 0) {
-			SWD += "<li>Outsiders (earth)  + " + (2 * rf_earth) + "</li><br>"
+			SWD += "<li>Outsiders (earth)  + " + (2 * rf_earth) + "</li><br>";
 		}
 		if (rf_evil > 0) {
-			SWD += "<li>Outsiders (evil)  + " + (2 * rf_evil) + "</li><br>"
+			SWD += "<li>Outsiders (evil)  + " + (2 * rf_evil) + "</li><br>";
 		}
 		if (rf_fire > 0) {
-			SWD += "<li>Outsiders (fire)  + " + (2 * rf_fire) + "</li><br>"
+			SWD += "<li>Outsiders (fire)  + " + (2 * rf_fire) + "</li><br>";
 		}
 		if (rf_good > 0) {
-			SWD += "<li>Outsiders (good)  + " + (2 * rf_good) + "</li><br>"
+			SWD += "<li>Outsiders (good)  + " + (2 * rf_good) + "</li><br>";
 		}
 		if (rf_lawful > 0) {
-			SWD += "<li>Outsiders (lawful)  + " + (2 * rf_lawful) + "</li><br>"
+			SWD += "<li>Outsiders (lawful)  + " + (2 * rf_lawful) + "</li><br>";
 		}
 		if (rf_native > 0) {
-			SWD += "<li>Outsiders (native)  + " + (2 * rf_native) + "</li><br>"
+			SWD += "<li>Outsiders (native)  + " + (2 * rf_native) + "</li><br>";
 		}
 		if (rf_water > 0) {
-			SWD += "<li>Outsiders (water)  + " + (2 * rf_water) + "</li><br>"
+			SWD += "<li>Outsiders (water)  + " + (2 * rf_water) + "</li><br>";
 		}
 		if (rf_plant > 0) {
-			SWD += "<li>Plants  + " + (2 * rf_plant) + "</li><br>"
+			SWD += "<li>Plants  + " + (2 * rf_plant) + "</li><br>";
 		}
 		if (rf_undead > 0) {
-			SWD += "<li>Undead  + " + (2 * rf_undead) + "</li><br>"
+			SWD += "<li>Undead  + " + (2 * rf_undead) + "</li><br>";
 		}
 		if (rf_vermin > 0) {
-			SWD += "<li>Vermin  + " + (2 * rf_vermin) + "</li><br>"
+			SWD += "<li>Vermin  + " + (2 * rf_vermin) + "</li><br>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 
 		if (ranger_levels >= 3) {
-			SWD += "</ul><p>Favored Terrains:<p><ul>"
+			SWD += "</ul><p>Favored Terrains:<p><ul>";
 			if (rt_cold > 0) {
-				SWD += "<li>Cold  + " + (2 * rt_cold) + "</li><br>"
+				SWD += "<li>Cold  + " + (2 * rt_cold) + "</li><br>";
 			}
 			if (rt_desert > 0) {
-				SWD += "<li>Fesert + " + (2 * rt_desert) + "</li><br>"
+				SWD += "<li>Fesert + " + (2 * rt_desert) + "</li><br>";
 			}
 			if (rt_forest > 0) {
-				SWD += "<li>Gorest + " + (2 * rt_forest) + "</li><br>"
+				SWD += "<li>Gorest + " + (2 * rt_forest) + "</li><br>";
 			}
 			if (rt_jungle > 0) {
-				SWD += "<li>Jungle + " + (2 * rt_jungle) + "</li><br>"
+				SWD += "<li>Jungle + " + (2 * rt_jungle) + "</li><br>";
 			}
 			if (rt_mountain > 0) {
-				SWD += "<li>Mountain + " + (2 * rt_mountain) + "</li><br>"
+				SWD += "<li>Mountain + " + (2 * rt_mountain) + "</li><br>";
 			}
 			if (rt_plains > 0) {
-				SWD += "<li>Plains + " + (2 * rt_plains) + "</li><br>"
+				SWD += "<li>Plains + " + (2 * rt_plains) + "</li><br>";
 			}
 			if (rt_planeabyss > 0) {
 				SWD += "<li>Plane -- abyss + " + (2 * rt_planeabyss)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeabaddon > 0) {
 				SWD += "<li>Plane -- Abaddon + " + (2 * rt_planeabaddon)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeair > 0) {
-				SWD += "<li>Plane -- Air + " + (2 * rt_planeair) + "</li><br>"
+				SWD += "<li>Plane -- Air + " + (2 * rt_planeair) + "</li><br>";
 			}
 			if (rt_planeastral > 0) {
 				SWD += "<li>Plane -- Astral + " + (2 * rt_planeastral)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeaxis > 0) {
 				SWD += "<li>Plane -- Axis + " + (2 * rt_planeaxis)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeearth > 0) {
 				SWD += "<li>Plane -- Earth + " + (2 * rt_planeearth)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeelysium > 0) {
 				SWD += "<li>Plane -- Elysium + " + (2 * rt_planeelysium)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeethereal > 0) {
 				SWD += "<li>Plane -- Ethereal + " + (2 * rt_planeethereal)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planefire > 0) {
 				SWD += "<li>Plane -- Fire + " + (2 * rt_planefire)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeheaven > 0) {
 				SWD += "<li>Plane -- Heaven + " + (2 * rt_planeheaven)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planehell > 0) {
 				SWD += "<li>Plane -- Hell + " + (2 * rt_planehell)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planemaelstrom > 0) {
 				SWD += "<li>Plane -- Maelstrom + " + (2 * rt_planemaelstrom)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planenirvana > 0) {
 				SWD += "<li>Plane -- Nirvana + " + (2 * rt_planenirvana)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planeshadow > 0) {
 				SWD += "<li>Plane -- Shadow + " + (2 * rt_planeshadow)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_planewater > 0) {
 				SWD += "<li>Plane -- Water + " + (2 * rt_planewater)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_swamp > 0) {
-				SWD += "<li>swamp + " + (2 * rt_swamp) + "</li><br>"
+				SWD += "<li>swamp + " + (2 * rt_swamp) + "</li><br>";
 			}
 			if (rt_underground > 0) {
 				SWD += "<li>underground + " + (2 * rt_underground)
-						+ "</li><br>"
+						+ "</li><br>";
 			}
 			if (rt_urban > 0) {
-				SWD += "<li>urban + " + (2 * rt_urban) + "</li><br>"
+				SWD += "<li>urban + " + (2 * rt_urban) + "</li><br>";
 			}
 			if (rt_water > 0) {
-				SWD += "<li>water + " + (2 * rt_water) + "</li><br>"
+				SWD += "<li>water + " + (2 * rt_water) + "</li><br>";
 			}
 			if (rt_other1 > 0) {
 				SWD += "<li>" + document.form1.other_ranger_terrain_1.value
-						+ " + " + (2 * rt_other1) + "</li><br>"
+						+ " + " + (2 * rt_other1) + "</li><br>";
 			}
 			if (rt_other2 > 0) {
 				SWD += "<li>" + document.form1.other_ranger_terrain_2.value
-						+ " + " + (2 * rt_other2) + "</li><br>"
+						+ " + " + (2 * rt_other2) + "</li><br>";
 			}
-			SWD += "</ul>"
+			SWD += "</ul>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 
 	}
 
 	if (rogue_levels > 0) {
-		SWD += "Rogue<p><ul>"
+		SWD += "Rogue<p><ul>";
 		x = Math.floor((rogue_levels + 1) / 2);
-		SWD += "<li>Sneak Attack +" + x + "d6</li><br>"
-		SWD += "<li>Trapfinding -- add half of rogue level to find traps, minimum +1</li><br>"
-		SWD += "<li>Evasion (level 2) -- no damage on a successful reflex save</li><br>"
-		SWD += "<li>Rogue talents -- gain one at every even-numbered level.  At level 10 and above, advanced talents are available.  Add by hand.</li><br>"
-		SWD += "<li>Trap sense (level 3) -- armor class and reflex bonuses against traps</li><br>"
-		SWD += "<li>Uncanny Dodge (level 4) -- cannot be caught flat-footed, keep dexterity bonus to AC if attacker is invisible</li><br>"
-		SWD += "<li>Improved Uncanny Dodge (level 8) -- cannot be flanked</li><br>"
-		SWD += "<li>Master strike (level 20) -- each sneak attack either kills, paralyzes, or puts into coma.</li><br>"
-		SWD += "</ul>"
+		SWD += "<li>Sneak Attack +" + x + "d6</li><br>";
+		SWD += "<li>Trapfinding -- add half of rogue level to find traps, minimum +1</li><br>";
+		SWD += "<li>Evasion (level 2) -- no damage on a successful reflex save</li><br>";
+		SWD += "<li>Rogue talents -- gain one at every even-numbered level.  At level 10 and above, advanced talents are available.  Add by hand.</li><br>";
+		SWD += "<li>Trap sense (level 3) -- armor class and reflex bonuses against traps</li><br>";
+		SWD += "<li>Uncanny Dodge (level 4) -- cannot be caught flat-footed, keep dexterity bonus to AC if attacker is invisible</li><br>";
+		SWD += "<li>Improved Uncanny Dodge (level 8) -- cannot be flanked</li><br>";
+		SWD += "<li>Master strike (level 20) -- each sneak attack either kills, paralyzes, or puts into coma.</li><br>";
+		SWD += "</ul>";
 	}
 
 	if (sorcerer_levels > 0) {
-		SWD += "Sorcerer<p><ul>"
-		SWD += "<li>Can know only limited numbers of spells</li><br>"
-		SWD += "<li>Sorcerer spells no longer require cheap material components.</li><br>"
+		SWD += "Sorcerer<p><ul>";
+		SWD += "<li>Can know only limited numbers of spells</li><br>";
+		SWD += "<li>Sorcerer spells no longer require cheap material components.</li><br>";
 		if (charisma >= 12) {
-			SWD += "<li>High charisma gains bonus spells daily</li><br>"
+			SWD += "<li>High charisma gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + sorcerer level + charisma modifier vs. DC</li><br>"
-		SWD += "<li>Pathfinder sorcerers each choose a bloodline, which provides a class skill, extra spells, powers, and feats. Please write these in.  Thanks for understanding.</li><ul><br>"
+		SWD += "<li>Concentration check: d20 + sorcerer level + charisma modifier vs. DC</li><br>";
+		SWD += "<li>Pathfinder sorcerers each choose a bloodline, which provides a class skill, extra spells, powers, and feats. Please write these in.  Thanks for understanding.</li><ul><br>";
 		if (has_aberrant_bloodline) {
 			SWD += "Aberrant bloodline sorcerers can increase the durations of polymorph spells, shoot acid, and as they gain levels increase reach on melee touch, gain chances to ignore critical hits and sneak attacks, gain spell resistance, gain blindsight, nad damage reduction 5/-.</li><br>";
 		}
@@ -24377,253 +24375,253 @@ function WriteTextForCharacterSheet() {
 		if (has_undead_bloodline) {
 			SWD += "Undead bloodline sorcerers can affect the minds of corporeal undead, cause creatures to become shaken on a touch, and as levels are gained get resistance to cold and damage reduction against nonlethal damage, make skeletal arms come out of the ground, become incorporeal, look undead, and eventually become immune to cold, nonlethal damage, paralysis, and sleep, get DR 5/-, and +2 on saves vs. spells by the undead </li><br>";
 		}
-		SWD += "</ul></ul>"
+		SWD += "</ul></ul>";
 	}
 
 	if (wizard_levels > 0) {
-		SWD += "Wizard"
+		SWD += "Wizard";
 		if (wizard_specialty_name != "Wizard") {
-			SWD += " (" + wizard_specialty_name + ")"
+			SWD += " (" + wizard_specialty_name + ")";
 		}
-		SWD += "<p><ul><li>Familiar / Alertness, etc.; or bound object that can contain one known spell</li><br>"
-		SWD += "<li>Bonus Feats (already included)</li><br>"
-		SWD += "<li>Armor causes a chance of arcane spell failure only if there is a somatic component.</li><br>"
+		SWD += "<p><ul><li>Familiar / Alertness, etc.; or bound object that can contain one known spell</li><br>";
+		SWD += "<li>Bonus Feats (already included)</li><br>";
+		SWD += "<li>Armor causes a chance of arcane spell failure only if there is a somatic component.</li><br>";
 		if (intelligence >= 12) {
-			SWD += "<li>High intelligence gains bonus spells daily</li><br>"
+			SWD += "<li>High intelligence gains bonus spells daily</li><br>";
 		}
-		SWD += "<li>Concentration check: d20 + wizard level + intelligence modifier vs. DC</li><br>"
+		SWD += "<li>Concentration check: d20 + wizard level + intelligence modifier vs. DC</li><br>";
 		if (abjuration_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra abjuration spell/level/day.  Abjurers can now gain resistance to 5/10/immune to an energy type of their choice, create protective wards, and absorb energy.</li><br>"
+			SWD += "<li>Specialist gets 1 extra abjuration spell/level/day.  Abjurers can now gain resistance to 5/10/immune to an energy type of their choice, create protective wards, and absorb energy.</li><br>";
 		}
 		if (conjuration_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra conjuration spell/level/day.  Conjurors increase duration of summoning by half their wizard level in rounds; at level 20, one at a time cna be permaent.  Conjurors can now use acid darts and dimensional steps.</li><br>"
+			SWD += "<li>Specialist gets 1 extra conjuration spell/level/day.  Conjurors increase duration of summoning by half their wizard level in rounds; at level 20, one at a time cna be permaent.  Conjurors can now use acid darts and dimensional steps.</li><br>";
 		}
 		if (divination_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra divination spell/level/day.  Diviners always act in the surprise round, and get initiative bonuses.  They can give insight bonuses, and at 8th level always notice being scryed.</li><br>"
+			SWD += "<li>Specialist gets 1 extra divination spell/level/day.  Diviners always act in the surprise round, and get initiative bonuses.  They can give insight bonuses, and at 8th level always notice being scryed.</li><br>";
 		}
 
 		if (enchantment_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra enchantment spell/level/day.  Enchanters now get bonuses on bluff, diplomacy, and intimidate, at level 20 reflect enchantments that you save against, daze by touch; at level 8 create aura of despair.</li><br>"
+			SWD += "<li>Specialist gets 1 extra enchantment spell/level/day.  Enchanters now get bonuses on bluff, diplomacy, and intimidate, at level 20 reflect enchantments that you save against, daze by touch; at level 8 create aura of despair.</li><br>";
 		}
 		if (evocation_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra evocation spell/level/day.  Evokers now add half theirlevels to evocation damage, minimum +1.  Free force missiles daily, at level 8 can create elemental wall.</li><br>"
+			SWD += "<li>Specialist gets 1 extra evocation spell/level/day.  Evokers now add half theirlevels to evocation damage, minimum +1.  Free force missiles daily, at level 8 can create elemental wall.</li><br>";
 		}
 		if (illusion_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra illusion spell/level/day</li><br>"
+			SWD += "<li>Specialist gets 1 extra illusion spell/level/day</li><br>";
 		}
 		if (necromancy_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra necromancy spell/level/day.  Necromancers can now channel energy to command or turn undead without taking a feat.  Touch can make creatures shaken, at level 8 can see life and death.</li><br>"
+			SWD += "<li>Specialist gets 1 extra necromancy spell/level/day.  Necromancers can now channel energy to command or turn undead without taking a feat.  Touch can make creatures shaken, at level 8 can see life and death.</li><br>";
 		}
 		if (transmutation_specialist == true) {
-			SWD += "<li>Specialist gets 1 extra transmutation spell/level/day.  Transmuters can now transform themselves daily to take a bonus on strength, constitution, or dexterity. They can make telekinetic fists, and at 8th level change shape for a number of rounds equal to wizard level.</li><br>"
+			SWD += "<li>Specialist gets 1 extra transmutation spell/level/day.  Transmuters can now transform themselves daily to take a bonus on strength, constitution, or dexterity. They can make telekinetic fists, and at 8th level change shape for a number of rounds equal to wizard level.</li><br>";
 		}
 		if (wizard_specialty_name == "Wizard") {
-			SWD += "<li>Non-specializing wizards can now use melee wepons to 30 feet, the return to thehand, int mod to hit, strength mod fordamage.  At level 8, apply one metamagic to a spell you are casting.</li>"
+			SWD += "<li>Non-specializing wizards can now use melee wepons to 30 feet, the return to thehand, int mod to hit, strength mod fordamage.  At level 8, apply one metamagic to a spell you are casting.</li>";
 		}
-		SWD += "</ul>"
+		SWD += "</ul>";
 	}
 
 	if (prestige_levels > 0) {
 		SWD += prestige_class_name + "<ul><p>";
-		SWD += "<li>Hit dice d" + prestige_hit_point_dice + "</li><br>"
+		SWD += "<li>Hit dice d" + prestige_hit_point_dice + "</li><br>";
 		if (prestige_attack_bonus_progress == 1) {
-			SWD += "<li>Slow increase in attack bonuses</li><br>"
+			SWD += "<li>Slow increase in attack bonuses</li><br>";
 		}
 		if (prestige_attack_bonus_progress == 2) {
-			SWD += "<li>Average increase in attack bonuses</li><br>"
+			SWD += "<li>Average increase in attack bonuses</li><br>";
 		}
 		if (prestige_attack_bonus_progress == 3) {
-			SWD += "<li>Fast increase in attack bonuses</li><br>"
+			SWD += "<li>Fast increase in attack bonuses</li><br>";
 		}
 		if (prestige_fortitude_save_bonus == 1) {
-			SWD += "<li>Slow increase in fortitude saves</li><br>"
+			SWD += "<li>Slow increase in fortitude saves</li><br>";
 		}
 		if (prestige_fortitude_save_bonus == 2) {
-			SWD += "<li>Fast increase in fortitude saves</li><br>"
+			SWD += "<li>Fast increase in fortitude saves</li><br>";
 		}
 		if (prestige_reflex_save_bonus == 1) {
-			SWD += "<li>Slow increase in reflex saves</li><br>"
+			SWD += "<li>Slow increase in reflex saves</li><br>";
 		}
 		if (prestige_reflex_save_bonus == 2) {
-			SWD += "<li>Fast increase in reflex saves</li><br>"
+			SWD += "<li>Fast increase in reflex saves</li><br>";
 		}
 		if (prestige_will_save_bonus == 1) {
-			SWD += "<li>Slow increase in will saves</li><br>"
+			SWD += "<li>Slow increase in will saves</li><br>";
 		}
 		if (prestige_will_save_bonus == 2) {
-			SWD += "<li>Fast increase in will saves</li><br>"
+			SWD += "<li>Fast increase in will saves</li><br>";
 		}
 		SWD += "<li>Base " + prestige_skill_points_per_level
-				+ " skill points per level</li><br>"
+				+ " skill points per level</li><br>";
 		if (prestige_bonus_feat_entitlement == 0) {
-			SWD += "<li>No bonus feats</li><br>"
+			SWD += "<li>No bonus feats</li><br>";
 		} // qqq
 		if (prestige_bonus_feat_entitlement == 1) {
-			SWD += "<li>One bonus feat</li><br>"
+			SWD += "<li>One bonus feat</li><br>";
 		} // qqq
 		if (prestige_bonus_feat_entitlement == 2) {
-			SWD += "<li>Two bonus feats</li><br>"
+			SWD += "<li>Two bonus feats</li><br>";
 		} // qqq
 		if (prestige_bonus_feat_entitlement == 3) {
-			SWD += "<li>Three bonus feats</li><br>"
+			SWD += "<li>Three bonus feats</li><br>";
 		} // qqq
 		if (prestige_bard_spell_levels > 0) {
-			SWD += "<li>Additional bard spell levels: "
-					+ prestige_bard_spell_levels + "</li><br>"
+			SWD += "<li>Additional bard spell levels: ";
+					+ prestige_bard_spell_levels + "</li><br>";
 		}
 		if (prestige_cleric_spell_levels > 0) {
-			SWD += "<li>Additional cleric spell levels: "
-					+ prestige_cleric_spell_levels + "</li><br>"
+			SWD += "<li>Additional cleric spell levels: ";
+					+ prestige_cleric_spell_levels + "</li><br>";
 		}
 		if (prestige_druid_spell_levels > 0) {
-			SWD += "<li>Additional druid spell levels: "
-					+ prestige_druid_spell_levels + "</li><br>"
+			SWD += "<li>Additional druid spell levels: ";
+					+ prestige_druid_spell_levels + "</li><br>";
 		}
 		if (prestige_paladin_spell_levels > 0) {
-			SWD += "<li>Additional paladin spell levels: "
-					+ prestige_paladin_spell_levels + "</li><br>"
+			SWD += "<li>Additional paladin spell levels: ";
+					+ prestige_paladin_spell_levels + "</li><br>";
 		}
 		if (prestige_ranger_spell_levels > 0) {
-			SWD += "<li>Additional ranger spell levels: "
-					+ prestige_ranger_spell_levels + "</li><br>"
+			SWD += "<li>Additional ranger spell levels: ";
+					+ prestige_ranger_spell_levels + "</li><br>";
 		}
 		if (prestige_sorcerer_spell_levels > 0) {
-			SWD += "<li>Additional sorcerer spell levels: "
-					+ prestige_sorcerer_spell_levels + "</li><br>"
+			SWD += "<li>Additional sorcerer spell levels: ";
+					+ prestige_sorcerer_spell_levels + "</li><br>";
 		}
 		if (prestige_wizard_spell_levels > 0) {
-			SWD += "<li>Additional wizard spell levels: "
-					+ prestige_wizard_spell_levels + "</li>"
+			SWD += "<li>Additional wizard spell levels: ";
+					+ prestige_wizard_spell_levels + "</li>";
 		}
-		SWD += "<br>More:"
+		SWD += "<br>More:";
 
 		SWD += "<p><img src=\"spellbar.gif\"></ul><p>";
 	}
 
 	if (rangercombattrack == 1) {
-		SWD += "This ranger chose the archery track.<br>"
+		SWD += "This ranger chose the archery track.<br>";
 	}
 	if (rangercombattrack == 2) {
-		SWD += "This ranger chose the two-weapon combat track.<br>"
+		SWD += "This ranger chose the two-weapon combat track.<br>";
 	}
-	SWD += "<p><table><tr> <td>"
-	SWD += "<tr> <td></td> <td><i>Class</i></td> <td><i>HP rolled</i></td> <td></td></tr>\r"
+	SWD += "<p><table><tr> <td>";
+	SWD += "<tr> <td></td> <td><i>Class</i></td> <td><i>HP rolled</i></td> <td></td></tr>\r";
 	SWD += "<tr> <td>Level 1:</td> <td>" + ClassName(class01)
 			+ "</td> <td align=\"center\">" + newHP01
-			+ "</td> <td></td></tr>\r"
+			+ "</td> <td></td></tr>\r";
 	if (total_levels >= 2) {
 		SWD += "<tr> <td>Level 2:</td> <td>" + ClassName(class02)
 				+ "</td> <td align=\"center\">" + newHP02
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 3) {
 		SWD += "<tr> <td>Level 3:</td> <td>" + ClassName(class03)
 				+ "</td> <td align=\"center\">" + newHP03
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 4) {
 		SWD += "<tr> <td>Level 4:</td> <td>" + ClassName(class04)
 				+ "</td> <td align=\"center\">" + newHP04
 				+ "</td> <td> + 1 to " + NumberToAbility(upitat04)
-				+ "</td></tr>\r"
+				+ "</td></tr>\r";
 	}
 	if (total_levels >= 5) {
 		SWD += "<tr> <td>Level 5:</td> <td>" + ClassName(class05)
 				+ "</td> <td align=\"center\">" + newHP05
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 6) {
 		SWD += "<tr> <td>Level 6:</td> <td>" + ClassName(class06)
 				+ "</td> <td align=\"center\">" + newHP06
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 7) {
 		SWD += "<tr> <td>Level 7:</td> <td>" + ClassName(class07)
 				+ "</td> <td align=\"center\">" + newHP07
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 8) {
 		SWD += "<tr> <td>Level 8:</td> <td>" + ClassName(class08)
 				+ "</td> <td align=\"center\">" + newHP08
 				+ "</td> <td> + 1 to " + NumberToAbility(upitat08)
-				+ "</td></tr>\r"
+				+ "</td></tr>\r";
 	}
 	if (total_levels >= 9) {
 		SWD += "<tr> <td>Level 9:</td> <td>" + ClassName(class09)
 				+ "</td> <td align=\"center\">" + newHP09
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 10) {
 		SWD += "<tr> <td>Level 10:</td> <td>" + ClassName(class10)
 				+ "</td> <td align=\"center\">" + newHP10
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 11) {
 		SWD += "<tr> <td>Level 11:</td> <td>" + ClassName(class11)
 				+ "</td> <td align=\"center\">" + newHP11
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 12) {
 		SWD += "<tr> <td>Level 12:</td> <td>" + ClassName(class12)
 				+ "</td> <td align=\"center\">" + newHP12
 				+ "</td> <td> + 1 to " + NumberToAbility(upitat12)
-				+ "</td></tr>\r"
+				+ "</td></tr>\r";
 	}
 	if (total_levels >= 13) {
 		SWD += "<tr> <td>Level 13:</td> <td>" + ClassName(class13)
 				+ "</td> <td align=\"center\">" + newHP13
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 14) {
 		SWD += "<tr> <td>Level 14:</td> <td>" + ClassName(class14)
 				+ "</td> <td align=\"center\">" + newHP14
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 15) {
 		SWD += "<tr> <td>Level 15:</td> <td>" + ClassName(class15)
 				+ "</td> <td align=\"center\">" + newHP15
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 16) {
 		SWD += "<tr> <td>Level 16:</td> <td>" + ClassName(class16)
 				+ "</td> <td align=\"center\">" + newHP16
 				+ "</td> <td> + 1 to " + NumberToAbility(upitat16)
-				+ "</td></tr>\r"
+				+ "</td></tr>\r";
 	}
 	if (total_levels >= 17) {
 		SWD += "<tr> <td>Level 17:</td> <td>" + ClassName(class17)
 				+ "</td> <td align=\"center\">" + newHP17
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 18) {
 		SWD += "<tr> <td>Level 18:</td> <td>" + ClassName(class18)
 				+ "</td> <td align=\"center\">" + newHP18
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 19) {
 		SWD += "<tr> <td>Level 19:</td> <td>" + ClassName(class19)
 				+ "</td> <td align=\"center\">" + newHP19
-				+ "</td> <td></td></tr>\r"
+				+ "</td> <td></td></tr>\r";
 	}
 	if (total_levels >= 20) {
 		SWD += "<tr> <td>Level 20:</td> <td>" + ClassName(class20)
 				+ "</td> <td align=\"center\">" + newHP20
 				+ "</td> <td> + 1 to " + NumberToAbility(upitat20)
-				+ "</td></tr>\r"
+				+ "</td></tr>\r";
 	}
-	SWD += "</table>\r<p><table width=100%><tr width=100%><td align=\"center\"><img src=\"portrait.gif\"></td><td align=\"center\"><img src=\"insignia.gif\"></td></tr></table>\r"
+	SWD += "</table>\r<p><table width=100%><tr width=100%><td align=\"center\"><img src=\"portrait.gif\"></td><td align=\"center\"><img src=\"insignia.gif\"></td></tr></table>\r";
 
 	if (document.form1.moniker.value == "") {
-		SWD += "Equipment:<p><ul><p>"
+		SWD += "Equipment:<p><ul><p>";
 	} else {
-		SWD += document.form1.moniker.value + "'s Equipment:<p><ul><p>"
+		SWD += document.form1.moniker.value + "'s Equipment:<p><ul><p>";
 	}
 
-	SWD += "<table><tr><td align=\"right\">"
+	SWD += "<table><tr><td align=\"right\">";
 	x = Math.ceil(wt);
 	SWD += x + " lb<br>";
 	if (document.form1.crossbowbolts.selectedIndex > 0) {
-		x = Math.ceil(1 * document.form1.crossbowbolts.selectedIndex)
+		x = Math.ceil(1 * document.form1.crossbowbolts.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
@@ -24638,17 +24636,17 @@ function WriteTextForCharacterSheet() {
 		wt += x;
 	}
 	if (document.form1.slingbullets.selectedIndex > 0) {
-		x = Math.ceil(5 * document.form1.slingbullets.selectedIndex)
+		x = Math.ceil(5 * document.form1.slingbullets.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 
 	if (document.form1.throwingdaggers.selectedIndex > 0) {
 		if (!small) {
-			x = Math.ceil(1 * document.form1.throwingdaggers.selectedIndex)
+			x = Math.ceil(1 * document.form1.throwingdaggers.selectedIndex);
 		}
 		if (small) {
-			x = Math.ceil(0.5 * document.form1.throwingdaggers.selectedIndex)
+			x = Math.ceil(0.5 * document.form1.throwingdaggers.selectedIndex);
 		}
 		SWD += x + " lb<br>";
 		wt += x;
@@ -24657,17 +24655,17 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.backpack.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.barrel.checked == true) {
 		x = 30;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.basket.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.bedroll.checked == true) {
 		x = 5;
@@ -24675,16 +24673,16 @@ function WriteTextForCharacterSheet() {
 			x = 1;
 		}
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.bell.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.blanketwinter_list.selectedIndex > 0) {
-		x = Math.ceil(3 * document.form1.blanketwinter_list.selectedIndex)
+		x = Math.ceil(3 * document.form1.blanketwinter_list.selectedIndex);
 		if (small == true) {
 			x = Math
-					.ceil(0.75 * document.form1.blanketwinter_list.selectedIndex)
+					.ceil(0.75 * document.form1.blanketwinter_list.selectedIndex);
 		}
 		SWD += x + " lb<br>";
 		wt += x;
@@ -24692,179 +24690,179 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.blockandtackle.checked == true) {
 		x = 5;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.bottle.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.bucket.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.caltrops.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.candle.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.canvas.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.casemaporscroll.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.chain.selectedIndex > 0) {
-		x = Math.ceil(2 * document.form1.chain.selectedIndex)
+		x = Math.ceil(2 * document.form1.chain.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.chalk.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.chest.checked == true) {
 		x = 25;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.crowbar.checked == true) {
 		x = 5;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.firewood.selectedIndex > 0) {
-		x = Math.ceil(20 * document.form1.firewood.selectedIndex)
+		x = Math.ceil(20 * document.form1.firewood.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.fishhook.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.fishingnet.checked == true) {
 		x = 5;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.flask.selectedIndex > 0) {
-		x = Math.ceil(1.5 * document.form1.flask.selectedIndex)
+		x = Math.ceil(1.5 * document.form1.flask.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.flintandsteel.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.grapplinghook.checked == true) {
 		x = 4;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.hammer.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.inkvial.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.inkpen.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.jugclay.checked == true) {
 		x = 9;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.ladder.checked == true) {
 		x = 20;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.lampcommon.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 
 	if (document.form1.lanternbullseye.checked == true) {
 		x = 3;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.lanternhooded.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.lock.selectedIndex > 0) {
-		x = Math.ceil(1 * document.form1.lock.selectedIndex)
+		x = Math.ceil(1 * document.form1.lock.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.manacles.selectedIndex > 0) {
-		x = Math.ceil(2 * document.form1.manacles.selectedIndex)
+		x = Math.ceil(2 * document.form1.manacles.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.mirror.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.mug.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.oilflask.selectedIndex > 0) {
-		x = Math.ceil(1 * document.form1.oilflask.selectedIndex)
+		x = Math.ceil(1 * document.form1.oilflask.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.paper.selectedIndex > 0) {
-		x = Math.ceil(0 * document.form1.paper.selectedIndex)
+		x = Math.ceil(0 * document.form1.paper.selectedIndex);
 		SWD += "<br>";
 		wt += 0;
 	}
 	if (document.form1.parchment.selectedIndex > 0) {
-		x = Math.ceil(0 * document.form1.parchment.selectedIndex)
+		x = Math.ceil(0 * document.form1.parchment.selectedIndex);
 		SWD += "<br>";
 		wt += 0;
 	}
 	if (document.form1.pick.checked == true) {
 		x = 10;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.pitcher.checked == true) {
 		x = 5;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.piton.selectedIndex > 0) {
-		x = Math.ceil(0.5 * document.form1.piton.selectedIndex)
+		x = Math.ceil(0.5 * document.form1.piton.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.pole.checked == true) {
 		x = 8;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.pot.checked == true) {
 		x = 10;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.pouch.selectedIndex > 0) {
-		x = Math.ceil(0.5 * document.form1.pouch.selectedIndex)
+		x = Math.ceil(0.5 * document.form1.pouch.selectedIndex);
 		if (small == true) {
-			x = Math.ceil(0.125 * document.form1.pouch.selectedIndex)
+			x = Math.ceil(0.125 * document.form1.pouch.selectedIndex);
 		}
 		SWD += x + " lb<br>";
 		wt += x;
@@ -24872,28 +24870,28 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.ram.checked == true) {
 		x = 20;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.rations.selectedIndex > 0) {
-		x = Math.ceil(1 * document.form1.rations.selectedIndex)
+		x = Math.ceil(1 * document.form1.rations.selectedIndex);
 		if (small == true) {
-			x = Math.ceil(0.25 * document.form1.rations.selectedIndex)
+			x = Math.ceil(0.25 * document.form1.rations.selectedIndex);
 		}
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.ropehempen.selectedIndex > 0) {
-		x = Math.ceil(10 * document.form1.ropehempen.selectedIndex)
+		x = Math.ceil(10 * document.form1.ropehempen.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.ropesilk.selectedIndex > 0) {
-		x = Math.ceil(5 * document.form1.ropesilk.selectedIndex)
+		x = Math.ceil(5 * document.form1.ropesilk.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.sack.selectedIndex > 0) {
-		x = Math.ceil(0.5 * document.form1.sack.selectedIndex)
+		x = Math.ceil(0.5 * document.form1.sack.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
@@ -24901,36 +24899,36 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.sealingwax.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.sewingneedle.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.signalwhistle.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.signetring.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.sledge.checked == true) {
 		x = 10;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.soap.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.spadeorshovel.checked == true) {
 		x = 8;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.spyglass.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.tent.checked == true) {
 		x = 20;
@@ -24938,22 +24936,22 @@ function WriteTextForCharacterSheet() {
 			x = 5;
 		}
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.torch.selectedIndex > 0) {
-		x = Math.ceil(1 * document.form1.torch.selectedIndex)
+		x = Math.ceil(1 * document.form1.torch.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.vialinkorpotion.selectedIndex > 0) {
-		x = Math.ceil(0.1 * document.form1.vialinkorpotion.selectedIndex)
+		x = Math.ceil(0.1 * document.form1.vialinkorpotion.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.waterskin.selectedIndex > 0) {
-		x = Math.ceil(4 * document.form1.waterskin.selectedIndex)
+		x = Math.ceil(4 * document.form1.waterskin.selectedIndex);
 		if (small == true) {
-			x = Math.ceil(1 * document.form1.waterskin.selectedIndex)
+			x = Math.ceil(1 * document.form1.waterskin.selectedIndex);
 		}
 		SWD += x + " lb<br>";
 		wt += x;
@@ -24961,17 +24959,17 @@ function WriteTextForCharacterSheet() {
 	if (document.form1.whetstone.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.alchemistlab.checked == true) {
 		x = 40;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.artisantools.checked == true) {
 		x = 5;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.climberskit.checked == true) {
 		x = 5;
@@ -24979,7 +24977,7 @@ function WriteTextForCharacterSheet() {
 			x = 1;
 		}
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.disguisekit.checked == true) {
 		x = 8;
@@ -24987,31 +24985,31 @@ function WriteTextForCharacterSheet() {
 			x = 2;
 		}
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.healerkit.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.hollyandmistletoe.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.holysymbolwooden.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.holysymbolsilver.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.hourglass.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.magnifyingglass.checked == true) {
-		SWD += "<br>"
+		SWD += "<br>";
 	}
 	if (document.form1.musicalinstrument.checked == true) {
 		x = 3;
@@ -25019,40 +25017,40 @@ function WriteTextForCharacterSheet() {
 			x = 1;
 		}
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.scale.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.spellcomponentpouch.checked == true) {
 		x = 2;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.spellbook.selectedIndex > 0) {
-		x = Math.ceil(3 * document.form1.spellbook.selectedIndex)
+		x = Math.ceil(3 * document.form1.spellbook.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	if (document.form1.thievestools.checked == true) {
 		x = 1;
 		wt += x;
-		SWD += x + " lb<br>"
+		SWD += x + " lb<br>";
 	}
 	if (document.form1.tool.selectedIndex > 0) {
-		x = Math.ceil(2 * document.form1.tool.selectedIndex)
+		x = Math.ceil(2 * document.form1.tool.selectedIndex);
 		SWD += x + " lb<br>";
 		wt += x;
 	}
 	x = Math.ceil(wt);
 	SWD += "_____<br>" + x + " lb";
 
-	SWD += "</td><td>"
+	SWD += "</td><td>";
 	SWD += "Weapons / Armor / Shield (from above)<br>";
 	if (document.form1.crossbowbolts.selectedIndex > 0) {
-		SWD += "Crossbow bolts (quiver of 10) x"
+		SWD += "Crossbow bolts (quiver of 10) x";
 				+ document.form1.crossbowbolts.selectedIndex + "<br>";
 	}
 	if (document.form1.arrows.selectedIndex > 0) {
@@ -25063,109 +25061,109 @@ function WriteTextForCharacterSheet() {
 		SWD += "Bullets (10) x" + document.form1.bullets.selectedIndex + "<br>";
 	}
 	if (document.form1.slingbullets.selectedIndex > 0) {
-		SWD += "Sling bullets (group of 10) x"
+		SWD += "Sling bullets (group of 10) x";
 				+ document.form1.slingbullets.selectedIndex + "<br>";
 	}
 	if (document.form1.throwingdaggers.selectedIndex > 0) {
-		SWD += "Throwing daggers x"
+		SWD += "Throwing daggers x";
 				+ document.form1.throwingdaggers.selectedIndex + "<br>";
 	}
 
 	if (document.form1.backpack.checked == true) {
-		SWD += "Backpack<br>"
+		SWD += "Backpack<br>";
 	}
 	if (document.form1.barrel.checked == true) {
-		SWD += "Barrel<br>"
+		SWD += "Barrel<br>";
 	}
 	if (document.form1.basket.checked == true) {
-		SWD += "Basket<br>"
+		SWD += "Basket<br>";
 	}
 	if (document.form1.bedroll.checked == true) {
-		SWD += "Bedroll<br>"
+		SWD += "Bedroll<br>";
 	}
 	if (document.form1.bell.checked == true) {
-		SWD += "Bell<br>"
+		SWD += "Bell<br>";
 	}
 	if (document.form1.blanketwinter_list.selectedIndex > 0) {
-		SWD += "Blanket, winter x"
+		SWD += "Blanket, winter x";
 				+ document.form1.blanketwinter_list.selectedIndex + "<br>";
 	}
 	if (document.form1.blockandtackle.checked == true) {
-		SWD += "Block and tackle<br>"
+		SWD += "Block and tackle<br>";
 	}
 	if (document.form1.bottle.checked == true) {
-		SWD += "Bottle<br>"
+		SWD += "Bottle<br>";
 	}
 	if (document.form1.bucket.checked == true) {
-		SWD += "Bucket<br>"
+		SWD += "Bucket<br>";
 	}
 	if (document.form1.caltrops.checked == true) {
-		SWD += "Caltrops<br>"
+		SWD += "Caltrops<br>";
 	}
 	if (document.form1.candle.checked == true) {
-		SWD += "Candle<br>"
+		SWD += "Candle<br>";
 	}
 	if (document.form1.canvas.checked == true) {
-		SWD += "Canvas (10 x 10)<br>"
+		SWD += "Canvas (10 x 10)<br>";
 	}
 	if (document.form1.casemaporscroll.checked == true) {
-		SWD += "Case (for map or scroll)<br>"
+		SWD += "Case (for map or scroll)<br>";
 	}
 	if (document.form1.chain.selectedIndex > 0) {
 		SWD += "Chain (10 feet) x" + document.form1.chain.selectedIndex
 				+ "<br>";
 	}
 	if (document.form1.chalk.checked == true) {
-		SWD += "Chalk<br>"
+		SWD += "Chalk<br>";
 	}
 	if (document.form1.chest.checked == true) {
-		SWD += "Chest<br>"
+		SWD += "Chest<br>";
 	}
 	if (document.form1.crowbar.checked == true) {
-		SWD += "Crowbar<br>"
+		SWD += "Crowbar<br>";
 	}
 	if (document.form1.firewood.selectedIndex > 0) {
 		SWD += "Firewood (1 day) x" + document.form1.firewood.selectedIndex
 				+ "<br>";
 	}
 	if (document.form1.fishhook.checked == true) {
-		SWD += "Fishhook<br>"
+		SWD += "Fishhook<br>";
 	}
 	if (document.form1.fishingnet.checked == true) {
-		SWD += "Fishing net<br>"
+		SWD += "Fishing net<br>";
 	}
 	if (document.form1.flask.selectedIndex > 0) {
 		SWD += "Flasks x" + document.form1.flask.selectedIndex + "<br>";
 	}
 	if (document.form1.flintandsteel.checked == true) {
-		SWD += "Flint and steel<br>"
+		SWD += "Flint and steel<br>";
 	}
 	if (document.form1.grapplinghook.checked == true) {
-		SWD += "Grappling hook<br>"
+		SWD += "Grappling hook<br>";
 	}
 	if (document.form1.hammer.checked == true) {
-		SWD += "Hammer<br>"
+		SWD += "Hammer<br>";
 	}
 	if (document.form1.inkvial.checked == true) {
-		SWD += "Ink vial<br>"
+		SWD += "Ink vial<br>";
 	}
 	if (document.form1.inkpen.checked == true) {
-		SWD += "Ink pen<br>"
+		SWD += "Ink pen<br>";
 	}
 	if (document.form1.jugclay.checked == true) {
-		SWD += "Jug (clay)<br>"
+		SWD += "Jug (clay)<br>";
 	}
 	if (document.form1.ladder.checked == true) {
-		SWD += "Ladder<br>"
+		SWD += "Ladder<br>";
 	}
 	if (document.form1.lampcommon.checked == true) {
-		SWD += "Lamp (common)<br>"
+		SWD += "Lamp (common)<br>";
 	}
 	if (document.form1.lanternbullseye.checked == true) {
-		SWD += "Lantern (bullseye)<br>"
+		SWD += "Lantern (bullseye)<br>";
 	}
 	if (document.form1.lanternhooded.checked == true) {
-		SWD += "Lantern (hooded)<br>"
+		SWD += "Lantern (hooded)<br>";
 	}
 	if (document.form1.lock.selectedIndex > 0) {
 		SWD += "Locks x" + document.form1.lock.selectedIndex + "<br>";
@@ -25174,10 +25172,10 @@ function WriteTextForCharacterSheet() {
 		SWD += "Manacles x" + document.form1.manacles.selectedIndex + "<br>";
 	}
 	if (document.form1.mirror.checked == true) {
-		SWD += "Mirror<br>"
+		SWD += "Mirror<br>";
 	}
 	if (document.form1.mug.checked == true) {
-		SWD += "Mug<br>"
+		SWD += "Mug<br>";
 	}
 	if (document.form1.oilflask.selectedIndex > 0) {
 		SWD += "Oil flasks x" + document.form1.oilflask.selectedIndex + "<br>";
@@ -25190,25 +25188,25 @@ function WriteTextForCharacterSheet() {
 				+ "<br>";
 	}
 	if (document.form1.pick.checked == true) {
-		SWD += "Pick<br>"
+		SWD += "Pick<br>";
 	}
 	if (document.form1.pitcher.checked == true) {
-		SWD += "Pitcher<br>"
+		SWD += "Pitcher<br>";
 	}
 	if (document.form1.piton.selectedIndex > 0) {
 		SWD += "Pitons x" + document.form1.piton.selectedIndex + "<br>";
 	}
 	if (document.form1.pole.checked == true) {
-		SWD += "Pole<br>"
+		SWD += "Pole<br>";
 	}
 	if (document.form1.pot.checked == true) {
-		SWD += "Pot<br>"
+		SWD += "Pot<br>";
 	}
 	if (document.form1.pouch.selectedIndex > 0) {
 		SWD += "Pouch x" + document.form1.pouch.selectedIndex + "<br>";
 	}
 	if (document.form1.ram.checked == true) {
-		SWD += "Ram<br>"
+		SWD += "Ram<br>";
 	}
 	if (document.form1.rations.selectedIndex > 0) {
 		SWD += "Rations (1 day) x" + document.form1.rations.selectedIndex
@@ -25227,112 +25225,112 @@ function WriteTextForCharacterSheet() {
 	}
 
 	if (document.form1.sealingwax.checked == true) {
-		SWD += "Sealing wax<br>"
+		SWD += "Sealing wax<br>";
 	}
 	if (document.form1.sewingneedle.checked == true) {
-		SWD += "Sewing needle<br>"
+		SWD += "Sewing needle<br>";
 	}
 	if (document.form1.signalwhistle.checked == true) {
-		SWD += "Signal whistle<br>"
+		SWD += "Signal whistle<br>";
 	}
 	if (document.form1.signetring.checked == true) {
-		SWD += "Signet ring<br>"
+		SWD += "Signet ring<br>";
 	}
 	if (document.form1.sledge.checked == true) {
-		SWD += "Sledge<br>"
+		SWD += "Sledge<br>";
 	}
 	if (document.form1.soap.checked == true) {
-		SWD += "Soap<br>"
+		SWD += "Soap<br>";
 	}
 	if (document.form1.spadeorshovel.checked == true) {
-		SWD += "Spade / shovel<br>"
+		SWD += "Spade / shovel<br>";
 	}
 	if (document.form1.spyglass.checked == true) {
-		SWD += "Spyglass<br>"
+		SWD += "Spyglass<br>";
 	}
 	if (document.form1.tent.checked == true) {
-		SWD += "Tent<br>"
+		SWD += "Tent<br>";
 	}
 	if (document.form1.torch.selectedIndex > 0) {
 		SWD += "Torches x" + document.form1.torch.selectedIndex + "<br>";
 	}
 	if (document.form1.vialinkorpotion.selectedIndex > 0) {
-		SWD += "Vial (for ink or potions) x"
+		SWD += "Vial (for ink or potions) x";
 				+ document.form1.vialinkorpotion.selectedIndex + "<br>";
 	}
 	if (document.form1.waterskin.selectedIndex > 0) {
 		SWD += "Waterskins x" + document.form1.waterskin.selectedIndex + "<br>";
 	}
 	if (document.form1.whetstone.checked == true) {
-		SWD += "Whetstone<br>"
+		SWD += "Whetstone<br>";
 	}
 	if (document.form1.alchemistlab.checked == true) {
-		SWD += "Alchemist lab<br>"
+		SWD += "Alchemist lab<br>";
 	}
 	if (document.form1.artisantools.checked == true) {
-		SWD += "Artisan tools<br>"
+		SWD += "Artisan tools<br>";
 	}
 	if (document.form1.climberskit.checked == true) {
-		SWD += "Climber's kit<br>"
+		SWD += "Climber's kit<br>";
 	}
 	if (document.form1.disguisekit.checked == true) {
-		SWD += "Disguise kit<br>"
+		SWD += "Disguise kit<br>";
 	}
 	if (document.form1.healerkit.checked == true) {
-		SWD += "Healer kit<br>"
+		SWD += "Healer kit<br>";
 	}
 	if (document.form1.hollyandmistletoe.checked == true) {
-		SWD += "Holly and mistletoe<br>"
+		SWD += "Holly and mistletoe<br>";
 	}
 	if (document.form1.holysymbolwooden.checked == true) {
-		SWD += "Holy symbol (wooden)<br>"
+		SWD += "Holy symbol (wooden)<br>";
 	}
 	if (document.form1.holysymbolsilver.checked == true) {
-		SWD += "Holy symbol (silver)<br>"
+		SWD += "Holy symbol (silver)<br>";
 	}
 	if (document.form1.hourglass.checked == true) {
-		SWD += "Hourglass<br>"
+		SWD += "Hourglass<br>";
 	}
 	if (document.form1.magnifyingglass.checked == true) {
-		SWD += "Magnifying glass<br>"
+		SWD += "Magnifying glass<br>";
 	}
 	if (document.form1.musicalinstrument.checked == true) {
-		SWD += "Musical instrument<br>"
+		SWD += "Musical instrument<br>";
 	}
 	if (document.form1.scale.checked == true) {
-		SWD += "Scale, merchant's<br>"
+		SWD += "Scale, merchant's<br>";
 	}
 	if (document.form1.spellcomponentpouch.checked == true) {
-		SWD += "Spell component pouch<br>"
+		SWD += "Spell component pouch<br>";
 	}
 	if (document.form1.spellbook.selectedIndex > 0) {
 		SWD += "Spellbook x" + document.form1.spellbook.selectedIndex + "<br>";
 	}
 	if (document.form1.thievestools.checked == true) {
-		SWD += "Thieves' tools<br>"
+		SWD += "Thieves' tools<br>";
 	}
 	if (document.form1.tool.selectedIndex > 0) {
 		SWD += "Tools (miscellaneous) x" + document.form1.tool.selectedIndex
 				+ "<br>";
 	}
 
-	SWD += "<br>Total<br></td></tr></table><p>"
+	SWD += "<br>Total<br></td></tr></table><p>";
 
 	if (document.form1.additionalEquipment.value != "") {
 		SWD += "Also...<p><ul>" + document.form1.additionalEquipment.value
 				+ "</ul><p>";
 	}
 
-	SWD += "<p></ul><img src=\"spellbar.gif\">"
+	SWD += "<p></ul><img src=\"spellbar.gif\">";
 	// if (document.form1.moniker.value==""){SWD +="More about this
 	// character:<p>"}
 	// else {SWD +="More about " + document.form1.moniker.value + ":"}
-	// SWD +="</body></html>"
+	// SWD +="</body></html>";
 	if (ac_species_name != "") {
 		SWD += "Animal companion: " + ac_species_name + "<ul>";
 		stringy = modifier_number(ac_strength);
 		if (modifier_number(ac_strength) >= 0) {
-			stringy = "+" + stringy
+			stringy = "+" + stringy;
 		}
 		;
 		SWD += "Strength " + ac_strength + "<br>";
@@ -25343,11 +25341,11 @@ function WriteTextForCharacterSheet() {
 		SWD += "Charisma " + ac_charisma + "<br>";
 		SWD += "Total Hit Points: " + ac_hp + "<br>";
 		if (ac_small) {
-			SWD += "Size: Small<br>"
+			SWD += "Size: Small<br>";
 		} else if (ac_large) {
-			SWD += "Size: Large<br>"
+			SWD += "Size: Large<br>";
 		} else {
-			SWD += "Size: Medium<br>"
+			SWD += "Size: Medium<br>";
 		}
 		SWD += "Speed: " + ac_speed + "<br>";
 
@@ -25355,7 +25353,7 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_dodge_box.checked) {
 			x++;
 		}
-		SWD += "Natural Armor Class: +" + x + " = " + ac_bab + " [base] + "
+		SWD += "Natural Armor Class: +" + x + " = " + ac_bab + " [base] + ";
 				+ ac_natural_armor + " [natural armor]";
 		if (document.form1.ac_dodge_box.checked) {
 			SWD += " +1 [dodge] ";
@@ -25366,7 +25364,7 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_improvedinitiative_box.checked) {
 			x += 4;
 		}
-		SWD += "Initiative modifier: " + x + " = "
+		SWD += "Initiative modifier: " + x + " = ";
 				+ modifier_number(ac_dexterity) + " [dexterity]";
 		if (document.form1.ac_improvedinitiative_box.checked) {
 			SWD += " + 4 [improved initiative]";
@@ -25377,7 +25375,7 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_greatfortitude_box.checked) {
 			x += 2;
 		}
-		SWD += "Fortitude save: " + x + " = " + ac_fort + " [base] +"
+		SWD += "Fortitude save: " + x + " = " + ac_fort + " [base] +";
 				+ modifier_number(ac_constitution) + " [constitution]";
 		if (document.form1.ac_greatfortitude_box.checked) {
 			SWD += " + 2 [great fortitude]";
@@ -25388,7 +25386,7 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_lightningreflexes_box.checked) {
 			x += 2;
 		}
-		SWD += "Reflex save: " + x + " = " + ac_reflex + " [base] +"
+		SWD += "Reflex save: " + x + " = " + ac_reflex + " [base] +";
 				+ modifier_number(ac_dexterity) + " [dexterity]";
 		if (document.form1.ac_lightningreflexes_box.checked) {
 			SWD += " + 2 [lightning reflexes]";
@@ -25399,7 +25397,7 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_ironwill_box.checked) {
 			x += 2;
 		}
-		SWD += "Will save: " + x + " = " + ac_will + " [base] +"
+		SWD += "Will save: " + x + " = " + ac_will + " [base] +";
 				+ modifier_number(ac_wisdom) + " [wisdom]";
 		if (document.form1.ac_ironwill_box.checked) {
 			SWD += " + 2 [iron will]";
@@ -25407,19 +25405,19 @@ function WriteTextForCharacterSheet() {
 		SWD += "<br>";
 
 		x = ac_bab + modifier_number(ac_strength);
-		SWD += "Attack: +" + x + " = +" + ac_bab + " [base] + "
+		SWD += "Attack: +" + x + " = +" + ac_bab + " [base] + ";
 				+ modifier_number(ac_strength) + " [strength]; " + ac_attacks
 				+ "<br>";
 
-		SWD += "Combat Maneuver Bonus: " + ac_CMB_string_1 + " "
-				+ ac_CMB_string_2 + "<br>\r"
-		SWD += "Combat Maneuver Defense: " + ac_CMD_string_1 + " "
-				+ ac_CMD_string_2 + "<br>\r"
+		SWD += "Combat Maneuver Bonus: " + ac_CMB_string_1 + " ";
+				+ ac_CMB_string_2 + "<br>\r";
+		SWD += "Combat Maneuver Defense: " + ac_CMD_string_1 + " ";
+				+ ac_CMD_string_2 + "<br>\r";
 
 		SWD += "Special: " + ac_special + "<br>";
 
 		x = document.form1.ac_acrobatics_list.selectedIndex
-				+ modifier_number(ac_dexterity)
+				+ modifier_number(ac_dexterity);
 		if (document.form1.ac_skillfocusacrobatics_box.checked) {
 			x += 3;
 		}
@@ -25430,7 +25428,7 @@ function WriteTextForCharacterSheet() {
 			x += 2;
 		}
 		SWD += "Skill: Acrobatics " + x + " [" + modifier_number(ac_dexterity)
-				+ " dexterity + "
+				+ " dexterity + ";
 				+ document.form1.ac_acrobatics_list.selectedIndex + " ranks";
 		if (document.form1.ac_acrobatics_list.selectedIndex > 0) {
 			SWD += " + 3 class skill ";
@@ -25444,7 +25442,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_climb_list.selectedIndex
-				+ modifier_number(ac_strength)
+				+ modifier_number(ac_strength);
 		if (document.form1.ac_skillfocusclimb_box.checked) {
 			x += 3;
 		}
@@ -25469,7 +25467,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_escapeartist_list.selectedIndex
-				+ modifier_number(ac_dexterity)
+				+ modifier_number(ac_dexterity);
 		if (document.form1.ac_skillfocusescapeartist_box.checked) {
 			x += 3;
 		}
@@ -25477,8 +25475,8 @@ function WriteTextForCharacterSheet() {
 			x += 2;
 		}
 		// if (document.form1.ac_escapeartist_list.selectedIndex>0){x+=3;}
-		SWD += "Skill: Escape Artist " + x + " ["
-				+ modifier_number(ac_dexterity) + " dexterity + "
+		SWD += "Skill: Escape Artist " + x + " [";
+				+ modifier_number(ac_dexterity) + " dexterity + ";
 				+ document.form1.ac_escapeartist_list.selectedIndex + " ranks";
 		if (document.form1.ac_stealthy_box.checked) {
 			x += 2;
@@ -25494,7 +25492,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_fly_list.selectedIndex
-				+ modifier_number(ac_dexterity)
+				+ modifier_number(ac_dexterity);
 		if (document.form1.ac_skillfocusfly_box.checked) {
 			x += 3;
 		}
@@ -25519,7 +25517,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_intimidate_list.selectedIndex
-				+ modifier_number(ac_charisma)
+				+ modifier_number(ac_charisma);
 		if (document.form1.ac_skillfocusintimidate_box.checked) {
 			x += 3;
 		}
@@ -25528,7 +25526,7 @@ function WriteTextForCharacterSheet() {
 		}
 		// if (document.form1.ac_intimidate_list.selectedIndex>0){x+=3;}
 		SWD += "Skill: Intimidate " + x + " [" + modifier_number(ac_charisma)
-				+ " charisma + "
+				+ " charisma + ";
 				+ document.form1.ac_intimidate_list.selectedIndex + " ranks";
 		// if (document.form1.ac_intimidate_list.selectedIndex>0){SWD+=" + 3
 		// class skill ";}
@@ -25542,7 +25540,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_perception_list.selectedIndex
-				+ modifier_number(ac_wisdom)
+				+ modifier_number(ac_wisdom);
 		if (document.form1.ac_skillfocusperception_box.checked) {
 			x += 3;
 		}
@@ -25550,7 +25548,7 @@ function WriteTextForCharacterSheet() {
 			x += 3;
 		}
 		SWD += "Skill: Perception " + x + " [" + modifier_number(ac_wisdom)
-				+ " wisdom + "
+				+ " wisdom + ";
 				+ document.form1.ac_perception_list.selectedIndex + " ranks";
 		if (document.form1.ac_perception_list.selectedIndex > 0) {
 			SWD += " + 3 class skill ";
@@ -25561,7 +25559,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_stealth_list.selectedIndex
-				+ modifier_number(ac_dexterity)
+				+ modifier_number(ac_dexterity);
 		if (document.form1.ac_skillfocusstealth_box.checked) {
 			x += 3;
 		}
@@ -25572,7 +25570,7 @@ function WriteTextForCharacterSheet() {
 			x += 2;
 		}
 		SWD += "Skill: Stealth " + x + " [" + modifier_number(ac_dexterity)
-				+ " dexterity + "
+				+ " dexterity + ";
 				+ document.form1.ac_stealth_list.selectedIndex + " ranks";
 		if (document.form1.ac_stealth_list.selectedIndex > 0) {
 			SWD += " + 3 class skill ";
@@ -25586,7 +25584,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_survival_list.selectedIndex
-				+ modifier_number(ac_wisdom)
+				+ modifier_number(ac_wisdom);
 		if (document.form1.ac_skillfocussurvival_box.checked) {
 			x += 3;
 		}
@@ -25605,7 +25603,7 @@ function WriteTextForCharacterSheet() {
 		SWD += "]<br>";
 
 		x = document.form1.ac_swim_list.selectedIndex
-				+ modifier_number(ac_strength)
+				+ modifier_number(ac_strength);
 		if (document.form1.ac_skillfocusswim_box.checked) {
 			x += 3;
 		}
@@ -25672,7 +25670,7 @@ function WriteTextForCharacterSheet() {
 			SWD += "Feat: Improved Initiative<br>\r";
 		}
 		if (document.form1.ac_improvednaturalarmor_list.selectedIndex > 0) {
-			SWD += "Feat: Improved Natural Armor x "
+			SWD += "Feat: Improved Natural Armor x ";
 					+ document.form1.ac_improvednaturalarmor_list.selectedIndex
 					+ "<br>\r";
 		}
@@ -25742,25 +25740,25 @@ function WriteTextForCharacterSheet() {
 		if (document.form1.ac_weaponfocus_box.checked) {
 			SWD += "Feat: Weapon Focus<br>\r";
 		}
-		SWD += "Link, share spells (level 1)<br>"
-		SWD += "Evasion (level 3)<br>"
-		SWD += "Devotion (level 6)<br>"
-		SWD += "Multiattack (level 9)<br>"
-		SWD += "Improved evasion (level 15)<br>"
+		SWD += "Link, share spells (level 1)<br>";
+		SWD += "Evasion (level 3)<br>";
+		SWD += "Devotion (level 6)<br>";
+		SWD += "Multiattack (level 9)<br>";
+		SWD += "Improved evasion (level 15)<br>";
 
 		SWD += "</ul>";
 	}
 
 	if (document.form1.moniker.value == "") {
-		SWD += "More about this character:<ul><p>"
+		SWD += "More about this character:<ul><p>";
 	} else {
-		SWD += "More about " + document.form1.moniker.value + ":<p><ul>"
+		SWD += "More about " + document.form1.moniker.value + ":<p><ul>";
 	}
 	SWD += document.form1.moreAbout.value;
 	SWD += "</ul></body></html>";
 
-	SecondWindow.document.write(SWD)
-	SecondWindow.document.close()
+	SecondWindow.document.write(SWD);
+	SecondWindow.document.close();
 
 }
 
@@ -25777,14 +25775,14 @@ function RewriteLockedAbilityAssignments() {
 function setCase(caseSelection) {
 	if (caseSelection == "upper") {
 		document.form1.moniker.value = document.form1.moniker.value
-				.toUpperCase()
+				.toUpperCase();
 		document.form1.playerName.value = document.form1.playerName.value
-				.toUpperCase()
+				.toUpperCase();
 	} else {
 		document.form1.firstName.value = document.form1.firstName.value
-				.toLowerCase()
+				.toLowerCase();
 		document.form1.lastName.value = document.form1.lastName.value
-				.toLowerCase()
+				.toLowerCase();
 	}
 }
 
@@ -25865,47 +25863,47 @@ function RememberFeats() {
 	document.form1.towershieldproficiency.checked = has_towershieldproficiency;
 	document.form1.simpleweaponproficiency.checked = has_simpleweaponproficiency;
 	document.form1.skillfocusappraise.checked = has_skillfocusappraise;
-	document.form1.skillfocusbluff.checked = has_skillfocusbluff
-	document.form1.skillfocusclimb.checked = has_skillfocusclimb
-	document.form1.skillfocusacrobatics.checked = has_skillfocusacrobatics
-	document.form1.skillfocuscraft_1.checked = has_skillfocuscraft_1
-	document.form1.skillfocuscraft_2.checked = has_skillfocuscraft_2
-	document.form1.skillfocuscraft_3.checked = has_skillfocuscraft_3
-	document.form1.skillfocusdiplomacy.checked = has_skillfocusdiplomacy
-	document.form1.skillfocusdisabledevice.checked = has_skillfocusdisabledevice
-	document.form1.skillfocusdisguise.checked = has_skillfocusdisguise
-	document.form1.skillfocusescapeartist.checked = has_skillfocusescapeartist
-	document.form1.skillfocusfly.checked = has_skillfocusfly
-	document.form1.skillfocushandleanimal.checked = has_skillfocushandleanimal
-	document.form1.skillfocusheal.checked = has_skillfocusheal
-	document.form1.skillfocusstealth.checked = has_skillfocusstealth
-	// document.form1.skillfocushypnosis.checked=has_skillfocushypnosis
-	document.form1.skillfocusintimidate.checked = has_skillfocusintimidate
-	document.form1.skillfocusknowledgearcana.checked = has_skillfocusknowledgearcana
-	document.form1.skillfocusknowledgeengineering.checked = has_skillfocusknowledgeengineering
-	document.form1.skillfocusknowledgedungeoneering.checked = has_skillfocusknowledgedungeoneering
-	document.form1.skillfocusknowledgegeography.checked = has_skillfocusknowledgegeography
-	document.form1.skillfocusknowledgehistory.checked = has_skillfocusknowledgehistory
-	document.form1.skillfocusknowledgelocal.checked = has_skillfocusknowledgelocal
-	document.form1.skillfocusknowledgenature.checked = has_skillfocusknowledgenature
-	document.form1.skillfocusknowledgenobility.checked = has_skillfocusknowledgenobility
-	document.form1.skillfocusknowledgereligion.checked = has_skillfocusknowledgereligion
-	document.form1.skillfocusknowledgeplanes.checked = has_skillfocusknowledgeplanes
-	document.form1.skillfocusperception.checked = has_skillfocusperception
-	document.form1.skillfocuslinguistics.checked = has_skillfocuslinguistics
-	document.form1.skillfocusperform_1.checked = has_skillfocusperform_1
-	document.form1.skillfocusperform_2.checked = has_skillfocusperform_2
-	document.form1.skillfocusperform_3.checked = has_skillfocusperform_3
-	document.form1.skillfocusperform_4.checked = has_skillfocusperform_4
-	document.form1.skillfocusperform_5.checked = has_skillfocusperform_5
-	document.form1.skillfocusprofession.checked = has_skillfocusprofession
-	document.form1.skillfocusride.checked = has_skillfocusride
-	document.form1.skillfocussensemotive.checked = has_skillfocussensemotive
-	document.form1.skillfocussleightofhand.checked = has_skillfocussleightofhand
-	document.form1.skillfocusspellcraft.checked = has_skillfocusspellcraft
-	document.form1.skillfocussurvival.checked = has_skillfocussurvival
-	document.form1.skillfocusswim.checked = has_skillfocusswim
-	document.form1.skillfocususemagicdevice.checked = has_skillfocususemagicdevice
+	document.form1.skillfocusbluff.checked = has_skillfocusbluff;
+	document.form1.skillfocusclimb.checked = has_skillfocusclimb;
+	document.form1.skillfocusacrobatics.checked = has_skillfocusacrobatics;
+	document.form1.skillfocuscraft_1.checked = has_skillfocuscraft_1;
+	document.form1.skillfocuscraft_2.checked = has_skillfocuscraft_2;
+	document.form1.skillfocuscraft_3.checked = has_skillfocuscraft_3;
+	document.form1.skillfocusdiplomacy.checked = has_skillfocusdiplomacy;
+	document.form1.skillfocusdisabledevice.checked = has_skillfocusdisabledevice;
+	document.form1.skillfocusdisguise.checked = has_skillfocusdisguise;
+	document.form1.skillfocusescapeartist.checked = has_skillfocusescapeartist;
+	document.form1.skillfocusfly.checked = has_skillfocusfly;
+	document.form1.skillfocushandleanimal.checked = has_skillfocushandleanimal;
+	document.form1.skillfocusheal.checked = has_skillfocusheal;
+	document.form1.skillfocusstealth.checked = has_skillfocusstealth;
+	// document.form1.skillfocushypnosis.checked=has_skillfocushypnosis;
+	document.form1.skillfocusintimidate.checked = has_skillfocusintimidate;
+	document.form1.skillfocusknowledgearcana.checked = has_skillfocusknowledgearcana;
+	document.form1.skillfocusknowledgeengineering.checked = has_skillfocusknowledgeengineering;
+	document.form1.skillfocusknowledgedungeoneering.checked = has_skillfocusknowledgedungeoneering;
+	document.form1.skillfocusknowledgegeography.checked = has_skillfocusknowledgegeography;
+	document.form1.skillfocusknowledgehistory.checked = has_skillfocusknowledgehistory;
+	document.form1.skillfocusknowledgelocal.checked = has_skillfocusknowledgelocal;
+	document.form1.skillfocusknowledgenature.checked = has_skillfocusknowledgenature;
+	document.form1.skillfocusknowledgenobility.checked = has_skillfocusknowledgenobility;
+	document.form1.skillfocusknowledgereligion.checked = has_skillfocusknowledgereligion;
+	document.form1.skillfocusknowledgeplanes.checked = has_skillfocusknowledgeplanes;
+	document.form1.skillfocusperception.checked = has_skillfocusperception;
+	document.form1.skillfocuslinguistics.checked = has_skillfocuslinguistics;
+	document.form1.skillfocusperform_1.checked = has_skillfocusperform_1;
+	document.form1.skillfocusperform_2.checked = has_skillfocusperform_2;
+	document.form1.skillfocusperform_3.checked = has_skillfocusperform_3;
+	document.form1.skillfocusperform_4.checked = has_skillfocusperform_4;
+	document.form1.skillfocusperform_5.checked = has_skillfocusperform_5;
+	document.form1.skillfocusprofession.checked = has_skillfocusprofession;
+	document.form1.skillfocusride.checked = has_skillfocusride;
+	document.form1.skillfocussensemotive.checked = has_skillfocussensemotive;
+	document.form1.skillfocussleightofhand.checked = has_skillfocussleightofhand;
+	document.form1.skillfocusspellcraft.checked = has_skillfocusspellcraft;
+	document.form1.skillfocussurvival.checked = has_skillfocussurvival;
+	document.form1.skillfocusswim.checked = has_skillfocusswim;
+	document.form1.skillfocususemagicdevice.checked = has_skillfocususemagicdevice;
 
 	document.form1.spellfocusabjuration.checked = has_spellfocusabjuration;
 	document.form1.spellfocusconjuration.checked = has_spellfocusconjuration;
@@ -26726,182 +26724,182 @@ function RecordFeats() {
 }
 
 function NegateFeats() {
-	has_acrobatic = false
-	has_agilemaneuvers = false
-	has_alertness = false
-	has_animalaffinity = false
-	has_arcanestrike = false
-	has_armorproficiencylight = false
-	has_armorproficiencymedium = false
-	has_armorproficiencyheavy = false
-	has_athletic = false
-	has_augmentsummoning = false
-	has_blindfight = false
-	has_combatcasting = false
-	has_combatexpertise = false
-	has_improveddisarm = false
-	has_improvedfeint = false
-	has_improvedtrip = false
-	has_whirlwindattack = false
-	has_combatreflexes = false
-	has_deceitful = false
-	has_defthands = false
-	has_dodge = false
-	has_mobility = false
-	has_springattack = false
-	has_endurance = false
-	has_diehard = false
-	has_eschewmaterials = false
-	has_exoticweaponproficiency = false
-	has_extrachannel = 0
-	has_extraki = 0
-	has_extralayonhands = 0
-	has_extramercy = 0
-	has_extraperformance = 0
-	has_extrarage = 0
-	has_greatfortitude = false
-	has_improvedcounterspell = false
-	has_improvedcritical = 0
-	has_improvedinitiative = false
-	has_improvedunarmedstrike = false
-	has_improvedgrapple = false
-	has_deflectarrows = false
-	has_snatcharrows = false
-	has_stunningfist = false
-	has_ironwill = false
-	has_leadership = false
-	has_lightningreflexes = false
-	has_magicalaptitude = false
-	has_martialweaponproficiency = false
-	has_mountedcombat = false
-	has_mountedarchery = false
-	has_ridebyattack = false
-	has_spiritedcharge = false
-	has_trample = false
-	has_naturalspell = false
-	has_persuasive = false
-	has_pointblankshot = false
-	has_farshot = false
-	has_preciseshot = false
-	has_rapidshot = false
-	has_manyshot = false
-	has_shotontherun = false
-	has_improvedpreciseshot = false
-	has_powerattack = false
-	has_cleave = false
-	has_greatcleave = false
-	has_improvedbullrush = false
-	has_improvedoverrun = false
-	has_improvedsunder = false
-	has_quickdraw = false
-	has_rapidreload = false
-	has_run = false
-	has_selfsufficient = false
-	has_shieldproficiency = false
-	has_improvedshieldbash = false
-	has_towershieldproficiency = false
-	has_simpleweaponproficiency = false
+	has_acrobatic = false;
+	has_agilemaneuvers = false;
+	has_alertness = false;
+	has_animalaffinity = false;
+	has_arcanestrike = false;
+	has_armorproficiencylight = false;
+	has_armorproficiencymedium = false;
+	has_armorproficiencyheavy = false;
+	has_athletic = false;
+	has_augmentsummoning = false;
+	has_blindfight = false;
+	has_combatcasting = false;
+	has_combatexpertise = false;
+	has_improveddisarm = false;
+	has_improvedfeint = false;
+	has_improvedtrip = false;
+	has_whirlwindattack = false;
+	has_combatreflexes = false;
+	has_deceitful = false;
+	has_defthands = false;
+	has_dodge = false;
+	has_mobility = false;
+	has_springattack = false;
+	has_endurance = false;
+	has_diehard = false;
+	has_eschewmaterials = false;
+	has_exoticweaponproficiency = false;
+	has_extrachannel = 0;
+	has_extraki = 0;
+	has_extralayonhands = 0;
+	has_extramercy = 0;
+	has_extraperformance = 0;
+	has_extrarage = 0;
+	has_greatfortitude = false;
+	has_improvedcounterspell = false;
+	has_improvedcritical = 0;
+	has_improvedinitiative = false;
+	has_improvedunarmedstrike = false;
+	has_improvedgrapple = false;
+	has_deflectarrows = false;
+	has_snatcharrows = false;
+	has_stunningfist = false;
+	has_ironwill = false;
+	has_leadership = false;
+	has_lightningreflexes = false;
+	has_magicalaptitude = false;
+	has_martialweaponproficiency = false;
+	has_mountedcombat = false;
+	has_mountedarchery = false;
+	has_ridebyattack = false;
+	has_spiritedcharge = false;
+	has_trample = false;
+	has_naturalspell = false;
+	has_persuasive = false;
+	has_pointblankshot = false;
+	has_farshot = false;
+	has_preciseshot = false;
+	has_rapidshot = false;
+	has_manyshot = false;
+	has_shotontherun = false;
+	has_improvedpreciseshot = false;
+	has_powerattack = false;
+	has_cleave = false;
+	has_greatcleave = false;
+	has_improvedbullrush = false;
+	has_improvedoverrun = false;
+	has_improvedsunder = false;
+	has_quickdraw = false;
+	has_rapidreload = false;
+	has_run = false;
+	has_selfsufficient = false;
+	has_shieldproficiency = false;
+	has_improvedshieldbash = false;
+	has_towershieldproficiency = false;
+	has_simpleweaponproficiency = false;
 
-	has_skillfocusappraise = false
-	has_skillfocusbluff = false
-	has_skillfocusclimb = false
-	has_skillfocusacrobatics = false
-	has_skillfocuscraft_1 = false
-	has_skillfocuscraft_2 = false
-	has_skillfocuscraft_3 = false
-	has_skillfocusdiplomacy = false
-	has_skillfocusdisabledevice = false
-	has_skillfocusdisguise = false
-	has_skillfocusescapeartist = false
-	has_skillfocusfly = false
-	has_skillfocushandleanimal = false
-	has_skillfocusheal = false
-	has_skillfocusstealth = false
-	// has_skillfocushypnosis=false
-	has_skillfocusintimidate = false
-	has_skillfocusknowledgearcana = false
-	has_skillfocusknowledgeengineering = false
-	has_skillfocusknowledgedungeoneering = false
-	has_skillfocusknowledgegeography = false
-	has_skillfocusknowledgehistory = false
-	has_skillfocusknowledgelocal = false
-	has_skillfocusknowledgenature = false
-	has_skillfocusknowledgenobility = false
-	has_skillfocusknowledgereligion = false
-	has_skillfocusknowledgeplanes = false
-	has_skillfocusperception = false
-	has_skillfocuslinguistics = false
-	has_skillfocusperform_1 = false
-	has_skillfocusperform_2 = false
-	has_skillfocusperform_3 = false
-	has_skillfocusperform_4 = false
-	has_skillfocusperform_5 = false
-	has_skillfocusprofession = false
-	has_skillfocusride = false
-	has_skillfocussensemotive = false
-	has_skillfocussleightofhand = false
-	has_skillfocusspellcraft = false
-	has_skillfocussurvival = false
-	has_skillfocusswim = false
-	has_skillfocususemagicdevice = false
+	has_skillfocusappraise = false;
+	has_skillfocusbluff = false;
+	has_skillfocusclimb = false;
+	has_skillfocusacrobatics = false;
+	has_skillfocuscraft_1 = false;
+	has_skillfocuscraft_2 = false;
+	has_skillfocuscraft_3 = false;
+	has_skillfocusdiplomacy = false;
+	has_skillfocusdisabledevice = false;
+	has_skillfocusdisguise = false;
+	has_skillfocusescapeartist = false;
+	has_skillfocusfly = false;
+	has_skillfocushandleanimal = false;
+	has_skillfocusheal = false;
+	has_skillfocusstealth = false;
+	// has_skillfocushypnosis=false;
+	has_skillfocusintimidate = false;
+	has_skillfocusknowledgearcana = false;
+	has_skillfocusknowledgeengineering = false;
+	has_skillfocusknowledgedungeoneering = false;
+	has_skillfocusknowledgegeography = false;
+	has_skillfocusknowledgehistory = false;
+	has_skillfocusknowledgelocal = false;
+	has_skillfocusknowledgenature = false;
+	has_skillfocusknowledgenobility = false;
+	has_skillfocusknowledgereligion = false;
+	has_skillfocusknowledgeplanes = false;
+	has_skillfocusperception = false;
+	has_skillfocuslinguistics = false;
+	has_skillfocusperform_1 = false;
+	has_skillfocusperform_2 = false;
+	has_skillfocusperform_3 = false;
+	has_skillfocusperform_4 = false;
+	has_skillfocusperform_5 = false;
+	has_skillfocusprofession = false;
+	has_skillfocusride = false;
+	has_skillfocussensemotive = false;
+	has_skillfocussleightofhand = false;
+	has_skillfocusspellcraft = false;
+	has_skillfocussurvival = false;
+	has_skillfocusswim = false;
+	has_skillfocususemagicdevice = false;
 
-	has_spellfocusabjuration = false
-	has_spellfocusconjuration = false
-	has_spellfocusdivination = false
-	has_spellfocusenchantment = false
-	has_spellfocusevocation = false
-	has_spellfocusillusion = false
-	has_spellfocusnecromancy = false
-	has_spellfocustransmutation = false
-	has_greaterspellfocusabjuration = false
-	has_greaterspellfocusconjuration = false
-	has_greaterspellfocusdivination = false
-	has_greaterspellfocusenchantment = false
-	has_greaterspellfocusevocation = false
-	has_greaterspellfocusillusion = false
-	has_greaterspellfocusnecromancy = false
-	has_greaterspellfocusconjuration = false
-	has_spellmastery = 0
-	has_spellpenetration = false
-	has_greaterspellpenetration = false
-	has_stealthy = false
-	has_toughness = false
-	has_twoweaponfighting = false
-	has_twoweapondefense = false
-	has_improvedtwoweaponfighting = false
-	has_greatertwoweaponfighting = false
-	has_weaponfinesse = false
-	has_otherfeat1 = false
-	has_otherfeat2 = false
-	has_otherfeat3 = false
-	has_otherfeat4 = false
-	has_otherfeat5 = false
-	has_otherfeat6 = false
-	has_otherfeat7 = false
-	has_otherfeat8 = false
-	has_otherfeat9 = false
-	has_otherfeat10 = false
-	has_weaponfocus = 0
-	has_weaponspecialization = 0
-	has_greaterweaponfocus = 0
-	has_greaterweaponspecialization = 0
-	has_brewpotion = false
-	has_craftmaa = false
-	has_craftrod = false
-	has_craftstaff = false
-	has_craftwand = false
-	has_craftwondrousitem = false
-	has_forgering = false
-	has_scribescroll = false
-	has_empowerspell = false
-	has_enlargespell = false
-	has_extendspell = false
-	has_heightenspell = false
-	has_maximizespell = false
-	has_quickenspell = false
-	has_silentspell = false
-	has_stillspell = false
-	has_widenspell = false
+	has_spellfocusabjuration = false;
+	has_spellfocusconjuration = false;
+	has_spellfocusdivination = false;
+	has_spellfocusenchantment = false;
+	has_spellfocusevocation = false;
+	has_spellfocusillusion = false;
+	has_spellfocusnecromancy = false;
+	has_spellfocustransmutation = false;
+	has_greaterspellfocusabjuration = false;
+	has_greaterspellfocusconjuration = false;
+	has_greaterspellfocusdivination = false;
+	has_greaterspellfocusenchantment = false;
+	has_greaterspellfocusevocation = false;
+	has_greaterspellfocusillusion = false;
+	has_greaterspellfocusnecromancy = false;
+	has_greaterspellfocusconjuration = false;
+	has_spellmastery = 0;
+	has_spellpenetration = false;
+	has_greaterspellpenetration = false;
+	has_stealthy = false;
+	has_toughness = false;
+	has_twoweaponfighting = false;
+	has_twoweapondefense = false;
+	has_improvedtwoweaponfighting = false;
+	has_greatertwoweaponfighting = false;
+	has_weaponfinesse = false;
+	has_otherfeat1 = false;
+	has_otherfeat2 = false;
+	has_otherfeat3 = false;
+	has_otherfeat4 = false;
+	has_otherfeat5 = false;
+	has_otherfeat6 = false;
+	has_otherfeat7 = false;
+	has_otherfeat8 = false;
+	has_otherfeat9 = false;
+	has_otherfeat10 = false;
+	has_weaponfocus = 0;
+	has_weaponspecialization = 0;
+	has_greaterweaponfocus = 0;
+	has_greaterweaponspecialization = 0;
+	has_brewpotion = false;
+	has_craftmaa = false;
+	has_craftrod = false;
+	has_craftstaff = false;
+	has_craftwand = false;
+	has_craftwondrousitem = false;
+	has_forgering = false;
+	has_scribescroll = false;
+	has_empowerspell = false;
+	has_enlargespell = false;
+	has_extendspell = false;
+	has_heightenspell = false;
+	has_maximizespell = false;
+	has_quickenspell = false;
+	has_silentspell = false;
+	has_stillspell = false;
+	has_widenspell = false;
 	has_alignmentchannel = false;
 	has_arcanearmortraining = false;
 	has_arcanearmormastery = false;
@@ -27114,7 +27112,7 @@ function CalculateHitPoints() {
 	}
 	if (has_toughness) {
 		if (total_levels > 3) {
-			total_hit_points += total_levels
+			total_hit_points += total_levels;
 		} else {
 			total_hit_points += 3;
 		}
@@ -27139,13 +27137,13 @@ function CalculateArmorClass() {
 	armor_class_string = "";
 	armor_string = "";
 	shield_string = "";
-	dexterity_bonus_in_this_armor = modifier_number(dexterity)
+	dexterity_bonus_in_this_armor = modifier_number(dexterity);
 	unarmored = true;
 
 	if (document.form1.armor_radio[1].checked == true) {
 		total_armor_class += 1;
 		flatfooted_armor_class += 1;
-		armor_class_string = "  + 1 [padded] "
+		armor_class_string = "  + 1 [padded] ";
 		y = 8 + ArmorTrain();
 		z = ArmorTrain() - 0;
 		if (z > 0) {
@@ -27168,13 +27166,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 5%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[2].checked == true) {
 		total_armor_class += 2;
 		flatfooted_armor_class += 2;
-		armor_class_string = "  + 2 [leather] "
+		armor_class_string = "  + 2 [leather] ";
 		y = 6 + ArmorTrain();
 		z = ArmorTrain() - 0;
 		if (z > 0) {
@@ -27197,13 +27195,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 10%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[3].checked == true) {
 		total_armor_class += 3;
 		flatfooted_armor_class += 3;
-		armor_class_string = "  + 3 [studded] "
+		armor_class_string = "  + 3 [studded] ";
 		y = 5 + ArmorTrain();
 		z = ArmorTrain() - 1;
 		if (z > 0) {
@@ -27225,13 +27223,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 15%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[4].checked == true) {
 		total_armor_class += 4;
 		flatfooted_armor_class += 4;
-		armor_class_string = "  + 4 [chain shirt] "
+		armor_class_string = "  + 4 [chain shirt] ";
 		y = 4 + ArmorTrain();
 		z = ArmorTrain() - 2;
 		if (z > 0) {
@@ -27254,13 +27252,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 20%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[5].checked == true) {
 		total_armor_class += 3;
 		flatfooted_armor_class += 3;
-		armor_class_string = "  + 3 [hide] "
+		armor_class_string = "  + 3 [hide] ";
 		y = 4 + ArmorTrain();
 		z = ArmorTrain() - 3;
 		if (z > 0) {
@@ -27283,13 +27281,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 20%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[6].checked == true) {
 		total_armor_class += 5;
 		flatfooted_armor_class += 5;
-		armor_class_string = "  + 5 [scale] "
+		armor_class_string = "  + 5 [scale] ";
 		y = 3 + ArmorTrain();
 		z = ArmorTrain() - 4;
 		if (z > 0) {
@@ -27312,13 +27310,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 25%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[7].checked == true) {
 		total_armor_class += 5;
 		flatfooted_armor_class += 5;
-		armor_class_string = "  + 5 [chainmail] "
+		armor_class_string = "  + 5 [chainmail] ";
 		y = 2 + ArmorTrain();
 		z = ArmorTrain() - 5;
 		if (z > 0) {
@@ -27341,13 +27339,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 30%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[8].checked == true) {
 		total_armor_class += 6;
 		flatfooted_armor_class += 6;
-		armor_class_string = "  + 6 [breastplate] "
+		armor_class_string = "  + 6 [breastplate] ";
 		y = 3 + ArmorTrain();
 		z = ArmorTrain() - 4;
 		if (z > 0) {
@@ -27370,13 +27368,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 25%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[9].checked == true) {
 		total_armor_class += 6;
 		flatfooted_armor_class += 6;
-		armor_class_string = "  + 6 [splint] "
+		armor_class_string = "  + 6 [splint] ";
 		y = 0 + ArmorTrain();
 		z = ArmorTrain() - 7;
 		if (z > 0) {
@@ -27399,13 +27397,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 40%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[10].checked == true) {
 		total_armor_class += 6;
 		flatfooted_armor_class += 6;
-		armor_class_string = "  + 6 [banded] "
+		armor_class_string = "  + 6 [banded] ";
 		y = 1 + ArmorTrain();
 		z = ArmorTrain() - 6;
 		if (z > 0) {
@@ -27428,13 +27426,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 35%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[11].checked == true) {
 		total_armor_class += 7;
 		flatfooted_armor_class += 7;
-		armor_class_string = "  + 7 [half-plate] "
+		armor_class_string = "  + 7 [half-plate] ";
 		y = 0 + ArmorTrain();
 		z = ArmorTrain() - 7;
 		if (z > 0) {
@@ -27457,13 +27455,13 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 40%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.armor_radio[12].checked == true) {
 		total_armor_class += 8;
 		flatfooted_armor_class += 8;
-		armor_class_string = "  + 8 [full plate] "
+		armor_class_string = "  + 8 [full plate] ";
 		y = 1 + ArmorTrain();
 		z = ArmorTrain() - 6;
 		if (z > 0) {
@@ -27486,14 +27484,14 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 35%";
 		}
-		armor_string += "] "
+		armor_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[1].checked == true) {
 		total_armor_class += 1;
 		flatfooted_armor_class += 1;
-		armor_class_string += "  + 1 [buckler] "
-		shield_string = "Buckler [ + 1 AC;  check penalty -1;  hardness 10;  hp 5; "
+		armor_class_string += "  + 1 [buckler] ";
+		shield_string = "Buckler [ + 1 AC;  check penalty -1;  hardness 10;  hp 5; ";
 		if (small == false) {
 			shield_string += " 5 lb.";
 			wt += 5;
@@ -27505,14 +27503,14 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 5%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[2].checked == true) {
 		total_armor_class += 1;
 		flatfooted_armor_class += 1;
-		armor_class_string += "  + 1 [light wooden] "
-		shield_string = "Light Wooden Shield [ + 1 AC;  check penalty -1;  hardness 5;  hp 7; "
+		armor_class_string += "  + 1 [light wooden] ";
+		shield_string = "Light Wooden Shield [ + 1 AC;  check penalty -1;  hardness 5;  hp 7; ";
 		shield_check_penalty = -1;
 		if (small == false) {
 			shield_string += " 5 lb.";
@@ -27525,14 +27523,14 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 5%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[3].checked == true) {
 		total_armor_class += 1;
 		flatfooted_armor_class += 1;
-		armor_class_string += "  + 1 [light steel] "
-		shield_string = "Light Steel Shield [ + 1 AC;  check penalty -1;  hardness 10;  hp 10; "
+		armor_class_string += "  + 1 [light steel] ";
+		shield_string = "Light Steel Shield [ + 1 AC;  check penalty -1;  hardness 10;  hp 10; ";
 		shield_check_penalty = -1;
 		if (small == false) {
 			shield_string += " 6 lb.";
@@ -27545,14 +27543,14 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 5%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[4].checked == true) {
 		total_armor_class += 2;
 		flatfooted_armor_class += 2;
-		armor_class_string += "  + 2 [heavy wooden] "
-		shield_string = "Heavy Wooden Shield [ + 2 AC;  check penalty -2;  hardness 5;  hp 15; "
+		armor_class_string += "  + 2 [heavy wooden] ";
+		shield_string = "Heavy Wooden Shield [ + 2 AC;  check penalty -2;  hardness 5;  hp 15; ";
 		shield_check_penalty = -2;
 		if (small == false) {
 			shield_string += " 10 lb.";
@@ -27565,14 +27563,14 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 15%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[5].checked == true) {
 		total_armor_class += 2;
 		flatfooted_armor_class += 2;
-		armor_class_string += "  + 2 [heavy steel] "
-		shield_string = "Heavy Steel Shield [ + 2 AC;  check penalty -2;  hardness 10;  hp 20; "
+		armor_class_string += "  + 2 [heavy steel] ";
+		shield_string = "Heavy Steel Shield [ + 2 AC;  check penalty -2;  hardness 10;  hp 20; ";
 		shield_check_penalty = -2;
 		if (small == false) {
 			shield_string += " 15 lb.";
@@ -27585,17 +27583,17 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 15%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	if (document.form1.shield_radio[6].checked == true) {
 		total_armor_class += 4;
 		flatfooted_armor_class += 4;
-		armor_class_string += "  + 4 [tower shield] "
+		armor_class_string += "  + 4 [tower shield] ";
 		if (dexterity_bonus_in_this_armor > 2) {
 			dexterity_bonus_in_this_armor = 2;
 		}
-		shield_string = "Tower Shield [ + 4 AC;  max dex= + 2;  check penalty -10;  hardness 5;  hp 20; "
+		shield_string = "Tower Shield [ + 4 AC;  max dex= + 2;  check penalty -10;  hardness 5;  hp 20; ";
 		shield_check_penalty = -10;
 		if (small == false) {
 			shield_string += " 45 lb.";
@@ -27608,7 +27606,7 @@ function CalculateArmorClass() {
 		if ((sorcerer_levels > 0) | (bard_levels > 0) | (wizard_levels > 0)) {
 			armor_string += ";  arcane spell failure 50%";
 		}
-		shield_string += "] "
+		shield_string += "] ";
 		unarmored = false;
 	}
 	total_armor_class += dexterity_bonus_in_this_armor;
@@ -27669,43 +27667,43 @@ function CalculateArmorClass() {
 		armor_class_string += " + 1 [dodge]";
 	}
 	if ((monk_levels > 0) & (wisdom > 11) & (unarmored == true)) {
-		armor_class_string += modifier_string(wisdom) + " [wisdom] "
+		armor_class_string += modifier_string(wisdom) + " [wisdom] ";
 	}
 	if ((monk_levels >= 5) & (unarmored == true)) {
 		if (monk_levels >= 20) {
-			armor_class_string += "  + 5 [monk level] "
+			armor_class_string += "  + 5 [monk level] ";
 		} else if (monk_levels >= 16) {
-			armor_class_string += "  + 4 [monk level] "
+			armor_class_string += "  + 4 [monk level] ";
 		} else if (monk_levels >= 12) {
-			armor_class_string += "  + 3 [monk level] "
+			armor_class_string += "  + 3 [monk level] ";
 		} else if (monk_levels >= 8) {
-			armor_class_string += "  + 2 [monk level] "
+			armor_class_string += "  + 2 [monk level] ";
 		} else if (monk_levels >= 4) {
-			armor_class_string += "  + 1 [monk level] "
+			armor_class_string += "  + 1 [monk level] ";
 		}
 	}
 	if (small == true) {
 		total_armor_class += 1;
 		touch_armor_class += 1;
 		flatfooted_armor_class += 1;
-		armor_class_string += "  + 1 [small] "
+		armor_class_string += "  + 1 [small] ";
 	}
 	if (has_draconic_bloodline) {
 		if (sorcerer_levels >= 15) {
 			total_armor_class += 4;
 			touch_armor_class += 4;
 			flatfooted_armor_class += 4;
-			armor_class_string += "  + 4 [draconic bloodline] "
+			armor_class_string += "  + 4 [draconic bloodline] ";
 		} else if (sorcerer_levels >= 9) {
 			total_armor_class += 2;
 			touch_armor_class += 2;
 			flatfooted_armor_class += 2;
-			armor_class_string += "  + 2 [draconic bloodline] "
+			armor_class_string += "  + 2 [draconic bloodline] ";
 		} else if (sorcerer_levels >= 3) {
 			total_armor_class += 1;
 			touch_armor_class += 1;
 			flatfooted_armor_class += 1;
-			armor_class_string += "  + 1 [draconic bloodline] "
+			armor_class_string += "  + 1 [draconic bloodline] ";
 		}
 	}
 	x = 30;
@@ -27740,19 +27738,19 @@ function CalculateArmorClass() {
 			}
 		}
 	}
-	speed_string = ""
+	speed_string = "";
 	if ((barbarian_levels > 0)
 			& (document.form1.armor_radio[9].checked == false)
 			& (document.form1.armor_radio[10].checked == false)
 			& (document.form1.armor_radio[11].checked == false)
 			& (document.form1.armor_radio[12].checked == false)) {
 		x = x + 10;
-		speed_string += " [barbarian] "
+		speed_string += " [barbarian] ";
 	}
 	;
 	if (has_fleet) {
 		x += 5;
-		speed_string += " [fleet] "
+		speed_string += " [fleet] ";
 	}
 	;
 	if ((monk_levels > 2) & (document.form1.armor_radio[1].checked == false)
@@ -27793,14 +27791,14 @@ function CalculateArmorClass() {
 	initiative_string_1 = "";
 	initiative_string_2 = "";
 	if (modifier_number(dexterity) >= 0) {
-		initiative_string_2 = " + " + dexterity_0_string
+		initiative_string_2 = " + " + dexterity_0_string;
 	}
 	if (modifier_number(dexterity) < 0) {
-		initiative_string_2 = dexterity_0_string
+		initiative_string_2 = dexterity_0_string;
 	}
 	if (has_improvedinitiative == true) {
 		initiative_modifier += 4;
-		initiative_string_2 += "  + 4 [improved initiative] "
+		initiative_string_2 += "  + 4 [improved initiative] ";
 	}
 	if (wizard_specialty_name == "Diviner") {
 		x = Math.floor(wizard_levels / 2);
@@ -27857,24 +27855,24 @@ function CalculateArmorClass() {
 	fortitude_string_2 = base_fortitude_bonus + " [base] ";
 	if (modifier_number(constitution) > 0) {
 		fortitude_string_2 += " + " + modifier_number(constitution)
-				+ " [constitution] "
+				+ " [constitution] ";
 	}
 	if (modifier_number(constitution) < 0) {
 		fortitude_string_2 += modifier_number(constitution)
-				+ " [constitution] "
+				+ " [constitution] ";
 	}
 	if (has_greatfortitude == true) {
 		fortitude_save += 2;
-		fortitude_string_2 += "  + 2 [great fortitude] "
+		fortitude_string_2 += "  + 2 [great fortitude] ";
 	}
 	if (rat_familiar == true) {
 		fortitude_save += 2;
-		fortitude_string_2 += "  + 2 [rat] "
+		fortitude_string_2 += "  + 2 [rat] ";
 	}
 	if ((paladin_levels > 1) & (modifier_number(charisma) > 0)) {
 		fortitude_save += modifier_number(charisma);
 		fortitude_string_2 += "  + " + modifier_number(charisma)
-				+ " [paladin charisma] "
+				+ " [paladin charisma] ";
 	}
 	if (has_protection_domain) {
 		x = 1;
@@ -27895,7 +27893,7 @@ function CalculateArmorClass() {
 	}
 	if (rayce == 6) {
 		fortitude_save += 1;
-		fortitude_string_2 += "  + 1 [halfling] "
+		fortitude_string_2 += "  + 1 [halfling] ";
 	}
 
 	if (fortitude_string_2 != "") {
@@ -27910,18 +27908,18 @@ function CalculateArmorClass() {
 	reflex_save = base_reflex_bonus + modifier_number(dexterity);
 	reflex_string_2 = base_reflex_bonus + " [base] ";
 	if (modifier_number(dexterity) > 0) {
-		reflex_string_2 += " + " + dexterity_0_string
+		reflex_string_2 += " + " + dexterity_0_string;
 	}
 	if (modifier_number(dexterity) < 0) {
-		reflex_string_2 += dexterity_0_string
+		reflex_string_2 += dexterity_0_string;
 	}
 	if (has_lightningreflexes == true) {
 		reflex_save += 2;
-		reflex_string_2 += "  + 2 [lightning reflexes] "
+		reflex_string_2 += "  + 2 [lightning reflexes] ";
 	}
 	if (weasel_familiar == true) {
 		reflex_save += 2;
-		reflex_string_2 += "  + 2 [weasel] "
+		reflex_string_2 += "  + 2 [weasel] ";
 	}
 	if (has_protection_domain) {
 		x = 1;
@@ -27943,11 +27941,11 @@ function CalculateArmorClass() {
 	if ((paladin_levels > 1) & (modifier_number(charisma) > 0)) {
 		reflex_save += modifier_number(charisma);
 		reflex_string_2 += "  + " + modifier_number(charisma)
-				+ " [paladin charisma] "
+				+ " [paladin charisma] ";
 	}
 	if (rayce == 6) {
 		reflex_save += 1;
-		reflex_string_2 += "  + 1 [halfling] "
+		reflex_string_2 += "  + 1 [halfling] ";
 	}
 	if (reflex_string_2 != "") {
 		reflex_string_2 = " = " + reflex_string_2;
@@ -27960,18 +27958,18 @@ function CalculateArmorClass() {
 	will_save = base_will_bonus + modifier_number(wisdom);
 	will_string_2 = base_will_bonus + " [base] ";
 	if (modifier_number(wisdom) > 0) {
-		will_string_2 += " + " + modifier_number(wisdom) + " [wisdom] "
+		will_string_2 += " + " + modifier_number(wisdom) + " [wisdom] ";
 	}
 	if (modifier_number(wisdom) < 0) {
-		will_string_2 += modifier_number(wisdom) + " [wisdom] "
+		will_string_2 += modifier_number(wisdom) + " [wisdom] ";
 	}
 	if (has_ironwill == true) {
 		will_save += 2;
-		will_string_2 += "  + 2 [iron will] "
+		will_string_2 += "  + 2 [iron will] ";
 	}
 	if (rayce == 6) {
 		will_save += 1;
-		will_string_2 += "  + 1 [halfling] "
+		will_string_2 += "  + 1 [halfling] ";
 	}
 	if (has_protection_domain) {
 		x = 1;
@@ -27993,7 +27991,7 @@ function CalculateArmorClass() {
 	if ((paladin_levels > 1) & (modifier_number(charisma) > 0)) {
 		will_save += modifier_number(charisma);
 		will_string_2 += "  + " + modifier_number(charisma)
-				+ " [paladin charisma] "
+				+ " [paladin charisma] ";
 	}
 	if (will_string_2 != "") {
 		will_string_2 = " = " + will_string_2;
@@ -28017,17 +28015,17 @@ function CalculateArmorClass() {
 	if (base_attack_bonus > 15) {
 		handheld_attack_string_1 += "/ + " + (handheld_attack - 15);
 	}
-	handheld_attack_string_2 = ""
+	handheld_attack_string_2 = "";
 	handheld_attack_string_2 += " = " + base_attack_bonus + " [base] ";
 	if (modifier_number(strength) > 0) {
 		handheld_attack_string_2 += " + " + modifier_number(strength)
-				+ " [strength] "
+				+ " [strength] ";
 	}
 	if (modifier_number(strength) < 0) {
-		handheld_attack_string_2 += modifier_number(strength) + " [strength] "
+		handheld_attack_string_2 += modifier_number(strength) + " [strength] ";
 	}
 	if (small == true) {
-		handheld_attack_string_2 += " + 1 [small] "
+		handheld_attack_string_2 += " + 1 [small] ";
 	}
 	if (handheld_attack >= 0) {
 		handheld_attack_string_1 = " + " + handheld_attack_string_1;
@@ -28039,47 +28037,47 @@ function CalculateArmorClass() {
 
 	x = monk_levels - 2 + modifier_number(strength);
 
-	flurry_of_blows_string = ""
+	flurry_of_blows_string = "";
 	if (x > 0) {
-		flurry_of_blows_string += " + "
+		flurry_of_blows_string += " + ";
 	}
 	flurry_of_blows_string += x + " / ";
 	if (x > 0) {
-		flurry_of_blows_string += " + "
+		flurry_of_blows_string += " + ";
 	}
 	flurry_of_blows_string += x;
 	if (monk_levels >= 6) {
 		flurry_of_blows_string += "/ ";
 		if (x - 5 > 0) {
-			flurry_of_blows_string += " + "
+			flurry_of_blows_string += " + ";
 		}
 		flurry_of_blows_string += (x - 5);
 	}
 	if (monk_levels >= 8) {
 		flurry_of_blows_string += " / ";
 		if (x - 5 > 0) {
-			flurry_of_blows_string += " + "
+			flurry_of_blows_string += " + ";
 		}
 		flurry_of_blows_string += (x - 5);
 	}
 	if (monk_levels >= 11) {
 		flurry_of_blows_string += " / ";
 		if (x - 10 > 0) {
-			flurry_of_blows_string += " + "
+			flurry_of_blows_string += " + ";
 		}
 		flurry_of_blows_string += (x - 10);
 	}
 	if (monk_levels >= 15) {
 		flurry_of_blows_string += " / ";
 		if (x - 10 > 0) {
-			flurry_of_blows_string += " + "
+			flurry_of_blows_string += " + ";
 		}
 		flurry_of_blows_string += (x - 10);
 	}
 	if (monk_levels >= 16) {
 		flurry_of_blows_string += " / ";
 		if (x - 15 > 10) {
-			flurry_of_blows_string += " + "
+			flurry_of_blows_string += " + ";
 		}
 		flurry_of_blows_string += (x - 15);
 	}
@@ -28099,23 +28097,23 @@ function CalculateArmorClass() {
 	CMB_string_2 += " = " + base_attack_bonus + " [base] ";
 	if (has_agilemaneuvers == false) {
 		if (modifier_number(strength) > 0) {
-			CMB_string_2 += " + " + modifier_number(strength) + " [strength] "
+			CMB_string_2 += " + " + modifier_number(strength) + " [strength] ";
 		}
 		if (modifier_number(strength) < 0) {
-			CMB_string_2 += modifier_number(strength) + " [strength] "
+			CMB_string_2 += modifier_number(strength) + " [strength] ";
 		}
 	}
 	if (has_agilemaneuvers == true) {
 		if (modifier_number(dexterity) > 0) {
 			CMB_string_2 += " + " + modifier_number(dexterity)
-					+ " [dexterity] "
+					+ " [dexterity] ";
 		}
 		if (modifier_number(dexterity) < 0) {
-			CMB_string_2 += modifier_number(dexterity) + " [dexterity] "
+			CMB_string_2 += modifier_number(dexterity) + " [dexterity] ";
 		}
 	}
 	if (small == true) {
-		CMB_string_2 += "-1 [small] "
+		CMB_string_2 += "-1 [small] ";
 	}
 
 	x = 10 + base_attack_bonus + modifier_number(strength)
@@ -28159,32 +28157,32 @@ function CalculateArmorClass() {
 		CMD_string_2 = " = 10 + " + total_levels + " [hit dice] ";
 	}
 	if (modifier_number(strength) > 0) {
-		CMD_string_2 += " + " + modifier_number(strength) + " [strength] "
+		CMD_string_2 += " + " + modifier_number(strength) + " [strength] ";
 	}
 	if (modifier_number(strength) < 0) {
-		CMD_string_2 += modifier_number(strength) + " [strength] "
+		CMD_string_2 += modifier_number(strength) + " [strength] ";
 	}
 	if (modifier_number(dexterity) > 0) {
-		CMD_string_2 += " + " + modifier_number(dexterity) + " [dexterity] "
+		CMD_string_2 += " + " + modifier_number(dexterity) + " [dexterity] ";
 	}
 	if (modifier_number(dexterity) < 0) {
-		CMD_string_2 += modifier_number(dexterity) + " [dexterity] "
+		CMD_string_2 += modifier_number(dexterity) + " [dexterity] ";
 	}
 	if (small == true) {
-		CMD_string_2 += "-1 [small] "
+		CMD_string_2 += "-1 [small] ";
 	}
 
 	if (unarmored) {
 		if (monk_levels >= 20) {
-			CMD_string_2 += " + 5 [unarmored monk] "
+			CMD_string_2 += " + 5 [unarmored monk] ";
 		} else if (monk_levels >= 16) {
-			CMD_string_2 += " + 4 [unarmored monk] "
+			CMD_string_2 += " + 4 [unarmored monk] ";
 		} else if (monk_levels >= 12) {
-			CMD_string_2 += " + 31 [unarmored monk] "
+			CMD_string_2 += " + 31 [unarmored monk] ";
 		} else if (monk_levels >= 8) {
-			CMD_string_2 += " + 2 [unarmored monk] "
+			CMD_string_2 += " + 2 [unarmored monk] ";
 		} else if (monk_levels >= 4) {
-			CMD_string_2 += " + 1 [unarmored monk] "
+			CMD_string_2 += " + 1 [unarmored monk] ";
 		}
 		if ((monk_levels > 0) & (modifier_number(wisdom) > 0)) {
 			CMD_string_2 += " + " + modifier_number(wisdom) + " [monk wisdom]";
@@ -28204,16 +28202,16 @@ function CalculateArmorClass() {
 	if (base_attack_bonus > 15) {
 		missile_attack_string_1 += "/ + " + (missile_attack - 15);
 	}
-	missile_attack_string_2 = ""
+	missile_attack_string_2 = "";
 	missile_attack_string_2 += " = " + base_attack_bonus + " [base] ";
 	if (modifier_number(dexterity) > 0) {
-		missile_attack_string_2 += " + " + dexterity_0_string
+		missile_attack_string_2 += " + " + dexterity_0_string;
 	}
 	if (modifier_number(dexterity) < 0) {
-		missile_attack_string_2 += dexterity_0_string
+		missile_attack_string_2 += dexterity_0_string;
 	}
 	if (small == true) {
-		missile_attack_string_2 += " + 1 [small] "
+		missile_attack_string_2 += " + 1 [small] ";
 	}
 	if (missile_attack >= 0) {
 		missile_attack_string_1 = " + " + missile_attack_string_1;
@@ -30878,32 +30876,32 @@ function PrepareBardSpellArrays() {
 
 		x = bspd(1);
 		if ((charisma < 11) & (bspd(1) > 0) & (charisma >= 10)) {
-			BardSpells1 = "Use your " + x + " first-level bard spell "
+			BardSpells1 = "Use your " + x + " first-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = bspd(2);
 		if ((charisma < 12) & (bspd(2) > 0) & (charisma >= 10)) {
-			BardSpells2 = "Use your " + x + " second-level bard spell "
+			BardSpells2 = "Use your " + x + " second-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = bspd(3);
 		if ((charisma < 13) & (bspd(3) > 0) & (charisma >= 10)) {
-			BardSpells3 = "Use your " + x + " third-level bard spell "
+			BardSpells3 = "Use your " + x + " third-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = bspd(4);
 		if ((charisma < 14) & (bspd(4) > 0) & (charisma >= 10)) {
-			BardSpells4 = "Use your " + x + " fourth-level bard spell "
+			BardSpells4 = "Use your " + x + " fourth-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = bspd(5);
 		if ((charisma < 15) & (bspd(5) > 0) & (charisma >= 10)) {
-			BardSpells5 = "Use your " + x + " fifth-level bard spell "
+			BardSpells5 = "Use your " + x + " fifth-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = bspd(6);
 		if ((charisma < 16) & (bspd(6) > 0) & (charisma >= 10)) {
-			BardSpells6 = "Use your " + x + " sixth-level bard spell "
+			BardSpells6 = "Use your " + x + " sixth-level bard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 
@@ -30928,7 +30926,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(0, wisdom);
 		stringy = "";
 		if (bonus_spell(0, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(0, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(0, wisdom) + ") ";
 		}
@@ -30940,7 +30938,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(1, wisdom);
 		stringy = "";
 		if (bonus_spell(1, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(1, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(1, wisdom) + ") ";
 		}
@@ -30952,7 +30950,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(2, wisdom);
 		stringy = "";
 		if (bonus_spell(2, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(2, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(2, wisdom) + ") ";
 		}
@@ -30964,7 +30962,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(3, wisdom);
 		stringy = "";
 		if (bonus_spell(3, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(3, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(3, wisdom) + ") ";
 		}
@@ -30976,7 +30974,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(4, wisdom);
 		stringy = "";
 		if (bonus_spell(4, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(4, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(4, wisdom) + ") ";
 		}
@@ -30988,7 +30986,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(5, wisdom);
 		stringy = "";
 		if (bonus_spell(5, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(5, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(5, wisdom) + ") ";
 		}
@@ -31000,7 +30998,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(6, wisdom);
 		stringy = "";
 		if (bonus_spell(6, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(6, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(6, wisdom) + ") ";
 		}
@@ -31012,7 +31010,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(7, wisdom);
 		stringy = "";
 		if (bonus_spell(7, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(7, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(7, wisdom) + ") ";
 		}
@@ -31024,7 +31022,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(8, wisdom);
 		stringy = "";
 		if (bonus_spell(8, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(8, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(8, wisdom) + ") ";
 		}
@@ -31036,7 +31034,7 @@ function PrepareClericSpellArrays() {
 				+ bonus_spell(9, wisdom);
 		stringy = "";
 		if (bonus_spell(9, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(9, cleric_levels + prestige_cleric_spell_levels)
 					+ " + " + bonus_spell(9, wisdom) + ") ";
 		}
@@ -31052,32 +31050,32 @@ function PrepareClericSpellArrays() {
 
 		x = cspd(1, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 11) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells1 = "Use your " + x + " + 1 first-level cleric spell "
+			ClericSpells1 = "Use your " + x + " + 1 first-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(2, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 12) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells2 = "Use your " + x + " + 1 second-level cleric spell "
+			ClericSpells2 = "Use your " + x + " + 1 second-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(3, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 13) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells3 = "Use your " + x + " + 1 third-level cleric spell "
+			ClericSpells3 = "Use your " + x + " + 1 third-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(4, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 14) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells4 = "Use your " + x + " + 1 fourth-level cleric spell "
+			ClericSpells4 = "Use your " + x + " + 1 fourth-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(5, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 15) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells5 = "Use your " + x + " + 1 fifth-level cleric spell "
+			ClericSpells5 = "Use your " + x + " + 1 fifth-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(6, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 16) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells6 = "Use your " + x + " + 1 sixth-level cleric spell "
+			ClericSpells6 = "Use your " + x + " + 1 sixth-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(7, cleric_levels + prestige_cleric_spell_levels);
@@ -31088,12 +31086,12 @@ function PrepareClericSpellArrays() {
 		}
 		x = cspd(8, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 18) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells8 = "Use your " + x + " + 1 eighth-level cleric spell "
+			ClericSpells8 = "Use your " + x + " + 1 eighth-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(9, cleric_levels + prestige_cleric_spell_levels);
 		if ((wisdom < 19) & (x > 0) & (wisdom >= 10)) {
-			ClericSpells9 = "Use your " + x + " + 1 ninth-level cleric spell "
+			ClericSpells9 = "Use your " + x + " + 1 ninth-level cleric spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 	}
@@ -31116,7 +31114,7 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(0, wisdom);
 		stringy = "";
 		if (bonus_spell(0, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(0, druid_levels + prestige_druid_spell_levels)
 					+ " + " + bonus_spell(0, wisdom) + ") ";
 		}
@@ -31128,9 +31126,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(1, wisdom);
 		stringy = "";
 		if (bonus_spell(1, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(1, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(1, wisdom) + ") "
+					+ " + " + bonus_spell(1, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells1 = "First-level Druid spells: " + x + stringy
@@ -31140,9 +31138,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(2, wisdom);
 		stringy = "";
 		if (bonus_spell(2, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(2, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(2, wisdom) + ") "
+					+ " + " + bonus_spell(2, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells2 = "Second-level Druid spells: " + x + stringy
@@ -31152,9 +31150,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(3, wisdom);
 		stringy = "";
 		if (bonus_spell(3, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(3, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(3, wisdom) + ") "
+					+ " + " + bonus_spell(3, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells3 = "Third-level Druid spells: " + x + stringy
@@ -31164,9 +31162,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(4, wisdom);
 		stringy = "";
 		if (bonus_spell(4, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(4, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(4, wisdom) + ") "
+					+ " + " + bonus_spell(4, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells4 = "Fourth-level Druid spells: " + x + stringy
@@ -31176,9 +31174,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(5, wisdom);
 		stringy = "";
 		if (bonus_spell(5, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(5, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(5, wisdom) + ") "
+					+ " + " + bonus_spell(5, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells5 = "Fifth-level Druid spells: " + x + stringy
@@ -31188,9 +31186,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(6, wisdom);
 		stringy = "";
 		if (bonus_spell(6, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(6, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(6, wisdom) + ") "
+					+ " + " + bonus_spell(6, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells6 = "Sixth-level Druid spells: " + x + stringy
@@ -31200,9 +31198,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(7, wisdom);
 		stringy = "";
 		if (bonus_spell(7, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(7, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(7, wisdom) + ") "
+					+ " + " + bonus_spell(7, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells7 = "Seventh-level Druid spells: " + x + stringy
@@ -31212,9 +31210,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(8, wisdom);
 		stringy = "";
 		if (bonus_spell(8, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(8, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(8, wisdom) + ") "
+					+ " + " + bonus_spell(8, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells8 = "Eighth-level Druid spells: " + x + stringy
@@ -31224,9 +31222,9 @@ function PrepareDruidSpellArrays() {
 				+ bonus_spell(9, wisdom);
 		stringy = "";
 		if (bonus_spell(9, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ cspd(9, druid_levels + prestige_druid_spell_levels)
-					+ " + " + bonus_spell(9, wisdom) + ") "
+					+ " + " + bonus_spell(9, wisdom) + ") ";
 		}
 		if (x > 0) {
 			DruidSpells9 = "Ninth-level Druid spells: " + x + stringy
@@ -31240,47 +31238,47 @@ function PrepareDruidSpellArrays() {
 
 		x = cspd(1, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 11) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells1 = "Use your " + x + " first-level druid spell "
+			DruidSpells1 = "Use your " + x + " first-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(2, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 12) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells2 = "Use your " + x + " second-level druid spell "
+			DruidSpells2 = "Use your " + x + " second-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(3, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 13) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells3 = "Use your " + x + " third-level druid spell "
+			DruidSpells3 = "Use your " + x + " third-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(4, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 14) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells4 = "Use your " + x + " fourth-level druid spell "
+			DruidSpells4 = "Use your " + x + " fourth-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(5, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 15) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells5 = "Use your " + x + " fifth-level druid spell "
+			DruidSpells5 = "Use your " + x + " fifth-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(6, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 16) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells6 = "Use your " + x + " sixth-level druid spell "
+			DruidSpells6 = "Use your " + x + " sixth-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(7, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 17) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells7 = "Use your " + x + " seventh-level druid spell "
+			DruidSpells7 = "Use your " + x + " seventh-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(8, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 18) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells8 = "Use your " + x + " eighth-level druid spell "
+			DruidSpells8 = "Use your " + x + " eighth-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = cspd(9, druid_levels + prestige_druid_spell_levels);
 		if ((wisdom < 19) & (x > 0) & (wisdom >= 10)) {
-			DruidSpells9 = "Use your " + x + " ninth-level druid spell "
+			DruidSpells9 = "Use your " + x + " ninth-level druid spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 
@@ -31304,7 +31302,7 @@ function PreparePaladinSpellArrays() {
 				+ bonus_spell(1, charisma);
 		stringy = "";
 		if (bonus_spell(1, charisma) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(1, paladin_levels + prestige_paladin_spell_levels)
 					+ " + " + bonus_spell(1, charisma) + ") ";
 		}
@@ -31316,7 +31314,7 @@ function PreparePaladinSpellArrays() {
 				+ bonus_spell(2, charisma);
 		stringy = "";
 		if (bonus_spell(2, charisma) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(2, paladin_levels + prestige_paladin_spell_levels)
 					+ " + " + bonus_spell(2, charisma) + ") ";
 		}
@@ -31328,7 +31326,7 @@ function PreparePaladinSpellArrays() {
 				+ bonus_spell(3, charisma);
 		stringy = "";
 		if (bonus_spell(3, charisma) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(3, paladin_levels + prestige_paladin_spell_levels)
 					+ " + " + bonus_spell(3, charisma) + ") ";
 		}
@@ -31340,7 +31338,7 @@ function PreparePaladinSpellArrays() {
 				+ bonus_spell(4, charisma);
 		stringy = "";
 		if (bonus_spell(4, charisma) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(4, paladin_levels + prestige_paladin_spell_levels)
 					+ " + " + bonus_spell(4, charisma) + ") ";
 		}
@@ -31356,22 +31354,22 @@ function PreparePaladinSpellArrays() {
 
 		x = pspd(1, paladin_levels + prestige_paladin_spell_levels);
 		if ((charisma < 11) & (x > 0) & (charisma >= 10)) {
-			PaladinSpells1 = "Use your " + x + " first-level paladin spell "
+			PaladinSpells1 = "Use your " + x + " first-level paladin spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(2, paladin_levels + prestige_paladin_spell_levels);
 		if ((charisma < 12) & (x > 0) & (charisma >= 10)) {
-			PaladinSpells2 = "Use your " + x + " second-level paladin spell "
+			PaladinSpells2 = "Use your " + x + " second-level paladin spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(3, paladin_levels + prestige_paladin_spell_levels);
 		if ((charisma < 13) & (x > 0) & (charisma >= 10)) {
-			PaladinSpells3 = "Use your " + x + " third-level paladin spell "
+			PaladinSpells3 = "Use your " + x + " third-level paladin spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(4, paladin_levels + prestige_paladin_spell_levels);
 		if ((charisma < 14) & (x > 0) & (charisma >= 10)) {
-			PaladinSpells4 = "Use your " + x + " fourth-level paladin spell "
+			PaladinSpells4 = "Use your " + x + " fourth-level paladin spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 	}
@@ -31393,7 +31391,7 @@ function PrepareRangerSpellArrays() {
 				+ bonus_spell(1, wisdom);
 		stringy = "";
 		if (bonus_spell(1, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(1, ranger_levels + prestige_ranger_spell_levels)
 					+ " + " + bonus_spell(1, wisdom) + ") ";
 		}
@@ -31405,7 +31403,7 @@ function PrepareRangerSpellArrays() {
 				+ bonus_spell(2, wisdom);
 		stringy = "";
 		if (bonus_spell(2, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(2, ranger_levels + prestige_ranger_spell_levels)
 					+ " + " + bonus_spell(2, wisdom) + ") ";
 		}
@@ -31417,7 +31415,7 @@ function PrepareRangerSpellArrays() {
 				+ bonus_spell(3, wisdom);
 		stringy = "";
 		if (bonus_spell(3, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(3, ranger_levels + prestige_ranger_spell_levels)
 					+ " + " + bonus_spell(3, wisdom) + ") ";
 		}
@@ -31429,7 +31427,7 @@ function PrepareRangerSpellArrays() {
 				+ bonus_spell(4, wisdom);
 		stringy = "";
 		if (bonus_spell(4, wisdom) > 0) {
-			stringy = " ("
+			stringy = " (";
 					+ pspd(4, ranger_levels + prestige_ranger_spell_levels)
 					+ " + " + bonus_spell(4, wisdom) + ") ";
 		}
@@ -31445,22 +31443,22 @@ function PrepareRangerSpellArrays() {
 
 		x = pspd(1, ranger_levels + prestige_ranger_spell_levels);
 		if ((wisdom < 11) & (x > 0) & (wisdom >= 10)) {
-			RangerSpells1 = "Use your " + x + " first-level ranger spell "
+			RangerSpells1 = "Use your " + x + " first-level ranger spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(2, ranger_levels + prestige_ranger_spell_levels);
 		if ((wisdom < 12) & (x > 0) & (wisdom >= 10)) {
-			RangerSpells2 = "Use your " + x + " second-level ranger spell "
+			RangerSpells2 = "Use your " + x + " second-level ranger spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(3, ranger_levels + prestige_ranger_spell_levels);
 		if ((wisdom < 13) & (x > 0) & (wisdom >= 10)) {
-			RangerSpells3 = "Use your " + x + " third-level ranger spell "
+			RangerSpells3 = "Use your " + x + " third-level ranger spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = pspd(4, ranger_levels + prestige_ranger_spell_levels);
 		if ((wisdom < 14) & (x > 0) & (wisdom >= 10)) {
-			RangerSpells4 = "Use your " + x + " fourth-level ranger spell "
+			RangerSpells4 = "Use your " + x + " fourth-level ranger spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 	}
@@ -31509,7 +31507,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(0) + bonus_spell(0, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(0, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(0) + " + "
+			stringy = " (" + sspd(0) + " + ";
 					+ bonus_spell(0, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31518,7 +31516,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(1) + bonus_spell(1, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(1, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(1) + " + "
+			stringy = " (" + sspd(1) + " + ";
 					+ bonus_spell(1, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31528,7 +31526,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(2) + bonus_spell(2, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(2, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(2) + " + "
+			stringy = " (" + sspd(2) + " + ";
 					+ bonus_spell(2, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31538,7 +31536,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(3) + bonus_spell(3, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(3, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(3) + " + "
+			stringy = " (" + sspd(3) + " + ";
 					+ bonus_spell(3, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31548,7 +31546,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(4) + bonus_spell(4, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(4, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(4) + " + "
+			stringy = " (" + sspd(4) + " + ";
 					+ bonus_spell(4, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31558,7 +31556,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(5) + bonus_spell(5, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(5, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(5) + " + "
+			stringy = " (" + sspd(5) + " + ";
 					+ bonus_spell(5, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31568,7 +31566,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(6) + bonus_spell(6, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(6, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(6) + " + "
+			stringy = " (" + sspd(6) + " + ";
 					+ bonus_spell(6, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31578,7 +31576,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(7) + bonus_spell(7, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(7, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(7) + " + "
+			stringy = " (" + sspd(7) + " + ";
 					+ bonus_spell(7, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31588,7 +31586,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(8) + bonus_spell(8, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(8, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(8) + " + "
+			stringy = " (" + sspd(8) + " + ";
 					+ bonus_spell(8, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31598,7 +31596,7 @@ function PrepareSorcererSpellArrays() {
 		x = sspd(9) + bonus_spell(9, SorcerousCharisma());
 		stringy = "";
 		if (bonus_spell(9, SorcerousCharisma()) > 0) {
-			stringy = " (" + sspd(9) + " + "
+			stringy = " (" + sspd(9) + " + ";
 					+ bonus_spell(9, SorcerousCharisma()) + ") ";
 		}
 		if (x > 0) {
@@ -31613,32 +31611,32 @@ function PrepareSorcererSpellArrays() {
 
 		x = sspd(1);
 		if ((SorcerousCharisma() < 11) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells1 = "Use your " + x + " first-level sorcerer spell "
+			SorcererSpells1 = "Use your " + x + " first-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(2);
 		if ((SorcerousCharisma() < 12) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells2 = "Use your " + x + " second-level sorcerer spell "
+			SorcererSpells2 = "Use your " + x + " second-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(3);
 		if ((SorcerousCharisma() < 13) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells3 = "Use your " + x + " third-level sorcerer spell "
+			SorcererSpells3 = "Use your " + x + " third-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(4);
 		if ((SorcerousCharisma() < 14) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells4 = "Use your " + x + " fourth-level sorcerer spell "
+			SorcererSpells4 = "Use your " + x + " fourth-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(5);
 		if ((SorcerousCharisma() < 15) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells5 = "Use your " + x + " fifth-level sorcerer spell "
+			SorcererSpells5 = "Use your " + x + " fifth-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(6);
 		if ((SorcerousCharisma() < 16) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells6 = "Use your " + x + " sixth-level sorcerer spell "
+			SorcererSpells6 = "Use your " + x + " sixth-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(7);
@@ -31649,12 +31647,12 @@ function PrepareSorcererSpellArrays() {
 		}
 		x = sspd(8);
 		if ((SorcerousCharisma() < 18) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells8 = "Use your " + x + " eighth-level sorcerer spell "
+			SorcererSpells8 = "Use your " + x + " eighth-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = sspd(9);
 		if ((SorcerousCharisma() < 19) & (x > 0) & (SorcerousCharisma() >= 10)) {
-			SorcererSpells9 = "Use your " + x + " ninth-level sorcerer spell "
+			SorcererSpells9 = "Use your " + x + " ninth-level sorcerer spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 
@@ -31688,7 +31686,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells0 = "<p>Zero-level " + wizard_specialty_name
@@ -31709,7 +31707,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells1 = "First-level " + wizard_specialty_name
@@ -31728,7 +31726,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells2 = "Second-level " + wizard_specialty_name
@@ -31747,7 +31745,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells3 = "Third-level " + wizard_specialty_name
@@ -31766,7 +31764,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells4 = "Fourth-level " + wizard_specialty_name
@@ -31785,7 +31783,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells5 = "Fifth-level " + wizard_specialty_name
@@ -31804,7 +31802,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells6 = "Sixth-level " + wizard_specialty_name
@@ -31823,7 +31821,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells7 = "Seventh-level " + wizard_specialty_name
@@ -31842,7 +31840,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells8 = "Eighth-level " + wizard_specialty_name
@@ -31861,7 +31859,7 @@ function PrepareWizardSpellArrays() {
 			if (no_specialist == false) {
 				stringy += " + 1";
 			}
-			stringy += ") "
+			stringy += ") ";
 		}
 		if (x > 0) {
 			WizardSpells9 = "Ninth-level " + wizard_specialty_name
@@ -31878,7 +31876,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 11) & (wspd(1) > 0) & (intelligence >= 10)) {
-			WizardSpells1 = "Use your " + x + " first-level wizard spell "
+			WizardSpells1 = "Use your " + x + " first-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(2);
@@ -31886,7 +31884,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 12) & (wspd(2) > 0) & (intelligence >= 10)) {
-			WizardSpells2 = "Use your " + x + " second-level wizard spell "
+			WizardSpells2 = "Use your " + x + " second-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(3);
@@ -31894,7 +31892,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 13) & (wspd(3) > 0) & (intelligence >= 10)) {
-			WizardSpells3 = "Use your " + x + " third-level wizard spell "
+			WizardSpells3 = "Use your " + x + " third-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(4);
@@ -31902,7 +31900,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 14) & (wspd(4) > 0) & (intelligence >= 10)) {
-			WizardSpells4 = "Use your " + x + " fourth-level wizard spell "
+			WizardSpells4 = "Use your " + x + " fourth-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(5);
@@ -31910,7 +31908,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 15) & (wspd(5) > 0) & (intelligence >= 10)) {
-			WizardSpells5 = "Use your " + x + " fifth-level wizard spell "
+			WizardSpells5 = "Use your " + x + " fifth-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(6);
@@ -31918,7 +31916,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 16) & (wspd(6) > 0) & (intelligence >= 10)) {
-			WizardSpells6 = "Use your " + x + " sixth-level wizard spell "
+			WizardSpells6 = "Use your " + x + " sixth-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(7);
@@ -31926,7 +31924,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 17) & (wspd(7) > 0) & (intelligence >= 10)) {
-			WizardSpells7 = "Use your " + x + " seventh-level wizard spell "
+			WizardSpells7 = "Use your " + x + " seventh-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(8);
@@ -31934,7 +31932,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 18) & (wspd(8) > 0) & (intelligence >= 10)) {
-			WizardSpells8 = "Use your " + x + " eighth-level wizard spell "
+			WizardSpells8 = "Use your " + x + " eighth-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 		x = wspd(9);
@@ -31942,7 +31940,7 @@ function PrepareWizardSpellArrays() {
 			x++;
 		}
 		if ((intelligence < 19) & (wspd(9) > 0) & (intelligence >= 10)) {
-			WizardSpells9 = "Use your " + x + " ninth-level wizard spell "
+			WizardSpells9 = "Use your " + x + " ninth-level wizard spell ";
 					+ slottage(x) + " to cast lower-level spells:";
 		}
 
@@ -31951,69 +31949,69 @@ function PrepareWizardSpellArrays() {
 
 function SuggestLooks() {
 	if (rayce == 1) {
-		document.form1.Looks.value = "Humans have a great variety of eye, hair, and skin colors."
+		document.form1.Looks.value = "Humans have a great variety of eye, hair, and skin colors.";
 	}
 	if (rayce == 2) {
-		document.form1.Looks.value = "In Pathfinder,half-elves tend to be tall, and have a great variety of eye, hair, and skin colors."
+		document.form1.Looks.value = "In Pathfinder,half-elves tend to be tall, and have a great variety of eye, hair, and skin colors.";
 	}
 	if (rayce == 3) {
-		document.form1.Looks.value = "In Pathfinder, elves tend to be taller than humans, not shorter.  They have a great variety of eye, hair, and skin colors."
+		document.form1.Looks.value = "In Pathfinder, elves tend to be taller than humans, not shorter.  They have a great variety of eye, hair, and skin colors.";
 		if (gender == 1) {
 			document.form1.Looks.value = "  Elven men seldom have much facial / body hair.";
 		}
 	}
 	if (rayce == 4) {
-		document.form1.Looks.value = "Dwarves have a great variety of eye, hair, and skin colors."
+		document.form1.Looks.value = "Dwarves have a great variety of eye, hair, and skin colors.";
 		if (gender == 1) {
 			document.form1.Looks.value += "  Dwarven men usually have thick beards.";
 		}
 	}
 	if (rayce == 5) {
-		document.form1.Looks.value = "Gnomes have a great variety of eye, hair, and skin colors."
+		document.form1.Looks.value = "Gnomes have a great variety of eye, hair, and skin colors.";
 	}
 	if (rayce == 6) {
-		document.form1.Looks.value = "Halflings have a great variety of eye, hair, and skin colors.  Hair tends to be curly."
+		document.form1.Looks.value = "Halflings have a great variety of eye, hair, and skin colors.  Hair tends to be curly.";
 	}
 	if (rayce == 7) {
-		document.form1.Looks.value = "Half-Orcs tend to have dark or green skin."
+		document.form1.Looks.value = "Half-Orcs tend to have dark or green skin.";
 	}
 	if (rayce == 9) {
-		document.form1.Looks.value = "Your dhampir can look however you like."
+		document.form1.Looks.value = "Your dhampir can look however you like.";
 	}
 	if (rayce == 22) {
-		document.form1.Looks.value = "Many orcs have green or gray skin and black hair, but your orc can look however you like."
+		document.form1.Looks.value = "Many orcs have green or gray skin and black hair, but your orc can look however you like.";
 	}
 	if (rayce == 28) {
-		document.form1.Looks.value = "Your aasimar can look however you like."
+		document.form1.Looks.value = "Your aasimar can look however you like.";
 	}
 	if (rayce == 33) {
-		document.form1.Looks.value = "Your tiefling can look however you like."
+		document.form1.Looks.value = "Your tiefling can look however you like.";
 	}
 	if (rayce == 12) {
-		document.form1.Looks.value = "Drow generally have dark skin, white hair, and strangely-colored eyes."
+		document.form1.Looks.value = "Drow generally have dark skin, white hair, and strangely-colored eyes.";
 		if (gender == 1) {
 			document.form1.Looks.value = "  Elven men seldom have much facial / body hair.";
 		}
 	}
 	if (rayce == 29) {
-		document.form1.Looks.value = "Most sylphs are light-complected."
+		document.form1.Looks.value = "Most sylphs are light-complected.";
 	}
 	if (rayce == 30) {
-		document.form1.Looks.value = "Most oreads have dark skin and black or white hair and eyes."
+		document.form1.Looks.value = "Most oreads have dark skin and black or white hair and eyes.";
 	}
 	if (rayce == 31) {
-		document.form1.Looks.value = "Most ifrit have red coloration."
+		document.form1.Looks.value = "Most ifrit have red coloration.";
 	}
 	if (rayce == 32) {
-		document.form1.Looks.value = "Most undines have green / blue coloration."
+		document.form1.Looks.value = "Most undines have green / blue coloration.";
 	}
 	//zzzzzzzzzzzz
-	document.form1.Looks.value += "  Feel free to hand-edit your final sheet according to your character concept."
+	document.form1.Looks.value += "  Feel free to hand-edit your final sheet according to your character concept.";
 }
 
 function lock_feats() {
 	if (Feats() == true) {
-		document.form1.sixth_comment_box.value = "Feats are assigned."
+		document.form1.sixth_comment_box.value = "Feats are assigned.";
 		ClassNeeds();
 		FeatsAreLocked = true;
 		LightArmsAndArmorStars();
@@ -32024,7 +32022,7 @@ function lock_feats() {
 		AdjustWeight();
 
 	} else {
-		document.form1.sixth_comment_box.value = "Work on your feats"
+		document.form1.sixth_comment_box.value = "Work on your feats";
 	}
 	ArrowShow();
 }
@@ -32080,12 +32078,12 @@ function TellAboutPointBuy() {
 		x = pointbuy(stat1) + pointbuy(stat2) + pointbuy(stat3)
 				+ pointbuy(stat4) + pointbuy(stat5) + pointbuy(stat6);
 		document.form1.first_comment_box.value += x
-				+ " points spent.\r  Low fantasy = 10\r  Standard fantasy = 15\r  High fantasy = 20\r  Epic fantasy = 25"
+				+ " points spent.\r  Low fantasy = 10\r  Standard fantasy = 15\r  High fantasy = 20\r  Epic fantasy = 25";
 	}
 	if (document.form1.methods_list.selectedIndex == 7) {
 		x = stat1 + stat2 + stat3 + stat4 + stat5 + stat6;
 		document.form1.first_comment_box.value += x
-				+ " points total.\r Some campaigns recommend 75 for adventurers."
+				+ " points total.\r Some campaigns recommend 75 for adventurers.";
 	}
 
 }

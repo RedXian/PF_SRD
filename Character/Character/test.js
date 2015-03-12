@@ -251,7 +251,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word “elven” in its name as a martial weapon."
+	            "description" : "Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word \"elven\" in its name as a martial weapon."
 	        },
 	        "Arcane Focus" : {
 	            "type" : "trait.racial.alternate",
@@ -359,7 +359,7 @@ $(function() {
 	        },
 	        "Gnome Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day—dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
+	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day-dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
 	        },
 	        "Hatred" : {
 	            "type" : "trait.racial",
@@ -378,7 +378,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : " Gnomes treat any weapon with the word “gnome” in its name as a martial weapon."
+	            "description" : " Gnomes treat any weapon with the word \"gnome\" in its name as a martial weapon."
 	        },
 	        "Academician" : {
 	            "type" : "trait.racial.alternate",
@@ -483,7 +483,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Halflings are proficient with slings and treat any weapon with the word “halfling” in its name as a martial weapon."
+	            "description" : "Halflings are proficient with slings and treat any weapon with the word \"halfling\" in its name as a martial weapon."
 	        },
 	        "Adaptable Luck" : {
 	            "type" : "trait.racial.alternate",
@@ -685,7 +685,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Half-orcs are proficient with greataxes and falchions and treat any weapon with the word “orc” in its name as a martial weapon."
+	            "description" : "Half-orcs are proficient with greataxes and falchions and treat any weapon with the word \"orc\" in its name as a martial weapon."
 	        },
 	        "Acute Darkvision" : {
 	            "type" : "trait.racial.alternate",
@@ -2306,7 +2306,7 @@ $(function() {
 	    }
 	};
 
-	var raceList = []
+	var raceList = [];
 	var optGroups = {
 	    prefix : "r",
 	    list : []
@@ -2375,7 +2375,7 @@ $(function() {
 
 		var race = $("#race").val();
 		var stat = $(this).val();
-		var mod = parseInt(RACES[race]["Ability Modifiers"].Any)
+		var mod = parseInt(RACES[race]["Ability Modifiers"].Any);
 
 		$("#" + stat + " .stat-racialMod").val(mod);
 		var score = parseInt($("#" + stat + " .stat-score").val());
@@ -2383,21 +2383,13 @@ $(function() {
 	});
 
 	function serialCommaJoin(arrayList){
-		var newList = [];
-		$.each(arrayList, function(k, v) {
-			if (k == (arrayList.length - 1) && k > 0) {
-				if(arrayList.length > 2) {
-					newList.push(", and " + v);
-				}
-				else {						
-					newList.push(" and " + v)
-				}
-			} else if (k > 0) {
-				newList.push(", " + v);
-			} else
-				newList.push(v);
-		});
-		return newList.join('');
+		// TODO: Add support for 'or' and 'nor'
+		if (arrayList.length < 3) {
+			return arrayList.join(" and ");
+		} else {
+			arrayList[arrayList.length-1] = "and " + arrayList[arrayList.length-1];
+		}		
+		return arrayList.join(", ");
 	}
 	
 	$("#race").change(function() {
@@ -2453,5 +2445,5 @@ $(function() {
 				}
 			}
 		});
-	})
+	});
 });

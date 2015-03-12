@@ -127,7 +127,7 @@ function populateRaces() {
 	var target = $("#races");
 	$.getJSON("races.json", function(data) {
 
-		var raceList = []
+		var raceList = [];
 		var optGroups = {
 		    prefix : "r",
 		    list : []
@@ -143,7 +143,7 @@ function populateRaces() {
 		});
 
 		optGroup.list.sort(function(a, b) {
-			var bookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
+			var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
 			a = $.inArray(a, BookOrder);
 			b = $.inArray(b, BookOrder);
 			return a - b;
