@@ -2382,6 +2382,24 @@ $(function() {
 		$("#" + stat + " .stat-score").val(score + parseInt(mod));
 	});
 
+	function serialCommaJoin(arrayList){
+		var newList = [];
+		$.each(arrayList, function(k, v) {
+			if (k == (arrayList.length - 1) && k > 0) {
+				if(arrayList.length > 2) {
+					newList.push(", and " + v);
+				}
+				else {						
+					newList.push(" and " + v)
+				}
+			} else if (k > 0) {
+				newList.push(", " + v);
+			} else
+				newList.push(v);
+		});
+		return newList.join('');
+	}
+	
 	$("#race").change(function() {
 		$("#output").empty();
 		$("#Any").hide();
@@ -2420,31 +2438,11 @@ $(function() {
 					});
 					break;
 				case "Languages":
-					var numLang = value["default"].length;
-					var newlist = [];
-					$.each(value["default"], function(k, v) {
-						if (k == (numLang - 1) && k > 0)
-							newlist.push(" and " + v);
-						else if (k > 0)
-							newlist.push(", " + v);
-						else
-							newlist.push(v);
-					});
-					var line = $("<P />").text(newlist.join(''));
+					var line = $("<P />").text(serialCommaJoin(value["default"]));
 					$("<B />").text("Starting Languages: ").prependTo(line);
 					line.appendTo("#output");
-					numLang = value.list.length;
-					var newlist = [];
-					$.each(value.list, function(k, v) {
-						console.log(v + ": " + k + " == " + numLang);
-						if (k == (numLang - 1) && k > 0) {
-							newlist.push(" and " + v)
-						} else if (k > 0) {
-							newlist.push(", " + v);
-						} else
-							newlist.push(v);
-					});
-					var line = $("<P />").text(newlist.join(''));
+					
+					var line = $("<P />").text(serialCommaJoin(value.list));
 					$("<B />").text("Available Languages: ").prependTo(line);
 					line.appendTo("#output");
 					break;
