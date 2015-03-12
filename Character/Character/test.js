@@ -6,6 +6,13 @@ $(function() {
 	var RACES = {
 	    "Dwarf" : {
 	        "type" : "race",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+3d6",
+	            "Self-Taught" : "+5d6",
+	            "Trained" : "+7d6"
+	        },
+	        "description" : "These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Dwarves are both tough and wise, but also a bit gruff.",
@@ -146,6 +153,13 @@ $(function() {
 	    },
 	    "Elf" : {
 	        "type" : "race",
+	        "Age" : {
+	            "Adulthood" : "110",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+10d6"
+	        },
+	        "description" : "Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Elves are nimble, both in body and mind, but their form is frail.",
@@ -255,6 +269,13 @@ $(function() {
 	    },
 	    "Gnome" : {
 	        "type" : "race",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+9d6"
+	        },
+	        "description" : "Expatriates of the strange land of fey, these small folk have a reputation for flighty and eccentric behavior. Many gnomes are whimsical artisans and tinkers, creating strange devices powered by magic, alchemy, and their quirky imagination. Gnomes have an insatiable need for new experiences that often gets them in trouble.",
 	        "Ability Modifiers" : {
 	            "description" : "Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.",
 	            "Constitution" : "+2",
@@ -369,6 +390,7 @@ $(function() {
 	    },
 	    "Halfling" : {
 	        "type" : "race",
+	        "description" : "Members of this diminutive race find strength in family, community, and their own innate and seemingly inexhaustible luck. While their fierce curiosity is sometimes at odds with their intrinsic common sense, halflings are eternal optimists and cunning opportunists with an incredible knack for getting out the worst situations.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Halflings are nimble and strong-willed, but their small stature makes them weaker than other races.",
@@ -478,6 +500,7 @@ $(function() {
 	    },
 	    "Half-elf" : {
 	        "type" : "race",
+	        "description" : "Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.",
 	        "Ability Modifiers" : {
 	            "description" : "Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
 	            "OneAbility" : "+2"
@@ -570,6 +593,7 @@ $(function() {
 	    },
 	    "Half-orc" : {
 	        "type" : "race",
+	        "description" : "Often fierce and savage, sometimes noble and resolute, half-orcs can manifest the best and worst qualities of their parent races. Many half-orcs struggle to keep their more bestial natures in check in order to epitomize the most heroic values of humanity. Unfortunately, many outsiders see half-orcs as hopeless abominations devoid of civility, if not monsters unworthy of pity or parley.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
@@ -682,6 +706,7 @@ $(function() {
 	    },
 	    "Human" : {
 	        "type" : "race",
+	        "description" : "Ambitious, sometimes heroic, and always confident, humans have an ability to work together toward common goals that makes them a force to be reckoned with. Though short-lived compared to other races, their boundless energy and drive allow them to accomplish much in their brief lifetimes.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
@@ -2242,7 +2267,7 @@ $(function() {
 		b = $.inArray(b, BookOrder);
 		return a - b;
 	});
-	
+
 	$.each(optGroups.list, function(key, group) {
 		if (typeof group === 'string') {
 			console.log(group);
@@ -2252,64 +2277,74 @@ $(function() {
 			}).text(group).appendTo($("#race"));
 		}
 	});
-	
+
 	raceList.sort(function(a, b) {
 		return a.name < b.name ? -1 : (a.name > b.name ? 1 : 0);
 	});
-	
-	$.each(raceList, function(key, race){
+
+	$.each(raceList, function(key, race) {
 		$("<option />", {
-			 "value" : race.name
-			 }).text(race.name).appendTo($("#r" + race.source.replace(/[\s']*/g, '')));
+			"value" : race.name
+		}).text(race.name).appendTo($("#r" + race.source.replace(/[\s']*/g, '')));
 	});
-	
-	$("#race").change(function (){
+
+	$("#race").change(function() {
 		$("#output").empty();
-		var race =$(this).val();
+		var race = $(this).val();
 		console.log(RACES[race]);
-		$("<H2/>").text(race).appendTo("#output");
+		$("<H2 />").text(race).appendTo("#output");
+		if (RACES[race].description) {
+			$("<P />").text(RACES[race].description).appendTo("#output");
+		}
 		$.each(RACES[race], function(key, value) {
-			if(value.type == "trait.racial") {
-				switch(key){
+			if (value.type == "trait.racial") {
+				switch (key) {
 				case "Ability Modifiers":
 					var line = $("<P />").text(value.description);
 					$("<B />").text(key + ": ").prependTo(line);
 					line.appendTo("#output");
 					$.each(value, function(stat, mod) {
 						var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
-						if ($.inArray(stat, abilities) != -1)
-						{						var li = $("<LI />").text(mod);
-						$("<B />").text(stat + ": ").prependTo(li);
-						li.appendTo("#output");}
+						if ($.inArray(stat, abilities) != -1) {
+							var li = $("<LI />").text(mod);
+							$("<B />").text(stat + ": ").prependTo(li);
+							li.appendTo("#output");
+						}
 					});
 					break;
 				case "Languages":
 					var numLang = value["default"].length;
 					var newlist = [];
-					$.each(value["default"], function(k, v){
-						if (k == (numLang-1) && k > 0) newlist.push(" and " + v);
-						else if (k > 0) newlist.push(", " + v);
-						else newlist.push(v);
+					$.each(value["default"], function(k, v) {
+						if (k == (numLang - 1) && k > 0)
+							newlist.push(" and " + v);
+						else if (k > 0)
+							newlist.push(", " + v);
+						else
+							newlist.push(v);
 					});
 					var line = $("<P />").text(newlist.join(''));
 					$("<B />").text("Starting Languages: ").prependTo(line);
 					line.appendTo("#output");
 					numLang = value.list.length;
 					var newlist = [];
-					$.each(value.list, function(k, v){
+					$.each(value.list, function(k, v) {
 						console.log(v + ": " + k + " == " + numLang);
-						if (k == (numLang-1) && k > 0) {newlist.push(" and " + v)}
-						else if (k > 0) {newlist.push(", " + v);}
-						else newlist.push(v);
+						if (k == (numLang - 1) && k > 0) {
+							newlist.push(" and " + v)
+						} else if (k > 0) {
+							newlist.push(", " + v);
+						} else
+							newlist.push(v);
 					});
 					var line = $("<P />").text(newlist.join(''));
 					$("<B />").text("Available Languages: ").prependTo(line);
 					line.appendTo("#output");
 					break;
 				default:
-			var line = $("<P />").text(value.description);
-			$("<B />").text(key + ": ").prependTo(line).appendText;
-			line.appendTo("#output");
+					var line = $("<P />").text(value.description);
+					$("<B />").text(key + ": ").prependTo(line).appendText;
+					line.appendTo("#output");
 				}
 			}
 		});

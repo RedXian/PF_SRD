@@ -12,10 +12,83 @@
 </script>
 </head>
 <body>
-	<div>
-		<label for="race">Race:</label> <select id="race">
-			<option selected style="display: none">Select Race</option>
-		</select>
+	<div id="input">
+	<h2>Character</h2>
+		<label for="characterName">Name:</label><input type=text
+			id="characterName">
+		<div>
+			<label for="race">Race:</label><select id="race">
+				<option selected style="display: none">Select Race</option>
+			</select>
+		</div>
+		<div>
+			<label for="class">Class:</label><select id="class">
+				<option selected style="display: none">Select Class</option>
+			</select>
+			<div id="classDesc"></div>
+		</div>
+		<div class="archetype">
+			<label for="archetype">Archetype:</label><select id="archetype">
+				<option selected style="display: none">Select Archetype</option>
+			</select>
+			<div id="archDesc"></div>
+		</div>
+		<h2>Abilities</h2>
+		<div class="stat">
+			<label for="stat-Strength">Strength:</label> <input type=number
+				id="Strength" value=10> <input disabled type=number
+				id="StrengthMod" value=0>
+		</div>
+		<div class="stat">
+			<label for="stat-Dexterity">Dexterity:</label> <input type=number
+				id="Dexterity" value=10> <input disabled type=number
+				id="DexterityMod" value=0>
+		</div>
+		<div class="stat">
+			<label for="stat-Constitution">Constitution:</label> <input
+				type=number id="Constitution" value=10> <input disabled
+				type=number id="ConstitutionMod" value=0>
+		</div>
+		<div class="stat">
+			<label for="stat-Intelligence">Intelligence:</label> <input
+				type=number id="Intelligence" value=10> <input disabled
+				type=number id="IntelligenceMod" value=0>
+		</div>
+		<div class="stat">
+			<label for="stat-Wisdom">Strength:</label> <input type=number
+				id="Strength" value=10> <input disabled type=number
+				id="WisdomMod" value=0>
+		</div>
+		<div class="stat">
+			<label for="stat-Charisma">Charisma:</label> <input type=number
+				id="Charisma" value=10> <input disabled type=number
+				id="CharismaMod" value=0>
+		</div>
+		<h2>Saves</h2>
+		<div class="saves">
+			<label for="save-Fortitude">Fortitude:</label> 
+			<input type=number id="save-Fortitude" disabled> 
+			<span> = </span> 
+			<input type=number id="save-base-Fortitude" disabled>
+			<span> + </span> 
+			<input type=number id="save-ConstitutionMod-Fortitude" disabled>
+		</div>
+		<div class="saves">
+			<label for="save-Reflex">Reflex:</label> 
+			<input type=number id="save-Reflex" disabled>
+			<span> = </span>  
+			<input type=number id="save-base-Reflex" disabled>
+			<span> + </span> 
+			<input type=number id="save-DexterityMod-Reflex" disabled>
+		</div>
+		<div class="saves">
+			<label for="save-Will">Will:</label>
+			<input type=number id="save-Will" disabled>
+			<span> = </span> 
+			<input type=number id="save-base-Will" disabled>
+			<span> + </span> 
+			<input type=number id="save-WisdomMod-Will" disabled>
+		</div>
 	</div>
 	<div id="output"></div>
 </body>
