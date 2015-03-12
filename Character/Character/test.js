@@ -3,6 +3,64 @@
  * 
  */
 $(function() {
+	var CLASSES = {
+	    "Barbarian" : {
+	        "type" : "class",
+	        "description" : "The barbarian is a brutal berserker from beyond the edge of civilized lands.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Bard" : {
+	        "type" : "class",
+	        "description" : "The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Cleric" : {
+	        "type" : "class",
+	        "description" : "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Druid" : {
+	        "type" : "class",
+	        "description" : "The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Fighter" : {
+	        "type" : "class",
+	        "description" : "Brave and stalwart, the fighter is a master of all manner of arms and armor.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Monk" : {
+	        "type" : "class",
+	        "description" : "A student of martial arts, the monk trains his body to be his greatest weapon and defense.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Paladin" : {
+	        "type" : "class",
+	        "description" : "The paladin is the knight in shining armor, a devoted follower of law and good.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Ranger" : {
+	        "type" : "class",
+	        "description" : "A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Rogue" : {
+	        "type" : "class",
+	        "description" : "The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Sorcerer" : {
+	        "type" : "class",
+	        "description" : "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.",
+	        "source" : "Core Rulebook"
+	    },
+	    "Wizard" : {
+	        "type" : "class",
+	        "description" : "The wizard masters magic through constant study that gives him incredible magical power.",
+	        "source" : "Core Rulebook"
+	    }
+	};
+
 	var RACES = {
 	    "Dwarf" : {
 	        "type" : "race",
@@ -57,7 +115,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word “dwarven” in its name as a martial weapon."
+	            "description" : "Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word \"dwarven\" in its name as a martial weapon."
 	        },
 	        "Ancient Enmity" : {
 	            "type" : "trait.racial.alternate",
@@ -277,6 +335,7 @@ $(function() {
 	        },
 	        "description" : "Expatriates of the strange land of fey, these small folk have a reputation for flighty and eccentric behavior. Many gnomes are whimsical artisans and tinkers, creating strange devices powered by magic, alchemy, and their quirky imagination. Gnomes have an insatiable need for new experiences that often gets them in trouble.",
 	        "Ability Modifiers" : {
+	            "type" : "trait.racial",
 	            "description" : "Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.",
 	            "Constitution" : "+2",
 	            "Charisma" : "+2",
@@ -502,8 +561,9 @@ $(function() {
 	        "type" : "race",
 	        "description" : "Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.",
 	        "Ability Modifiers" : {
+	            "type" : "trait.racial",
 	            "description" : "Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "OneAbility" : "+2"
+	            "Any" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -597,7 +657,7 @@ $(function() {
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "OneAbility" : "+2"
+	            "Any" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -710,7 +770,7 @@ $(function() {
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "OneAbility" : "+2"
+	            "Any" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -2270,7 +2330,6 @@ $(function() {
 
 	$.each(optGroups.list, function(key, group) {
 		if (typeof group === 'string') {
-			console.log(group);
 			$("<optgroup />", {
 			    label : group,
 			    id : optGroups.prefix + group.replace(/[\s']*/g, '')
@@ -2288,10 +2347,49 @@ $(function() {
 		}).text(race.name).appendTo($("#r" + race.source.replace(/[\s']*/g, '')));
 	});
 
+	function getModifier(score) {
+		return Math.floor(score / 2) - 5;
+	}
+
+	$(".stat .stat-score").change(function() {
+		var stat = $(this).parent().attr("id");
+		var score = $(this).val();
+		$("." + stat + "-mod").val(getModifier(score));
+	});
+
+	function clearRacialAbilityMods() {
+		$(".stat").each(function(index) {
+			var stat = $(this).attr("id");
+			var score = parseInt($("#" + stat + " .stat-score").val());
+			var rMod = parseInt($("#" + stat + " .stat-racialMod").val());
+			$("#" + stat + " .stat-score").val(score - rMod);
+			$("#" + stat + " .stat-racialMod").val(0);
+			$("." + stat + "-mod").val(0);
+		});
+	}
+
+	$("#Any").change(function() {
+
+		// Clear Ability Modifiers
+		clearRacialAbilityMods();
+
+		var race = $("#race").val();
+		var stat = $(this).val();
+		var mod = parseInt(RACES[race]["Ability Modifiers"].Any)
+
+		$("#" + stat + " .stat-racialMod").val(mod);
+		var score = parseInt($("#" + stat + " .stat-score").val());
+		$("#" + stat + " .stat-score").val(score + parseInt(mod));
+	});
+
 	$("#race").change(function() {
 		$("#output").empty();
+		$("#Any").hide();
+		$("#Any>option:eq(0)").attr("selected", true);
+
+		clearRacialAbilityMods();
+
 		var race = $(this).val();
-		console.log(RACES[race]);
 		$("<H2 />").text(race).appendTo("#output");
 		if (RACES[race].description) {
 			$("<P />").text(RACES[race].description).appendTo("#output");
@@ -2304,8 +2402,17 @@ $(function() {
 					$("<B />").text(key + ": ").prependTo(line);
 					line.appendTo("#output");
 					$.each(value, function(stat, mod) {
-						var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
+						var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Any"];
 						if ($.inArray(stat, abilities) != -1) {
+							if (stat != "Any") {
+								$("#" + stat + " .stat-racialMod").val(parseInt(mod));
+								var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
+								$("#" + stat + " .stat-score").val(score);
+								$("." + stat + "-mod").val(getModifier(score));
+							} else {
+								$("#Any").show();
+							}
+
 							var li = $("<LI />").text(mod);
 							$("<B />").text(stat + ": ").prependTo(li);
 							li.appendTo("#output");

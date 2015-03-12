@@ -580,31 +580,66 @@ tfoot td {
 	}
 }
 
-#input{
-	float: left;
-	width: 49%;
+#input {
+	font-family: 'Lato', sans;
+	display: inline-block;
+	position: relative;
+	width: 50%;
 	height: 100%;
 }
 
 #input label {
-	display:inline-block;
+	display: inline-block;
 	font-weight: bold;
-	width: 100px;
+	width: 90px;
+}
+#input .section {
+	float: left;
+	clear: left;
+	width: 50%;
 }
 
-#input.stat {
+#input .right-section {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 50%;
+}
+
+#input .skill label {
+	font-size: 12px;
+	font-weight: normal;
+	width: 151px;
+}
+
+#input field {
 	float:left;
+	width: 50%;
 }
 
-#input .stat input, #input .saves input {
+#input input, #input select {
+	width: 200px;
+}
+
+#input .stat input, #input .saves input, #input .skill input {
 	width: 30px;
 }
 
 #output {
-	float:right;
-	width: 49%;
-	height: 100%;
+	float: right;
+	width: 50%;
+	height: 50%;
+	font-size: 12px;
 }
+
+#output p {
+	margin:0px;
+}
+
+#output b {
+	display:inline-block;
+}
+
 #output h2 {
 	text-transform: uppercase;
 	font-weight: bold;
