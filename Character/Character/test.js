@@ -6,7 +6,25 @@ $(function() {
 	var CLASSES = {
 	    "Barbarian" : {
 	        "type" : "class",
-	        "description" : "The barbarian is a brutal berserker from beyond the edge of civilized lands.",
+	        "description" : "For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious martial techniques, they are not soldiers or professional warriors—they are the battle possessed, creatures of slaughter and spirits of war. Known as barbarians, these warmongers know little of training, preparation, or the rules of warfare; for them, only the moment exists, with the foes that stand before them and the knowledge that the next moment might hold their death. They possess a sixth sense in regard to danger and the endurance to weather all that might entail. These brutal warriors might rise from all walks of life, both civilized and savage, though whole societies embracing such philosophies roam the wild places of the world. Within barbarians storms the primal spirit of battle, and woe to those who face their rage.",
+	        "Role": "Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.",
+	        "Alignment": ["NG", "N", "NE", "CG", "CN", "CE"],
+	        "Hit Die": "d12",
+	        "Class Skills": ["Acrobatics"," Climb"," Craft"," Handle Animal"," Intimidate"," Knowledge (nature)"," Perception"," Ride"," Survival", "Swim"],
+	        "Skill Ranks": 4,
+	        "level1": {
+	        	"bab": 1,
+	        	"Fortitude": 2,
+	        	"Reflex": 0,
+	        	"Will": 0,
+	        	"Special": ["Fast Movement", "Rage"]	        	
+	        },
+	        "Weapon and Armor Proficiency": "A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).",
+	        "Fast Movement" :{
+	        	"description": "A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.",
+	        	"type": "Class Feature",
+	        	"abiltiy Type":"Extraordinary"
+	        },
 	        "source" : "Core Rulebook"
 	    },
 	    "Bard" : {
@@ -21,7 +39,7 @@ $(function() {
 	    },
 	    "Druid" : {
 	        "type" : "class",
-	        "description" : "The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.",
+	        "description" : "The druid is a worshiper of all things natural\u2014a spellcaster, a friend to animals, and a skilled shapechanger.",
 	        "source" : "Core Rulebook"
 	    },
 	    "Fighter" : {
@@ -359,7 +377,7 @@ $(function() {
 	        },
 	        "Gnome Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day-dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
+	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day\u2014dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
 	        },
 	        "Hatred" : {
 	            "type" : "trait.racial",
@@ -407,7 +425,7 @@ $(function() {
 	        },
 	        "Fell Magic" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes add +1 to the DC of any saving throws against necromancy spells that they cast. Gnomes with Wisdom scores of 11 or higher also gain the following spell-like abilities: 1/day—bleed, chill touch, detect poison, and touch of fatigue. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Wisdom modifier.",
+	            "description" : "Gnomes add +1 to the DC of any saving throws against necromancy spells that they cast. Gnomes with Wisdom scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014bleed, chill touch, detect poison, and touch of fatigue. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Wisdom modifier.",
 	            "replaces" : ["Gnome Magic"]
 	        },
 	        "Gift of Tongues" : {
@@ -422,7 +440,7 @@ $(function() {
 	        },
 	        "Magical Linguist" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes study languages in both their mundane and supernatural manifestations. Gnomes with this racial trait add +1 to the DC of spells they cast with the language-dependent descriptor or those that create glyphs, symbols, or other magical writings. They gain a +2 racial bonus on saving throws against such spells. Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day—arcane mark, comprehend languages, message, read magic. The caster level for these effects is equal to the gnome's level.",
+	            "description" : "Gnomes study languages in both their mundane and supernatural manifestations. Gnomes with this racial trait add +1 to the DC of spells they cast with the language-dependent descriptor or those that create glyphs, symbols, or other magical writings. They gain a +2 racial bonus on saving throws against such spells. Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014arcane mark, comprehend languages, message, read magic. The caster level for these effects is equal to the gnome's level.",
 	            "replaces" : ["Gnome Magic", "Illusion Resistance"]
 	        },
 	        "Master Tinker" : {
@@ -432,7 +450,7 @@ $(function() {
 	        },
 	        "Pyromaniac" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes with this racial trait are treated as one level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using the bloodline powers of the fire elemental bloodline or the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage (this ability does not give gnomes early access to level-based powers; it only affects the powers they could use without this ability). Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day—dancing lights, flare, prestidigitation, produce flame. The caster level for these effects is equal to the gnome's level; the DCs are Charisma-based.",
+	            "description" : "Gnomes with this racial trait are treated as one level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using the bloodline powers of the fire elemental bloodline or the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage (this ability does not give gnomes early access to level-based powers; it only affects the powers they could use without this ability). Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014dancing lights, flare, prestidigitation, produce flame. The caster level for these effects is equal to the gnome's level; the DCs are Charisma-based.",
 	            "replaces" : ["Gnome Magic", "Illusion Resistance"]
 	        },
 	        "Warden of Nature" : {
@@ -527,7 +545,7 @@ $(function() {
 	        },
 	        "Shiftless" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Halflings have a reputation for larceny and guile—and sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on Bluff and Sleight of Hand checks, and Sleight of Hand is always a class skill for them.",
+	            "description" : "Halflings have a reputation for larceny and guile\u2014and sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on Bluff and Sleight of Hand checks, and Sleight of Hand is always a class skill for them.",
 	            "replaces" : ["Sure-footed"]
 	        },
 	        "Swift as Shadows" : {
@@ -609,7 +627,7 @@ $(function() {
 	        },
 	        "Drow-Blooded" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Some half-elves born of drow parents exhibit more drow traits than others—particularly many of the physical features of the drow—and have darkvision 60 feet and light blindness.",
+	            "description" : "Some half-elves born of drow parents exhibit more drow traits than others\u2014particularly many of the physical features of the drow\u2014and have darkvision 60 feet and light blindness.",
 	            "replaces" : ["Low-light Vision"]
 	        },
 	        "Drow Magic" : {
@@ -1000,7 +1018,7 @@ $(function() {
 	        },
 	        "Negative Energy Affinity" : {
 	            "type" : "trait.racial",
-	            "description" : "Though a living creature, a dhampir reacts to positive and negative energy as if it were undead—positive energy harms it, while negative energy heals it."
+	            "description" : "Though a living creature, a dhampir reacts to positive and negative energy as if it were undead\u2014positive energy harms it, while negative energy heals it."
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
@@ -1082,7 +1100,7 @@ $(function() {
 	    },
 	    "Fetchling" : {
 	        "type" : "race",
-	        "description" : "Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlings—who call themselves kayal—often serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane.",
+	        "description" : "Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlings\u2014who call themselves kayal\u2014often serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Fetchlings are quick and forceful, but often strange and easily distracted by errant thoughts.",
@@ -1852,7 +1870,7 @@ $(function() {
 	        },
 	        "Kitsune Magic (Ex/Sp)" : {
 	            "type" : "trait.racial",
-	            "description" : "Kitsune add +1 to the DC of any saving throws against enchantment spells that they cast. Kitsune with a Charisma score of 11 or higher gain the following spell-like ability: 3/day—dancing lights."
+	            "description" : "Kitsune add +1 to the DC of any saving throws against enchantment spells that they cast. Kitsune with a Charisma score of 11 or higher gain the following spell-like ability: 3/day\u2014dancing lights."
 	        },
 	        "Natural Weapons (Ex)" : {
 	            "type" : "trait.racial",
@@ -1983,11 +2001,11 @@ $(function() {
 	        },
 	        "Samsaran Magic (Sp)" : {
 	            "type" : "trait.racial",
-	            "description" : "Samsarans with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day—comprehend languages, deathwatch, and stabilize. The caster level for these effects is equal to the samsaran's level."
+	            "description" : "Samsarans with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day\u2014comprehend languages, deathwatch, and stabilize. The caster level for these effects is equal to the samsaran's level."
 	        },
 	        "Shards of the Past (Ex)" : {
 	            "type" : "trait.racial",
-	            "description" : "A samsaran's past lives grant her bonuses on two particular skills. A samsaran chooses two skills—she gains a +2 racial bonus on both of these skills, and they are treated as class skills regardless of what class she actually takes."
+	            "description" : "A samsaran's past lives grant her bonuses on two particular skills. A samsaran chooses two skills\u2014she gains a +2 racial bonus on both of these skills, and they are treated as class skills regardless of what class she actually takes."
 	        },
 	        "Languages" : {
 	            "type" : "trait.racial",
@@ -2138,7 +2156,7 @@ $(function() {
 	        },
 	        "Svirfneblin Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the following spell-like abilities: Constant—nondetection; 1/day—blindness/deafness, blur, disguise self; caster level equals the svirfneblin's class levels."
+	            "description" : "Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the following spell-like abilities: Constant\u2014nondetection; 1/day\u2014blindness/deafness, blur, disguise self; caster level equals the svirfneblin's class levels."
 	        },
 	        "Languages" : {
 	            "type" : "trait.racial",
@@ -2286,7 +2304,7 @@ $(function() {
 	        },
 	        "Shadow Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day—ghost sound, pass without trace, and ventriloquism. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier."
+	            "description" : "Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day\u2014ghost sound, pass without trace, and ventriloquism. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier."
 	        },
 	        "Shadow Resistance" : {
 	            "type" : "trait.racial",
@@ -2294,7 +2312,7 @@ $(function() {
 	        },
 	        "Dissolution's Child" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporeal—only your appearance changes. This works like invisibility, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability.",
+	            "description" : "Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporeal\u2014only your appearance changes. This works like invisibility, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability.",
 	            "replaces" : ["Shadow Magic"]
 	        },
 	        "Languages" : {
@@ -2306,46 +2324,106 @@ $(function() {
 	    }
 	};
 
-	var raceList = [];
-	var optGroups = {
-	    prefix : "r",
-	    list : []
-	};
-	$.each(RACES, function(key, value) {
-		if ($.inArray(value.source, optGroups.list) == -1) {
-			optGroups.list.push(value.source);
-		}
-		raceList.push({
-		    name : key,
-		    source : value.source
+	populateRaceDropdown();
+	populateClassDropdown();
+
+	function populateClassDropdown() {
+
+		var classList = [];
+		var optGroups = {
+		    prefix : "c",
+		    list : []
+		};
+		$.each(CLASSES, function(key, value) {
+			var source = (value.type == "class") ? value.source : value.type;
+		
+			if ($.inArray(source, optGroups.list) == -1) {
+				optGroups.list.push(source);
+			}
+			classList.push({
+			    name : key,
+			    type : value.type,
+			    source : value.source
+			});
 		});
-	});
+		
+		optGroups.list.sort(function(a, b) {
+			var TypeOrder = ["Class", "Prestige Class", "NPC Class"];
+			var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
+			
+			var typeA = $.inArray(a.type, TypeOrder);
+			var typeB = $.inArray(b.type, TypeOrder);
+			if(typeA == typeB) {
+				return $.inArray(a, BookOrder) - $.inArray(b, BookOrder);
+			} else {
+				return typeA - TypeB;
+			}
+		});
+		
+		$.each(optGroups.list, function(key, group) {
+			if (typeof group === 'string') {
+				$("<optgroup />", {
+				    label : group,
+				    id : optGroups.prefix + group.replace(/[\s']*/g, '')
+				}).text(group).appendTo($("#class"));
+			}
+		});
 
-	optGroups.list.sort(function(a, b) {
-		var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
-		a = $.inArray(a, BookOrder);
-		b = $.inArray(b, BookOrder);
-		return a - b;
-	});
+		classList.sort(function(a, b) {
+			return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+		});
 
-	$.each(optGroups.list, function(key, group) {
-		if (typeof group === 'string') {
-			$("<optgroup />", {
-			    label : group,
-			    id : optGroups.prefix + group.replace(/[\s']*/g, '')
-			}).text(group).appendTo($("#race"));
-		}
-	});
+		$.each(classList, function(key, cClass) {
+			$("<option />", {
+				"value" : cClass.name
+			}).text(cClass.name).appendTo($("#c" + cClass.source.replace(/[\s']*/g, '')));
+		});
+	}
 
-	raceList.sort(function(a, b) {
-		return a.name < b.name ? -1 : (a.name > b.name ? 1 : 0);
-	});
 
-	$.each(raceList, function(key, race) {
-		$("<option />", {
-			"value" : race.name
-		}).text(race.name).appendTo($("#r" + race.source.replace(/[\s']*/g, '')));
-	});
+	function populateRaceDropdown() {
+
+		var raceList = [];
+		var optGroups = {
+		    prefix : "r",
+		    list : []
+		};
+		$.each(RACES, function(key, value) {
+			if ($.inArray(value.source, optGroups.list) == -1) {
+				optGroups.list.push(value.source);
+			}
+			raceList.push({
+			    name : key,
+			    source : value.source
+			});
+		});
+
+		optGroups.list.sort(function(a, b) {
+			var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
+			a = $.inArray(a, BookOrder);
+			b = $.inArray(b, BookOrder);
+			return a - b;
+		});
+
+		$.each(optGroups.list, function(key, group) {
+			if (typeof group === 'string') {
+				$("<optgroup />", {
+				    label : group,
+				    id : optGroups.prefix + group.replace(/[\s']*/g, '')
+				}).text(group).appendTo($("#race"));
+			}
+		});
+
+		raceList.sort(function(a, b) {
+			return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+		});
+
+		$.each(raceList, function(key, race) {
+			$("<option />", {
+				"value" : race.name
+			}).text(race.name).appendTo($("#r" + race.source.replace(/[\s']*/g, '')));
+		});
+	}
 
 	function getModifier(score) {
 		return Math.floor(score / 2) - 5;
@@ -2353,9 +2431,32 @@ $(function() {
 
 	$(".stat .stat-score").change(function() {
 		var stat = $(this).parent().attr("id");
-		var score = $(this).val();
-		$("." + stat + "-mod").val(getModifier(score));
+		var score = parseInt($(this).val());
+		updateAllAbilityModifers(stat, getModifier(score));
 	});
+
+	function updateAllAbilityModifers(stat, newModifier) {
+		$("." + stat + "-mod").each(function(i) {
+			$(this).val(newModifier);
+			var type = $(this).parent().attr("class");
+			var id = $(this).parent().attr("id");
+			console.log("Updating " + type + ": " + id);
+			switch (type) {
+			case "skill":
+				var ranks = parseInt($("#" + id).children(".skill-ranks").val()) || 0;
+				$("#" + id).children(".skill-mod").val(newModifier + ranks);
+				break;
+			case "saves":
+				var base = parseInt($("#" + id).children(".save-base").val()) || 0;
+				console.log("with: " + newModifier + " + " + base);
+				$("#" + id).children(".save-bonus").val(newModifier + base);
+				break;
+			default:
+				// Do Nothing if Stat of anything else.
+				break;
+			}
+		});
+	}
 
 	function clearRacialAbilityMods() {
 		$(".stat").each(function(index) {
@@ -2364,38 +2465,84 @@ $(function() {
 			var rMod = parseInt($("#" + stat + " .stat-racialMod").val());
 			$("#" + stat + " .stat-score").val(score - rMod);
 			$("#" + stat + " .stat-racialMod").val(0);
-			$("." + stat + "-mod").val(0);
+
+			updateAllAbilityModifers(stat, getModifier(score - rMod));
 		});
 	}
 
 	$("#Any").change(function() {
+		var stat = $(this).val();
 
-		// Clear Ability Modifiers
 		clearRacialAbilityMods();
 
 		var race = $("#race").val();
-		var stat = $(this).val();
-		var mod = parseInt(RACES[race]["Ability Modifiers"].Any);
+		var racial = parseInt(RACES[race]["Ability Modifiers"].Any);
 
-		$("#" + stat + " .stat-racialMod").val(mod);
-		var score = parseInt($("#" + stat + " .stat-score").val());
-		$("#" + stat + " .stat-score").val(score + parseInt(mod));
+		$("#" + stat + " .stat-racialMod").val(racial);
+		var newScore = parseInt($("#" + stat + " .stat-score").val()) + racial;
+		$("#" + stat + " .stat-score").val(newScore);
+		updateAllAbilityModifers(stat, getModifier(newScore));
 	});
 
-	function serialCommaJoin(arrayList){
-		// TODO: Add support for 'or' and 'nor'
+	function serialCommaJoin(arrayList, conjuction) {
+		conjuction = (conjuction || "and") + " "; // default list type to "and"
+
 		if (arrayList.length < 3) {
-			return arrayList.join(" and ");
+			return arrayList.join(" " + conjuction);
 		} else {
-			arrayList[arrayList.length-1] = "and " + arrayList[arrayList.length-1];
-		}		
+			arrayList[arrayList.length - 1] = conjuction + arrayList[arrayList.length - 1];
+		}
 		return arrayList.join(", ");
 	}
+
+	$("#class").change(function() {
+		$("#class-output").empty();
+
+		var charClass = $(this).val();
+
+		$("<H2 />").text(charClass).appendTo("#class-output");
+		if (CLASSES[charClass].description) {
+			$("<P />").text(CLASSES[charClass].description).appendTo("#class-output");
+		}
+		
+		$.each(CLASSES[charClass], function(key, value) {
+			if(value.type == "Class Feature") {
+			
+			} else {
+				switch(key){
+				case "Alignment":
+					console.log(key, value);
+					var line = $("<P />").text(serialCommaJoin(value, "or"));
+					$("<B />").text(key + ": ").prependTo(line);
+					line.appendTo("#class-output");
+					break;
+				case "Class Skills":
+					var line = $("<P />").text(serialCommaJoin(value));
+					$("<B />").text(key + ": ").prependTo(line);
+					line.appendTo("#class-output");
+					break;
+				case "Skill Ranks":
+					var line = $("<P />").text("(" +value + " + INT Modifier)/Level");
+					$("<B />").text(key + ": ").prependTo(line);
+					line.appendTo("#class-output");
+				case "level1":
+				case "source":
+					break;
+				default: 
+					var line = $("<P />").text(value);
+					$("<B />").text(key + ": ").prependTo(line);
+					line.appendTo("#class-output");
+				break;
+				}
+			}
+		});
 	
+	});
+
 	$("#race").change(function() {
 		$("#output").empty();
 		$("#Any").hide();
-		$("#Any>option:eq(0)").attr("selected", true);
+		$("#Any>option:eq(0)").attr("selected", true); // return to default
 
 		clearRacialAbilityMods();
 
@@ -2418,7 +2565,7 @@ $(function() {
 								$("#" + stat + " .stat-racialMod").val(parseInt(mod));
 								var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
 								$("#" + stat + " .stat-score").val(score);
-								$("." + stat + "-mod").val(getModifier(score));
+								updateAllAbilityModifers(stat, getModifier(score));
 							} else {
 								$("#Any").show();
 							}
@@ -2433,7 +2580,7 @@ $(function() {
 					var line = $("<P />").text(serialCommaJoin(value["default"]));
 					$("<B />").text("Starting Languages: ").prependTo(line);
 					line.appendTo("#output");
-					
+
 					var line = $("<P />").text(serialCommaJoin(value.list));
 					$("<B />").text("Available Languages: ").prependTo(line);
 					line.appendTo("#output");

@@ -623,24 +623,25 @@ tfoot td {
 
 #input .stat input, #input .saves input, #input .skill input {
 	width: 30px;
+	height: 12px;
 }
 
-#output {
+.output {
 	float: right;
 	width: 50%;
-	height: 50%;
+/* 	height: auto; */
 	font-size: 12px;
 }
 
-#output p {
+.output p {
 	margin:0px;
 }
 
-#output b {
+.output b {
 	display:inline-block;
 }
 
-#output h2 {
+.output h2 {
 	text-transform: uppercase;
 	font-weight: bold;
 	
