@@ -7,23 +7,24 @@ $(function() {
 	    "Barbarian" : {
 	        "type" : "class",
 	        "description" : "For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious martial techniques, they are not soldiers or professional warriors—they are the battle possessed, creatures of slaughter and spirits of war. Known as barbarians, these warmongers know little of training, preparation, or the rules of warfare; for them, only the moment exists, with the foes that stand before them and the knowledge that the next moment might hold their death. They possess a sixth sense in regard to danger and the endurance to weather all that might entail. These brutal warriors might rise from all walks of life, both civilized and savage, though whole societies embracing such philosophies roam the wild places of the world. Within barbarians storms the primal spirit of battle, and woe to those who face their rage.",
-	        "Role": "Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.",
-	        "Alignment": ["NG", "N", "NE", "CG", "CN", "CE"],
-	        "Hit Die": "d12",
-	        "Class Skills": ["Acrobatics"," Climb"," Craft"," Handle Animal"," Intimidate"," Knowledge (nature)"," Perception"," Ride"," Survival", "Swim"],
-	        "Skill Ranks": 4,
-	        "level1": {
-	        	"bab": 1,
-	        	"Fortitude": 2,
-	        	"Reflex": 0,
-	        	"Will": 0,
-	        	"Special": ["Fast Movement", "Rage"]	        	
+	        "Role" : "Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.",
+	        "Alignment" : ["NG", "N", "NE", "CG", "CN", "CE"],
+	        "Hit Die" : "d12",
+	        "Class Skills" : ["Acrobatics", " Climb", " Craft", " Handle Animal", " Intimidate", " Knowledge (nature)", " Perception", " Ride", " Survival",
+	                "Swim"],
+	        "Skill Ranks" : 4,
+	        "level1" : {
+	            "bab" : 1,
+	            "Fortitude" : 2,
+	            "Reflex" : 0,
+	            "Will" : 0,
+	            "Special" : ["Fast Movement", "Rage"]
 	        },
-	        "Weapon and Armor Proficiency": "A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).",
-	        "Fast Movement" :{
-	        	"description": "A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.",
-	        	"type": "Class Feature",
-	        	"abiltiy Type":"Extraordinary"
+	        "Weapon and Armor Proficiency" : "A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).",
+	        "Fast Movement" : {
+	            "description" : "A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.",
+	            "type" : "Class Feature",
+	            "abiltiy Type" : "Extraordinary"
 	        },
 	        "source" : "Core Rulebook"
 	    },
@@ -82,19 +83,13 @@ $(function() {
 	var RACES = {
 	    "Dwarf" : {
 	        "type" : "race",
-	        "Age" : {
-	            "Adulthood" : "40",
-	            "Intuitive" : "+3d6",
-	            "Self-Taught" : "+5d6",
-	            "Trained" : "+7d6"
-	        },
 	        "description" : "These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Dwarves are both tough and wise, but also a bit gruff.",
 	            "Constitution" : "2",
 	            "Wisdom" : "2",
-	            "Charisma" : "-2"
+	            "Charisma" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -133,7 +128,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word \"dwarven\" in its name as a martial weapon."
+	            "description" : "Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word dwarven in its name as a martial weapon."
 	        },
 	        "Ancient Enmity" : {
 	            "type" : "trait.racial.alternate",
@@ -162,12 +157,12 @@ $(function() {
 	        },
 	        "Magic Resistant" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Some of the older dwarven clans are particularly resistant to magic. Dwarves with this racial trait gain spell resistance equal to 5 + their character level. This resistance can be lowered for 1 round as a standard action. Dwarves with this racial trait take a -2 penalty on all concentration checks made in relation to arcane spells.",
+	            "description" : "Some of the older dwarven clans are particularly resistant to magic. Dwarves with this racial trait gain spell resistance equal to 5 + their character level. This resistance can be lowered for 1 round as a standard action. Dwarves with this racial trait take a 2 penalty on all concentration checks made in relation to arcane spells.",
 	            "replaces" : ["Hardy"]
 	        },
 	        "Minesight" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Dwarves with this racial trait increase the range of their darkvision to 90 feet; however, they are automatically dazzled in bright light and take a -2 penalty on saving throws against effects with the light descriptor.",
+	            "description" : "Dwarves with this racial trait increase the range of their darkvision to 90 feet; however, they are automatically dazzled in bright light and take a 2 penalty on saving throws against effects with the light descriptor.",
 	            "replaces" : ["Darkvision"]
 	        },
 	        "Mountaineer" : {
@@ -225,23 +220,23 @@ $(function() {
 	            "default" : ["Common", "Dwarven"],
 	            "list" : ["Giant", "Gnome", "Goblin", "Orc", "Terran", "Undercommon"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+3d6",
+	            "Self-Taught" : "+5d6",
+	            "Trained" : "+7d6"
+	        }
 	    },
 	    "Elf" : {
 	        "type" : "race",
-	        "Age" : {
-	            "Adulthood" : "110",
-	            "Intuitive" : "+4d6",
-	            "Self-Taught" : "+6d6",
-	            "Trained" : "+10d6"
-	        },
 	        "description" : "Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Elves are nimble, both in body and mind, but their form is frail.",
 	            "Dexterity" : "+2",
 	            "Intelligence" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -269,7 +264,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word \"elven\" in its name as a martial weapon."
+	            "description" : "Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word elven in its name as a martial weapon."
 	        },
 	        "Arcane Focus" : {
 	            "type" : "trait.racial.alternate",
@@ -318,7 +313,7 @@ $(function() {
 	        },
 	        "Silent Hunter" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using Stealth while moving by 5 and can make Stealth checks while running at a -20 penalty (this number includes the penalty reduction from this racial trait).",
+	            "description" : "Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using Stealth while moving by 5 and can make Stealth checks while running at a 20 penalty (this number includes the penalty reduction from this racial trait).",
 	            "replaces" : ["Elven Magic"]
 	        },
 	        "Spirit of the Waters" : {
@@ -341,27 +336,26 @@ $(function() {
 	            "default" : ["Common", "Elven"],
 	            "list" : ["Celestial", "Draconic", "Gnoll", "Gnome", "Goblin", "Orc", "Sylvan"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "110",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+10d6"
+	        }
 	    },
 	    "Gnome" : {
 	        "type" : "race",
-	        "Age" : {
-	            "Adulthood" : "40",
-	            "Intuitive" : "+4d6",
-	            "Self-Taught" : "+6d6",
-	            "Trained" : "+9d6"
-	        },
 	        "description" : "Expatriates of the strange land of fey, these small folk have a reputation for flighty and eccentric behavior. Many gnomes are whimsical artisans and tinkers, creating strange devices powered by magic, alchemy, and their quirky imagination. Gnomes have an insatiable need for new experiences that often gets them in trouble.",
 	        "Ability Modifiers" : {
-	            "type" : "trait.racial",
 	            "description" : "Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.",
 	            "Constitution" : "+2",
 	            "Charisma" : "+2",
-	            "Strength" : "-2"
+	            "Strength" : "2"
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Gnomes are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+	            "description" : "Gnomes are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
 	        },
 	        "Slow Speed" : {
 	            "type" : "trait.racial",
@@ -377,7 +371,7 @@ $(function() {
 	        },
 	        "Gnome Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day\u2014dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
+	            "description" : "Gnomes add +1 to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1\/daydancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
 	        },
 	        "Hatred" : {
 	            "type" : "trait.racial",
@@ -396,7 +390,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : " Gnomes treat any weapon with the word \"gnome\" in its name as a martial weapon."
+	            "description" : " Gnomes treat any weapon with the word gnome in its name as a martial weapon."
 	        },
 	        "Academician" : {
 	            "type" : "trait.racial.alternate",
@@ -425,7 +419,7 @@ $(function() {
 	        },
 	        "Fell Magic" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes add +1 to the DC of any saving throws against necromancy spells that they cast. Gnomes with Wisdom scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014bleed, chill touch, detect poison, and touch of fatigue. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Wisdom modifier.",
+	            "description" : "Gnomes add +1 to the DC of any saving throws against necromancy spells that they cast. Gnomes with Wisdom scores of 11 or higher also gain the following spell-like abilities: 1\/daybleed, chill touch, detect poison, and touch of fatigue. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Wisdom modifier.",
 	            "replaces" : ["Gnome Magic"]
 	        },
 	        "Gift of Tongues" : {
@@ -440,7 +434,7 @@ $(function() {
 	        },
 	        "Magical Linguist" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes study languages in both their mundane and supernatural manifestations. Gnomes with this racial trait add +1 to the DC of spells they cast with the language-dependent descriptor or those that create glyphs, symbols, or other magical writings. They gain a +2 racial bonus on saving throws against such spells. Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014arcane mark, comprehend languages, message, read magic. The caster level for these effects is equal to the gnome's level.",
+	            "description" : "Gnomes study languages in both their mundane and supernatural manifestations. Gnomes with this racial trait add +1 to the DC of spells they cast with the language-dependent descriptor or those that create glyphs, symbols, or other magical writings. They gain a +2 racial bonus on saving throws against such spells. Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1\/dayarcane mark, comprehend languages, message, read magic. The caster level for these effects is equal to the gnome's level.",
 	            "replaces" : ["Gnome Magic", "Illusion Resistance"]
 	        },
 	        "Master Tinker" : {
@@ -450,7 +444,7 @@ $(function() {
 	        },
 	        "Pyromaniac" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Gnomes with this racial trait are treated as one level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using the bloodline powers of the fire elemental bloodline or the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage (this ability does not give gnomes early access to level-based powers; it only affects the powers they could use without this ability). Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1/day\u2014dancing lights, flare, prestidigitation, produce flame. The caster level for these effects is equal to the gnome's level; the DCs are Charisma-based.",
+	            "description" : "Gnomes with this racial trait are treated as one level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using the bloodline powers of the fire elemental bloodline or the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage (this ability does not give gnomes early access to level-based powers; it only affects the powers they could use without this ability). Gnomes with Charisma scores of 11 or higher also gain the following spell-like abilities: 1\/daydancing lights, flare, prestidigitation, produce flame. The caster level for these effects is equal to the gnome's level; the DCs are Charisma-based.",
 	            "replaces" : ["Gnome Magic", "Illusion Resistance"]
 	        },
 	        "Warden of Nature" : {
@@ -463,7 +457,13 @@ $(function() {
 	            "default" : ["Common", "Gnome", "Sylvan"],
 	            "list" : ["Draconic", "Dwarven", "Elven", "Giant", "Goblin", "Orc"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+9d6"
+	        }
 	    },
 	    "Halfling" : {
 	        "type" : "race",
@@ -477,7 +477,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+	            "description" : "Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
 	        },
 	        "Slow Speed" : {
 	            "type" : "trait.racial",
@@ -501,7 +501,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Halflings are proficient with slings and treat any weapon with the word \"halfling\" in its name as a martial weapon."
+	            "description" : "Halflings are proficient with slings and treat any weapon with the word halfling in its name as a martial weapon."
 	        },
 	        "Adaptable Luck" : {
 	            "type" : "trait.racial.alternate",
@@ -510,7 +510,7 @@ $(function() {
 	        },
 	        "Craven" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "While most halflings are fearless, some are skittish, making them particularly alert. Halflings with this racial trait gain a +1 bonus on initiative checks and a +1 bonus on attack rolls when flanking. They take a -2 penalty on saves against fear effects and gain no benefit from morale bonuses on such saves. When affected by a fear effect, their base speed increases by 10 feet and they gain a +1 dodge bonus to Armor Class.",
+	            "description" : "While most halflings are fearless, some are skittish, making them particularly alert. Halflings with this racial trait gain a +1 bonus on initiative checks and a +1 bonus on attack rolls when flanking. They take a 2 penalty on saves against fear effects and gain no benefit from morale bonuses on such saves. When affected by a fear effect, their base speed increases by 10 feet and they gain a +1 dodge bonus to Armor Class.",
 	            "replaces" : ["Fearless", "Halfling Luck"]
 	        },
 	        "Fleet of Foot" : {
@@ -545,7 +545,7 @@ $(function() {
 	        },
 	        "Shiftless" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Halflings have a reputation for larceny and guile\u2014and sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on Bluff and Sleight of Hand checks, and Sleight of Hand is always a class skill for them.",
+	            "description" : "Halflings have a reputation for larceny and guileand sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on Bluff and Sleight of Hand checks, and Sleight of Hand is always a class skill for them.",
 	            "replaces" : ["Sure-footed"]
 	        },
 	        "Swift as Shadows" : {
@@ -573,15 +573,20 @@ $(function() {
 	            "default" : ["Common", "Halfling"],
 	            "list" : ["Dwarven", "Elven", "Gnome", "Goblin"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "20",
+	            "Intuitive" : "+2d4",
+	            "Self-Taught" : "+3d6",
+	            "Trained" : "+4d6"
+	        }
 	    },
 	    "Half-elf" : {
 	        "type" : "race",
 	        "description" : "Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.",
 	        "Ability Modifiers" : {
-	            "type" : "trait.racial",
 	            "description" : "Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "Any" : "+2"
+	            "OneAbility" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -627,7 +632,7 @@ $(function() {
 	        },
 	        "Drow-Blooded" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Some half-elves born of drow parents exhibit more drow traits than others\u2014particularly many of the physical features of the drow\u2014and have darkvision 60 feet and light blindness.",
+	            "description" : "Some half-elves born of drow parents exhibit more drow traits than othersparticularly many of the physical features of the drowand have darkvision 60 feet and light blindness.",
 	            "replaces" : ["Low-light Vision"]
 	        },
 	        "Drow Magic" : {
@@ -667,7 +672,13 @@ $(function() {
 	                    "D'ziriak (understanding only,  cannot speak)", "Human Dialect", "Giant", "Gnoll", "Gnome", "Goblin", "Grippli", "Halfling", "Ignan",
 	                    "Infernal", "Orc", "Sylvan", "Tengu", "Terran", "Undercommon"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "20",
+	            "Intuitive" : "+1d6",
+	            "Self-Taught" : "+2d6",
+	            "Trained" : "+3d6"
+	        }
 	    },
 	    "Half-orc" : {
 	        "type" : "race",
@@ -675,7 +686,7 @@ $(function() {
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "Any" : "+2"
+	            "OneAbility" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -703,7 +714,7 @@ $(function() {
 	        },
 	        "Weapon Familiarity" : {
 	            "type" : "trait.racial",
-	            "description" : "Half-orcs are proficient with greataxes and falchions and treat any weapon with the word \"orc\" in its name as a martial weapon."
+	            "description" : "Half-orcs are proficient with greataxes and falchions and treat any weapon with the word orc in its name as a martial weapon."
 	        },
 	        "Acute Darkvision" : {
 	            "type" : "trait.racial.alternate",
@@ -780,7 +791,13 @@ $(function() {
 	            "default" : ["Common", "Orc"],
 	            "list" : ["Abyssal", "Draconic", "Giant", "Gnoll", "Goblin"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "14",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Human" : {
 	        "type" : "race",
@@ -788,7 +805,7 @@ $(function() {
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.",
-	            "Any" : "+2"
+	            "OneAbility" : "+2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -887,7 +904,13 @@ $(function() {
 	                    "D'ziriak (understanding only, cannot speak)", "Human Dialect", "Giant", "Gnoll", "Gnome", "Goblin", "Grippli", "Halfling", "Ignan",
 	                    "Infernal", "Orc", "Sylvan", "Tengu", "Terran", "Undercommon"]
 	        },
-	        "source" : "Core Rulebook"
+	        "source" : "Core Rulebook",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Aasimar" : {
 	        "type" : "race",
@@ -931,7 +954,13 @@ $(function() {
 	            "default" : ["Common", "Celestial"],
 	            "list" : ["Draconic", "Dwarven", "Elven", "Gnome", "Halfling", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Catfolk" : {
 	        "type" : "race",
@@ -941,7 +970,7 @@ $(function() {
 	            "description" : "Catfolk are sociable and agile, but often lack common sense.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Catfolk" : {
 	            "type" : "trait.racial",
@@ -976,7 +1005,13 @@ $(function() {
 	            "default" : ["Common", "Catfolk"],
 	            "list" : ["Elven", "Gnoll", "Gnome", "Goblin", "Halfling", "Orc", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Dhampir" : {
 	        "type" : "race",
@@ -986,7 +1021,7 @@ $(function() {
 	            "description" : "Dhampirs are fast and seductive, but their racial bond to the undead impedes their mortal vigor.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Dhampir" : {
 	            "type" : "trait.racial",
@@ -1018,7 +1053,7 @@ $(function() {
 	        },
 	        "Negative Energy Affinity" : {
 	            "type" : "trait.racial",
-	            "description" : "Though a living creature, a dhampir reacts to positive and negative energy as if it were undead\u2014positive energy harms it, while negative energy heals it."
+	            "description" : "Though a living creature, a dhampir reacts to positive and negative energy as if it were undeadpositive energy harms it, while negative energy heals it."
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
@@ -1035,7 +1070,13 @@ $(function() {
 	                    "D'ziriak (understanding only, cannot speak)", "Human Dialect", "Giant", "Gnoll", "Gnome", "Goblin", "Grippli", "Halfling", "Ignan",
 	                    "Infernal", "Orc", "Sylvan", "Tengu", "Terran", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "110",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+10d6"
+	        }
 	    },
 	    "Drow" : {
 	        "type" : "race",
@@ -1045,7 +1086,7 @@ $(function() {
 	            "description" : "Drow are nimble and manipulative.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Elf" : {
 	            "type" : "trait.racial",
@@ -1096,17 +1137,23 @@ $(function() {
 	            "default" : ["Elven", "Undercommon"],
 	            "list" : ["Abyssal", "Aklo", "Aquan", "Common", "Draconic", "Drow Sign Language", "Gnome", "Goblin"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "110",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+10d6"
+	        }
 	    },
 	    "Fetchling" : {
 	        "type" : "race",
-	        "description" : "Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlings\u2014who call themselves kayal\u2014often serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane.",
+	        "description" : "Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlingswho call themselves kayaloften serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane.",
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Fetchlings are quick and forceful, but often strange and easily distracted by errant thoughts.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1149,7 +1196,13 @@ $(function() {
 	            "default" : ["Common"],
 	            "list" : ["Aklo", "Aquan", "Auran", "Draconic", "D'ziriak (understanding only, cannot speak)", "Ignan", "Terran", "any regional human tongue"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "20",
+	            "Intuitive" : "+1d6",
+	            "Self-Taught" : "+2d6",
+	            "Trained" : "+3d6"
+	        }
 	    },
 	    "Goblin" : {
 	        "type" : "race",
@@ -1158,8 +1211,8 @@ $(function() {
 	            "type" : "trait.racial",
 	            "description" : "Goblins are fast, but weak and unpleasant to be around.",
 	            "Dexterity" : "+4",
-	            "Strength" : "-2",
-	            "Charisma" : "-2"
+	            "Strength" : "2",
+	            "Charisma" : "2"
 	        },
 	        "Goblinoid" : {
 	            "type" : "trait.racial",
@@ -1167,7 +1220,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+	            "description" : "Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
 	        },
 	        "Fast" : {
 	            "type" : "trait.racial",
@@ -1186,7 +1239,13 @@ $(function() {
 	            "default" : ["Goblin"],
 	            "list" : ["Common", "Draconic", "Dwarven", "Gnoll", "Gnome", "Halfling", "Orc"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Hobgoblin" : {
 	        "type" : "race",
@@ -1222,7 +1281,13 @@ $(function() {
 	            "default" : ["Common", "Goblin"],
 	            "list" : ["Draconic", "Dwarven", "Infernal", "Giant", "Orc"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "14",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Ifrit" : {
 	        "type" : "race",
@@ -1232,7 +1297,7 @@ $(function() {
 	            "description" : "Ifrits are passionate and quick, but impetuous and destructive.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1252,7 +1317,7 @@ $(function() {
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
-	            "description" : "Burning hands 1/day (caster level equals the ifrit's level)."
+	            "description" : "Burning hands 1\/day (caster level equals the ifrit's level)."
 	        },
 	        "Energy Resistance" : {
 	            "type" : "trait.racial",
@@ -1267,7 +1332,13 @@ $(function() {
 	            "default" : ["Common", "Ignan"],
 	            "list" : ["Aquan", "Auran", "Dwarven", "Elven", "Gnome", "Halfling", "Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Kobold" : {
 	        "type" : "race",
@@ -1276,8 +1347,8 @@ $(function() {
 	            "type" : "trait.racial",
 	            "description" : "Kobolds are fast but weak.",
 	            "Dexterity" : "+2",
-	            "Strength" : "-4",
-	            "Constitution" : "-2"
+	            "Strength" : "4",
+	            "Constitution" : "2"
 	        },
 	        "Reptilian" : {
 	            "type" : "trait.racial",
@@ -1285,7 +1356,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Kobolds are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty on their combat maneuver checks and to Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+	            "description" : "Kobolds are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their combat maneuver checks and to Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
 	        },
 	        "Normal Speed" : {
 	            "type" : "trait.racial",
@@ -1312,7 +1383,13 @@ $(function() {
 	            "default" : ["Draconic"],
 	            "list" : ["Common", "Dwarven", "Gnome", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Orc" : {
 	        "type" : "race",
@@ -1321,9 +1398,9 @@ $(function() {
 	            "type" : "trait.racial",
 	            "description" : "Orcs are brutal and savage.",
 	            "Strength" : "+4",
-	            "Intelligence" : "-2",
-	            "Wisdom" : "-2",
-	            "Charisma" : "-2"
+	            "Intelligence" : "2",
+	            "Wisdom" : "2",
+	            "Charisma" : "2"
 	        },
 	        "Orc" : {
 	            "type" : "trait.racial",
@@ -1358,7 +1435,13 @@ $(function() {
 	            "default" : ["Common", "Orc"],
 	            "list" : ["Dwarven", "Giant", "Gnoll", "Goblin", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Oread" : {
 	        "type" : "race",
@@ -1368,7 +1451,7 @@ $(function() {
 	            "description" : "Oreads are strong, solid, stable, and stoic.",
 	            "Strength" : "+2",
 	            "Wisdom" : "+2",
-	            "Charisma" : "-2"
+	            "Charisma" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1388,7 +1471,7 @@ $(function() {
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
-	            "description" : "Magic stone 1/day (caster level equals the oread's total level)."
+	            "description" : "Magic stone 1\/day (caster level equals the oread's total level)."
 	        },
 	        "Energy Resistance" : {
 	            "type" : "trait.racial",
@@ -1403,7 +1486,13 @@ $(function() {
 	            "default" : ["Common, Terran"],
 	            "list" : ["Aquan", "Auran", "Dwarven", "Elven", "Gnome", "Halfling", "Ignan", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Ratfolk" : {
 	        "type" : "race",
@@ -1413,7 +1502,7 @@ $(function() {
 	            "description" : "Ratfolk are agile and clever, yet physically weak.",
 	            "Dexterity" : "+2",
 	            "Intelligence" : "+2",
-	            "Strength" : "-2"
+	            "Strength" : "2"
 	        },
 	        "Ratfolk" : {
 	            "type" : "trait.racial",
@@ -1421,7 +1510,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty on combat maneuver checks and to their CMD, and a +4 size bonus on Stealth checks."
+	            "description" : "Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on combat maneuver checks and to their CMD, and a +4 size bonus on Stealth checks."
 	        },
 	        "Slow Speed" : {
 	            "type" : "trait.racial",
@@ -1448,7 +1537,13 @@ $(function() {
 	            "default" : ["Common"],
 	            "list" : ["Aklo", "Draconic", "Dwarven", "Gnoll", "Gnome", "Goblin", "Halfling", "Orc", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Sylph" : {
 	        "type" : "race",
@@ -1458,7 +1553,7 @@ $(function() {
 	            "description" : "Sylphs are quick and insightful, but slight and delicate.",
 	            "Dexterity" : "+2",
 	            "Intelligence" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1478,7 +1573,7 @@ $(function() {
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
-	            "description" : "Feather fall 1/day (caster level equals the sylph's total level)."
+	            "description" : "Feather fall 1\/day (caster level equals the sylph's total level)."
 	        },
 	        "Energy Resistance" : {
 	            "type" : "trait.racial",
@@ -1493,7 +1588,13 @@ $(function() {
 	            "default" : ["Common", "Auran"],
 	            "list" : ["Aquan", "Dwarven", "Elven", "Gnome", "Halfling", "Ignan", "Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Tengu" : {
 	        "type" : "race",
@@ -1503,7 +1604,7 @@ $(function() {
 	            "description" : "Tengus are fast and observant, but relatively fragile and delicate.",
 	            "Dexterity" : "+2",
 	            "Wisdom" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Tengu" : {
 	            "type" : "trait.racial",
@@ -1542,7 +1643,13 @@ $(function() {
 	            "default" : ["Tengus begin play speaking Common and Tengu"],
 	            "list" : [" Tengus with high Intelligence scores can choose any languages they want (except for secret languages, such as Druidic)"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Tiefling" : {
 	        "type" : "race",
@@ -1552,7 +1659,7 @@ $(function() {
 	            "description" : "Tieflings are quick in body and mind, but are inherently strange and unnerving.",
 	            "Dexterity" : "+2",
 	            "Intelligence" : "+2",
-	            "Charisma" : "-2"
+	            "Charisma" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1591,7 +1698,13 @@ $(function() {
 	            "default" : ["Tieflings begin play speaking Common and either Abyssal or Infernal"],
 	            "list" : [" Tieflings with high intelligence scores can choose from the following: Abyssal, Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, Infernal, and Orc"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Undine" : {
 	        "type" : "race",
@@ -1601,7 +1714,7 @@ $(function() {
 	            "description" : "Undines are both perceptive and agile, but tend to adapt rather than match force with force.",
 	            "Dexterity" : "+2",
 	            "Wisdom" : "+2",
-	            "Strength" : "-2"
+	            "Strength" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -1621,7 +1734,7 @@ $(function() {
 	        },
 	        "Spell-Like Ability" : {
 	            "type" : "trait.racial",
-	            "description" : "Hydraulic push 1/day (caster level equals the undine's level)."
+	            "description" : "Hydraulic push 1\/day (caster level equals the undine's level)."
 	        },
 	        "Energy Resistance" : {
 	            "type" : "trait.racial",
@@ -1636,9 +1749,15 @@ $(function() {
 	            "default" : ["Common", "Aquan"],
 	            "list" : ["Auran", "Dwarven", "Elven", "Gnome", "Halfling", "Ignan", "Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
-	    "Changelings" : {
+	    "Changeling" : {
 	        "type" : "race",
 	        "description" : "The offspring of hags and their mortal lovers, changelings are abandoned and raised by foster parents. Always female, changelings all hear a spiritual call during puberty to find their true origins. Tall and slender, with dark hair and eyes mismatched in color, changelings are eerily attractive.",
 	        "Ability Modifiers" : {
@@ -1646,7 +1765,7 @@ $(function() {
 	            "description" : "Changelings are frail, but are clever and comely.",
 	            "Wisdom" : "+2",
 	            "Charisma" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -1697,7 +1816,13 @@ $(function() {
 	            "default" : ["Changelings begin play speaking Common and the primary language of their host society"],
 	            "list" : [" Changelings with high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Duergar" : {
 	        "type" : "race",
@@ -1707,7 +1832,7 @@ $(function() {
 	            "description" : "Duergar are hearty and observant, but also belligerent.",
 	            "Constitution" : "+2",
 	            "Wisdom" : "+2",
-	            "Charisma" : "-4"
+	            "Charisma" : "4"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -1746,9 +1871,15 @@ $(function() {
 	            "default" : ["Common", "Dwarven", "Undercommon"],
 	            "list" : ["Aklo", "Draconic", "Giant", "Goblin", "Orc", "Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+3d6",
+	            "Self-Taught" : "+5d6",
+	            "Trained" : "+7d6"
+	        }
 	    },
-	    "Gillmen" : {
+	    "Gillman" : {
 	        "type" : "race",
 	        "description" : "Survivors of a land-dwelling culture whose homeland was destroyed, gillmen were saved and transformed into an amphibious race by the aboleths. Though in many ways they appear nearly human, gillmen's bright purple eyes and gills set them apart from humanity. Reclusive and suspicious, gillmen know that one day the aboleths will call in the debt owed to them.",
 	        "Ability Modifiers" : {
@@ -1756,7 +1887,7 @@ $(function() {
 	            "description" : "Gillmen are vigorous and beautiful, but their domination by the aboleths has made them weak-willed.",
 	            "Constitution" : "+2",
 	            "Charisma" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -1776,7 +1907,7 @@ $(function() {
 	        },
 	        "Enchantment Resistance" : {
 	            "type" : "trait.racial",
-	            "description" : "Gillmen gain a +2 racial saving throw bonus against non-aboleth enchantment spells and effects, but take a -2 penalty on such saving throws against aboleth sources."
+	            "description" : "Gillmen gain a +2 racial saving throw bonus against non-aboleth enchantment spells and effects, but take a 2 penalty on such saving throws against aboleth sources."
 	        },
 	        "Water Dependent" : {
 	            "type" : "trait.racial",
@@ -1787,9 +1918,15 @@ $(function() {
 	            "default" : ["Common", "Aboleth"],
 	            "list" : ["Aklo", "Aquan", "Draconic", "Elven"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "20",
+	            "Intuitive" : "+1d6",
+	            "Self-Taught" : "+2d6",
+	            "Trained" : "+3d6"
+	        }
 	    },
-	    "Gripplis" : {
+	    "Grippli" : {
 	        "type" : "race",
 	        "description" : "Furtive frogfolk with the ability to camouflage themselves among fens and swamps, gripplis typically keep to their wetland homes, only rarely interacting with the outside world. Their chief motivation for leaving their marshy environs is to trade in metal and gems.",
 	        "Ability Modifiers" : {
@@ -1797,11 +1934,11 @@ $(function() {
 	            "description" : "Gripplis are nimble and alert, but spindly.",
 	            "Dexterity" : "+2",
 	            "Wisdom" : "+2",
-	            "Strength" : "-2"
+	            "Strength" : "2"
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Gripplis are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+	            "description" : "Gripplis are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
 	        },
 	        "Grippli" : {
 	            "type" : "trait.racial",
@@ -1832,7 +1969,13 @@ $(function() {
 	            "default" : ["Common", "Grippli"],
 	            "list" : ["Boggard", "Draconic", "Elven", "Gnome", "Goblin", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Kitsune" : {
 	        "type" : "race",
@@ -1842,7 +1985,7 @@ $(function() {
 	            "description" : "Kitsune are agile and companionable, but tend to be physically weak.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Strength" : "-2"
+	            "Strength" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -1868,9 +2011,9 @@ $(function() {
 	            "type" : "trait.racial",
 	            "description" : "Kitsune receive a +2 racial bonus on Acrobatics checks."
 	        },
-	        "Kitsune Magic (Ex/Sp)" : {
+	        "Kitsune Magic (Ex\/Sp)" : {
 	            "type" : "trait.racial",
-	            "description" : "Kitsune add +1 to the DC of any saving throws against enchantment spells that they cast. Kitsune with a Charisma score of 11 or higher gain the following spell-like ability: 3/day\u2014dancing lights."
+	            "description" : "Kitsune add +1 to the DC of any saving throws against enchantment spells that they cast. Kitsune with a Charisma score of 11 or higher gain the following spell-like ability: 3\/daydancing lights."
 	        },
 	        "Natural Weapons (Ex)" : {
 	            "type" : "trait.racial",
@@ -1881,7 +2024,13 @@ $(function() {
 	            "default" : ["Common", "Sylvan"],
 	            "list" : ["any human language", "Aklo", "Celestial", "Elven", "Gnome", "Tengu"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Merfolk" : {
 	        "type" : "race",
@@ -1926,7 +2075,13 @@ $(function() {
 	            "default" : ["Common", "Aquan"],
 	            "list" : ["Aboleth", "Aklo", "Draconic", "Elven", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Nagaji" : {
 	        "type" : "race",
@@ -1936,7 +2091,7 @@ $(function() {
 	            "description" : "Nagaji are strong and have forceful personalities, but tend to ignore logic and mock scholastic pursuits.",
 	            "Strength" : "+2",
 	            "Charisma" : "+2",
-	            "Intelligence" : "-2"
+	            "Intelligence" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -1971,7 +2126,13 @@ $(function() {
 	            "default" : ["Common", "Draconic"],
 	            "list" : ["any human tongue", "Abyssal", "Aklo", "Celestial", "Draconic", "Giant", "Infernal", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "20",
+	            "Intuitive" : "+1d6",
+	            "Self-Taught" : "+2d6",
+	            "Trained" : "+3d6"
+	        }
 	    },
 	    "Samsaran" : {
 	        "type" : "race",
@@ -1981,7 +2142,7 @@ $(function() {
 	            "description" : "Samsarans are insightful and strong-minded, but their bodies tend to be frail.",
 	            "Intelligence" : "+2",
 	            "Wisdom" : "+2",
-	            "Constitution" : "-2"
+	            "Constitution" : "2"
 	        },
 	        "Medium" : {
 	            "type" : "trait.racial",
@@ -2001,18 +2162,24 @@ $(function() {
 	        },
 	        "Samsaran Magic (Sp)" : {
 	            "type" : "trait.racial",
-	            "description" : "Samsarans with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day\u2014comprehend languages, deathwatch, and stabilize. The caster level for these effects is equal to the samsaran's level."
+	            "description" : "Samsarans with a Charisma score of 11 or higher gain the following spell-like abilities: 1\/daycomprehend languages, deathwatch, and stabilize. The caster level for these effects is equal to the samsaran's level."
 	        },
 	        "Shards of the Past (Ex)" : {
 	            "type" : "trait.racial",
-	            "description" : "A samsaran's past lives grant her bonuses on two particular skills. A samsaran chooses two skills\u2014she gains a +2 racial bonus on both of these skills, and they are treated as class skills regardless of what class she actually takes."
+	            "description" : "A samsaran's past lives grant her bonuses on two particular skills. A samsaran chooses two skillsshe gains a +2 racial bonus on both of these skills, and they are treated as class skills regardless of what class she actually takes."
 	        },
 	        "Languages" : {
 	            "type" : "trait.racial",
 	            "default" : ["Common", "Samsaran"],
 	            "list" : ["any human language", "Abyssal", "Aquan", "Auran", "Celestial", "Draconic", "Giant", "Ignan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "60",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+8d6"
+	        }
 	    },
 	    "Strix" : {
 	        "type" : "race",
@@ -2060,7 +2227,13 @@ $(function() {
 	            "default" : ["Strix"],
 	            "list" : ["Auran", "Common", "Draconic", "Giant", "Gnome", "Goblin", "Infernal"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "12",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Suli" : {
 	        "type" : "race",
@@ -2070,7 +2243,7 @@ $(function() {
 	            "description" : "Sulis are brawny and charming, but slow-witted.",
 	            "Strength" : "+2",
 	            "Charisma" : "+2",
-	            "Intelligence" : "-2"
+	            "Intelligence" : "2"
 	        },
 	        "Native Outsider" : {
 	            "type" : "trait.racial",
@@ -2105,7 +2278,13 @@ $(function() {
 	            "default" : ["Common", "one elemental language (Aquan, Auran, Ignan, or Terran)"],
 	            "list" : ["Aquan", "Auran", "Draconic", "Ignan", "Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Svirfneblin" : {
 	        "type" : "race",
@@ -2113,10 +2292,10 @@ $(function() {
 	        "Ability Modifiers" : {
 	            "type" : "trait.racial",
 	            "description" : "Svirfneblin are fast and observant but relatively weak and emotionally distant.",
-	            "Strength" : "-2",
+	            "Strength" : "2",
 	            "Dexterity" : "+2",
 	            "Wisdom" : "+2",
-	            "Charisma" : "-4"
+	            "Charisma" : "4"
 	        },
 	        "Gnome" : {
 	            "type" : "trait.racial",
@@ -2124,7 +2303,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+	            "description" : "Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
 	        },
 	        "Defensive Training" : {
 	            "type" : "trait.racial",
@@ -2156,14 +2335,20 @@ $(function() {
 	        },
 	        "Svirfneblin Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the following spell-like abilities: Constant\u2014nondetection; 1/day\u2014blindness/deafness, blur, disguise self; caster level equals the svirfneblin's class levels."
+	            "description" : "Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the following spell-like abilities: Constantnondetection; 1\/dayblindness\/deafness, blur, disguise self; caster level equals the svirfneblin's class levels."
 	        },
 	        "Languages" : {
 	            "type" : "trait.racial",
 	            "default" : ["Gnome", "Undercommon"],
 	            "list" : ["Aklo", "Common", "Draconic", "Dwarven", "Elven", "Giant", "Goblin", "Orc", "and Terran"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+6d6",
+	            "Trained" : "+9d6"
+	        }
 	    },
 	    "Vanara" : {
 	        "type" : "race",
@@ -2173,7 +2358,7 @@ $(function() {
 	            "description" : "Vanaras are agile and insightful, but are also rather mischievous.",
 	            "Dexterity" : "+2",
 	            "Wisdom" : "+2",
-	            "Charisma" : "-2"
+	            "Charisma" : "2"
 	        },
 	        "Vanara" : {
 	            "type" : "trait.racial",
@@ -2204,7 +2389,13 @@ $(function() {
 	            "default" : ["Common", "Vanaran"],
 	            "list" : ["Aklo", "Celestial", "Elven", "Gnome", "Goblin", "Sylvan"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "14",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Vishkanya" : {
 	        "type" : "race",
@@ -2214,7 +2405,7 @@ $(function() {
 	            "description" : "Vishkanyas are graceful and elegant, but they are often irrational.",
 	            "Dexterity" : "+2",
 	            "Charisma" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Vishkanya" : {
 	            "type" : "trait.racial",
@@ -2250,11 +2441,11 @@ $(function() {
 	        },
 	        "Toxic" : {
 	            "type" : "trait.racial",
-	            "description" : "A number of times per day equal to his Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that he wields with his toxic saliva or blood (using blood requires the vishkanya to be injured when he uses this ability). Applying venom in this way is a swift action.",
+	            "description" : "A number of times per day equal to his Constitution modifier (minimum 1\/day), a vishkanya can envenom a weapon that he wields with his toxic saliva or blood (using blood requires the vishkanya to be injured when he uses this ability). Applying venom in this way is a swift action.",
 	            "ability" : {
 	                "name" : "Vishkanya Venom",
 	                "type" : "trait.racial",
-	                "description" : "Injury; save Fort DC 10 + 1/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier; frequency 1/round for 6 rounds; effect 1d2 Dex; cure 1 save."
+	                "description" : "Injury; save Fort DC 10 + 1\/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier; frequency 1\/round for 6 rounds; effect 1d2 Dex; cure 1 save."
 	            }
 	        },
 	        "Weapon Familiarity" : {
@@ -2266,7 +2457,13 @@ $(function() {
 	            "default" : ["Common", "Vishkanya"],
 	            "list" : ["Aklo", "Draconic", "Elven", "Goblin", "Sylvan", "Undercommon"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "15",
+	            "Intuitive" : "+1d4",
+	            "Self-Taught" : "+1d6",
+	            "Trained" : "+2d6"
+	        }
 	    },
 	    "Wayang" : {
 	        "type" : "race",
@@ -2276,7 +2473,7 @@ $(function() {
 	            "description" : "Wayang are nimble and cagey, but their perception of the world is clouded by shadows.",
 	            "Dexterity" : "+2",
 	            "Intelligence" : "+2",
-	            "Wisdom" : "-2"
+	            "Wisdom" : "2"
 	        },
 	        "Wayang" : {
 	            "type" : "trait.racial",
@@ -2284,7 +2481,7 @@ $(function() {
 	        },
 	        "Small" : {
 	            "type" : "trait.racial",
-	            "description" : "Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty on their CMB and to CMD, and a +4 size bonus on Stealth checks."
+	            "description" : "Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their CMB and to CMD, and a +4 size bonus on Stealth checks."
 	        },
 	        "Slow Speed" : {
 	            "type" : "trait.racial",
@@ -2304,7 +2501,7 @@ $(function() {
 	        },
 	        "Shadow Magic" : {
 	            "type" : "trait.racial",
-	            "description" : "Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day\u2014ghost sound, pass without trace, and ventriloquism. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier."
+	            "description" : "Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1\/dayghost sound, pass without trace, and ventriloquism. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier."
 	        },
 	        "Shadow Resistance" : {
 	            "type" : "trait.racial",
@@ -2312,7 +2509,7 @@ $(function() {
 	        },
 	        "Dissolution's Child" : {
 	            "type" : "trait.racial.alternate",
-	            "description" : "Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporeal\u2014only your appearance changes. This works like invisibility, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability.",
+	            "description" : "Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporealonly your appearance changes. This works like invisibility, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability.",
 	            "replaces" : ["Shadow Magic"]
 	        },
 	        "Languages" : {
@@ -2320,7 +2517,13 @@ $(function() {
 	            "default" : ["Common", "Wayang"],
 	            "list" : ["any human language", "Abyssal", "Aklo", "Draconic", "Goblin", "Infernal", "Nagaji", "Samsaran", "Tengu"]
 	        },
-	        "source" : "Advanced Race Guide"
+	        "source" : "Advanced Race Guide",
+	        "Age" : {
+	            "Adulthood" : "40",
+	            "Intuitive" : "+4d6",
+	            "Self-Taught" : "+5d6",
+	            "Trained" : "+6d6"
+	        }
 	    }
 	};
 
@@ -2336,7 +2539,7 @@ $(function() {
 		};
 		$.each(CLASSES, function(key, value) {
 			var source = (value.type == "class") ? value.source : value.type;
-		
+
 			if ($.inArray(source, optGroups.list) == -1) {
 				optGroups.list.push(source);
 			}
@@ -2346,20 +2549,20 @@ $(function() {
 			    source : value.source
 			});
 		});
-		
+
 		optGroups.list.sort(function(a, b) {
 			var TypeOrder = ["Class", "Prestige Class", "NPC Class"];
 			var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
-			
+
 			var typeA = $.inArray(a.type, TypeOrder);
 			var typeB = $.inArray(b.type, TypeOrder);
-			if(typeA == typeB) {
+			if (typeA == typeB) {
 				return $.inArray(a, BookOrder) - $.inArray(b, BookOrder);
 			} else {
 				return typeA - TypeB;
 			}
 		});
-		
+
 		$.each(optGroups.list, function(key, group) {
 			if (typeof group === 'string') {
 				$("<optgroup />", {
@@ -2485,14 +2688,15 @@ $(function() {
 	});
 
 	function serialCommaJoin(arrayList, conjuction) {
+		var list = arracyList.slice(0);
 		conjuction = (conjuction || "and") + " "; // default list type to "and"
 
-		if (arrayList.length < 3) {
-			return arrayList.join(" " + conjuction);
+		if (list.length < 3) {
+			return list.join(" " + conjuction);
 		} else {
-			arrayList[arrayList.length - 1] = conjuction + arrayList[arrayList.length - 1];
+			list[list.length - 1] = conjuction + list[list.length - 1];
 		}
-		return arrayList.join(", ");
+		return list.join(", ");
 	}
 
 	$("#class").change(function() {
@@ -2504,12 +2708,12 @@ $(function() {
 		if (CLASSES[charClass].description) {
 			$("<P />").text(CLASSES[charClass].description).appendTo("#class-output");
 		}
-		
+
 		$.each(CLASSES[charClass], function(key, value) {
-			if(value.type == "Class Feature") {
-			
+			if (value.type == "Class Feature") {
+
 			} else {
-				switch(key){
+				switch (key) {
 				case "Alignment":
 					console.log(key, value);
 					var line = $("<P />").text(serialCommaJoin(value, "or"));
@@ -2522,21 +2726,22 @@ $(function() {
 					line.appendTo("#class-output");
 					break;
 				case "Skill Ranks":
-					var line = $("<P />").text("(" +value + " + INT Modifier)/Level");
+					var line = $("<P />").text("(" + value + " + INT Modifier)/Level");
 					$("<B />").text(key + ": ").prependTo(line);
 					line.appendTo("#class-output");
+					break;
 				case "level1":
 				case "source":
 					break;
-				default: 
+				default:
 					var line = $("<P />").text(value);
 					$("<B />").text(key + ": ").prependTo(line);
 					line.appendTo("#class-output");
-				break;
+					break;
 				}
 			}
 		});
-	
+
 	});
 
 	$("#race").change(function() {

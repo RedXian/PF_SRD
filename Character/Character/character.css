@@ -594,15 +594,14 @@ tfoot td {
 	width: 90px;
 }
 #input .section {
-	float: left;
-	clear: left;
 	width: 50%;
 }
 
 #input .right-section {
-	position: absolute;
+	position: relative;
+	float:right;
+	clear:right;
 	top: 0px;
-	left: 50%;
 	width: 50%;
 }
 
@@ -613,7 +612,6 @@ tfoot td {
 }
 
 #input field {
-	float:left;
 	width: 50%;
 }
 
@@ -628,8 +626,9 @@ tfoot td {
 
 .output {
 	float: right;
+	clear:right;
 	width: 50%;
-/* 	height: auto; */
+ 	height: auto; 
 	font-size: 12px;
 }
 
