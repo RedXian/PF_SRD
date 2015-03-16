@@ -2586,7 +2586,6 @@
 		});
 	}
 
-
 	function populateRaceDropdown() {
 
 		var raceList = [];
@@ -2631,10 +2630,18 @@
 		});
 	}
 
+	/** Derrives the Ablity Score modifer from an Ability Score.  Based on D&D 3.5 Stats
+	 * @param score Ability Score value
+	 * @returns Ability Modifer Value
+	 */
 	function getModifier(score) {
 		return Math.floor(score / 2) - 5;
 	}
 
+	/** Updates the Ability Score modifiers on all fields on the page as well as any skill, save or attack that uses that value
+	 * @param stat A String of the Ability Stat changing
+	 * @param newModifier The new Ability modifier value
+	 */
 	function updateAllAbilityModifers(stat, newModifier) {
 		$("." + stat + "-mod").each(function(i) {
 			$(this).val(newModifier);
@@ -2658,6 +2665,9 @@
 		});
 	}
 
+	/** Cycles through each ability stat and removed the current the racial modifier.   
+	 *  This would be used before the racial modifiers of a new race is applied.
+	 */
 	function clearRacialAbilityMods() {
 		$(".stat").each(function(index) {
 			var stat = $(this).attr("id");
@@ -2670,6 +2680,11 @@
 		});
 	}
 
+	/** Creates a < p > HTML element and adds it to the target element
+	 * @param div The ID of the target HTML element.
+	 * @param text The text of the < p > element.
+	 * @param label (optional) The text of the bolded label to preceed the text, if supplied.
+	 */
 	function appendPElementWithLabel(div, text, label){
 		var line = $("<P />").text(text);
 		if (label) {
@@ -2678,6 +2693,14 @@
 		line.appendTo(div);
 	}
 
+	/** Generates a comma separated String of all elements with a conjuction before the last element
+	 * 	
+	 * i.e. Item1, Item2, Item3, and Item4. 
+	 *   
+	 * @param arrayList An array of list elements in a string.
+	 * @param conjuction (optional) The conjustion used before the last element (defaults to "and" if not specified).
+	 * @returns A string of all list elements joined with a serial comma.
+	 */
 	function serialCommaJoin(arrayList, conjuction) {
 		var list = arracyList.slice(0);
 		conjuction = (conjuction || "and") + " "; // default list type to "and"
@@ -2696,6 +2719,7 @@ $(document).ready(function() {
 	populateRaceDropdown();
 	populateClassDropdown();
 
+	// 
 	$(".stat .stat-score").change(function() {
 		var stat = $(this).parent().attr("id");
 		var score = parseInt($(this).val());
