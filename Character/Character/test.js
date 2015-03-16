@@ -2,7 +2,7 @@
  * 
  * 
  */
-$(function() {
+
 	var CLASSES = {
 	    "Barbarian" : {
 	        "type" : "class",
@@ -2527,9 +2527,6 @@ $(function() {
 	    }
 	};
 
-	populateRaceDropdown();
-	populateClassDropdown();
-
 	function populateClassDropdown() {
 
 		var classList = [];
@@ -2537,6 +2534,8 @@ $(function() {
 		    prefix : "c",
 		    list : []
 		};
+		
+		// Load in Classes and Groups.
 		$.each(CLASSES, function(key, value) {
 			var source = (value.type == "class") ? value.source : value.type;
 
@@ -2550,6 +2549,7 @@ $(function() {
 			});
 		});
 
+		// Sort Group list in order Class type, then by book.
 		optGroups.list.sort(function(a, b) {
 			var TypeOrder = ["Class", "Prestige Class", "NPC Class"];
 			var BookOrder = ["Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat", "Advanced Race Guide", "Advanced Class Guide"];
@@ -2563,6 +2563,7 @@ $(function() {
 			}
 		});
 
+		// Populate SELECT with OptGroups
 		$.each(optGroups.list, function(key, group) {
 			if (typeof group === 'string') {
 				$("<optgroup />", {
@@ -2572,14 +2573,16 @@ $(function() {
 			}
 		});
 
+		// Sort the list of Classes Alphabetically
 		classList.sort(function(a, b) {
 			return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
 		});
-
+		
+		// Populate SELECT with class names in their specific Optgroup.
 		$.each(classList, function(key, cClass) {
 			$("<option />", {
 				"value" : cClass.name
-			}).text(cClass.name).appendTo($("#c" + cClass.source.replace(/[\s']*/g, '')));
+			}).text(cClass.name).appendTo($("#" + optGroups.prefix + cClass.source.replace(/[\s']*/g, '')));
 		});
 	}
 
@@ -2632,12 +2635,6 @@ $(function() {
 		return Math.floor(score / 2) - 5;
 	}
 
-	$(".stat .stat-score").change(function() {
-		var stat = $(this).parent().attr("id");
-		var score = parseInt($(this).val());
-		updateAllAbilityModifers(stat, getModifier(score));
-	});
-
 	function updateAllAbilityModifers(stat, newModifier) {
 		$("." + stat + "-mod").each(function(i) {
 			$(this).val(newModifier);
@@ -2673,19 +2670,13 @@ $(function() {
 		});
 	}
 
-	$("#Any").change(function() {
-		var stat = $(this).val();
-
-		clearRacialAbilityMods();
-
-		var race = $("#race").val();
-		var racial = parseInt(RACES[race]["Ability Modifiers"].Any);
-
-		$("#" + stat + " .stat-racialMod").val(racial);
-		var newScore = parseInt($("#" + stat + " .stat-score").val()) + racial;
-		$("#" + stat + " .stat-score").val(newScore);
-		updateAllAbilityModifers(stat, getModifier(newScore));
-	});
+	function appendPElementWithLabel(div, text, label){
+		var line = $("<P />").text(text);
+		if (label) {
+			$("<B />").text(label + ": ").prependTo(line);
+		}
+		line.appendTo(div);
+	}
 
 	function serialCommaJoin(arrayList, conjuction) {
 		var list = arracyList.slice(0);
@@ -2699,14 +2690,41 @@ $(function() {
 		return list.join(", ");
 	}
 
+	
+$(document).ready(function() {
+
+	populateRaceDropdown();
+	populateClassDropdown();
+
+	$(".stat .stat-score").change(function() {
+		var stat = $(this).parent().attr("id");
+		var score = parseInt($(this).val());
+		updateAllAbilityModifers(stat, getModifier(score));
+	});
+
+	$("#Any").change(function() {
+		var stat = $(this).val();
+		
+		clearRacialAbilityMods();
+
+		var race = $("#race").val();
+		var racial = parseInt(RACES[race]["Ability Modifiers"].Any);
+
+		
+		$("#" + stat + " .stat-racialMod").val(racial);
+		var newScore = parseInt($("#" + stat + " .stat-score").val()) + racial;
+		$("#" + stat + " .stat-score").val(newScore);
+		
+		updateAllAbilityModifers(stat, getModifier(newScore));
+	});
+
 	$("#class").change(function() {
 		$("#class-output").empty();
-
 		var charClass = $(this).val();
 
 		$("<H2 />").text(charClass).appendTo("#class-output");
 		if (CLASSES[charClass].description) {
-			$("<P />").text(CLASSES[charClass].description).appendTo("#class-output");
+			appendPElementWithLabel("#class-output", CLASSES[charClass].description);
 		}
 
 		$.each(CLASSES[charClass], function(key, value) {
@@ -2716,32 +2734,23 @@ $(function() {
 				switch (key) {
 				case "Alignment":
 					console.log(key, value);
-					var line = $("<P />").text(serialCommaJoin(value, "or"));
-					$("<B />").text(key + ": ").prependTo(line);
-					line.appendTo("#class-output");
+					appendPElementWithLabel("#class-output", serialCommaJoin(value, "or"), key)
 					break;
 				case "Class Skills":
-					var line = $("<P />").text(serialCommaJoin(value));
-					$("<B />").text(key + ": ").prependTo(line);
-					line.appendTo("#class-output");
+					appendPElementWithLabel("#class-output", serialCommaJoin(value), key);
 					break;
 				case "Skill Ranks":
-					var line = $("<P />").text("(" + value + " + INT Modifier)/Level");
-					$("<B />").text(key + ": ").prependTo(line);
-					line.appendTo("#class-output");
+					appendPElementWithLabel("#class-output", "(" + value + " + INT Modifier)/Level", key);
 					break;
 				case "level1":
 				case "source":
 					break;
 				default:
-					var line = $("<P />").text(value);
-					$("<B />").text(key + ": ").prependTo(line);
-					line.appendTo("#class-output");
+					appendPElementWithLabel("#class-output", value, key);
 					break;
 				}
 			}
 		});
-
 	});
 
 	$("#race").change(function() {
@@ -2754,15 +2763,13 @@ $(function() {
 		var race = $(this).val();
 		$("<H2 />").text(race).appendTo("#output");
 		if (RACES[race].description) {
-			$("<P />").text(RACES[race].description).appendTo("#output");
+			appendPElementWithLabel("#output", RACES[race].description);
 		}
 		$.each(RACES[race], function(key, value) {
 			if (value.type == "trait.racial") {
 				switch (key) {
 				case "Ability Modifiers":
-					var line = $("<P />").text(value.description);
-					$("<B />").text(key + ": ").prependTo(line);
-					line.appendTo("#output");
+					appendPElementWithLabel("#output", value.description, key);
 					$.each(value, function(stat, mod) {
 						var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Any"];
 						if ($.inArray(stat, abilities) != -1) {
@@ -2782,18 +2789,12 @@ $(function() {
 					});
 					break;
 				case "Languages":
-					var line = $("<P />").text(serialCommaJoin(value["default"]));
-					$("<B />").text("Starting Languages: ").prependTo(line);
-					line.appendTo("#output");
+					appendPElementWithLabel("#output", serialCommaJoin(value["default"]), "Starting Language");
 
-					var line = $("<P />").text(serialCommaJoin(value.list));
-					$("<B />").text("Available Languages: ").prependTo(line);
-					line.appendTo("#output");
+					appendPElementWithLabel("#output", serialCommaJoin(value.list), "Available Languages");
 					break;
 				default:
-					var line = $("<P />").text(value.description);
-					$("<B />").text(key + ": ").prependTo(line).appendText;
-					line.appendTo("#output");
+					appendPElementWithLabel("#output", value.description, key);
 				}
 			}
 		});
