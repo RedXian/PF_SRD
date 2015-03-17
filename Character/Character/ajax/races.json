@@ -144,6 +144,26 @@
 			"Intuitive": "+3d6", 
 			"Self-Taught": "+5d6", 
 			"Trained": "+7d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 9 in.", 
+				"Base Weight": "150 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "3 ft. 7 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "125 years", 
+			"Old": "188 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 2d% years"
 		}
 	}, 
 	"Elf": {
@@ -260,6 +280,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+10d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "100 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "3 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "175 years", 
+			"Old": "263 years", 
+			"Venerable": "350 years", 
+			"Maximum Age": "350 + 4d% years"
 		}
 	}, 
 	"Gnome": {
@@ -381,6 +421,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+9d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 0 in.", 
+				"Base Weight": "35 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 10 in.", 
+				"Base Weight": "30 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "100 years", 
+			"Old": "150 years", 
+			"Venerable": "200 years", 
+			"Maximum Age": "200 + 3d% years"
 		}
 	}, 
 	"Halfling": {
@@ -497,6 +557,26 @@
 			"Intuitive": "+2d4", 
 			"Self-Taught": "+3d6", 
 			"Trained": "+4d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "2 ft. 8 in.", 
+				"Base Weight": "30 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 6 in.", 
+				"Base Weight": "25 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "50 years", 
+			"Old": "75 years", 
+			"Venerable": "100 years", 
+			"Maximum Age": "100 + 5d20 years"
 		}
 	}, 
 	"Half-elf": {
@@ -504,7 +584,7 @@
 		"description": "Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.", 
 		"Ability Modifiers": {
 			"description": "Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.", 
-			"OneAbility": "+2"
+			"Any": "+2"
 		}, 
 		"Medium": {
 			"type": "trait.racial", 
@@ -594,6 +674,26 @@
 			"Intuitive": "+1d6", 
 			"Self-Taught": "+2d6", 
 			"Trained": "+3d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 0 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "62 years", 
+			"Old": "93 years", 
+			"Venerable": "125 years", 
+			"Maximum Age": "125 + 3d20 years"
 		}
 	}, 
 	"Half-orc": {
@@ -602,7 +702,7 @@
 		"Ability Modifiers": {
 			"type": "trait.racial", 
 			"description": "Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.", 
-			"OneAbility": "+2"
+			"Any": "+2"
 		}, 
 		"Medium": {
 			"type": "trait.racial", 
@@ -713,6 +813,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "150 lbs.", 
+				"Modifier": "2d12", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d12", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "30 years", 
+			"Old": "45 years", 
+			"Venerable": "60 years", 
+			"Maximum Age": "60 + 2d10 years"
 		}
 	}, 
 	"Human": {
@@ -721,7 +841,7 @@
 		"Ability Modifiers": {
 			"type": "trait.racial", 
 			"description": "Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.", 
-			"OneAbility": "+2"
+			"Any": "+2"
 		}, 
 		"Medium": {
 			"type": "trait.racial", 
@@ -824,6 +944,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Aasimar": {
@@ -874,6 +1014,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 0 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Catfolk": {
@@ -925,6 +1085,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Dhampir": {
@@ -988,6 +1168,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+10d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "175 years", 
+			"Old": "263 years", 
+			"Venerable": "350 years", 
+			"Maximum Age": "350 + 4d% years"
 		}
 	}, 
 	"Drow": {
@@ -1055,6 +1255,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+10d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "100 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "3 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "175 years", 
+			"Old": "263 years", 
+			"Venerable": "350 years", 
+			"Maximum Age": "350 + 4d% years"
 		}
 	}, 
 	"Fetchling": {
@@ -1114,6 +1334,26 @@
 			"Intuitive": "+1d6", 
 			"Self-Taught": "+2d6", 
 			"Trained": "+3d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "80 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "62 years", 
+			"Old": "93 years", 
+			"Venerable": "125 years", 
+			"Maximum Age": "125 + 3d20 years"
 		}
 	}, 
 	"Goblin": {
@@ -1157,6 +1397,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "2 ft. 8 in.", 
+				"Base Weight": "30 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 6 in.", 
+				"Base Weight": "25 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 + 1d20 years"
 		}
 	}, 
 	"Hobgoblin": {
@@ -1199,6 +1459,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 2 in.", 
+				"Base Weight": "165 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 0 in.", 
+				"Base Weight": "145 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "30 years", 
+			"Old": "45 years", 
+			"Venerable": "60 years", 
+			"Maximum Age": "60 + 2d10 years"
 		}
 	}, 
 	"Ifrit": {
@@ -1250,6 +1530,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 0 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Kobold": {
@@ -1301,6 +1601,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "2 ft. 6 in.", 
+				"Base Weight": "25 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 4 in.", 
+				"Base Weight": "20 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 + 1d20 years"
 		}
 	}, 
 	"Orc": {
@@ -1353,6 +1673,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 1 in.", 
+				"Base Weight": "160 lbs.", 
+				"Modifier": "2d12", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 9 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d12", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 + 1d20 years"
 		}
 	}, 
 	"Oread": {
@@ -1404,6 +1744,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 0 in.", 
+				"Base Weight": "150 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "3 ft. 9 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Ratfolk": {
@@ -1455,6 +1815,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 7 in.", 
+				"Base Weight": "65 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "3 lbs."
+			}, 
+			"female": {
+				"Base Height": "3 ft. 4 in.", 
+				"Base Weight": "50 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "3 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 + 1d20 years"
 		}
 	}, 
 	"Sylph": {
@@ -1506,6 +1886,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 0 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Tengu": {
@@ -1561,6 +1961,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 0 in.", 
+				"Base Weight": "65 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}, 
+			"female": {
+				"Base Height": "3 ft. 10 in.", 
+				"Base Weight": "55 lbs.", 
+				"Modifier": "2d6", 
+				"Weight Modifier": "3 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 year", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Tiefling": {
@@ -1616,6 +2036,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Undine": {
@@ -1667,6 +2107,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Changeling": {
@@ -1731,6 +2191,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 2 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 2 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Duergar": {
@@ -1786,6 +2266,26 @@
 			"Intuitive": "+3d6", 
 			"Self-Taught": "+5d6", 
 			"Trained": "+7d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 9 in.", 
+				"Base Weight": "150 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "3 ft. 7 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "125 years", 
+			"Old": "188 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 2d% years"
 		}
 	}, 
 	"Gillman": {
@@ -1833,6 +2333,26 @@
 			"Intuitive": "+1d6", 
 			"Self-Taught": "+2d6", 
 			"Trained": "+3d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "62 years", 
+			"Old": "93 years", 
+			"Venerable": "125 years", 
+			"Maximum Age": "125 + 3d20 years"
 		}
 	}, 
 	"Grippli": {
@@ -1884,6 +2404,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "1 ft. 7 in.", 
+				"Base Weight": "25 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "1 ft. 5 in.", 
+				"Base Weight": "20 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 + 1d20 years"
 		}
 	}, 
 	"Kitsune": {
@@ -1939,6 +2479,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "100 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "32 year", 
+			"Old": "50 years", 
+			"Venerable": "65 years", 
+			"Maximum Age": "65 + 3d12 years"
 		}
 	}, 
 	"Merfolk": {
@@ -1990,6 +2550,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 10 in.", 
+				"Base Weight": "145 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 8 in.", 
+				"Base Weight": "135 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Nagaji": {
@@ -2041,6 +2621,26 @@
 			"Intuitive": "+1d6", 
 			"Self-Taught": "+2d6", 
 			"Trained": "+3d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 9 in.", 
+				"Base Weight": "180 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "7 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 6 in.", 
+				"Base Weight": "160 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "7 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "60 years", 
+			"Old": "90 years", 
+			"Venerable": "120 years", 
+			"Maximum Age": "120 + 3d20 years"
 		}
 	}, 
 	"Samsaran": {
@@ -2088,6 +2688,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+8d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 6 in.", 
+				"Base Weight": "110 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "150 years", 
+			"Old": "200 years", 
+			"Venerable": "250 years", 
+			"Maximum Age": "250 + 6d% years"
 		}
 	}, 
 	"Strix": {
@@ -2142,6 +2762,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 4 in.", 
+				"Base Weight": "125 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 2 in.", 
+				"Base Weight": "115 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "20 years", 
+			"Old": "30 years", 
+			"Venerable": "40 years", 
+			"Maximum Age": "40 +1d20 years"
 		}
 	}, 
 	"Suli": {
@@ -2193,6 +2833,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 10 in.", 
+				"Base Weight": "120 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 5 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d10", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Svirfneblin": {
@@ -2257,6 +2917,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+6d6", 
 			"Trained": "+9d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 0 in.", 
+				"Base Weight": "35 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 10 in.", 
+				"Base Weight": "30 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "100 years", 
+			"Old": "150 years", 
+			"Venerable": "200 years", 
+			"Maximum Age": "200 + 3d% years"
 		}
 	}, 
 	"Vanara": {
@@ -2304,6 +2984,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "4 ft. 8 in.", 
+				"Base Weight": "105 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "4 ft. 2 in.", 
+				"Base Weight": "90 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "30 years", 
+			"Old": "45 years", 
+			"Venerable": "60 years", 
+			"Maximum Age": "60 + 2d10 years"
 		}
 	}, 
 	"Vishkanya": {
@@ -2372,6 +3072,26 @@
 			"Intuitive": "+1d4", 
 			"Self-Taught": "+1d6", 
 			"Trained": "+2d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "5 ft. 3 in.", 
+				"Base Weight": "85 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}, 
+			"female": {
+				"Base Height": "5 ft. 1 in.", 
+				"Base Weight": "75 lbs.", 
+				"Modifier": "2d8", 
+				"Weight Modifier": "5 lbs."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "35 years", 
+			"Old": "53 years", 
+			"Venerable": "70 years", 
+			"Maximum Age": "70 + 2d20 years"
 		}
 	}, 
 	"Wayang": {
@@ -2432,6 +3152,26 @@
 			"Intuitive": "+4d6", 
 			"Self-Taught": "+5d6", 
 			"Trained": "+6d6"
+		}, 
+		"HeightWeight": {
+			"male": {
+				"Base Height": "3 ft. 0 in.", 
+				"Base Weight": "35 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}, 
+			"female": {
+				"Base Height": "2 ft. 10 in.", 
+				"Base Weight": "30 lbs.", 
+				"Modifier": "2d4", 
+				"Weight Modifier": "1 lb."
+			}
+		}, 
+		"Aging Effects": {
+			"Middle Age": "100 years", 
+			"Old": "150 years", 
+			"Venerable": "200 years", 
+			"Maximum Age": "200 + 1d% years"
 		}
 	}
 }

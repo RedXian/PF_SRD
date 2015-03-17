@@ -13,10 +13,14 @@
 </head>
 <body>
 	<DIV id="output" class="output"></DIV><DIV id="class-output" class="output"></DIV><div id="input">
-		<div class="right-section">
+		<div class="right-section personal">
 			<h2>Personal Attributes</h2>
 			<div class="field">
-				<label for="characterSex">Sex:</label> <input type="text" id="characterSex">
+				<label for="characterSex">Sex:</label> <select id="characterSex"> 
+					<option value="none" disabled style="display:none">Select Sex</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>				
+				</select>
 			</div>
 			<div class="field">
 				<label for="characterHair">Hair:</label> <input type="text" id="characterHair">
@@ -28,13 +32,11 @@
 				<label for="characterSkin">Skin:</label> <input type="text" id="characterSkin">
 			</div>
 			<div class="field">
-				<label for="characterHeight">Height:</label> <input type="text" id="characterHeight">
+				<label for="characterHeight">Height:</label> <select  id="characterHeight"> </select>
+				<label for="characterWeight">Weight:</label> <input class="rightcol" type="text" id="characterWeight">
 			</div>
 			<div class="field">
-				<label for="characterWeight">Weight:</label> <input type="text" id="characterWeight">
-			</div>
-			<div class="field">
-				<label for="characterAge">Age:</label> <input type="text" id="characterAge">
+				<label for="characterAge">Age:</label> <input type="number" id="characterAge"> <input class="rightcol" type="text" disabled id="charAgingEffect">
 			</div>
 		</div>
 		<div class="right-section">
@@ -222,17 +224,17 @@
 			</div>
 			<div class="field">
 				<label for="race">Race:</label> <select id="race">
-					<option selected style="display: none">Select Race</option>
+					<option value="none" selected style="display: none">Select Race</option>
 				</select>
 			</div>
 			<div class="field">
 				<label for="class">Class:</label> <select id="class">
-					<option selected style="display: none">Select Class</option>
+					<option value="none" selected style="display: none">Select Class</option>
 				</select>
 			</div>
 			<div class="field archetype">
 				<label for="archetype">Archetype:</label> <select id="archetype">
-					<option selected style="display: none">Select Archetype</option>
+					<option value="none" selected style="display: none">Select Archetype</option>
 				</select>
 			</div>
 		</div>
@@ -240,32 +242,38 @@
 			<h2>Abilities</h2>
 			<div class="stat" id="Strength">
 				<label>Strength:</label> <input type="number" class="stat-score" value="10"> <input
-					type="number" class="stat-racialMod" value="0" disabled> <input disabled type="number"
+					type="number" class="stat-racialMod" value="0" disabled> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Strength-mod" value="0">
 			</div>
 			<div class="stat" id="Dexterity">
 				<label>Dexterity:</label> <input type="number" class="stat-score" value="10"> <input
-					type="number" class="stat-racialMod" value="0" disabled> <input disabled type="number"
+					type="number" class="stat-racialMod" value="0" disabled> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Dexterity-mod" value="0">
 			</div>
 			<div class="stat" id="Constitution">
 				<label>Constitution:</label> <input type="number" class="stat-score" value="10"> <input
-					disabled type="number" class="stat-racialMod" value="0"> <input disabled type="number"
+					disabled type="number" class="stat-racialMod" value="0"> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Constitution-mod" value="0">
 			</div>
 			<div class="stat" id="Intelligence">
 				<label>Intelligence:</label> <input type="number" class="stat-score" value="10"> <input
-					disabled type="number" class="stat-racialMod" value="0"> <input disabled type="number"
+					disabled type="number" class="stat-racialMod" value="0"> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Intelligence-mod" value="0">
 			</div>
 			<div class="stat" id="Wisdom">
 				<label>Wisdom:</label> <input type="number" class="stat-score" value="10"> <input
-					disabled type="number" class="stat-racialMod" value="0"> <input disabled type="number"
+					disabled type="number" class="stat-racialMod" value="0"> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Wisdom-mod" value="0">
 			</div>
 			<div class="stat" id="Charisma">
 				<label>Charisma:</label> <input type="number" class="stat-score" value="10"> <input
-					disabled type="number" class="stat-racialMod" value="0"> <input disabled type="number"
+					disabled type="number" class="stat-racialMod" value="0"> <input
+					disabled type="number" class="stat-agingMod" value="0"> <input disabled type="number"
 					class="Charisma-mod" value="0">
 			</div>
 			<div class="Anystat">
