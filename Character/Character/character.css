@@ -615,9 +615,7 @@ tfoot td {
 	width: 40px;
 }
 
-#input .personal .field select {
-	width: 80px;
-}
+
 
 #input .personal .field label {
 	width: 50px;
@@ -631,6 +629,10 @@ tfoot td {
 	width: auto;
 }
 
+#input .personal .field select {
+	width: 80px;
+}
+
 #input .stat input, #input .saves input, #input .skill input {
 	width: 30px;
 	height: 12px;
@@ -640,7 +642,7 @@ tfoot td {
 	float: right;
 	clear:right;
 	width: 50%;
- 	height: auto; 
+ 	height: 50%; 
 	font-size: 12px;
 }
 

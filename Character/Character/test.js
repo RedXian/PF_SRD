@@ -3428,19 +3428,17 @@
 	 * @param stat A String of the Ability Stat changing
 	 * @param newModifier The new Ability modifier value
 	 */
-	function updateAllAbilityModifers(stat, newModifier) {
+	function updateAllAbilityModifiers(stat, newModifier) {
 		$("." + stat + "-mod").each(function(i) {
-			$(this).val(newModifier);
+			$(this).val(newModifier).trigger("change");;
 			var type = $(this).parent().attr("class");
-			var id = $(this).parent().attr("id");
 			switch (type) {
 			case "skill":
-				var ranks = parseInt($("#" + id).children(".skill-ranks").val()) || 0;
-				$("#" + id).children(".skill-mod").val(newModifier + ranks);
+//				$(this).siblings(".skill-ranks").trigger("change");
 				break;
 			case "saves":
-				var base = parseInt($("#" + id).children(".save-base").val()) || 0;
-				$("#" + id).children(".save-bonus").val(newModifier + base);
+				var base = parseInt($(this).siblings(".save-base").val()) || 0;
+				$(this).siblings(".save-base").val(newModifier + base);
 				break;
 			default:
 				// Do Nothing if Stat of anything else.
@@ -3455,12 +3453,9 @@
 	function clearRacialAbilityMods() {
 		$(".stat").each(function(index) {
 			var stat = $(this).attr("id");
-			var score = parseInt($("#" + stat + " .stat-score").val());
-			var rMod = parseInt($("#" + stat + " .stat-racialMod").val());
-			$("#" + stat + " .stat-score").val(score - rMod);
+			console.log("Clearing: " + stat);
 			$("#" + stat + " .stat-racialMod").val(0);
-
-			updateAllAbilityModifers(stat, getModifier(score - rMod));
+			$("#" + stat + " .stat-score").trigger("change");
 		});
 	}
 
@@ -3497,6 +3492,7 @@
 		return list.join(", ");
 	}
 	
+
 	function printInchesAndFeet(inches) {
 		return Math.floor(inches / 12) + "ft. "+ (inches % 12) + " in.";
 	}	
@@ -3522,6 +3518,7 @@
 		$("#characterHeight").trigger("change");
 	}
 	
+
 	/**
 	 * Returns the current aging effect for a race given the age
 	 * @param age The age value in years
@@ -3539,34 +3536,51 @@
 		return ageCat;
 	}
 	
-	function updateScore(stat, mod){
-		var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
-		$("#" + stat + " .stat-score").val(score);
-		updateAllAbilityModifers(stat, getModifier(score));
-	}
 	
 	/** 
 	 * Resets the Age field to the default for the Class & Race selected
 	 */
 	function updateAge(){
 		var race = $("#race").val();
-		var age = parseInt(RACES[$("#race").val()].Age.Adulthood);
 		var charClass = $("#class").val();
 		if (charClass != "none" && race != "none") {
+			var age = parseInt(RACES[$("#race").val()].Age.Adulthood);
 			var ageCat = CLASSES[charClass]["Age Category"];
 			age += parseInt(RACES[race].Age[ageCat].split('d')[0]);
-		}
-		$("#characterAge").val(age).trigger("change");
+			$("#characterAge").val(age).trigger("change");
+		}		
 	}
 	
 $(document).ready(function() {
 	populateRaceDropdown();
 	populateClassDropdown();
+	
+	$(".skill").change(function() {
+		var ranks = parseInt($(this).children(".skill-ranks").val());
+		var abilityMod = parseInt($(this).children(".skill-statmod").val());
+		$(this).children(".skill-mod").val(ranks + abilityMod);
+	});
+	
+//	$(".stat").change(function() {
+//		var abilityStat = $(this).attr("id");
+//		var score = parseInt($(this).children(".stat-score").val()); // get base score
+//		var racialMod = parseInt($(this).children(".stat-racialMod").val()); // get racial modifier
+//		var agingMod = parseInt($(this).children(".stat-agingMod").val()); // get aging effect modifier
+//		var adjustedScore = score + racialMod + agingMod; 
+//		$(this).children(".stat-adjusted").val(adjustedScore);
+//		
+//		updateAllAbilityModifiers(abilityStat, getModifier(adjustedScore));
+//	});
 
 	$(".stat .stat-score").change(function() {
-		var stat = $(this).parent().attr("id");
-		var score = parseInt($(this).val());
-		updateAllAbilityModifers(stat, getModifier(score));
+		var abilityStat = $(this).parent().attr("id");
+		var score = parseInt($("#" + abilityStat + " .stat-score").val()); // get base score
+		var racialMod = parseInt($("#" + abilityStat + " .stat-racialMod").val()); // get racial modifier
+		var agingMod = parseInt($("#" + abilityStat + " .stat-agingMod").val()); // get aging effect modifier
+		var adjustedScore = score + racialMod + agingMod; 
+		$("#" + abilityStat + " .stat-adjusted").val(adjustedScore);
+		
+		updateAllAbilityModifiers(abilityStat, getModifier(adjustedScore));
 	});
 
 	$("#Any").change(function() {
@@ -3575,11 +3589,7 @@ $(document).ready(function() {
 		var race = $("#race").val();
 		var racial = parseInt(RACES[race]["Ability Modifiers"].Any);
 		
-		$("#" + stat + " .stat-racialMod").val(racial);
-		var newScore = parseInt($("#" + stat + " .stat-score").val()) + racial;
-		$("#" + stat + " .stat-score").val(newScore);
-		
-		updateAllAbilityModifers(stat, getModifier(newScore));
+		$("#" + stat + " .stat-racialMod").val(racial).siblings(".stat-score").trigger("change");
 	});
 
 	$("#class").change(function() {
@@ -3621,7 +3631,6 @@ $(document).ready(function() {
 	});
 	
 	$("#characterAge").change(function(){
-	//FIXME Doesn't remove effect if aging effect is dropped
 		var aging = agingEffect($("#characterAge"));
 		$("#charAgingEffect").val(aging);
 		var mod = 0;
@@ -3640,21 +3649,14 @@ $(document).ready(function() {
 		break;
 		}
 		
-		$("#Strength .stat-agingMod").val(-mod);
-		updateScore("Strength", -mod);
-		
-		$("#Dexterity .stat-agingMod").val(-mod);
-		updateScore("Dexterity", -mod);
-		
-		$("#Constitution .stat-agingMod").val(-mod);
-		updateScore("Constitution", -mod);
-		
-		$("#Intelligence .stat-agingMod").val(mod);
-		updateScore("Intelligence", mod);
-		$("#Wisdom .stat-agingMod").val(mod);
-		updateScore("Wisdom", mod);
-		$("#Charisma .stat-agingMod").val(mod);
-		updateScore("Charisma", mod);
+		//Physical Stats confer a negative aging modifier
+		$("#Strength .stat-agingMod").val(-mod).siblings(".stat-score").trigger("change");
+		$("#Dexterity .stat-agingMod").val(-mod).siblings(".stat-score").trigger("change");
+		$("#Constitution .stat-agingMod").val(-mod).siblings(".stat-score").trigger("change");
+		//Mental Stats confer a positive aging modifier
+		$("#Intelligence .stat-agingMod").val(mod).siblings(".stat-score").trigger("change");
+		$("#Wisdom .stat-agingMod").val(mod).siblings(".stat-score").trigger("change");
+		$("#Charisma .stat-agingMod").val(mod).siblings(".stat-score").trigger("change");
 	});
 	
 	$("#characterSex").change(function(){
@@ -3703,10 +3705,11 @@ $(document).ready(function() {
 					var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Any"];
 					if ($.inArray(stat, abilities) != -1) {
 						if (stat != "Any") {
-							$("#" + stat + " .stat-racialMod").val(parseInt(mod));
-							var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
-							$("#" + stat + " .stat-score").val(score);
-							updateAllAbilityModifers(stat, getModifier(score));
+							$("#" + stat + " .stat-racialMod").val(parseInt(mod)).siblings(".stat-score").trigger("change");;
+//							$("#" + stat + " .stat-score").trigger("change");
+//							var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
+//							$("#" + stat + " .stat-score").val(score);
+//							updateAllAbilityModifers(stat, getModifier(score));
 						} else {
 							$("#Any").show();
 						}
