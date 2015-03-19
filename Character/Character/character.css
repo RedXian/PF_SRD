@@ -615,14 +615,12 @@ tfoot td {
 	width: 40px;
 }
 
-
-
 #input .personal .field label {
-	width: 50px;
+	width: 12%;
 }
 
-#input .personal .field .rightcol {
-	width: 90px;
+#input  .field .rightcol {
+	width: 23%;
 }
 
 #input input, #input select {
@@ -630,10 +628,10 @@ tfoot td {
 }
 
 #input .personal .field select {
-	width: 80px;
+	width: 23%;
 }
 
-#input .stat input, #input .saves input, #input .skill input {
+#input .stat input[type=number], #input .saves input[type=number], #input .skill input[type=number], #input .combat input[type=number], #input .defence input[type=number]  {
 	width: 30px;
 	height: 12px;
 }

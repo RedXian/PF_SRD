@@ -19,14 +19,14 @@
 				      "Hit Die":"d12",
 				      "Class Skills":[
 				         "Acrobatics",
-				         " Climb",
-				         " Craft",
-				         " Handle Animal",
-				         " Intimidate",
-				         " Knowledge (nature)",
-				         " Perception",
-				         " Ride",
-				         " Survival",
+				         "Climb",
+				         "Craft",
+				         "Handle Animal",
+				         "Intimidate",
+				         "Knowledge (nature)",
+				         "Perception",
+				         "Ride",
+				         "Survival",
 				         "Swim"
 				      ],
 				      "Skill Ranks":4,
@@ -148,7 +148,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Dwarves are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Dwarves are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Slow and Steady": {
 					"type": "trait.racial", 
@@ -315,7 +316,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Elves are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Elves are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -446,15 +448,17 @@
 					"description": "Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.", 
 					"Constitution": "+2", 
 					"Charisma": "+2", 
-					"Strength": "2"
+					"Strength": "+2"
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Gnomes are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+					"description": "Gnomes are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"	
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
-					"description": "Gnomes have a base speed of 20 feet."
+					"description": "Gnomes have a base speed of 20 feet.",
+					"Speed": "20"
 				}, 
 				"Low-Light Vision": {
 					"type": "trait.racial", 
@@ -592,7 +596,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+					"description": "Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"	
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
@@ -725,7 +730,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Half-elves are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Half-elves are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -843,7 +849,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Half-orcs are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Half-orcs are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -982,7 +989,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Humans are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Humans are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1118,7 +1126,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Aasimars are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Aasimars are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1189,7 +1198,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Catfolk are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Catfolk are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1260,7 +1270,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Dhampirs are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Dhampirs are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1343,7 +1354,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Drow are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Drow are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1430,7 +1442,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Fetchlings are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Fetchlings are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1509,7 +1522,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+					"description": "Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Fast": {
 					"type": "trait.racial", 
@@ -1571,7 +1585,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Hobgoblins are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Hobgoblins are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1634,7 +1649,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Ifrits are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Ifrits are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1705,7 +1721,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Kobolds are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their combat maneuver checks and to Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+					"description": "Kobolds are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their combat maneuver checks and to Combat Maneuver Defense, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1777,7 +1794,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Orcs are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Orcs are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -1848,7 +1866,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Oreads are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Oreads are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
@@ -1919,7 +1938,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on combat maneuver checks and to their CMD, and a +4 size bonus on Stealth checks."
+					"description": "Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on combat maneuver checks and to their CMD, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
@@ -1990,7 +2010,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Sylphs are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Sylphs are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2061,7 +2082,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Tengus are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Tengus are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2136,7 +2158,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Tieflings are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Tieflings are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2211,7 +2234,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Undines are Medium creatures and receive no bonuses or penalties due to their size."
+					"description": "Undines are Medium creatures and receive no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2278,7 +2302,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Changelings are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Changelings are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Humanoid": {
 					"type": "trait.racial", 
@@ -2362,7 +2387,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Duergar are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Duergar are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Dwarf": {
 					"type": "trait.racial", 
@@ -2437,7 +2463,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Gillmen are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Gillmen are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Aquatic": {
 					"type": "trait.racial", 
@@ -2504,7 +2531,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Gripplis are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+					"description": "Gripplis are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Grippli": {
 					"type": "trait.racial", 
@@ -2575,7 +2603,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Kitsune are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Kitsune are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Kitsune": {
 					"type": "trait.racial", 
@@ -2650,7 +2679,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Merfolk are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Merfolk are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
@@ -2721,7 +2751,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Nagaji are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Nagaji are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Reptilian": {
 					"type": "trait.racial", 
@@ -2792,7 +2823,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Samsarans are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Samsarans are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2862,7 +2894,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Strix are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Strix are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -2937,7 +2970,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Sulis are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Sulis are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -3009,7 +3043,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks."
+					"description": "Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Defensive Training": {
 					"type": "trait.racial", 
@@ -3092,7 +3127,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Vanaras are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Vanaras are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -3159,7 +3195,8 @@
 				}, 
 				"Medium": {
 					"type": "trait.racial", 
-					"description": "Vishkanyas are Medium creatures and have no bonuses or penalties due to their size."
+					"description": "Vishkanyas are Medium creatures and have no bonuses or penalties due to their size.",
+					"Size": "Medium"
 				}, 
 				"Normal Speed": {
 					"type": "trait.racial", 
@@ -3247,7 +3284,8 @@
 				}, 
 				"Small": {
 					"type": "trait.racial", 
-					"description": "Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their CMB and to CMD, and a +4 size bonus on Stealth checks."
+					"description": "Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a 1 penalty on their CMB and to CMD, and a +4 size bonus on Stealth checks.",
+					"Size": "Small"
 				}, 
 				"Slow Speed": {
 					"type": "trait.racial", 
@@ -3430,20 +3468,22 @@
 	 */
 	function updateAllAbilityModifiers(stat, newModifier) {
 		$("." + stat + "-mod").each(function(i) {
-			$(this).val(newModifier).trigger("change");;
-			var type = $(this).parent().attr("class");
-			switch (type) {
-			case "skill":
-//				$(this).siblings(".skill-ranks").trigger("change");
-				break;
-			case "saves":
-				var base = parseInt($(this).siblings(".save-base").val()) || 0;
-				$(this).siblings(".save-base").val(newModifier + base);
-				break;
-			default:
-				// Do Nothing if Stat of anything else.
-				break;
+			if( $(this).parent().attr("class") != ".stat") {
+				$(this).val(newModifier).parent().trigger("refresh");
 			}
+//			var type = $(this).parent().attr("class");
+//			switch (type) {
+//			case "skill":
+//				$(this).siblings(".skill-ranks").trigger("change");
+//				break;
+//			case "saves":
+//				var base = $(this).siblings(".save-base").parseIntVal() || 0;
+//				$(this).siblings(".save-base").val(newModifier + base);
+//				break;
+//			default:
+//				// Do Nothing if Stat of anything else.
+//				break;
+//			}
 		});
 	}
 
@@ -3453,9 +3493,8 @@
 	function clearRacialAbilityMods() {
 		$(".stat").each(function(index) {
 			var stat = $(this).attr("id");
-			console.log("Clearing: " + stat);
-			$("#" + stat + " .stat-racialMod").val(0);
-			$("#" + stat + " .stat-score").trigger("change");
+			$(this).children(".stat-racialMod").val(0);
+			$(this).children(".stat-score").trigger("change");
 		});
 	}
 
@@ -3537,6 +3576,10 @@
 	}
 	
 	
+	String.prototype.toProper = function () {
+		return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+	};
+	
 	/** 
 	 * Resets the Age field to the default for the Class & Race selected
 	 */
@@ -3551,32 +3594,117 @@
 		}		
 	}
 	
+	$.fn.extend({
+		parseIntVal: function () {return parseInt($(this).val());} 
+	});
+	
 $(document).ready(function() {
 	populateRaceDropdown();
 	populateClassDropdown();
 	
-	$(".skill").change(function() {
-		var ranks = parseInt($(this).children(".skill-ranks").val());
-		var abilityMod = parseInt($(this).children(".skill-statmod").val());
-		$(this).children(".skill-mod").val(ranks + abilityMod);
+	$(".skill").on("refresh", function(){
+		var ranks = $(this).children(".skill-ranks").parseIntVal();
+		var classSkillBonus = ($(this).children(".class-skill").is(":checked") && ranks) ? 3 : 0;
+		var abilityMod = $(this).children(".skill-statmod").parseIntVal();
+		$(this).children(".skill-mod").val(ranks + abilityMod + classSkillBonus);
 	});
+	
+	$(".saves").on("refresh", function(){
+		var mod = $(this).children(".save-abilitymod").parseIntVal();
+		var base = $(this).children(".save-base").parseIntVal();
+		$(this).children(".save-bonus").val(mod + base);
+	});
+	
+	$(".defence").on("refresh", function(){
+		var defence = $(this).attr("id");
+		switch (defence){
+		case "AC":
+			var ac = 10;
+			ac += $(this).children(".armor-bonus").parseIntVal();
+			ac += $(this).children(".shield-bonus").parseIntVal();
+			ac += $(this).children(".Dexterity-mod").parseIntVal();
+			ac += $(this).children(".enhancement-bonus").parseIntVal();
+			ac += $(this).children(".deflection-bonus").parseIntVal();
+			ac += $(this).children(".natural-armor").parseIntVal();
+			ac += $(this).children(".dodge-bonus").parseIntVal();
+			ac += $(this).children(".size-modifier").parseIntVal();
+			$(this).children(".armor-class").val(ac);
+			break;
+		case "HP":
+			var hp = $(this).children(".hit-die").parseIntVal() + $(this).children(".Constitution-mod").parseIntVal();
+			$(this).children(".hit-points").val(hp);
+		}
+	});
+	
+	$("#characterSize").change(function(){
+		var sizeMod = $(this).val();
+		$(".size-modifier").each(function() {
+			if ($(this).parent().attr("id") == "AC") {
+				$(this).val(-sizeMod).parent().trigger("refresh");
+			} else {
+				$(this).val(sizeMod).parent().trigger("refresh");
+			}
+			
+		});
+	});
+	
+	$(".combat").on("refresh", function(){
+		//Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8
+		var attack = $(this).attr("id");
+		var classBonus = $(this).children(".bab-classbonus").parseIntVal();
+		var strMod = $(this).children(".Strength-mod").parseIntVal();	
+		var sizeMod = $(this).children(".size-modifier").parseIntVal();
+		var bonus = 0; 
+		switch (attack){
+		case "Initiative":
+			// Initiative = Dexterity modifier + additional modifiers (from traits or feats)
+			var dexMod = $(this).children(".Dexterity-mod").parseIntVal();
+			var addMod = $(this).children(".additional-mod").parseIntVal();
+			bonus = dexMod + addMod;
+			break;
+		case "BAB":
+			//Base attack bonus + Strength modifier + size modifier
+			bonus = classBonus + strMod + sizeMod;
+			break;
+		case "CMD":
+			//CMD = 10 + Base attack bonus + Strength modifier + Dexterity modifier + special size modifier
+			var dexMod = $(this).children(".Dexterity-mod").parseIntVal();
+			bonus = 10 + classBonus + strMod + dexMod + sizeMod;
+			break;
+		case "CMB":
+			//CMB = Base attack bonus + Strength modifier + special size modifier
+			bonus = classBonus + strMod + sizeMod;
+			break;
+		default:
+			break;
+		}
+		$(this).children(".bonus").val(bonus);
+	});
+	
+	$(".additional-mod").change(function(){
+		$(this).parent().trigger("refresh");
+	})
+	
+	$(".skill-ranks").change(function() {
+		$(this).parent().trigger("refresh");
+	});	
 	
 //	$(".stat").change(function() {
 //		var abilityStat = $(this).attr("id");
-//		var score = parseInt($(this).children(".stat-score").val()); // get base score
-//		var racialMod = parseInt($(this).children(".stat-racialMod").val()); // get racial modifier
-//		var agingMod = parseInt($(this).children(".stat-agingMod").val()); // get aging effect modifier
+//		var score = $(this).children(".stat-score").parseIntVal(); // get base score
+//		var racialMod = $(this).children(".stat-racialMod").parseIntVal(); // get racial modifier
+//		var agingMod = $(this).children(".stat-agingMod").parseIntVal(); // get aging effect modifier
 //		var adjustedScore = score + racialMod + agingMod; 
 //		$(this).children(".stat-adjusted").val(adjustedScore);
 //		
 //		updateAllAbilityModifiers(abilityStat, getModifier(adjustedScore));
 //	});
-
-	$(".stat .stat-score").change(function() {
+	
+	$(".stat-score").change(function() {
 		var abilityStat = $(this).parent().attr("id");
-		var score = parseInt($("#" + abilityStat + " .stat-score").val()); // get base score
-		var racialMod = parseInt($("#" + abilityStat + " .stat-racialMod").val()); // get racial modifier
-		var agingMod = parseInt($("#" + abilityStat + " .stat-agingMod").val()); // get aging effect modifier
+		var score = $("#" + abilityStat + " .stat-score").parseIntVal(); // get base score
+		var racialMod = $("#" + abilityStat + " .stat-racialMod").parseIntVal(); // get racial modifier
+		var agingMod = $("#" + abilityStat + " .stat-agingMod").parseIntVal(); // get aging effect modifier
 		var adjustedScore = score + racialMod + agingMod; 
 		$("#" + abilityStat + " .stat-adjusted").val(adjustedScore);
 		
@@ -3594,6 +3722,7 @@ $(document).ready(function() {
 
 	$("#class").change(function() {
 		$("#class-output").empty();
+		$(".class-skill").prop("checked", false);
 		var charClass = $(this).val();
 
 		$("<H2 />").text(charClass).appendTo("#class-output");
@@ -3606,16 +3735,41 @@ $(document).ready(function() {
 
 			} else {
 				switch (key) {
+				case "type":
+				case "description":
+					break;
 				case "Alignment":
+					
 					appendPElementWithLabel("#class-output", serialCommaJoin(value, "or"), key)
 					break;
 				case "Class Skills":
+					$.each(value, function(i){
+						var skillName = value[i].toProper().replace(/[\(\)\s]/g, '');
+						$("#" + skillName + " .class-skill").prop("checked", true);
+					});
 					appendPElementWithLabel("#class-output", serialCommaJoin(value), key);
 					break;
 				case "Skill Ranks":
 					appendPElementWithLabel("#class-output", "(" + value + " + INT Modifier)/Level", key);
 					break;
+				case "Hit Die":
+					$(".hit-die").val(parseInt(value.replace(/\D/g,''))).parent().trigger("refresh");
+					break;
 				case "level1":
+					$.each(value, function(k,v){
+						switch(k){
+						case "bab":
+							$(".bab-classbonus").val(v).parent().trigger("refresh");
+							break;
+						case "Fortitude":
+						case "Reflex":
+						case "Will":
+							$("#" + k).children(".save-base").val(v).parent().trigger("refresh");
+							break;		
+						default:
+							break;
+						}
+					});
 					break;
 				case "Age Category":
 					updateAge();
@@ -3705,11 +3859,7 @@ $(document).ready(function() {
 					var abilities = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma", "Any"];
 					if ($.inArray(stat, abilities) != -1) {
 						if (stat != "Any") {
-							$("#" + stat + " .stat-racialMod").val(parseInt(mod)).siblings(".stat-score").trigger("change");;
-//							$("#" + stat + " .stat-score").trigger("change");
-//							var score = parseInt($("#" + stat + " .stat-score").val()) + parseInt(mod);
-//							$("#" + stat + " .stat-score").val(score);
-//							updateAllAbilityModifers(stat, getModifier(score));
+							$("#" + stat + " .stat-racialMod").val(parseInt(mod)).siblings(".stat-score").trigger("change");
 						} else {
 							$("#Any").show();
 						}
@@ -3728,6 +3878,19 @@ $(document).ready(function() {
 			default:
 				if (value.type == "trait.racial") {
 					appendPElementWithLabel("#output", value.description, key);
+					$.each(value, function(k, v) {
+						switch (k){
+						case "type":
+						case "description":
+						case "source":
+							break;
+						case "Size":
+							$("#characterSize option:contains('" + v + "')").prop("selected", true).trigger("change");
+							break;
+						default: 
+							
+						}
+					});
 				}
 			}
 		});
