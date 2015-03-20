@@ -40,7 +40,9 @@
 				<label for="characterEyes">Eyes:</label> <input class="rightcol" type="text" id="characterEyes">
 			</div>
 			<div class="field">
-				<label for="characterSkin">Skin:</label> <input type="text" id="characterSkin">
+				<label for="characterSkin">Skin:</label> <input type="text" class="rightcol" id="characterSkin">
+				 <label for="characterAlignment">Size:</label> <select class="rightcol" id="characterAlignment">
+				 </select>
 			</div>
 			<div class="field">
 				<label for="characterHeight">Height:</label> <select id="characterHeight">
@@ -396,19 +398,16 @@
 				<label for="HP">HP:</label> <input type=number class="current-hp" value=0><span> / </span><input type=number class="hit-points" disabled value=0><input type=number class="Constitution-mod" disabled value=0> <span> ( D</span> <input type=number class="hit-die" disabled value=0><span> )</span> 
 			</div>
 			<div class="defence" id="AC">
-			
-				<label for="AC">AC:</label> <input type=number class="armor-class" disabled value=0> <span>
-					= 10 + </span> <input type="number" class="armor-bonus" disabled value=0> <span> + </span> <input
-					type=number class="shield-bonus" disabled value=0> <span> + </span> <input type=number
-					class="Dexterity-mod" disabled value=0> <span> + </span> <input type=number
-					class="enhancement-bonus" disabled value=0> <span> + </span> <input type=number
-					class="deflection-bonus" disabled value=0> <span> + </span> <input type=number
-					class="natural-armor" disabled value=0> <span> + </span> <input type=number
-					class="dodge-bonus" disabled value=0> <span> + </span> <input type=number
+				<label for="AC">AC:</label> <input type=number class="armor-class" disabled value=10> <span>= 10 +</span> <input type="number" class="armor-bonus" disabled value=0> <span>+</span> <input
+					type=number class="shield-bonus" disabled value=0> <span>+</span> <input type=number
+					class="Dexterity-mod" disabled value=0> <span>+</span> <input type=number
+					class="deflection-bonus" disabled value=0> <span>+</span> <input type=number
+					class="natural-armor" disabled value=0> <span>+</span> <input type=number
+					class="dodge-bonus" disabled value=0> <span>+</span> <input type=number
 					class="size-modifier" disabled value=0>
-			</div>
-			<div class="defence" id="DR">
-				<label for="DR">DR:</label> <input type=text class="damage-reduction" disabled value="none">
+				<br />
+				<label for="flat-foot-ac">Flatfoot AC:</label> <input type=number class="rightcol flat-foot-ac" disabled value=10>
+				<label for="touch-ac">Touch AC:</label> <input type=number class="rightcol touch-ac" disabled value=10>
 			</div>
 		</div>
 		<div class="section">

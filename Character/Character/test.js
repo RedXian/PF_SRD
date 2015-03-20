@@ -31,15 +31,34 @@
 				      ],
 				      "Skill Ranks":4,
 				      "level1":{
-				         "bab":1,
-				         "Fortitude":2,
-				         "Reflex":0,
-				         "Will":0,
+				         "bab":"+1",
+				         "Fortitude":"+2",
+				         "Reflex":"+0",
+				         "Will":"+0",
 				         "Special":[
 				            "Fast Movement",
 				            "Rage"
 				         ]
 				      },
+				      "level2": {"bab": "+2", "Fortitude": "+3", "Reflex": "+0", "Will": "+0", "Special": ["Rage power", "uncanny dodge"]},
+				      "level3": {"bab": "+3", "Fortitude": "+3", "Reflex": "+1", "Will": "+1", "Special": ["Trap sense +1"]},
+				      "level4": {"bab": "+4", "Fortitude": "+4", "Reflex": "+1", "Will": "+1", "Special": ["Rage power"]},
+				      "level5": {"bab": "+5", "Fortitude": "+4", "Reflex": "+1", "Will": "+1", "Special": ["Improved uncanny dodge"]},
+				      "level6": {"bab": "+6/+1", "Fortitude": "+5", "Reflex": "+2", "Will": "+2", "Special": ["Rage power", "Trap sense +2"]},
+				      "level7": {"bab": "+7/+2", "Fortitude": "+5", "Reflex": "+2", "Will": "+2", "Special": ["Damage reduction 1/—"]},
+				      "level8": {"bab": "+8/+3", "Fortitude": "+6", "Reflex": "+2", "Will": "+2", "Special": ["Rage power"]},
+				      "level9": {"bab": "+9/+4", "Fortitude": "+6", "Reflex": "+3", "Will": "+3", "Special": ["Trap sense +3"]},
+				      "level10": {"bab": "+10/+5", "Fortitude": "+7", "Reflex": "+3", "Will": "+3", "Special": ["Damage reduction 2/—, Rage power"]},
+				      "level11": {"bab": "+11/+6/+1", "Fortitude": "+7", "Reflex": "+3", "Will": "+3", "Special": ["Greater rage"]},
+				      "level12": {"bab": "+12/+7/+2", "Fortitude": "+8", "Reflex": "+4", "Will": "+4", "Special": ["Rage power", "Trap sense +4"]},
+				      "level13": {"bab": "+13/+8/+3", "Fortitude": "+8", "Reflex": "+4", "Will": "+4", "Special": ["Damage reduction 3/—"]},
+				      "level14": {"bab": "+14/+9/+4", "Fortitude": "+9", "Reflex": "+4", "Will": "+4", "Special": ["Indomitable will", "Rage power"]},
+				      "level15": {"bab": "+15/+10/+5", "Fortitude": "+9", "Reflex": "+5", "Will": "+5", "Special": ["Trap sense +5"]},
+				      "level16": {"bab": "+16/+11/+6/+1", "Fortitude": "+10", "Reflex": "+5", "Will": "+5", "Special": ["Damage reduction 4/—, Rage power"]},
+				      "level17": {"bab": "+17/+12/+7/+2", "Fortitude": "+10", "Reflex": "+5", "Will": "+5", "Special": ["Tireless rage"]},
+				      "level18": {"bab": "+18/+13/+8/+3", "Fortitude": "+11", "Reflex": "+6", "Will": "+6", "Special": ["Rage power", "Trap sense +6"]},
+				      "level19": {"bab": "+19/+14/+9/+4", "Fortitude": "+11", "Reflex": "+6", "Will": "+6", "Special": ["Damage reduction 5/—"]},
+				      "level20": {"bab": "+20/+15/+10/+5", "Fortitude": "+12", "Reflex": "+6", "Will": "+6", "Special": ["Mighty rage", "Rage power"]},
 				      "Weapon and Armor Proficiency":"A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).",
 				      "Fast Movement":{
 				         "description":"A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.",
@@ -51,15 +70,70 @@
 				   },
 				   "Bard":{
 				      "type":"class",
-				      "description":"The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.",
+				      "description":"Untold wonders and secrets exist for those skillful enough to discover them. Through cleverness, talent, and magic, these cunning few unravel the wiles of the world, becoming adept in the arts of persuasion, manipulation, and inspiration. Typically masters of one or many forms of artistry, bards possess an uncanny ability to know more than they should and use what they learn to keep themselves and their allies ever one step ahead of danger. Bards are quick-witted and captivating, and their skills might lead them down many paths, be they gamblers or jacks-of-all-trades, scholars or performers, leaders or scoundrels, or even all of the above. For bards, every day brings its own opportunities, adventures, and challenges, and only by bucking the odds, knowing the most, and being the best might they claim the treasures of each.",
+				      "Alignment": ["LG", "LN", "LE", "NG",
+							         "N",
+							         "NE",
+							         "CG",
+							         "CN",
+							         "CE"],
+				      "Hit Die": "d8",
 				      "source":"Core Rulebook",
-				      "Age Category":"Self-Taught"
+				      "Class Skills": ["Acrobatics", "Appraise", "Bluff", "Climb", "Craft", "Diplomacy", "Disguise", "Escape Artist", "Intimidate", "Knowledge (all)", "Linguistics", "Perception", "Perform", "Profession", "Sense Motive", "Sleight of Hand", "Spellcraft", "Stealth", "Use Magic Device"],
+				      "Skill Ranks":6,
+				      "Age Category":"Self-Taught",
+				      "level1": {"bab": "+0", "Fortitude": "+0", "Reflex": "+2", "Will": "+2", "Special": ["Bardic knowledge", "bardic performance", "cantrips,countersong", "distraction", "fascinate", "inspire courage +1"], "Spells per day": ["1", "", "", "", "", ""]},
+				      "level2": {"bab": "+1", "Fortitude": "+0", "Reflex": "+3", "Will": "+3", "Special": ["Versatile performance", "well-versed"], "Spells per day": ["2", "", "", "", "", ""]},
+				      "level3": {"bab": "+2", "Fortitude": "+1", "Reflex": "+3", "Will": "+3", "Special": ["Inspire competence +2"], "Spells per day": ["3", "", "", "", "", ""]},
+				      "level4": {"bab": "+3", "Fortitude": "+1", "Reflex": "+4", "Will": "+4", "Special": [], "Spells per day": ["3", "1", "", "", "", ""]},
+				      "level5": {"bab": "+3", "Fortitude": "+1", "Reflex": "+4", "Will": "+4", "Special": ["inspire courage +2", "lore master 1/day"], "Spells per day": ["4", "2", "", "", "", ""]},
+				      "level6": {"bab": "+4", "Fortitude": "+2", "Reflex": "+5", "Will": "+5", "Special": ["Suggestion", "Versatile performance"], "Spells per day": ["4", "3", "", "", "", ""]},
+				      "level7": {"bab": "+5", "Fortitude": "+2", "Reflex": "+5", "Will": "+5", "Special": ["Inspire competence +3"], "Spells per day": ["4", "3", "1", "", "", ""]},
+				      "level8": {"bab": "+6/+1", "Fortitude": "+2", "Reflex": "+6", "Will": "+6", "Special": ["Dirge of doom"], "Spells per day": ["4", "4", "2", "", "", ""]},
+				      "level9": {"bab": "+6/+1", "Fortitude": "+3", "Reflex": "+6", "Will": "+6", "Special": ["Inspire greatness"], "Spells per day": ["5", "4", "3", "", "", ""]},
+				      "level10": {"bab": "+7/+2", "Fortitude": "+3", "Reflex": "+7", "Will": "+7", "Special": ["Jack-of-all-trades", "Versatile performance"], "Spells per day": ["5", "4", "3", "1", "", ""]},
+				      "level11": {"bab": "+8/+3", "Fortitude": "+3", "Reflex": "+7", "Will": "+7", "Special": ["Inspire competence +4", "inspire courage +3", "lore master 2/day"], "Spells per day": ["5", "4", "4", "2", "", ""]},
+				      "level12": {"bab": "+9/+4", "Fortitude": "+4", "Reflex": "+8", "Will": "+8", "Special": ["Soothing performance"], "Spells per day": ["5", "5", "4", "3", "", ""]},
+				      "level13": {"bab": "+9/+4", "Fortitude": "+4", "Reflex": "+8", "Will": "+8", "Special": [], "Spells per day": ["5", "5", "4", "3", "1", ""]},
+				      "level14": {"bab": "+10/+5", "Fortitude": "+4", "Reflex": "+9", "Will": "+9", "Special": ["Frightening tune", "Versatile performance"], "Spells per day": ["5", "5", "4", "4", "2", ""]},
+				      "level15": {"bab": "+11/+6/+1", "Fortitude": "+5", "Reflex": "+9", "Will": "+9", "Special": ["Inspire competence +5", "inspire heroics"], "Spells per day": ["5", "5", "5", "4", "3", ""]},
+				      "level16": {"bab": "+12/+7/+2", "Fortitude": "+5", "Reflex": "+10", "Will": "+10", "Special": [], "Spells per day": ["5", "5", "5", "4", "3", "1"]},
+				      "level17": {"bab": "+12/+7/+2", "Fortitude": "+5", "Reflex": "+10", "Will": "+10", "Special": ["inspire courage +4", "lore master 3/day"], "Spells per day": ["5", "5", "5", "4", "4", "2"]},
+				      "level18": {"bab": "+13/+8/+3", "Fortitude": "+6", "Reflex": "+11", "Will": "+11", "Special": ["Mass suggestion", "Versatile performance"], "Spells per day": ["5", "5", "5", "5", "4", "3"]},
+				      "level19": {"bab": "+14/+9/+4", "Fortitude": "+6", "Reflex": "+11", "Will": "+11", "Special": ["Inspire competence +6"], "Spells per day": ["5", "5", "5", "5", "5", "4"]},
+				      "level20": {"bab": "+15/+10/+5", "Fortitude": "+6", "Reflex": "+12", "Will": "+12", "Special": ["Deadly performance"], "Spells per day": ["5", "5", "5", "5", "5", "5"]}
 				   },
 				   "Cleric":{
 				      "type":"class",
-				      "description":"A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.",
+				      "description":"In faith and the miracles of the divine, many find a greater purpose. Called to serve powers beyond most mortal understanding, all priests preach wonders and provide for the spiritual needs of their people. Clerics are more than mere priests, though; these emissaries of the divine work the will of their deities through strength of arms and the magic of their gods. Devoted to the tenets of the religions and philosophies that inspire them, these ecclesiastics quest to spread the knowledge and influence of their faith. Yet while they might share similar abilities, clerics prove as different from one another as the divinities they serve, with some offering healing and redemption, others judging law and truth, and still others spreading conflict and corruption. The ways of the cleric are varied, yet all who tread these paths walk with the mightiest of allies and bear the arms of the gods themselves.",
+				      "role": "",
+				      "Alignment": [],
+				      "Hit Die": "d8",
+				      "Class Skills": ["Appraise",  "Craft",  "Diplomacy",  "Heal",  "Knowledge (arcana)",  "Knowledge (history)",  "Knowledge (nobility)",  "Knowledge (planes)",  "Knowledge (religion)",  "Linguistics",  "Profession",  "Sense Motive"],
+				      "Skill Ranks": 2,
+				      "level1": {"bab": "+0", "Fortitude": "+2", "Reflex": "+0", "Will": "+2", "Special": ["Aura", "channel energy 1d6,domains", "orisons"], "Spells per day": ["3", "1+1", "—", "—", "—", "—", "—", "—", "—", "—"]},
+				      "level2": {"bab": "+1", "Fortitude": "+3", "Reflex": "+0", "Will": "+3", "Special": [], "Spells per day": ["4", "2+1", "—", "—", "—", "—", "—", "—", "—", "—"]},
+				      "level3": {"bab": "+2", "Fortitude": "+3", "Reflex": "+1", "Will": "+3", "Special": ["Channel energy 2d6"], "Spells per day": ["4", "2+1", "1+1", "—", "—", "—", "—", "—", "—", "—"]},
+				      "level4": {"bab": "+3", "Fortitude": "+4", "Reflex": "+1", "Will": "+4", "Special": [], "Spells per day": ["4", "3+1", "2+1", "—", "—", "—", "—", "—", "—", "—"]},
+				      "level5": {"bab": "+3", "Fortitude": "+4", "Reflex": "+1", "Will": "+4", "Special": ["Channel energy 3d6"], "Spells per day": ["4", "3+1", "2+1", "1+1", "—", "—", "—", "—", "—", "—"]},
+				      "level6": {"bab": "+4", "Fortitude": "+5", "Reflex": "+2", "Will": "+5", "Special": [], "Spells per day": ["4", "3+1", "3+1", "2+1", "—", "—", "—", "—", "—", "—"]},
+				      "level7": {"bab": "+5", "Fortitude": "+5", "Reflex": "+2", "Will": "+5", "Special": ["Channel energy 4d6"], "Spells per day": ["4", "4+1", "3+1", "2+1", "1+1", "—", "—", "—", "—", "—"]},
+				      "level8": {"bab": "+6/+1", "Fortitude": "+6", "Reflex": "+2", "Will": "+6", "Special": [], "Spells per day": ["4", "4+1", "3+1", "3+1", "2+1", "—", "—", "—", "—", "—"]},
+				      "level9": {"bab": "+6/+1", "Fortitude": "+6", "Reflex": "+3", "Will": "+6", "Special": ["Channel energy 5d6"], "Spells per day": ["4", "4+1", "4+1", "3+1", "2+1", "1+1", "—", "—", "—", "—"]},
+				      "level10": {"bab": "+7/+2", "Fortitude": "+7", "Reflex": "+3", "Will": "+7", "Special": [], "Spells per day": ["4", "4+1", "4+1", "3+1", "3+1", "2+1", "—", "—", "—", "—"]},
+				      "level11": {"bab": "+8/+3", "Fortitude": "+7", "Reflex": "+3", "Will": "+7", "Special": ["Channel energy 6d6"], "Spells per day": ["4", "4+1", "4+1", "4+1", "3+1", "2+1", "1+1", "—", "—", "—"]},
+				      "level12": {"bab": "+9/+4", "Fortitude": "+8", "Reflex": "+4", "Will": "+8", "Special": [], "Spells per day": ["4", "4+1", "4+1", "4+1", "3+1", "3+1", "2+1", "—", "—", "—"]},
+				      "level13": {"bab": "+9/+4", "Fortitude": "+8", "Reflex": "+4", "Will": "+8", "Special": ["Channel energy 7d6"], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "3+1", "2+1", "1+1", "—", "—"]},
+				      "level14": {"bab": "+10/+5", "Fortitude": "+9", "Reflex": "+4", "Will": "+9", "Special": [], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "3+1", "3+1", "2+1", "—", "—"]},
+				      "level15": {"bab": "+11/+6/+1", "Fortitude": "+9", "Reflex": "+5", "Will": "+9", "Special": ["Channel energy 8d6"], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "3+1", "2+1", "1+1", "—"]},
+				      "level16": {"bab": "+12/+7/+2", "Fortitude": "+10", "Reflex": "+5", "Will": "+10", "Special": [], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "3+1", "3+1", "2+1", "—"]},
+				      "level17": {"bab": "+12/+7/+2", "Fortitude": "+10", "Reflex": "+5", "Will": "+10", "Special": ["Channel energy 9d6"], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "3+1", "2+1", "1+1"]},
+				      "level18": {"bab": "+13/+8/+3", "Fortitude": "+11", "Reflex": "+6", "Will": "+11", "Special": [], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "3+1", "3+1", "2+1"]},
+				      "level19": {"bab": "+14/+9/+4", "Fortitude": "+11", "Reflex": "+6", "Will": "+11", "Special": ["Channel energy 10d6"], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "3+1", "3+1"]},
+				      "level20": {"bab": "+15/+10/+5", "Fortitude": "+12", "Reflex": "+6", "Will": "+12", "Special": [], "Spells per day": ["4", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1", "4+1"]},
 				      "source":"Core Rulebook",
 				      "Age Category":"Trained"
+				    	  
 				   },
 				   "Druid":{
 				      "type":"class",
@@ -3619,16 +3693,22 @@ $(document).ready(function() {
 		var defence = $(this).attr("id");
 		switch (defence){
 		case "AC":
-			var ac = 10;
-			ac += $(this).children(".armor-bonus").parseIntVal();
-			ac += $(this).children(".shield-bonus").parseIntVal();
-			ac += $(this).children(".Dexterity-mod").parseIntVal();
-			ac += $(this).children(".enhancement-bonus").parseIntVal();
-			ac += $(this).children(".deflection-bonus").parseIntVal();
-			ac += $(this).children(".natural-armor").parseIntVal();
-			ac += $(this).children(".dodge-bonus").parseIntVal();
-			ac += $(this).children(".size-modifier").parseIntVal();
+			var ac = 10, touch, flatfoot;
+			var armorBonus = $(this).children(".armor-bonus").parseIntVal();
+			var shieldBonus = $(this).children(".shield-bonus").parseIntVal();
+			var dexterityBonus = $(this).children(".Dexterity-mod").parseIntVal();
+			var deflectionBonus = $(this).children(".deflection-bonus").parseIntVal();
+			var naturalArmor = $(this).children(".natural-armor").parseIntVal();
+			var dodgeBonus = $(this).children(".dodge-bonus").parseIntVal();
+			var sizeModifier = $(this).children(".size-modifier").parseIntVal();
+			 
+			ac = ac + armorBonus + shieldBonus + dexterityBonus + deflectionBonus + naturalArmor + dodgeBonus + sizeModifier;
+			flatfoot = ac - (dexterityBonus - dodgeBonus);
+			touch = ac - (armorBonus + shieldBonus + naturalArmor);
+			
 			$(this).children(".armor-class").val(ac);
+			$(this).children(".touch-ac").val(touch);
+			$(this).children(".flat-foot-ac").val(flatfoot);
 			break;
 		case "HP":
 			var hp = $(this).children(".hit-die").parseIntVal() + $(this).children(".Constitution-mod").parseIntVal();
@@ -3739,8 +3819,12 @@ $(document).ready(function() {
 				case "description":
 					break;
 				case "Alignment":
-					
-					appendPElementWithLabel("#class-output", serialCommaJoin(value, "or"), key)
+					appendPElementWithLabel("#class-output", serialCommaJoin(value, "or"), key);
+					$("#characterAlignment").empty();
+					$("<option />", {value: "none"}).text("Select Alignment").appendTo("#characterAlignment");
+					$.each(value, function (i){
+						$("<option />", {value: value[i]}).text(value[i]).appendTo("#characterAlignment");
+					});
 					break;
 				case "Class Skills":
 					$.each(value, function(i){
@@ -3759,17 +3843,36 @@ $(document).ready(function() {
 					$.each(value, function(k,v){
 						switch(k){
 						case "bab":
-							$(".bab-classbonus").val(v).parent().trigger("refresh");
+							$(".bab-classbonus").val(parseInt(v)).parent().trigger("refresh");
 							break;
 						case "Fortitude":
 						case "Reflex":
 						case "Will":
-							$("#" + k).children(".save-base").val(v).parent().trigger("refresh");
+							$("#" + k).children(".save-base").val(parseInt(v)).parent().trigger("refresh");
 							break;		
 						default:
 							break;
 						}
 					});
+				case "level2":
+				case "level3":
+				case "level4":
+				case "level5":
+				case "level6":
+				case "level7":
+				case "level8":
+				case "level9":
+				case "level10":
+				case "level11":
+				case "level12":
+				case "level13":
+				case "level14":
+				case "level15":
+				case "level16":
+				case "level17":
+				case "level18":
+				case "level19":
+				case "level20":
 					break;
 				case "Age Category":
 					updateAge();
