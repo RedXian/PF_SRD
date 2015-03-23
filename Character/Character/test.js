@@ -182,31 +182,31 @@
 				      "description":"The wizard masters magic through constant study that gives him incredible magical power.",
 				      "source":"Core Rulebook",
 				      "Age Category":"Trained"
-				   },
-				   "Oracle":{
-				      "Age Category":"Intuitive"
-				   },
-				   "Cavalier,":{
-				      "Age Category":"Self-Taught"
-				   },
-				   "Gunslinger":{
-				      "Age Category":"Self-Taught"
-				   },
-				   "Summoner":{
-				      "Age Category":"Self-Taught"
-				   },
-				   "Witch":{
-				      "Age Category":"Self-Taught"
-				   },
-				   "Alchemist":{
-				      "Age Category":"Trained"
-				   },
-				   "Inquisitor":{
-				      "Age Category":"Trained"
-				   },
-				   "Magus":{
-				      "Age Category":"Trained"
-				   }
+				   }//,
+//				   "Oracle":{
+//				      "Age Category":"Intuitive"
+//				   },
+//				   "Cavalier,":{
+//				      "Age Category":"Self-Taught"
+//				   },
+//				   "Gunslinger":{
+//				      "Age Category":"Self-Taught"
+//				   },
+//				   "Summoner":{
+//				      "Age Category":"Self-Taught"
+//				   },
+//				   "Witch":{
+//				      "Age Category":"Self-Taught"
+//				   },
+//				   "Alchemist":{
+//				      "Age Category":"Trained"
+//				   },
+//				   "Inquisitor":{
+//				      "Age Category":"Trained"
+//				   },
+//				   "Magus":{
+//				      "Age Category":"Trained"
+//				   }
 				};
 
 	var RACES = {
@@ -3476,7 +3476,9 @@
 		// Load in Classes and Groups.
 		$.each(CLASSES, function(key, value) {
 			var source = (value.type == "class") ? value.source : value.type;
-
+			console.log(value);
+			console.log(value.source + " | " + value.type);
+			
 			if ($.inArray(source, optGroups.list) == -1) {
 				optGroups.list.push(source);
 			}
@@ -3486,7 +3488,6 @@
 			    source : value.source
 			});
 		});
-
 		// Sort Group list in order Class type, then by book.
 		optGroups.list.sort(function(a, b) {
 			var TypeOrder = ["Class", "Prestige Class", "NPC Class"];
@@ -3500,7 +3501,7 @@
 				return typeA - TypeB;
 			}
 		});
-
+		
 		// Populate SELECT with OptGroups
 		$.each(optGroups.list, function(key, group) {
 			if (typeof group === 'string') {
