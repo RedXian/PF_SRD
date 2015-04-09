@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic);
+body {
+	font-size: 14px;
+	font-family: 'PT Serif', serif;
+	background: #fffdf8 url('http://paizo.com/pathfinderRPG/prd/include/bg-new.png') top left no-repeat;
+}
+
+p {
+	line-height: 1.4em;
+	margin: 15px 0;
+}
+
+h1 {
+	font: normal 32px 'PT Serif', serif;
+	margin: 30px 0 0 0;
+}
+	
+h2 {
+	font: normal 26px 'PT Serif', serif;
+	margin: 30px 0 0 0;
+}
+
+h3 {
+	font: normal 20px 'PT Serif', serif;
+	margin: 30px 0 0 0;
+}
+
+h1 + p, h2 + p, h3 + p {
+	margin: 5px 0 10px 0;
+}
+
+label {
+	font-family: 'Lato', sans;
+}
+
+hr {
+  margin: 5px auto;
+  border: 0;
+  border-top: 1px solid #bbb;
+}
+
+sup {
+	line-height: 0;
+}
+
+#input input {
+	font-family: 'Lato', sans;
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+label {
+	
+	display: block;
+	font-weight: bold;
+	width: 90px;
+    bottom: 100%;
+    left: 0;
+}
+	
+input, select {
+	font-family: 'Lato', sans;
+	width: auto;
+}
+	
+
+#input .section {
+	width: 50%;
+}
+
+#input .right-section {
+	position: relative;
+	float:right;
+	clear:right;
+	top: 0px;
+	width: 50%;
+}
+
+.skill label {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	width: 151px;
+
+}
+
+
+
+.personal .field  input[type=number] {
+	width: 40px;
+}
+
+.personal .field label {
+	width: 12%;
+}
+
+.field .rightcol {
+	width: 23%;
+}
+
+.personal .field select {
+	width: 23%;
+}
+
+.stat input[type=number], .saves input[type=number], .skill input[type=number], .combat input[type=number], .defence input[type=number]  {
+	width: 30px;
+
+}
+
+.output {
+	float: right;
+	clear:right;
+	width: 50%;
+ 	height: 50%; 
+	font-size: 12px;
+}
+
+.output p {
+	margin:0px;
+}
+
+.output b {
+	display:inline-block;
+}
+
+.output h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}

@@ -3810,17 +3810,6 @@ $(document).ready(function() {
 		$(this).parent().trigger("refresh");
 	});	
 	
-//	$(".stat").change(function() {
-//		var abilityStat = $(this).attr("id");
-//		var score = $(this).children(".stat-score").parseIntVal(); // get base score
-//		var racialMod = $(this).children(".stat-racialMod").parseIntVal(); // get racial modifier
-//		var agingMod = $(this).children(".stat-agingMod").parseIntVal(); // get aging effect modifier
-//		var adjustedScore = score + racialMod + agingMod; 
-//		$(this).children(".stat-adjusted").val(adjustedScore);
-//		
-//		updateAllAbilityModifiers(abilityStat, getModifier(adjustedScore));
-//	});
-	
 	$(".stat-score").change(function() {
 		var abilityStat = $(this).parent().attr("id");
 		var score = $("#" + abilityStat + " .stat-score").parseIntVal(); // get base score
@@ -3957,10 +3946,10 @@ $(document).ready(function() {
 		$("#Charisma .stat-agingMod").val(mod).siblings(".stat-score").trigger("change");
 	});
 	
-	$("#characterSex").change(function(){
+	$("#characterGender").change(function(){
 		var race = $("#race").val();
 		if (race != "none") {
-			updateHeightWeight(RACES[race].HeightWeight[$("#characterSex").val()]);
+			updateHeightWeight(RACES[race].HeightWeight[$("#characterGender").val()]);
 		}
 	});
 	
@@ -3992,7 +3981,7 @@ $(document).ready(function() {
 			case "Aging Effects":
 				break;
 			case "HeightWeight":
-				var sex = $("#characterSex").val();
+				var sex = $("#characterGender").val();
 				if (sex != "none") {
 					updateHeightWeight(value[sex]);
 				}
