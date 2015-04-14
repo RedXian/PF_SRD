@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Character Sheet</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+	type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"
+	type="text/javascript"></script>
+<link rel="stylesheet"
+	href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+<script src="test.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="tabbed.css">
+<script type="text/javascript">
+	$(function() {
+	    $("#tabs").tabs();
+    });
+</script>
+</head>
+<body>
+	<div id="tabs">
+		<label for="characterName">Name:</label>
+		<input type=text id="characterName">
+		<label for="characterLevel">Level:</label>
+		<input type=number id="characterLevel" value=1 min=1 max=20>
+		
+		<ul>
+			<li><a href="#summary-tab">Summary</a></li>
+			<li><a href="#race-tab">Race</a></li>
+			<li><a href="#class-tab">Class</a></li>
+			<li><a href="#skill-tab">Skills</a></li>
+			<li><a href="#feat-tab">Feats</a></li>
+			<li><a href="#personal-tab">Personal</a></li>
+		</ul>
+		
+		<div id="summary-tab" class="tab-content">
+			<div class="section">
+			<h2>Abilities</h2>
+			<div class="Anystat">
+				<select id="Any" hidden="true">
+					<option selected disabled>Select Stat</option>
+					<option value="Strength">Strength</option>
+					<option value="Dexterity">Dexterity</option>
+					<option value="Constitution">Constitution</option>
+					<option value="Intelligence">Intelligence</option>
+					<option value="Wisdom">Wisdom</option>
+					<option value="Charisma">Charisma</option>
+				</select>
+			</div>
+			<label>Strength</label>
+			<div class="calculation stat" id="Strength">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+			<label>Dexterity</label>
+			<div class="calculation stat" id="Dexterity">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+			<label>Constitution</label>
+			<div class="calculation stat" id="Constitution">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+			<label>Intelligence</label>
+			<div class="calculation stat" id="Intelligence">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+			<label>Wisdom</label>
+			<div class="calculation stat" id="Wisdom">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+			<label>Charisma</label>
+			<div class="calculation stat" id="Charisma">
+				<div><input type=number class="stat-score" value="10"><label>Base Score</label></div><div>+</div>
+				<div><input type=number class="stat-racialMod" value="0" disabled><label>Racial Bonus</label></div><div>+</div>
+				<div><input type=number class="stat-agingMod" disabled value="0"><label>Age Modifier</label></div><div>=</div>
+				<div><input type=number class="stat-adjusted result" disabled value="10"><label>Adjusted Score</label></div>
+				<div><input type=number class="Strength-mod result" disabled value="0"><label>Ability Modifier</label></div>
+			</div>
+		</div>
+		
+		<h2>Saves</h2>
+		<label for="save-Fortitude">Fortitude</label> 
+		<div class="calculation saves" id="Fortitude">
+			<div><input type=number class="save-bonus result" disabled value=0><label>Save Bonus</label></div><div>=</div>
+			<div><input type=number class="save-base" disabled value=0><label>Base Save</label></div><div>+</div>
+			<div><input type=number class="save-abilitymod Constitution-mod" disabled value=0><label>Ability Modifier</label></div>
+		</div>
+		<label for="save-Reflex">Reflex</label>
+		<div class="calculation saves" id="Reflex">
+			<div><input type=number class="save-bonus result" disabled value=0><label>Save Bonus</label></div><div>=</div>
+			<div><input type=number class="save-base" disabled value=0><label>Base Save</label></div><div>+</div>
+			<div><input type=number class="save-abilitymod Constitution-mod" disabled value=0><label>Ability Modifier</label></div>
+		</div>
+		<label for="save-Will">Will</label>
+		<div class="calculation saves" id="Will">
+			<div><input type=number class="save-bonus result" disabled value=0><label>Save Bonus</label></div><div>=</div>
+			<div><input type=number class="save-base" disabled value=0><label>Base Save</label></div><div>+</div>
+			<div><input type=number class="save-abilitymod Constitution-mod" disabled value=0><label>Ability Modifier</label></div>
+		</div>
+	
+		<h2>Defence</h2>
+		<label for="HP">Hit Points</label>
+		<div class="calculation defence" id="HP">
+			 <div><input type=number class="current-hp" value=0><label>Current HP</label></div><div>/</div>
+			 <div><input type=number class="hit-points result" disabled value=0><label>Max HP</label></div>
+			 <div><input type=number class="Constitution-mod" disabled value=0><label>Con Bonus</label></div>
+			 <div><div>(D</div><input type=number class="hit-die" disabled value=0><div>)</div><label>Hit Die</label></div>
+		</div>
+		<label for="AC">Armor Class</label>
+		<div class="calculation defence" id="AC">
+			<div><input type=number class="armor-class result" disabled value=10></div><div>= 10 +</div> 
+			<div><input type=number class="armor-bonus" disabled value=0><label>Armor Bonus</label></div><div>+</div> 
+			<div><input type=number class="shield-bonus" disabled value=0><label>Shield Bonus</label></div><div>+</div>
+			<div><input type=number class="Dexterity-mod" disabled value=0><label>Dexterity Modifier</label></div><div>+</div>
+			<div><input type=number class="deflection-bonus" disabled value=0><label>Deflection Bonus</label></div><div>+</div>
+			<div><input type=number class="natural-armor" disabled value=0><label>Natural Armor</label></div><div>+</div> 
+			<div><input type=number class="dodge-bonus" disabled value=0><label>Dodge Bonus</label></div><div>+</div>
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+		<label for="flat-foot-ac">Flatfoot AC</label>
+		<div class="calculation defence" id="flatAC">
+			<div><input type=number class="flat-foot-ac result" disabled value=10></div>
+			<div><input type=number class="armor-bonus" disabled value=0><label>Armor Bonus</label></div><div>+</div> 
+			<div><input type=number class="shield-bonus" disabled value=0><label>Shield Bonus</label></div><div>+</div>
+			<div><input type=number class="deflection-bonus" disabled value=0><label>Deflection Bonus</label></div><div>+</div>
+			<div><input type=number class="natural-armor" disabled value=0><label>Natural Armor</label></div><div>+</div> 
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+		<label for="touch-ac">Touch AC</label> 
+		<div class="calculation defence" id="touchAC">
+			<div><input type=number class="touch-ac result" disabled value=10></div>
+			<div><input type=number class="Dexterity-mod" disabled value=0><label>Dexterity Modifier</label></div><div>+</div>
+			<div><input type=number class="deflection-bonus" disabled value=0><label>Deflection Bonus</label></div><div>+</div>
+			<div><input type=number class="dodge-bonus" disabled value=0><label>Dodge Bonus</label></div><div>+</div>
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+	
+		<h2>Combat</h2>
+		<label for="Initiative">Initiative</label>
+		<div class="calculation combat" id="Initiative">
+			<div><input type=number class="bonus result" disabled value=0></div><div>=</div>
+			<div><input type=number class="Dexterity-mod" disabled value=0><label>Dexterity Modifier</label></div><div>+</div>
+			<div><input type=number class="additional-mod" disabled value=0><label>Feat Modifier</label></div><div>+</div>
+			<div><input type=number class="additional-mod" disabled value=0><label>Trait Modifier</label></div>
+		</div>
+		<label for="BAB">Base Attack Bonus</label>
+		<div class="calculation combat" id="BAB">
+			<div><input type=number class="bonus result" disabled value=0></div><div>=</div>
+			<div><input type=number class="bab-classbonus" disabled value=0><label>Class Bonus</label></div><div>+</div>
+			<div><input type=number class="Strength-mod" disabled value=0><label>Strength Modifier</label></div><div>+</div>
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+		<label for="CMD">Combat Maneuver Defence</label>
+		<div class="calculation combat" id="CMD">
+			<div><input type=number class="bonus result" disabled value=10></div><div>= 10 +</div>
+			<div><input type=number class="bab-classbonus" disabled value=0><label>Class Bonus</label></div><div>+</div>
+			<div><input type=number class="Strength-mod" disabled value=0><label>Strength Modifier</label></div><div>+</div>
+			<div><input type=number class="Dexterity-mod" disabled value=0><label>Dexterity Modifier</label></div><div>+</div>
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+		<label for="CMB">Combat Maneuver Bonus</label>
+		<div class="calculation combat" id="CMB">
+			<div><input type=number class="bonus result" disabled value=0></div><div>=</div>
+			<div><input type=number class="bab-classbonus" disabled value=0><label>Class Bonus</label></div><div>+</div>
+			<div><input type=number class="Strength-mod" disabled value=0><label>Strength Modifier</label></div><div>+</div>
+			<div><input type=number class="size-modifier" disabled value=0><label>Size Modifier</label></div>
+		</div>
+		</div>
+			
+		<div id="personal-tab">
+			<h2>Personal Attributes</h2>
+			<div class="field">
+				<label for="characterName">Name:</label> <input type=text id="characterName">
+			</div>
+			<div class="field">
+				<label for="characterGender">Sex:</label> <select id="characterGender">
+					<option value="none" disabled style="display: none">Select Sex</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select> <label for="characterSize">Size:</label> <select class="rightcol" id="characterSize">
+					<option value="-8">Fine</option>
+					<option value="-4">Diminutive</option>
+					<option value="-2">Tiny</option>
+					<option value="-1">Small</option>
+					<option value="0" selected>Medium</option>
+					<option value="1">Large</option>
+					<option value="2">Huge</option>
+					<option value="4">Gargantuan</option>
+					<option value="8">Huge</option>
+				</select>
+	
+			</div>
+			<div class="field">
+				<label for="characterHair">Hair:</label> <input class="rightcol" type=text id="characterHair">
+				<label for="characterEyes">Eyes:</label> <input class="rightcol" type=text id="characterEyes">
+			</div>
+			<div class="field">
+				<label for="characterSkin">Skin:</label> <input type=text class="rightcol" id="characterSkin">
+				<label for="characterAlignment">Size:</label> <select class="rightcol" id="characterAlignment">
+				</select>
+			</div>
+			<div class="field">
+				<label for="characterHeight">Height:</label> <select id="characterHeight">
+				</select> <label for="characterWeight">Weight:</label> <input class="rightcol" type=text
+					id="characterWeight">
+			</div>
+			<div class="field">
+				<label for="characterAge">Age:</label> <input type=number id="characterAge"> <input
+					class="rightcol" type=text disabled id="charAgingEffect">
+			</div>
+			<div class="field">
+				<label for="characterSpeed">Speed:</label> <input type=text class="rightcol"
+					id="characterSpeed" value="30 feet" disabled> <label for="characterSwim">Swim:</label>
+				<input type=text class="rightcol" id="characterSwim" value="-" disabled>
+			</div>
+			<div class="field">
+				<label for="characterFly">Fly:</label> <input type=text class="rightcol" id="characterFly"
+					value="-" disabled> <label for="characterClimb">Climb:</label> <input type=text
+					class="rightcol" id="characterClimb" value="-" disabled>
+			</div>
+		</div>
+			
+		<div id="race-tab" class="tab-content">
+			<div id="output" class="output"></div>
+			<div class="field">
+				<label for="race">Race:</label> <select id="race" size="40">
+					<option value="none" selected style="display: none">Select Race</option>
+				</select>
+			</div>
+		</div>
+		
+		<div id="class-tab" class="tab-content">
+			<div id="class-output" class="output"></div>
+			<div class="field">
+				 <label for="class">Class:</label> <select id="class">
+					<option value="none" selected style="display: none">Select Class</option>
+				</select> 
+			</div>
+			
+			<div class="field archetype">
+				<label for="archetype">Archetype:</label> <select id="archetype">
+					<option value="none" selected style="display: none">Select Archetype</option>
+				</select>
+			</div>
+		</div>
+	
+		<div id="skill-tab" class="tab-content">
+			<h2>Skills</h2>
+			<div class="skill" id="Acrobatics">
+				<label>Acrobatics:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Appraise">
+				<label>Appraise:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Bluff">
+				<label>Bluff:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Climb">
+				<label>Climb:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Strength-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Craft">
+				<label>Craft:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Diplomacy">
+				<label>Diplomacy:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="DisableDevice">
+				<label>Disable Device:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Disguise">
+				<label>Disguise:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="EscapeArtist">
+				<label>Escape Artist:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Fly">
+				<label>Fly:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div> 
+			</div>
+			<div class="skill" id="HandleAnimal">
+				<label>Handle Animal:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Heal">
+				<label>Heal:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Wisdom-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Intimidate">
+				<label>Intimidate:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeArcana">
+				<label>Knowledge (arcana):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeDungeoneering">
+				<label>Knowledge (dungeoneering):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeEngineering">
+				<label>Knowledge (engineering):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeGeography">
+				<label>Knowledge (geography):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeHistory">
+				<label>Knowledge (history):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeLocal">
+				<label>Knowledge (local):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeNature">
+				<label>Knowledge (nature):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeNobility">
+				<label>Knowledge (nobility):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgePlanes">
+				<label>Knowledge (planes):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="KnowledgeReligion">
+				<label>Knowledge (religion):</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Linguistics">
+				<label>Linguistics:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Perception">
+				<label>Perception:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Wisdom-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Perform">
+				<label>Perform:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Profession">
+				<label>Profession:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Wisdom-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Ride">
+				<label>Ride:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="SenseMotive">
+				<label>Sense Motive:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Wisdom-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="SleightOfHand">
+				<label>Sleight of Hand:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Spellcraft">
+				<label>Spellcraft:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Intelligence-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Stealth">
+				<label>Stealth:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Dexterity-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="Survival">
+				<label>Survival:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Wisdom-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+			<div class="skill" id="Swim">
+				<label>Swim:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Strength-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div>*</div>
+			</div>
+			<div class="skill" id="UseMagicDevice">
+				<label>Use Magic Device:</label>
+				<input class="class-skill" type=checkbox>
+				<input class="untrained" type=checkbox disabled checked>
+				<input type=number class="skill-mod result" disabled value="0"><div>=</div>
+				<input type=number class="skill-statmod Charisma-mod" disabled value="0"><div>+</div>
+				<input type=number class="skill-ranks" value="0"><div></div>
+			</div>
+		</div>
+		
+		<div id="feat-tab" class="tab-content"></div>
+	</div>	
+</body>
+</html>
