@@ -3476,8 +3476,6 @@
 		// Load in Classes and Groups.
 		$.each(CLASSES, function(key, value) {
 			var source = (value.type == "class") ? value.source : value.type;
-			console.log(value);
-			console.log(value.source + " | " + value.type);
 			
 			if ($.inArray(source, optGroups.list) == -1) {
 				optGroups.list.push(source);
@@ -3811,7 +3809,7 @@ $(document).ready(function() {
 	});	
 	
 	$(".stat-score").change(function() {
-		var abilityStat = $(this).parent().attr("id");
+		var abilityStat = $(this).parent().parent().attr("id");
 		var score = $("#" + abilityStat + " .stat-score").parseIntVal(); // get base score
 		var racialMod = $("#" + abilityStat + " .stat-racialMod").parseIntVal(); // get racial modifier
 		var agingMod = $("#" + abilityStat + " .stat-agingMod").parseIntVal(); // get aging effect modifier
@@ -3924,15 +3922,19 @@ $(document).ready(function() {
 		switch (aging) {
 		case "Middle Age":
 			mod = 1;
+			$(".stat-agingMod").parent().show();
 			break;
 		case "Old":
 			mod = 2;
+			$(".stat-agingMod").parent().show();
 			break;
 		case "Venerable":
 			mod = 3;
+			$(".stat-agingMod").parent().show();
 			break;				
 		default:
 			mod = 0;
+			$(".stat-agingMod").parent().hide();
 		break;
 		}
 		
