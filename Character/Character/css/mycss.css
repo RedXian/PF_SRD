@@ -12,7 +12,7 @@ p {
 }
 h1, h2, h3 {
     text-transform: uppercase;
-    font: normal 32px'PT Serif', serif;
+    font: normal 32px 'PT Serif', serif;
     margin: 30px 0 0 0;
 }
 h1, h2 {
@@ -39,7 +39,7 @@ input, select, label {
 sup {
     line-height: 0;
 }
-label {
+label,p {
     font-weight: bold;
     width: 90px;
     bottom: 100%;
@@ -82,4 +82,15 @@ input {
     text-align: center;
     top: 100%;
     max-width: 44px;
+}
+
+.skill * {
+	display: inline-table;
+}
+
+.skill p {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	width: 151px;
 }

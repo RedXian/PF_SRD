@@ -1,0 +1,36 @@
+<label>{{ability.name}}</label>
+<div class="calculation" id="{{ability.name}}">
+	<div>
+		<input type=number min=7 max=18 ng-model="ability.baseScore"> <label>Base Score</label>
+	</div>
+	<div>+</div>
+	<div>
+		<input type=number disabled ng-model="ability.racialModifier"> <label>Racial Bonus</label>
+	</div>
+	<div ng-show="ability.ageModifier">+</div>
+	<div ng-show="ability.ageModifier">
+		<input type=number disabled ng-model="ability.ageModifier"> <label>Age Modifier</label>
+	</div>
+	<div ng-show="ability.itemModifier">+</div>
+	<div ng-show="ability.itemModifier">
+		<input type=number disabled ng-model="ability.itemModifier"> <label>Item Bonus</label>
+	</div>
+	<div ng-show="ability.temporaryModifier">+</div>
+	<div ng-show="ability.temporaryModifier">
+		<input type=number disabled ng-model="ability.temporaryModifier"> <label>Temp
+			Bonus</label>
+	</div>
+	<div>=</div>
+	<div>
+		<input type=number class="result" disabled value="{{ability.adjusted()}}"> <label>Adjusted
+			Score</label>
+	</div>
+	<div>
+		<input type=text class="result" disabled value="{{ability.modifier() | signedNumber}}"> <label>Ability
+			Modifier</label>
+	</div>
+	<div>
+		<input type=number class="result" disabled value="{{ability.pointBuyCost()}}">
+		<label>Point Buy Cost</label>
+	</div>
+</div>
